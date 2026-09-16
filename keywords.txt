@@ -1,0 +1,12 @@
+# One search keyword per line. Lines starting with # are ignored.
+# Edit this file on GitHub anytime -- the next run picks it up automatically.
+# These are matched as a case-insensitive substring of the job title (and
+# also used as the Workday/Workable search terms), so keep them lowercase
+# and reasonably specific.
+implementation manager
+implementation consultant
+implementation specialist
+onboarding manager
+onboarding specialist
+technical project manager
+professional services

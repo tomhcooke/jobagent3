@@ -1,0 +1,37 @@
+name: Daily Job Search
+
+on:
+  schedule:
+    # Runs at 13:00 UTC daily = 8:00 AM Chicago (CDT) / 7:00 AM (CST)
+    - cron: "0 13 * * *"
+  workflow_dispatch:   # lets you trigger a run manually from the Actions tab
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run job agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RESUME_TEXT: ${{ secrets.RESUME_TEXT }}
+        run: python job_agent.py
+
+      - name: Commit updated results
+        run: |
+          git config user.name "job-agent"
+          git config user.email "actions@github.com"
+          git add seen_jobs.db matches.md company_status.csv docs/index.html
+          git commit -m "Update job matches $(date -u +%Y-%m-%d)" || echo "No changes"
+          git push || echo "Nothing to push"
