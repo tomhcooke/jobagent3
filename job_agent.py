@@ -877,11 +877,13 @@ def fetch_workday_jobs(tenant):
                         "title": job.get("title", ""),
                         "location": location,
                         "url": f"{base}/{site}{path}",
-                        # Full description needs a second per-job request;
-                        # skipped for now to keep request counts sane on
-                        # large tenants -- score_role() just gets less to
-                        # work with for Workday matches.
+                        # Full description needs a second per-job request, so
+                        # it's left blank here to keep this search cheap
+                        # across a whole tenant -- fetch_workday_job_description()
+                        # fills it in lazily, only for postings that pass every
+                        # filter and are new (see process_jobs() in main()).
                         "description": "",
+                        "external_path": path,
                         # Workday's list endpoint only ever gives a relative
                         # string here ("Posted 5 Days Ago", "Posted Today"),
                         # not an exact date -- getting the real date needs a
@@ -903,6 +905,32 @@ def fetch_workday_jobs(tenant):
     except (urllib.error.URLError, TimeoutError) as e:
         print(f"  ! [workday] {tenant}: connection error - {e}")
         return "error", []
+
+
+def fetch_workday_job_description(tenant, external_path):
+    """Best-effort fetch of the full description for ONE specific Workday
+    posting, via the same per-job detail endpoint the public careers page
+    itself calls (a plain GET against the posting's own externalPath, on the
+    same host as the search endpoint). Deliberately not called for every
+    posting the search step scans -- only from process_jobs() in main(),
+    for postings that already passed every filter and are being scored for
+    the first time, so this adds a handful of extra requests per run rather
+    than one per posting on the tenant. Returns "" on any failure -- a
+    missing description just means score_role() has less to work with, it
+    should never break the run."""
+    config = WORKDAY_COMPANIES.get(tenant)
+    if not config or not external_path:
+        return ""
+    wd, site = config["wd"], config["site"]
+    url = f"https://{tenant}.{wd}.myworkdayjobs.com/wday/cxs/{tenant}/{site}{external_path}"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "job-agent/1.0"})
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            data = json.loads(resp.read().decode())
+        return data.get("jobPostingInfo", {}).get("jobDescription", "") or ""
+    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, json.JSONDecodeError, ValueError) as e:
+        print(f"  ! [workday] {tenant}: couldn't fetch description for {external_path} - {e}")
+        return ""
 
 
 # ---------------------------------------------------------------------------
@@ -1493,7 +1521,16 @@ def main():
             if already_seen(conn, job_id):
                 continue
 
-            score, detail = score_role(title, job["company"], job["description"])
+            description = job["description"]
+            if source == "workday" and not description and ANTHROPIC_API_KEY and RESUME_TEXT:
+                # Lazy fetch: only for a posting that's new and already
+                # passed every filter, so scoring has real text to work
+                # with instead of just the title (see
+                # fetch_workday_job_description() for why this isn't done
+                # for every posting the search step scans).
+                description = fetch_workday_job_description(job["company"], job.get("external_path", ""))
+
+            score, detail = score_role(title, job["company"], description)
             mark_seen(
                 conn, job_id, source, job["company"], title, url, location,
                 score or 0, job.get("posted_date", ""), matched[0], detail or "",
