@@ -1216,6 +1216,42 @@ def is_priority_match(title, location):
     )
 
 
+# Company tokens sourced directly from a LinkedIn network export -- i.e. you
+# have an actual contact working there, not just "this looks like a
+# plausible SaaS company to search." Kept separate from the CONFIRMED/
+# auto-discovered/Contentsquare-partner-catalog blocks above, which aren't
+# personal-network-sourced. If you add more network contacts later, add
+# their company's token here too.
+IN_NETWORK_COMPANIES = {
+    # --- Greenhouse: from LinkedIn network export ---
+    "contentsquare", "quantummetric", "newrelic", "pendo", "anthropic",
+    "spoton", "semrush", "scylladb", "rapidsos", "tripleseat", "instrumentl",
+    "optibus", "zerohash", "confluent", "grindr", "revenuewell", "datastax",
+    "authenticx", "compound", "kin", "tealium", "yello", "redfin",
+    "coreweave", "typeface", "doppel", "origamirisk", "liveramp", "imgix",
+    "dust", "jiko", "specright", "dreamdata", "firstdue", "vantaca",
+    "aclaimant", "allegrow", "amperity", "apiture", "avature", "basis",
+    "beyondfinance", "boomi", "censys", "cision", "comply", "conversica",
+    "conviva", "coupa", "cyncly", "dealhub", "franconnect", "genesys",
+    "icapital", "knotch", "logiwa", "momentive", "nearmap", "ncino",
+    "nuvei", "opploans", "qualtrics", "questsoftware", "safetyculture",
+    "sitecore", "smartlinx", "softchoice", "usertesting", "voltus",
+    "waitwhile", "wunderkind", "yext", "zywave", "rula", "papa",
+    "pieinsurance", "sdocs", "qbench",
+
+    # --- Ashby: from LinkedIn network ---
+    "pushsecurity", "seasoned",
+}
+
+
+def is_in_network(company):
+    """True if a LinkedIn contact works at this company -- checked by
+    Greenhouse/Ashby/Lever/Workday token, so it's meaningful for those
+    sources but never matches Workable (cross-customer search has no
+    token list to check against -- its "company" is just a display name)."""
+    return (company or "").strip().lower() in IN_NETWORK_COMPANIES
+
+
 # ---------------------------------------------------------------------------
 # SCORE (optional -- only runs if ANTHROPIC_API_KEY and RESUME_TEXT are set)
 # Jobscan-style weighted breakdown instead of a single opaque number, so you
@@ -1427,11 +1463,14 @@ def write_matches(all_matches):
         for m in sorted(roles, key=sort_key):
             score = f"{m['score']}%" if m["score"] else "not scored"
             priority_tag = "[HYBRID - CHICAGO] " if is_priority_match(m["title"], m.get("location")) else ""
-            heading_line = f"### {priority_tag}[{score}] {m['company']} – {m['title']} ({m['source']})"
+            network_tag = "[NETWORK] " if is_in_network(m.get("company")) else ""
+            heading_line = f"### {priority_tag}{network_tag}[{score}] {m['company']} – {m['title']} ({m['source']})"
             is_closed = m.get("status") == "closed"
             if is_closed:
                 heading_line = f"~~{heading_line}~~"
             lines.append(heading_line)
+            if is_in_network(m.get("company")):
+                lines.append("- In network: Yes (you have a LinkedIn contact here)")
             lines.append(f"- Posted: {m.get('posted_date') or 'unknown'}")
             lines.append(f"- Date added: {m['first_seen']}")
             lines.append(f"- Location: {m.get('location') or 'Not specified'}")
@@ -1502,6 +1541,7 @@ def write_dashboard(all_matches):
             "status": m.get("status") or "open",
             "archived": bool(m.get("archived")),
             "priority": is_priority_match(m.get("title", ""), m.get("location")),
+            "in_network": is_in_network(m.get("company")),
         })
 
     # Escaping "</" prevents a job title/description containing a literal
@@ -1541,6 +1581,7 @@ def write_dashboard(all_matches):
   tr.closed { opacity: 0.5; text-decoration: line-through; }
   tr.archived-row { opacity: 0.6; }
   .badge { display: inline-block; padding: 0.1rem 0.4rem; border-radius: 4px; background: #eee; font-size: 0.75rem; }
+  .network-badge { background: #d6ebff; color: #14507a; }
   .score-detail { font-size: 0.75rem; color: #666; }
   a.title-link { color: inherit; }
   #count { color: #666; font-size: 0.85rem; margin-bottom: 0.5rem; }
@@ -1568,6 +1609,7 @@ def write_dashboard(all_matches):
   </select>
   <label><input type="checkbox" id="hideClosed" checked> Hide closed</label>
   <label><input type="checkbox" id="hideArchived" checked> Hide archived</label>
+  <label><input type="checkbox" id="networkOnly"> In network only</label>
 </div>
 
 <div id="settingsPanel">
@@ -1666,6 +1708,7 @@ function currentFilters() {
     minScore: parseInt(document.getElementById("minScore").value, 10) || 0,
     hideClosed: document.getElementById("hideClosed").checked,
     hideArchived: document.getElementById("hideArchived").checked,
+    networkOnly: document.getElementById("networkOnly").checked,
   };
 }
 
@@ -1822,6 +1865,7 @@ function render() {
   let rows = JOBS.filter(function (j) {
     if (f.hideClosed && j.status === "closed") return false;
     if (f.hideArchived && j.archived) return false;
+    if (f.networkOnly && !j.in_network) return false;
     if (f.source && j.source !== f.source) return false;
     if (f.minScore && (j.score || 0) < f.minScore) return false;
     if (f.search) {
@@ -1852,6 +1896,14 @@ function render() {
 
     const tdCompany = document.createElement("td");
     tdCompany.textContent = j.company;
+    if (j.in_network) {
+      const netBadge = document.createElement("span");
+      netBadge.className = "badge network-badge";
+      netBadge.textContent = "network";
+      netBadge.title = "You have a LinkedIn contact here";
+      tdCompany.appendChild(document.createElement("br"));
+      tdCompany.appendChild(netBadge);
+    }
     tr.appendChild(tdCompany);
 
     const tdTitle = document.createElement("td");
@@ -1945,7 +1997,7 @@ document.querySelectorAll("th[data-key]").forEach(function (th) {
   });
 });
 
-["search", "sourceFilter", "minScore", "hideClosed", "hideArchived"].forEach(function (id) {
+["search", "sourceFilter", "minScore", "hideClosed", "hideArchived", "networkOnly"].forEach(function (id) {
   document.getElementById(id).addEventListener("input", render);
 });
 
