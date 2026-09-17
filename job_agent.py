@@ -447,6 +447,9 @@ MAX_SCORE_CALLS = int(_max_score_calls_raw) if _max_score_calls_raw.isdigit() el
 # MAX_SCORE_CALLS capped a prior run, or scoring wasn't configured yet).
 # See rescore_pending().
 RESCORE_ONLY = os.environ.get("RESCORE_ONLY", "").strip().lower() in ("1", "true", "yes")
+# Fill in descriptions for rows recorded before they were stored. Costs no
+# API credits -- it re-fetches over plain HTTP and never calls the scorer.
+BACKFILL_DESCRIPTIONS = os.environ.get("BACKFILL_DESCRIPTIONS", "").strip().lower() in ("1", "true", "yes")
 
 DB_PATH = os.environ.get("DB_PATH", "seen_jobs.db")
 MATCHES_FILE = os.environ.get("MATCHES_FILE", "matches.md")
@@ -631,6 +634,9 @@ def init_db():
     if "score_detail" not in existing_cols:
         conn.execute("ALTER TABLE seen ADD COLUMN score_detail TEXT DEFAULT ''")
         print("  (migrated seen_jobs.db to add 'score_detail' column)")
+    if "description" not in existing_cols:
+        conn.execute("ALTER TABLE seen ADD COLUMN description TEXT DEFAULT ''")
+        print("  (migrated seen_jobs.db to add 'description' column)")
     if "archived" not in existing_cols:
         conn.execute("ALTER TABLE seen ADD COLUMN archived INTEGER DEFAULT 0")
         print("  (migrated seen_jobs.db to add 'archived' column)")
@@ -644,7 +650,7 @@ def already_seen(conn, job_id):
 
 
 def mark_seen(conn, job_id, source, company, title, url, location, score,
-              posted_date="", matched_keyword="", score_detail=""):
+              posted_date="", matched_keyword="", score_detail="", description=""):
     # Defensive coercion: a field arriving as something other than a plain
     # string (e.g. a nested dict from an API whose shape wasn't fully
     # documented) should never crash the whole run -- just stringify it.
@@ -660,15 +666,16 @@ def mark_seen(conn, job_id, source, company, title, url, location, score,
     posted_date = _safe_str(posted_date)
     matched_keyword = _safe_str(matched_keyword)
     score_detail = _safe_str(score_detail)
+    description = _safe_str(description)
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     conn.execute(
         """INSERT OR IGNORE INTO seen
            (job_id, source, company, title, url, location, score, first_seen,
-            posted_date, matched_keyword, score_detail)
-           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+            posted_date, matched_keyword, score_detail, description)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
         (str(job_id), source, company, title, url, location, score, today,
-         posted_date, matched_keyword, score_detail)
+         posted_date, matched_keyword, score_detail, description)
     )
     conn.commit()
 
@@ -1432,30 +1439,16 @@ JOB ({title} at {company}):
         return None, None
 
 
-def rescore_pending(conn, limit=None):
-    """Re-fetch and score every already-recorded match that never got a
-    real score (score_detail == '' -- found before scoring was configured,
-    or during a MAX_SCORE_CALLS-capped run). Doesn't touch genuinely new
-    postings; that's process_jobs()'s job via the normal full run.
+def _fetch_descriptions_for(rows):
+    """Re-fetch job descriptions for already-recorded rows, returning
+    {url: description}.
 
-    Descriptions aren't stored anywhere (see score_role()'s docs), so this
-    re-fetches them -- but grouped by (source, company) or, for Workable's
-    cross-customer search, by the keyword that originally matched, so a
-    board with several pending rows is only hit once, not once per row.
-    Matches the right posting back by URL. A posting no longer found there
-    (closed/removed since) is left unscored rather than guessed at.
+    Rows are (job_id, source, company, title, url, matched_keyword). Boards
+    are hit once per company (or, for Workable's cross-customer search, once
+    per originally-matched keyword) rather than once per row, then the right
+    posting is matched back by URL. A posting that's since been closed or
+    removed simply won't appear in the result.
     """
-    if not (ANTHROPIC_API_KEY and RESUME_TEXT):
-        print("Scoring isn't configured (missing ANTHROPIC_API_KEY/RESUME_TEXT) -- nothing to rescore.")
-        return 0
-
-    rows = conn.execute(
-        "SELECT job_id, source, company, title, url, matched_keyword FROM seen WHERE score_detail = ''"
-    ).fetchall()
-    if not rows:
-        print("No unscored matches to rescore.")
-        return 0
-
     by_greenhouse, by_ashby, by_lever, by_workable_query = {}, {}, {}, {}
     workday_rows = []
     for job_id, source, company, title, url, matched_keyword in rows:
@@ -1500,6 +1493,65 @@ def rescore_pending(conn, limit=None):
         if url.startswith(prefix):
             descriptions_by_url[url] = fetch_workday_job_description(company, url[len(prefix):])
 
+    return descriptions_by_url
+
+
+def backfill_descriptions(conn):
+    """Fill in the stored description for rows recorded before descriptions
+    were kept. Re-fetches from the boards over plain HTTP and never calls
+    the scoring API, so this costs no API credits no matter how many rows
+    it covers.
+    """
+    rows = conn.execute(
+        """SELECT job_id, source, company, title, url, matched_keyword FROM seen
+           WHERE description IS NULL OR description = ''"""
+    ).fetchall()
+    if not rows:
+        print("Every match already has a stored description -- nothing to backfill.")
+        return 0
+
+    print(f"Backfilling descriptions for {len(rows)} match(es) (no scoring calls)...")
+    descriptions_by_url = _fetch_descriptions_for(rows)
+
+    filled = 0
+    for job_id, source, company, title, url, matched_keyword in rows:
+        description = descriptions_by_url.get(url)
+        if not description:
+            print(f"  ! backfill: couldn't find current posting for {title} at {company} ({source})")
+            continue
+        conn.execute("UPDATE seen SET description = ? WHERE job_id = ?", (description, job_id))
+        filled += 1
+    conn.commit()
+    print(f"Backfilled {filled} of {len(rows)} description(s).")
+    return filled
+
+
+def rescore_pending(conn, limit=None):
+    """Re-fetch and score every already-recorded match that never got a
+    real score (score_detail == '' -- found before scoring was configured,
+    or during a MAX_SCORE_CALLS-capped run). Doesn't touch genuinely new
+    postings; that's process_jobs()'s job via the normal full run.
+
+    Descriptions aren't stored anywhere (see score_role()'s docs), so this
+    re-fetches them -- but grouped by (source, company) or, for Workable's
+    cross-customer search, by the keyword that originally matched, so a
+    board with several pending rows is only hit once, not once per row.
+    Matches the right posting back by URL. A posting no longer found there
+    (closed/removed since) is left unscored rather than guessed at.
+    """
+    if not (ANTHROPIC_API_KEY and RESUME_TEXT):
+        print("Scoring isn't configured (missing ANTHROPIC_API_KEY/RESUME_TEXT) -- nothing to rescore.")
+        return 0
+
+    rows = conn.execute(
+        "SELECT job_id, source, company, title, url, matched_keyword FROM seen WHERE score_detail = ''"
+    ).fetchall()
+    if not rows:
+        print("No unscored matches to rescore.")
+        return 0
+
+    descriptions_by_url = _fetch_descriptions_for(rows)
+
     rescored = 0
     for job_id, source, company, title, url, matched_keyword in rows:
         if limit is not None and rescored >= limit:
@@ -1508,10 +1560,14 @@ def rescore_pending(conn, limit=None):
         if url not in descriptions_by_url:
             print(f"  ! rescore: couldn't find current posting for {title} at {company} ({source}) -- left unscored")
             continue
-        score, detail = score_role(title, company, descriptions_by_url[url])
+        description = descriptions_by_url[url]
+        score, detail = score_role(title, company, description)
         if score is None:
             continue
-        conn.execute("UPDATE seen SET score = ?, score_detail = ? WHERE job_id = ?", (score, detail, job_id))
+        conn.execute(
+            "UPDATE seen SET score = ?, score_detail = ?, description = ? WHERE job_id = ?",
+            (score, detail, description, job_id),
+        )
         conn.commit()
         rescored += 1
         print(f"  + rescored [{score}%] {title} ({company}) [{source}]")
@@ -2301,6 +2357,16 @@ render();
 def main():
     conn = init_db()
 
+    if BACKFILL_DESCRIPTIONS:
+        backfill_descriptions(conn)
+        prune_stale_matches(conn)
+        remove_dismissed(conn, load_dismissed())
+        apply_archived_flags(conn, load_archived())
+        _write_outputs(conn)
+        conn.close()
+        print("Done.")
+        return
+
     if RESCORE_ONLY:
         # Skip the full company/board scan entirely -- just fill in real
         # scores for matches already sitting in seen_jobs.db unscored.
@@ -2359,13 +2425,17 @@ def main():
                 # reposts the exact same URL under a new job_id.
                 continue
 
+            # Bound before the branch: the capped path below skips scoring
+            # but still records the row, and it needs its own description
+            # rather than whatever the previous iteration happened to leave.
+            description = job.get("description") or ""
+
             if scoring_enabled and MAX_SCORE_CALLS is not None and score_calls_made >= MAX_SCORE_CALLS:
                 # Cap reached -- still record the match (same as running with
                 # no ANTHROPIC_API_KEY at all), just skip the API call so a
                 # test run can't blow past the number of calls you asked for.
                 score, detail = None, None
             else:
-                description = job["description"]
                 if source == "workday" and not description and scoring_enabled:
                     # Lazy fetch: only for a posting that's new and already
                     # passed every filter, so scoring has real text to work
@@ -2380,6 +2450,7 @@ def main():
             mark_seen(
                 conn, job_id, source, job["company"], title, url, location,
                 score or 0, job.get("posted_date", ""), matched[0], detail or "",
+                description,
             )
             print(f"  + NEW MATCH [{score}%] {title} ({location}) [{source}]")
 

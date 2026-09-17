@@ -23,6 +23,14 @@ on:
         required: false
         type: boolean
         default: false
+      backfill_descriptions:
+        description: >-
+          Fetch and store the job description for any match recorded before
+          descriptions were kept. Uses no Claude API credits -- it re-fetches
+          the postings over plain HTTP and never calls the scorer.
+        required: false
+        type: boolean
+        default: false
 
 # The default GITHUB_TOKEN is read-only unless a workflow explicitly asks
 # for more -- without this, "Commit updated results" below builds a commit
@@ -54,6 +62,7 @@ jobs:
           RESUME_TEXT: ${{ secrets.RESUME_TEXT }}
           MAX_SCORE_CALLS: ${{ github.event.inputs.max_score_calls }}
           RESCORE_ONLY: ${{ github.event.inputs.rescore_only }}
+          BACKFILL_DESCRIPTIONS: ${{ github.event.inputs.backfill_descriptions }}
         run: python job_agent.py
 
       - name: Commit updated results
