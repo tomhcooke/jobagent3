@@ -1641,6 +1641,7 @@ def write_dashboard(all_matches):
   <thead>
     <tr>
       <th data-key="company">Company</th>
+      <th data-key="in_network">Network</th>
       <th data-key="title">Title</th>
       <th data-key="source">Source</th>
       <th data-key="location">Location</th>
@@ -1912,15 +1913,17 @@ function render() {
 
     const tdCompany = document.createElement("td");
     tdCompany.textContent = j.company;
+    tr.appendChild(tdCompany);
+
+    const tdNetwork = document.createElement("td");
     if (j.in_network) {
       const netBadge = document.createElement("span");
       netBadge.className = "badge network-badge";
-      netBadge.textContent = "network";
+      netBadge.textContent = "\\u2713 network";
       netBadge.title = "You have a LinkedIn contact here";
-      tdCompany.appendChild(document.createElement("br"));
-      tdCompany.appendChild(netBadge);
+      tdNetwork.appendChild(netBadge);
     }
-    tr.appendChild(tdCompany);
+    tr.appendChild(tdNetwork);
 
     const tdTitle = document.createElement("td");
     let link = null;
