@@ -1728,6 +1728,8 @@ const GITHUB_BRANCH = __BRANCH_JSON__;
 const DISMISSED_PATH = __DISMISSED_PATH_JSON__;
 const ARCHIVED_PATH = __ARCHIVED_PATH_JSON__;
 const TOKEN_KEY = "jobagent_gh_pat";
+const BUILD_STAMP = __BUILD_STAMP_JSON__;
+console.log("jobagent3 dashboard build " + BUILD_STAMP);
 
 document.getElementById("repoName").textContent = GITHUB_REPO;
 
@@ -1772,7 +1774,10 @@ document.getElementById("clearToken").addEventListener("click", function () {
 
 function setStatus(msg, kind) {
   const el = document.getElementById("status");
-  el.textContent = msg || "";
+  // Errors carry the build that produced them: a cached copy of this page
+  // fails identically to a real bug, and the stamp is the only thing that
+  // tells the two apart without digging through DevTools.
+  el.textContent = msg ? (kind === "error" ? msg + "  [build " + BUILD_STAMP + "]" : msg) : "";
   el.className = kind || "";
 }
 
@@ -2176,6 +2181,7 @@ render();
         .replace("__DISMISSED_PATH_JSON__", dismissed_path_json)
         .replace("__ARCHIVED_PATH_JSON__", archived_path_json)
         .replace("__BUILD_STAMP__", html.escape(build_stamp))
+        .replace("__BUILD_STAMP_JSON__", json.dumps(build_stamp))
     )
 
     with open(DASHBOARD_FILE, "w", encoding="utf-8") as f:
