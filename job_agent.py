@@ -1561,36 +1561,42 @@ def write_dashboard(all_matches):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Job Matches Dashboard</title>
 <style>
-  :root { color-scheme: light dark; }
-  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; padding: 1.5rem; max-width: 1200px; margin-inline: auto; }
+  /* Explicit dark theme throughout -- every rule that sets a background
+     also sets a matching text color, rather than relying on the browser's
+     auto light/dark inversion (that mismatch was exactly why the Archive
+     button and source badges rendered as unreadable white-on-white:
+     they set a light background but left color to inherit the page's
+     auto-dark text, which is also light). */
+  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; padding: 1.5rem; max-width: 1200px; margin-inline: auto; background: #0d1117; color: #e6edf3; }
+  a { color: #58a6ff; }
   h1 { font-size: 1.4rem; margin-bottom: 0.25rem; }
-  .meta { color: #666; font-size: 0.85rem; margin-bottom: 1rem; }
+  .meta { color: #9198a1; font-size: 0.85rem; margin-bottom: 1rem; }
   .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin-bottom: 1rem; }
-  .controls input, .controls select { padding: 0.4rem 0.6rem; font-size: 0.9rem; }
+  .controls input, .controls select { padding: 0.4rem 0.6rem; font-size: 0.9rem; background: #161b22; color: #e6edf3; border: 1px solid #30363d; border-radius: 4px; }
   .controls input[type="text"] { flex: 1 1 220px; }
   button { font: inherit; cursor: pointer; }
-  .btn { padding: 0.3rem 0.6rem; font-size: 0.8rem; border-radius: 4px; border: 1px solid #ccc; background: #f7f7f7; }
-  .btn:hover { background: #eee; }
+  .btn { padding: 0.3rem 0.6rem; font-size: 0.8rem; border-radius: 4px; border: 1px solid #30363d; background: #21262d; color: #e6edf3; }
+  .btn:hover { background: #30363d; }
   .btn:disabled { opacity: 0.5; cursor: default; }
-  .btn-danger { border-color: #d33; color: #d33; }
-  .btn-danger:hover { background: #fde; }
+  .btn-danger { border-color: #f85149; color: #f85149; }
+  .btn-danger:hover { background: #3d1418; }
   table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
-  th, td { text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #ddd; vertical-align: top; }
+  th, td { text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #30363d; vertical-align: top; }
   th { cursor: pointer; user-select: none; white-space: nowrap; }
-  tr.priority td:first-child { border-left: 3px solid #2a7; padding-left: 0.4rem; }
+  tr.priority td:first-child { border-left: 3px solid #2ea043; padding-left: 0.4rem; }
   tr.closed { opacity: 0.5; text-decoration: line-through; }
   tr.archived-row { opacity: 0.6; }
-  .badge { display: inline-block; padding: 0.1rem 0.4rem; border-radius: 4px; background: #eee; font-size: 0.75rem; }
-  .network-badge { background: #d6ebff; color: #14507a; }
-  .score-detail { font-size: 0.75rem; color: #666; }
+  .badge { display: inline-block; padding: 0.1rem 0.4rem; border-radius: 4px; background: #21262d; color: #c9d1d9; font-size: 0.75rem; }
+  .network-badge { background: #1f3a5f; color: #79c0ff; }
+  .score-detail { font-size: 0.75rem; color: #9198a1; }
   a.title-link { color: inherit; }
-  #count { color: #666; font-size: 0.85rem; margin-bottom: 0.5rem; }
+  #count { color: #9198a1; font-size: 0.85rem; margin-bottom: 0.5rem; }
   .actions-cell { display: flex; gap: 0.35rem; white-space: nowrap; }
-  #settingsPanel { display: none; border: 1px solid #ccc; border-radius: 6px; padding: 0.75rem; margin-bottom: 1rem; font-size: 0.85rem; max-width: 520px; }
-  #settingsPanel input[type="password"] { width: 100%; padding: 0.4rem; margin: 0.4rem 0; box-sizing: border-box; }
+  #settingsPanel { display: none; border: 1px solid #30363d; border-radius: 6px; padding: 0.75rem; margin-bottom: 1rem; font-size: 0.85rem; max-width: 520px; background: #161b22; }
+  #settingsPanel input[type="password"] { width: 100%; padding: 0.4rem; margin: 0.4rem 0; box-sizing: border-box; background: #0d1117; color: #e6edf3; border: 1px solid #30363d; border-radius: 4px; }
   #status { font-size: 0.85rem; margin-bottom: 0.75rem; min-height: 1.2em; }
-  #status.error { color: #d33; }
-  #status.ok { color: #2a7; }
+  #status.error { color: #f85149; }
+  #status.ok { color: #2ea043; }
 </style>
 </head>
 <body>
