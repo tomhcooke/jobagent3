@@ -1792,7 +1792,7 @@ async function ghGetFile(path) {
   const token = getToken();
   const resp = await fetch(
     "https://api.github.com/repos/" + GITHUB_REPO + "/contents/" + path + "?ref=" + GITHUB_BRANCH,
-    { headers: { Authorization: "Bearer " + token, Accept: "application/vnd.github+json" } }
+    { headers: { Authorization: "Bearer " + token, Accept: "application/vnd.github+json" }, cache: "no-store" }
   );
   if (resp.status === 404) return { text: "", sha: null };
   if (!resp.ok) {
