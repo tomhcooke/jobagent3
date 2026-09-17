@@ -1,8 +1,8 @@
 # Job Matches
 
-Last checked: September 17, 2026 at 04:26 PM
+Last checked: September 17, 2026 at 04:46 PM
 
-## New (53)
+## New (52)
 
 ### [78%] frontcareers – Senior Implementation Manager (ashby)
 - Posted: 2026-09-04
@@ -336,14 +336,6 @@ Last checked: September 17, 2026 at 04:26 PM
 - Score detail: title 55% | keywords 35% | experience 60% | domain 20% | education 40% | missing: dealership accounting, GL mappings, AP/AR, bank reconciliations, manufacturer statements, controllers, OEM integrations, month-end processes
 - Link: https://jobs.workable.com/view/jXNwFAMMyj4CamY4kbqyu3/remote-training-and-implementation-consultant-in-united-states-at-pinewood.ai
 
-### [NETWORK] [41%] smartsheet – Professional Services Business Development Director (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: 2026-02-18
-- Date added: 2026-09-17
-- Location:  -REMOTE, USA-
-- Score detail: title 30% | keywords 35% | experience 55% | domain 45% | education 50% | missing: Business Development, Professional Services Sales, Revenue Growth, Partner Ecosystem, Sales Pipeline, Smartsheet, Consulting Services, Go-to-Market Strategy
-- Link: https://job-boards.greenhouse.io/smartsheet/jobs/7630247
-
 ### [40%] Pinewood.AI – Training and Implementation Consultant (Accounting) (workable)
 - Posted: unknown
 - Date added: 2026-09-17
@@ -384,7 +376,15 @@ Last checked: September 17, 2026 at 04:26 PM
 *Nothing here.*
 
 <details>
-<summary>Archived (1)</summary>
+<summary>Archived (2)</summary>
+
+### [NETWORK] [41%] smartsheet – Professional Services Business Development Director (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-02-18
+- Date added: 2026-09-17
+- Location:  -REMOTE, USA-
+- Score detail: title 30% | keywords 35% | experience 55% | domain 45% | education 50% | missing: Business Development, Professional Services Sales, Revenue Growth, Partner Ecosystem, Sales Pipeline, Smartsheet, Consulting Services, Go-to-Market Strategy
+- Link: https://job-boards.greenhouse.io/smartsheet/jobs/7630247
 
 ### [19%] temporal – Senior Professional Services Engineer - West (ashby)
 - Posted: 2026-08-12
