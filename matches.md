@@ -1,8 +1,8 @@
 # Job Matches
 
-Last checked: September 17, 2026 at 06:08 AM
+Last checked: September 17, 2026 at 06:15 AM
 
-## New (55)
+## New (54)
 
 ### [78%] frontcareers – Senior Implementation Manager (ashby)
 - Posted: 2026-09-04
@@ -333,13 +333,6 @@ Last checked: September 17, 2026 at 06:08 AM
 - Location: Remote
 - Score detail: title 55% | keywords 30% | experience 60% | domain 25% | education 60% | missing: Sage 100, ERP, payment gateways, Acumatica, Microsoft Dynamics, NetSuite, AR/Sales Invoice modules, UAT
 - Link: https://jobs.workable.com/view/9C8F6kx5YsMwbrDUuS3fFS/remote-sage-100-product-and-implementation-manager-in-united-states-at-nuvei
-
-### [42%] abnormalsecurity – Professional Services Consultant (Spanish-Speaking) (greenhouse)
-- Posted: 2026-09-09
-- Date added: 2026-09-17
-- Location: Remote - USA
-- Score detail: title 55% | keywords 30% | experience 65% | domain 25% | education 50% | missing: Spanish fluency, cybersecurity, email security, Professional Services, SaaS security platform, customer onboarding, technical consulting, bilingual
-- Link: https://abnormal.ai/careers/jobs/7989493003?gh_jid=7989493003
 
 ### [41%] Pinewood.AI – Training and Implementation Consultant (workable)
 - Posted: unknown
