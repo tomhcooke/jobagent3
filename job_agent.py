@@ -1836,6 +1836,7 @@ def write_dashboard(all_matches):
     dismissed_path_json = json.dumps(DISMISSED_FILE)
     archived_path_json = json.dumps(ARCHIVED_FILE)
     applications_path_json = json.dumps(APPLICATIONS_FILE)
+    keywords_path_json = json.dumps(KEYWORDS_FILE)
     build_stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
     html_doc = """<!doctype html>
@@ -1880,6 +1881,8 @@ def write_dashboard(all_matches):
   .actions-cell { display: flex; gap: 0.35rem; white-space: nowrap; }
   #settingsPanel { display: none; border: 1px solid #30363d; border-radius: 6px; padding: 0.75rem; margin-bottom: 1rem; font-size: 0.85rem; max-width: 520px; background: #161b22; }
   #settingsPanel input[type="password"] { width: 100%; padding: 0.4rem; margin: 0.4rem 0; box-sizing: border-box; background: #0d1117; color: #e6edf3; border: 1px solid #30363d; border-radius: 4px; }
+  #keywordsPanel { display: none; border: 1px solid #30363d; border-radius: 6px; padding: 0.75rem; margin-bottom: 1rem; font-size: 0.85rem; max-width: 620px; background: #161b22; }
+  #keywordsPanel textarea { width: 100%; padding: 0.5rem; margin: 0.5rem 0; box-sizing: border-box; background: #0d1117; color: #e6edf3; border: 1px solid #30363d; border-radius: 4px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.85rem; resize: vertical; }
   #status { font-size: 0.85rem; margin-bottom: 0.75rem; min-height: 1.2em; }
   #status.error { color: #f85149; }
   #status.ok { color: #2ea043; }
@@ -1949,6 +1952,7 @@ def write_dashboard(all_matches):
   <button class="btn" id="settingsToggle" type="button">&#9881; GitHub token</button>
   <button class="btn" id="refreshBtn" type="button" title="Regenerate matches.md and this page from what's already in the database. No job boards are contacted and no scoring credits are used.">&#8635; Refresh</button>
   <button class="btn" id="rescanBtn" type="button" title="Search every company again for new postings. Takes about five minutes and spends a scoring call on each new role found.">&#128269; Full re-scan</button>
+  <button class="btn" id="keywordsToggle" type="button">&#9998; Keywords</button>
   <input type="text" id="search" placeholder="Search title or company...">
   <select id="sourceFilter"><option value="">All sources</option></select>
   <select id="minScore">
@@ -1966,7 +1970,8 @@ def write_dashboard(all_matches):
   <div>
     Archive/Delete write straight to this repo (<code id="repoName"></code>) via the GitHub API. That needs a
     <strong>fine-grained personal access token</strong> scoped to <em>only this repo</em>, with
-    <strong>Contents: Read and write</strong> permission and nothing else. Create one at
+    <strong>Contents: Read and write</strong> permission, plus <strong>Actions: Read and write</strong>
+    if you want the Refresh / Full re-scan buttons to work. Create one at
     <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">github.com/settings/personal-access-tokens/new</a>.
     It's stored only in this browser (localStorage) -- never sent anywhere but api.github.com.
   </div>
@@ -1974,6 +1979,22 @@ def write_dashboard(all_matches):
   <div class="actions-cell">
     <button class="btn" id="saveToken" type="button">Save</button>
     <button class="btn btn-danger" id="clearToken" type="button">Clear saved token</button>
+  </div>
+</div>
+
+<div id="keywordsPanel">
+  <div>
+    One search keyword per line; lines starting with <code>#</code> are ignored. They're matched as a
+    case-insensitive substring of the job title, and are also the search terms sent to Workday and
+    Workable &mdash; so keep them lowercase and reasonably specific. Saving edits
+    <code id="keywordsPath"></code> in this repo; the new list only takes effect on the next
+    <strong>Full re-scan</strong>, and broadening it can surface a lot of roles, each costing one
+    scoring call.
+  </div>
+  <textarea id="keywordsText" rows="12" spellcheck="false" placeholder="Loading..."></textarea>
+  <div class="actions-cell">
+    <button class="btn" id="saveKeywords" type="button">Save keywords</button>
+    <button class="btn" id="reloadKeywords" type="button">Discard changes</button>
   </div>
 </div>
 
@@ -2308,6 +2329,71 @@ async function restoreJob(job, btn, tr) {
 }
 
 // --- Rendering -----------------------------------------------------------
+
+// --- Keywords ---------------------------------------------------------
+
+const KEYWORDS_PATH = __KEYWORDS_PATH_JSON__;
+let keywordsLoaded = false;
+
+function keywordLines(text) {
+  return (text || "").split("\\n")
+    .map(function (l) { return l.trim(); })
+    .filter(function (l) { return l && l.charAt(0) !== "#"; });
+}
+
+async function loadKeywords() {
+  const box = document.getElementById("keywordsText");
+  if (!getToken()) {
+    box.value = "";
+    box.placeholder = "Add a GitHub token first (\\u2699 GitHub token above).";
+    return;
+  }
+  box.placeholder = "Loading...";
+  try {
+    const current = await ghGetFile(KEYWORDS_PATH);
+    box.value = current.text;
+    keywordsLoaded = true;
+  } catch (e) {
+    box.placeholder = "Couldn't load " + KEYWORDS_PATH + ": " + e.message;
+    setStatus("Couldn't load keywords: " + e.message, "error");
+  }
+}
+
+async function saveKeywords(btn) {
+  const box = document.getElementById("keywordsText");
+  if (!getToken()) {
+    setStatus("Add a GitHub token first (\\u2699 GitHub token above).", "error");
+    return;
+  }
+  const text = box.value;
+  const words = keywordLines(text);
+  // An empty list would match nothing at all on the next scan, which looks
+  // exactly like the agent breaking. Refuse it rather than let it ship.
+  if (!words.length) {
+    setStatus("Keywords can't be empty -- that would match nothing.", "error");
+    return;
+  }
+  const generic = words.filter(function (w) { return w.split(/\\s+/).length === 1 && w.length < 8; });
+  if (generic.length && !confirm(
+      "These are very broad and may match hundreds of unrelated roles, " +
+      "each costing a scoring call on the next full re-scan:\\n\\n  " +
+      generic.join("\\n  ") + "\\n\\nSave anyway?")) return;
+
+  btn.disabled = true;
+  setStatus("Saving keywords...");
+  try {
+    await updateListFile(
+      KEYWORDS_PATH,
+      function () { return text.endsWith("\\n") ? text : text + "\\n"; },
+      "Update search keywords via dashboard"
+    );
+    setStatus(
+      words.length + " keyword(s) saved. Run a Full re-scan to search with them.", "ok");
+  } catch (e) {
+    setStatus("Couldn't save keywords: " + e.message, "error");
+  }
+  btn.disabled = false;
+}
 
 // --- Triggering a run -------------------------------------------------
 
@@ -2716,6 +2802,21 @@ document.getElementById("sortSelect").addEventListener("change", function () {
   render();
 });
 
+document.getElementById("keywordsPath").textContent = KEYWORDS_PATH;
+document.getElementById("keywordsToggle").addEventListener("click", function () {
+  const panel = document.getElementById("keywordsPanel");
+  const showing = panel.style.display === "block";
+  panel.style.display = showing ? "none" : "block";
+  if (!showing && !keywordsLoaded) loadKeywords();
+});
+document.getElementById("saveKeywords").addEventListener("click", function () {
+  saveKeywords(this);
+});
+document.getElementById("reloadKeywords").addEventListener("click", function () {
+  keywordsLoaded = false;
+  loadKeywords();
+});
+
 const refreshBtn = document.getElementById("refreshBtn");
 const rescanBtn = document.getElementById("rescanBtn");
 const runButtons = [refreshBtn, rescanBtn];
@@ -2756,6 +2857,7 @@ render();
         .replace("__DISMISSED_PATH_JSON__", dismissed_path_json)
         .replace("__ARCHIVED_PATH_JSON__", archived_path_json)
         .replace("__APPLICATIONS_PATH_JSON__", applications_path_json)
+        .replace("__KEYWORDS_PATH_JSON__", keywords_path_json)
         .replace("__BUILD_STAMP__", html.escape(build_stamp))
         .replace("__BUILD_STAMP_JSON__", json.dumps(build_stamp))
     )
