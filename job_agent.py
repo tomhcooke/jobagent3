@@ -2617,7 +2617,11 @@ function render() {
     if (typeof bv === "string") bv = bv.toLowerCase();
     if (av < bv) return -1 * sortDir;
     if (av > bv) return 1 * sortDir;
-    return 0;
+    // Tied on the chosen column -- rank by score, so several roles posted
+    // the same day come out best-match-first instead of alphabetically.
+    // Always descending, whichever way the primary column is pointing: the
+    // stronger match is the more useful row either way.
+    return (b.score || 0) - (a.score || 0);
   });
 
   const tbody = document.getElementById("rows");
