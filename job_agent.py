@@ -1306,6 +1306,11 @@ IN_NETWORK_COMPANIES = {
 
     # --- Ashby: from LinkedIn network ---
     "pushsecurity", "seasoned",
+
+    # --- Added by hand after the export ---
+    # A company already searched for other reasons won't appear in the
+    # export-sourced blocks above even when you do have a contact there.
+    "asana",
 }
 
 
