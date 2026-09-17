@@ -1,8 +1,8 @@
 # Job Matches
 
-Last checked: September 17, 2026 at 05:25 AM
+Last checked: September 17, 2026 at 06:08 AM
 
-## New (58)
+## New (55)
 
 ### [78%] frontcareers – Senior Implementation Manager (ashby)
 - Posted: 2026-09-04
@@ -326,13 +326,6 @@ Last checked: September 17, 2026 at 05:25 AM
 - Score detail: title 55% | keywords 45% | experience 65% | domain 15% | education 40% | missing: Pipeline Integrity, Oil & Gas, Asset Integrity, Regulatory Compliance, Pilot Programs, Data Loading, Model Execution, Engineering (PE/Pipeline)
 - Link: https://jobs.workable.com/view/9PCZNw9aKxAmr97CztfvnQ/remote-sr.-implementation-consultant-in-united-states-at-irth-solutions
 
-### [44%] opengov – Director, Professional Services (ashby)
-- Posted: 2026-09-08
-- Date added: 2026-09-17
-- Location: US | Illinois | Chicago
-- Score detail: title 45% | keywords 40% | experience 55% | domain 25% | education 60% | missing: P&L ownership, government/public sector, portfolio management, team leadership of managers, forecast accuracy, utilization/margin, executive sponsor, resource planning
-- Link: https://jobs.ashbyhq.com/opengov/ea1be740-14e6-4dd3-866d-a68de3e60688
-
 ### [NETWORK] [42%] Nuvei – Sage 100 Product and Implementation Manager (workable)
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: unknown
@@ -376,13 +369,6 @@ Last checked: September 17, 2026 at 05:25 AM
 - Score detail: title 60% | keywords 30% | experience 75% | domain 15% | education 20% | missing: CMMC, NIST SP 800-171, CUI, FCI, SSP, POA&M, C3PAO, GCC High
 - Link: https://jobs.ashbyhq.com/secureframe/ad18271a-18b9-41e9-b0d1-a4f02051dfeb
 
-### [37%] stripe – Enterprise Services Manager, Professional Services Sales (greenhouse)
-- Posted: 2026-08-26
-- Date added: 2026-09-17
-- Location: SF, Seattle, NYC, Chicago
-- Score detail: title 45% | keywords 20% | experience 55% | domain 50% | education 40% | missing: Professional Services Sales, Enterprise Services, Stripe, Payments, Fintech, Sales quota, Revenue targets, Solution selling
-- Link: https://stripe.com/jobs/search?gh_jid=8155639
-
 ### [31%] Partner One Capital – Sage Intacct Implementation Specialist (workable)
 - Posted: unknown
 - Date added: 2026-09-17
@@ -396,13 +382,6 @@ Last checked: September 17, 2026 at 05:25 AM
 - Location: United States
 - Score detail: title 25% | keywords 15% | experience 30% | domain 15% | education 20% | missing: Go, Java, Python, distributed systems, workflow orchestration, observability, runbooks, on-call
 - Link: https://jobs.ashbyhq.com/temporal/7a1e439c-c349-4cd4-8490-6e22a62005bf
-
-### [11%] FutureSight – Co-Founder & CEO - AI Content Intelligence for Professional Services (workable)
-- Posted: unknown
-- Date added: 2026-09-17
-- Location: Remote
-- Score detail: title 5% | keywords 10% | experience 15% | domain 10% | education 20% | missing: Co-Founder, fundraising, seed raise, venture-backed, go-to-market, creator economy, AI agents/LLMs, investor narrative
-- Link: https://jobs.workable.com/view/i1TekqLQH1DqyUvR5RqK61/remote-co-founder-%26-ceo---ai-content-intelligence-for-professional-services-in-united-states-at-futuresight
 
 ### [8%] cohere – Strategic Sourcing Specialist - Professional Services (ashby)
 - Posted: 2026-08-27
