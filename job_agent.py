@@ -2611,8 +2611,18 @@ function render() {
     return true;
   });
 
+  const isMissing = function (v) {
+    return v === null || v === undefined || v === "" || v === "unknown";
+  };
+
   rows.sort(function (a, b) {
     let av = a[sortKey], bv = b[sortKey];
+    // A missing value never outranks a real one, in either direction --
+    // "unknown" is a string starting with "u", so left to sort normally it
+    // lands above every real date when Posted runs newest-first.
+    const aMissing = isMissing(av), bMissing = isMissing(bv);
+    if (aMissing !== bMissing) return aMissing ? 1 : -1;
+
     if (typeof av === "string") av = av.toLowerCase();
     if (typeof bv === "string") bv = bv.toLowerCase();
     if (av < bv) return -1 * sortDir;
