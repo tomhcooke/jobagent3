@@ -1586,6 +1586,8 @@ def write_dashboard(all_matches):
   tr.priority td:first-child { border-left: 3px solid #2ea043; padding-left: 0.4rem; }
   tr.closed { opacity: 0.5; text-decoration: line-through; }
   tr.archived-row { opacity: 0.6; }
+  tr.flash-archived td { text-decoration: line-through; background: rgba(88, 166, 255, 0.15); color: #79c0ff; transition: background 0.15s; }
+  tr.flash-deleted td { text-decoration: line-through; background: rgba(248, 81, 73, 0.15); color: #f85149; transition: background 0.15s; }
   .badge { display: inline-block; padding: 0.1rem 0.4rem; border-radius: 4px; background: #21262d; color: #c9d1d9; font-size: 0.75rem; }
   .network-badge { background: #1f3a5f; color: #79c0ff; }
   .score-detail { font-size: 0.75rem; color: #9198a1; }
@@ -1805,7 +1807,11 @@ async function updateListFile(path, transform, commitMessage) {
 
 // --- Row actions -------------------------------------------------------
 
-async function archiveJob(job, btn) {
+function sleep(ms) {
+  return new Promise(function (resolve) { setTimeout(resolve, ms); });
+}
+
+async function archiveJob(job, btn, tr) {
   if (!getToken()) { setStatus("Add a GitHub token first (\\u2699 GitHub token above).", "error"); return; }
   btn.disabled = true;
   setStatus("Archiving \\u201c" + job.title + "\\u201d...");
@@ -1815,6 +1821,8 @@ async function archiveJob(job, btn) {
       function (text) { return appendUniqueLine(text, job.url); },
       "Archive " + job.company + " - " + job.title + " via dashboard"
     );
+    if (tr) tr.classList.add("flash-archived");
+    await sleep(600);
     job.archived = true;
     setStatus("Archived. Fully applied on the next job_agent.py run.", "ok");
     render();
@@ -1843,7 +1851,7 @@ async function unarchiveJob(job, btn) {
   }
 }
 
-async function deleteJob(job, btn) {
+async function deleteJob(job, btn, tr) {
   if (!getToken()) { setStatus("Add a GitHub token first (\\u2699 GitHub token above).", "error"); return; }
   if (!confirm("Delete \\u201c" + job.title + "\\u201d at " + job.company + "? This hides it for good -- it won't be re-added even if the board reposts it.")) return;
   btn.disabled = true;
@@ -1854,6 +1862,8 @@ async function deleteJob(job, btn) {
       function (text) { return appendUniqueLine(text, job.url); },
       "Dismiss " + job.company + " - " + job.title + " via dashboard"
     );
+    if (tr) tr.classList.add("flash-deleted");
+    await sleep(600);
     const idx = JOBS.indexOf(job);
     if (idx !== -1) JOBS.splice(idx, 1);
     setStatus("Deleted. Fully removed from seen_jobs.db on the next job_agent.py run.", "ok");
@@ -1974,7 +1984,7 @@ function render() {
     archiveBtn.className = "btn";
     archiveBtn.textContent = j.archived ? "Unarchive" : "Archive";
     archiveBtn.addEventListener("click", function () {
-      if (j.archived) unarchiveJob(j, archiveBtn); else archiveJob(j, archiveBtn);
+      if (j.archived) unarchiveJob(j, archiveBtn); else archiveJob(j, archiveBtn, tr);
     });
     tdActions.appendChild(archiveBtn);
 
@@ -1982,7 +1992,7 @@ function render() {
     deleteBtn.type = "button";
     deleteBtn.className = "btn btn-danger";
     deleteBtn.textContent = "Delete";
-    deleteBtn.addEventListener("click", function () { deleteJob(j, deleteBtn); });
+    deleteBtn.addEventListener("click", function () { deleteJob(j, deleteBtn, tr); });
     tdActions.appendChild(deleteBtn);
 
     tr.appendChild(tdActions);
