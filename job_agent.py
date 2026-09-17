@@ -1307,9 +1307,26 @@ IN_NETWORK_COMPANIES = {
     # --- Ashby: from LinkedIn network ---
     "pushsecurity", "seasoned",
 
-    # --- Added by hand after the export ---
-    # A company already searched for other reasons won't appear in the
-    # export-sourced blocks above even when you do have a contact there.
+    # --- Cross-referenced against the full LinkedIn network-by-company
+    # export ---
+    # The blocks above only cover companies the export itself introduced, so
+    # anything already being searched for other reasons stayed unflagged no
+    # matter how many contacts worked there. These are the rest, matched by
+    # token or by an unambiguous alias (jj = Johnson & Johnson, wf = Wells
+    # Fargo, uaa = United Airlines, globalhr = Raytheon, williams = William
+    # Blair, cvshealth = Aetna/CVS, bah = Booz Allen Hamilton).
+    "accenture", "acehardware", "adyen", "alight", "allstate", "att",
+    "bah", "benepass", "brex", "bridgestone", "cdk", "cengage",
+    "cmegroup", "cvshealth", "databricks", "datadog", "dynatrace",
+    "ethos", "front", "generalmotors", "gitlab", "glean", "globalhr",
+    "hightouch", "hp", "icf", "ironclad", "ironcladhq", "jj",
+    "kyndryl", "launchdarkly", "miro", "monday", "morningstar",
+    "nordstrom", "northwesternmutual", "plaid", "pnc", "roberthalf",
+    "rockwellautomation", "salesforce", "smartsheet", "snowflake",
+    "stripe", "target", "tmobile", "toast", "toasttab", "twilio",
+    "uaa", "verint", "wf", "williams", "zoominfo",
+
+    # Not in the export, but confirmed by hand.
     "asana",
 }
 
