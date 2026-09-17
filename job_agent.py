@@ -2822,7 +2822,10 @@ const rescanBtn = document.getElementById("rescanBtn");
 const runButtons = [refreshBtn, rescanBtn];
 
 refreshBtn.addEventListener("click", function () {
-  runAndWatch("Refresh", { rescore_only: "true" }, runButtons);
+  // max_score_calls=0 is what makes this button's promise true. The
+  // rescore_only path otherwise scores every unscored row it finds,
+  // uncapped -- and a scan that failed scoring part-way leaves plenty.
+  runAndWatch("Refresh", { rescore_only: "true", max_score_calls: "0" }, runButtons);
 });
 
 rescanBtn.addEventListener("click", function () {
