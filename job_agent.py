@@ -1852,23 +1852,52 @@ function removeMatchingLine(text, line) {
   return kept.join("\\n");
 }
 
-async function updateListFile(path, transform, commitMessage) {
-  let attempt = 0;
-  while (true) {
-    attempt += 1;
+function sleep(ms) {
+  return new Promise(function (resolve) { setTimeout(resolve, ms); });
+}
+
+async function updateListFileUnqueued(path, transform, commitMessage) {
+  const maxAttempts = 5;
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     const current = await ghGetFile(path);
     const next = transform(current.text);
     try {
       await ghPutFile(path, next, current.sha, commitMessage);
       return;
     } catch (e) {
-      // 409/422 usually means the file's sha moved between our GET and PUT
-      // (e.g. another tab, or job_agent.py itself, committed in between).
-      // Refetch and retry once; anything else (bad token, etc.) surfaces.
-      if ((e.status === 409 || e.status === 422) && attempt < 2) continue;
+      // 409/422 means the file's sha moved between our GET and PUT --
+      // something else committed to this exact path in between (another
+      // browser tab, or job_agent.py itself mid-run). Refetch and retry
+      // with a short backoff; anything else (bad token, etc.) surfaces
+      // immediately.
+      if ((e.status === 409 || e.status === 422) && attempt < maxAttempts) {
+        await sleep(200 * attempt);
+        continue;
+      }
       throw e;
     }
   }
+}
+
+// Clicking Delete/Archive on several rows in quick succession all target
+// the same dismissed.txt/archived.txt file -- without this, each click's
+// independent GET-then-PUT cycle can race the others (click B reads the
+// file before click A's write lands, then click B's write is rejected
+// because the sha it read is already stale). Queuing per path serializes
+// same-tab writes to the same file so only one is ever in flight, which is
+// what actually prevents the race rather than just retrying around it; the
+// backoff/retry above remains as a backstop for conflicts from outside
+// this tab (another browser tab, or job_agent.py committing mid-click).
+const _fileWriteQueues = {};
+
+function updateListFile(path, transform, commitMessage) {
+  const previous = _fileWriteQueues[path] || Promise.resolve();
+  const settled = previous.catch(function () {});  // don't let a prior failure jam the queue
+  const next = settled.then(function () {
+    return updateListFileUnqueued(path, transform, commitMessage);
+  });
+  _fileWriteQueues[path] = next;
+  return next;
 }
 
 // --- Row actions -------------------------------------------------------
