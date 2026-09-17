@@ -859,11 +859,33 @@ POOL_SIZES = {"greenhouse": 8, "ashby": 4, "lever": 6, "workday": 8}
 # FETCH -- Greenhouse (uses ?live=true so only active, open roles return)
 # ---------------------------------------------------------------------------
 
+def _html_to_text(raw):
+    """Job descriptions arrive in three different shapes -- Greenhouse sends
+    HTML with its angle brackets entity-encoded, Workable sends real HTML,
+    Ashby/Lever send plain text. Normalize all of them to readable text, so
+    what gets scored (and stored) is the wording rather than the markup.
+    """
+    if not raw:
+        return ""
+    text = html.unescape(raw)  # Greenhouse's &lt;p&gt; -> <p>
+    text = re.sub(r"(?is)<(script|style)\b.*?</\1>", " ", text)
+    # Keep the line structure that separates responsibilities/requirements.
+    text = re.sub(r"(?i)<br\s*/?>|</p>|</div>|</li>|</tr>|</h[1-6]>", "\n", text)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(text)  # entities that were inside the markup
+    text = text.replace("\xa0", " ")
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n[ \t]*(?:\n[ \t]*)+", "\n\n", text)
+    return text.strip()
+
+
 def fetch_greenhouse_jobs(company):
     """Returns (status, jobs). status is "ok" (board exists, jobs may be
     empty), "not_found" (bad token -- 404), or "error" (couldn't verify,
     e.g. a timeout)."""
-    url = f"https://boards-api.greenhouse.io/v1/boards/{company}/jobs?live=true"
+    # content=true is required for the description: without it Greenhouse
+    # omits the field entirely, so every role here scored on its title alone.
+    url = f"https://boards-api.greenhouse.io/v1/boards/{company}/jobs?live=true&content=true"
     try:
         _GREENHOUSE_LIMITER.wait()
         req = urllib.request.Request(url, headers={"User-Agent": "job-agent/1.0"})
@@ -880,7 +902,7 @@ def fetch_greenhouse_jobs(company):
                     "title": job.get("title", ""),
                     "location": (job.get("location") or {}).get("name", ""),
                     "url": job.get("absolute_url", ""),
-                    "description": job.get("content", "") or "",
+                    "description": _html_to_text(job.get("content", "")),
                     "posted_date": _parse_date_to_str(job.get("first_published") or job.get("updated_at")),
                 })
             return "ok", normalized
@@ -923,7 +945,7 @@ def fetch_ashby_jobs(company):
                     "title": job.get("title", ""),
                     "location": location,
                     "url": job.get("jobUrl", job.get("applyUrl", "")),
-                    "description": job.get("descriptionPlain", "") or "",
+                    "description": _html_to_text(job.get("descriptionPlain", "")),
                     "posted_date": _parse_date_to_str(job.get("publishedAt")),
                 })
             return "ok", normalized
@@ -965,7 +987,7 @@ def fetch_lever_jobs(company):
                     "title": job.get("text", ""),
                     "location": location,
                     "url": job.get("hostedUrl", job.get("applyUrl", "")),
-                    "description": job.get("descriptionPlain", "") or "",
+                    "description": _html_to_text(job.get("descriptionPlain", "")),
                     "posted_date": _parse_date_to_str(job.get("createdAt"), is_epoch_ms=True),
                 })
             return "ok", normalized
@@ -1092,7 +1114,7 @@ def fetch_workday_job_description(tenant, external_path):
         req = urllib.request.Request(url, headers={"User-Agent": "job-agent/1.0"})
         with urllib.request.urlopen(req, timeout=20) as resp:
             data = json.loads(resp.read().decode())
-        return data.get("jobPostingInfo", {}).get("jobDescription", "") or ""
+        return _html_to_text(data.get("jobPostingInfo", {}).get("jobDescription", ""))
     except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, json.JSONDecodeError, ValueError) as e:
         print(f"  ! [workday] {tenant}: couldn't fetch description for {external_path} - {e}")
         return ""
@@ -1158,7 +1180,7 @@ def fetch_workable_search(query):
                     "title": job.get("title", ""),
                     "location": location or "",
                     "url": _workable_field(job, "url", "applyUrl", "shortlink"),
-                    "description": _workable_field(job, "description", "descriptionText", "descriptionHtml"),
+                    "description": _html_to_text(_workable_field(job, "description", "descriptionText", "descriptionHtml")),
                     "posted_date": _parse_date_to_str(_workable_field(job, "published_on", "published", "created_at")),
                 })
             page_token = data.get("nextPageToken")
