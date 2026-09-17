@@ -1,6 +1,6 @@
 # Job Matches
 
-Last checked: September 17, 2026 at 01:17 AM
+Last checked: September 17, 2026 at 02:48 AM
 
 ## New (64)
 
@@ -10,6 +10,13 @@ Last checked: September 17, 2026 at 01:17 AM
 - Location: Chicago, IL
 - Score detail: title 90% | keywords 70% | experience 90% | domain 80% | education 70% | missing: change management, stakeholder mapping, risk register, webhooks, governance, executive presence, cutover, solution design
 - Link: https://jobs.ashbyhq.com/frontcareers/7c444abc-9e60-4e69-b351-a497b5884595
+
+### [73%] asana – Senior Implementation Manager (greenhouse)
+- Posted: 2026-09-01
+- Date added: 2026-09-17
+- Location: Chicago
+- Score detail: title 78% | keywords 65% | experience 85% | domain 75% | education 70% | missing: Asana, SaaS onboarding at scale, Project management software, Change management, Stakeholder management, Customer success, Enterprise software rollout, Training and enablement
+- Link: https://www.asana.com/jobs/apply/8163422?gh_jid=8163422
 
 ### [73%] linear – Implementation Manager (ashby)
 - Posted: 2026-05-27
@@ -46,6 +53,27 @@ Last checked: September 17, 2026 at 01:17 AM
 - Score detail: title 85% | keywords 60% | experience 90% | domain 40% | education 70% | missing: HR Benefits, Payroll, HRIS, needs assessment, upsell/expansion, client-facing training materials, post-sales onboarding, benefits administration
 - Link: https://jobs.ashbyhq.com/forma/df918cdc-e21e-43c1-ac71-121366402bd1
 
+### [68%] logicgate – Professional Services Manager (Bellevue, WA / Chicago,IL) (greenhouse)
+- Posted: 2026-08-11
+- Date added: 2026-09-17
+- Location: Chicago or Bellevue
+- Score detail: title 65% | keywords 60% | experience 80% | domain 70% | education 75% | missing: GRC, risk management, customer success, SOW, professional services methodology, team leadership, budget management, client relationship management
+- Link: https://job-boards.greenhouse.io/logicgate/jobs/4723421005
+
+### [68%] outreach – Senior Professional Services Consultant (lever)
+- Posted: 2026-09-16
+- Date added: 2026-09-17
+- Location: Remote - United States
+- Score detail: title 70% | keywords 60% | experience 85% | domain 65% | education 70% | missing: Sales Engagement, Conversational Intelligence, Forecasting, GTM strategy, Change management, Revenue operations, CRM (Salesforce), Adoption risk analytics
+- Link: https://jobs.lever.co/outreach/657cceb1-3b93-4c89-9b39-d2acc1ded6e3
+
+### [68%] samsara – Enterprise Select Implementation Consultant (West) (greenhouse)
+- Posted: 2026-08-13
+- Date added: 2026-09-17
+- Location: Remote - US
+- Score detail: title 70% | keywords 60% | experience 85% | domain 65% | education 70% | missing: Samsara, IoT, hardware deployment, fleet management, telematics, Salesforce, project management certification (PMP), West region travel
+- Link: https://www.samsara.com/company/careers/roles/8121327?gh_jid=8121327
+
 ### [67%] Ottimate – Implementation Manager (workable)
 - Posted: unknown
 - Date added: 2026-09-17
@@ -67,6 +95,13 @@ Last checked: September 17, 2026 at 01:17 AM
 - Score detail: title 80% | keywords 62% | experience 85% | domain 45% | education 65% | missing: IoT, telematics, fleet management, Salesforce, PMP, hardware deployment, Gainsight, API integrations
 - Link: https://www.samsara.com/company/careers/roles/8209046?gh_jid=8209046
 
+### [66%] degreed – Senior Implementation Consultant | UK (greenhouse)
+- Posted: 2026-08-03
+- Date added: 2026-09-17
+- Location: UK Based | Remote
+- Score detail: title 65% | keywords 60% | experience 80% | domain 70% | education 60% | missing: Degreed platform, LMS, learning experience platform, UK/EMEA, Salesforce, API integrations, stakeholder training, change management
+- Link: https://job-boards.greenhouse.io/degreed/jobs/6130184004
+
 ### [66%] samsara – Strategic Implementation Consultant (greenhouse)
 - Posted: 2026-07-06
 - Date added: 2026-09-17
@@ -87,6 +122,13 @@ Last checked: September 17, 2026 at 01:17 AM
 - Location: Remote - US
 - Score detail: title 75% | keywords 55% | experience 80% | domain 60% | education 70% | missing: IoT, fleet management, Salesforce, project management certification, PMP, enterprise software implementation, customer onboarding, API integration
 - Link: https://www.samsara.com/company/careers/roles/7852948?gh_jid=7852948
+
+### [64%] airtable – Program Manager, Professional Services - East (greenhouse)
+- Posted: 2026-06-10
+- Date added: 2026-09-17
+- Location: New York, NY; Remote - US
+- Score detail: title 55% | keywords 60% | experience 75% | domain 70% | education 60% | missing: Program Manager, PMP, Airtable, budget management, resource allocation, professional services delivery, cross-functional leadership, East region
+- Link: https://job-boards.greenhouse.io/airtable/jobs/8586863002
 
 ### [64%] opengov – Implementation Consultant (ashby)
 - Posted: 2026-09-11
@@ -122,6 +164,13 @@ Last checked: September 17, 2026 at 01:17 AM
 - Location: San Francisco, CA; Remote - US
 - Score detail: title 55% | keywords 55% | experience 75% | domain 65% | education 60% | missing: Program Manager, Professional Services, West, Airtable, PMP, cross-functional stakeholder management, budget management, resource planning
 - Link: https://job-boards.greenhouse.io/airtable/jobs/8586865002
+
+### [60%] opengov – Manager I, Professional Services - IC (ashby)
+- Posted: 2026-08-17
+- Date added: 2026-09-17
+- Location: US | Illinois | Chicago
+- Score detail: title 65% | keywords 55% | experience 80% | domain 35% | education 70% | missing: GIS software, government/public sector, ETL tools, Excel/VLOOKUP/pivot tables, team management of Implementation Analysts, budgeting/procurement/permitting, utilization/delivery metrics, Visual Basic/macros
+- Link: https://jobs.ashbyhq.com/opengov/23a24c11-7756-42a9-9845-03fec5dee2c5
 
 ### [60%] samsara – Implementation Consultant (greenhouse)
 - Posted: 2026-09-01
@@ -165,6 +214,13 @@ Last checked: September 17, 2026 at 01:17 AM
 - Score detail: title 55% | keywords 45% | experience 70% | domain 65% | education 70% | missing: Technical Project Manager, governance, work breakdown structure, financial management, contract values $500K+, APIs and data models, change management, steering committees
 - Link: https://jobs.ashbyhq.com/gainsight/b93d429b-fb79-4005-bbaf-422e274d401f
 
+### [57%] logicgate – Professional Services Associate (Bellevue, WA / Chicago, IL) (greenhouse)
+- Posted: 2026-08-28
+- Date added: 2026-09-17
+- Location: Chicago or Bellevue
+- Score detail: title 55% | keywords 50% | experience 65% | domain 60% | education 70% | missing: GRC, LogicGate platform, risk management, client onboarding software, SQL, API integrations, SaaS configuration, customer success
+- Link: https://job-boards.greenhouse.io/logicgate/jobs/4728797005
+
 ### [57%] opengov – Manager I, Professional Services (ashby)
 - Posted: 2026-07-20
 - Date added: 2026-09-17
@@ -192,6 +248,13 @@ Last checked: September 17, 2026 at 01:17 AM
 - Location: Remote, US
 - Score detail: title 75% | keywords 40% | experience 80% | domain 30% | education 70% | missing: POS systems, restaurant technology, drive-thru, menu boards, hardware installation, Toast platform, field implementation, kitchen display systems
 - Link: https://careers.toasttab.com/jobs?gh_jid=8121574
+
+### [54%] Ottimate – Onboarding Specialist (workable)
+- Posted: unknown
+- Date added: 2026-09-17
+- Location: Remote
+- Score detail: title 55% | keywords 45% | experience 75% | domain 40% | education 70% | missing: Accounts Payable, training programs, adoption metrics, change management, user personas, finance workflows, invoice-to-payment, usage data analysis
+- Link: https://jobs.workable.com/view/bka2ch1M32zRNJWy76ytBe/remote-onboarding-specialist-in-united-states-at-ottimate
 
 ### [54%] savvymoney – Senior Implementation Manager (Dublin, CA or USA Remote) (ashby)
 - Posted: 2026-06-03
@@ -235,6 +298,20 @@ Last checked: September 17, 2026 at 01:17 AM
 - Score detail: title 60% | keywords 45% | experience 70% | domain 25% | education 50% | missing: Municipal Utility Billing, ERP, government/public sector, Excel/pivot tables/v-lookup, data architecture, Tax Billing, financial data reporting, administrator training
 - Link: https://jobs.ashbyhq.com/opengov/ff337b03-8ede-4174-82a5-7c1a6ba01cc5
 
+### [50%] smartsheet – Professional Services Business Development Director (Remote Eligible) (greenhouse)
+- Posted: 2026-04-13
+- Date added: 2026-09-17
+- Location: Bellevue, WA, USA
+- Score detail: title 40% | keywords 45% | experience 60% | domain 55% | education 60% | missing: Business Development, Sales Pipeline, Revenue Growth, Professional Services Sales, Partner Ecosystem, Consulting Services, Quota, Contract Negotiation
+- Link: https://job-boards.greenhouse.io/smartsheet/jobs/7812779
+
+### [49%] AI Acquisition – Client Onboarding Specialist (workable)
+- Posted: unknown
+- Date added: 2026-09-17
+- Location: Remote
+- Score detail: title 55% | keywords 40% | experience 60% | domain 45% | education 60% | missing: renewal, churn signals, kickoff calls, playbooks, sales background, ARR, customer journey, activation
+- Link: https://jobs.workable.com/view/uktwygzSk2dFZRFZWRWY1w/remote-client-onboarding-specialist-in-united-states-at-ai-acquisition
+
 ### [48%] opengov – Senior Implementation Consultant, Payroll (ashby)
 - Posted: 2026-07-30
 - Date added: 2026-09-17
@@ -262,6 +339,13 @@ Last checked: September 17, 2026 at 01:17 AM
 - Location: Remote
 - Score detail: title 55% | keywords 45% | experience 65% | domain 15% | education 40% | missing: Pipeline Integrity, Oil & Gas, Asset Integrity, Regulatory Compliance, Pilot Programs, Data Loading, Model Execution, Engineering (PE/Pipeline)
 - Link: https://jobs.workable.com/view/9PCZNw9aKxAmr97CztfvnQ/remote-sr.-implementation-consultant-in-united-states-at-irth-solutions
+
+### [44%] opengov – Director, Professional Services (ashby)
+- Posted: 2026-09-08
+- Date added: 2026-09-17
+- Location: US | Illinois | Chicago
+- Score detail: title 45% | keywords 40% | experience 55% | domain 25% | education 60% | missing: P&L ownership, government/public sector, portfolio management, team leadership of managers, forecast accuracy, utilization/margin, executive sponsor, resource planning
+- Link: https://jobs.ashbyhq.com/opengov/ea1be740-14e6-4dd3-866d-a68de3e60688
 
 ### [42%] Nuvei – Sage 100 Product and Implementation Manager (workable)
 - Posted: unknown
@@ -319,12 +403,33 @@ Last checked: September 17, 2026 at 01:17 AM
 - Score detail: title 45% | keywords 20% | experience 55% | domain 50% | education 40% | missing: Professional Services Sales, Enterprise Services, Stripe, Payments, Fintech, Sales quota, Revenue targets, Solution selling
 - Link: https://stripe.com/jobs/search?gh_jid=8155639
 
+### [31%] Partner One Capital – Sage Intacct Implementation Specialist (workable)
+- Posted: unknown
+- Date added: 2026-09-17
+- Location: Remote
+- Score detail: title 40% | keywords 25% | experience 45% | domain 20% | education 30% | missing: Sage Intacct, NetSuite, accounting, financial software, ERP, cloud accounting, Finance/Accounting degree, end-user training
+- Link: https://jobs.workable.com/view/u7PQH28GbXRwhQ5weUTwM5/remote-sage-intacct-implementation-specialist-in-united-states-at-partner-one-capital
+
 ### [30%] gitlab – Senior Professional Services Engineer- PubSec - DC Metro (greenhouse)
 - Posted: 2026-09-02
 - Date added: 2026-09-17
 - Location: Remote, United States
 - Score detail: title 35% | keywords 25% | experience 45% | domain 15% | education 40% | missing: GitLab, CI/CD, DevOps, Public Sector, Security Clearance, Kubernetes, Linux, Git
 - Link: https://job-boards.greenhouse.io/gitlab/jobs/8746461002
+
+### [20%] temporal – Senior Professional Services Engineer - East (ashby)
+- Posted: 2026-08-12
+- Date added: 2026-09-17
+- Location: United States
+- Score detail: title 25% | keywords 15% | experience 30% | domain 15% | education 20% | missing: Go, Java, Python, distributed systems, workflow orchestration, observability, runbooks, on-call
+- Link: https://jobs.ashbyhq.com/temporal/7a1e439c-c349-4cd4-8490-6e22a62005bf
+
+### [19%] temporal – Senior Professional Services Engineer - West (ashby)
+- Posted: 2026-08-12
+- Date added: 2026-09-17
+- Location: United States
+- Score detail: title 20% | keywords 15% | experience 30% | domain 15% | education 20% | missing: Go, Java, Python, TypeScript, distributed systems, Temporal Server, observability, on-call/runbooks
+- Link: https://jobs.ashbyhq.com/temporal/29fbbb7e-f8d3-4424-a301-cb32b704ae16
 
 ### [11%] FutureSight – Co-Founder & CEO - AI Content Intelligence for Professional Services (workable)
 - Posted: unknown
@@ -346,96 +451,6 @@ Last checked: September 17, 2026 at 01:17 AM
 - Location: Remote - United States
 - Score detail: title 5% | keywords 5% | experience 10% | domain 5% | education 20% | missing: Strategic Sourcing, Procurement, RFP/RFQ, Category Management, Vendor Management, P2P (procure to pay), Contract Lifecycle Management, Supplier Benchmarking
 - Link: https://jobs.ashbyhq.com/cohere/9d8ba367-2e34-4ddd-93e5-265767767ef4
-
-### [not scored] AI Acquisition – Client Onboarding Specialist (workable)
-- Posted: unknown
-- Date added: 2026-09-17
-- Location: Remote
-- Link: https://jobs.workable.com/view/uktwygzSk2dFZRFZWRWY1w/remote-client-onboarding-specialist-in-united-states-at-ai-acquisition
-
-### [not scored] Ottimate – Onboarding Specialist (workable)
-- Posted: unknown
-- Date added: 2026-09-17
-- Location: Remote
-- Link: https://jobs.workable.com/view/bka2ch1M32zRNJWy76ytBe/remote-onboarding-specialist-in-united-states-at-ottimate
-
-### [not scored] Partner One Capital – Sage Intacct Implementation Specialist (workable)
-- Posted: unknown
-- Date added: 2026-09-17
-- Location: Remote
-- Link: https://jobs.workable.com/view/u7PQH28GbXRwhQ5weUTwM5/remote-sage-intacct-implementation-specialist-in-united-states-at-partner-one-capital
-
-### [not scored] airtable – Program Manager, Professional Services - East (greenhouse)
-- Posted: 2026-06-10
-- Date added: 2026-09-17
-- Location: New York, NY; Remote - US
-- Link: https://job-boards.greenhouse.io/airtable/jobs/8586863002
-
-### [not scored] asana – Senior Implementation Manager (greenhouse)
-- Posted: 2026-09-01
-- Date added: 2026-09-17
-- Location: Chicago
-- Link: https://www.asana.com/jobs/apply/8163422?gh_jid=8163422
-
-### [not scored] degreed – Senior Implementation Consultant | UK (greenhouse)
-- Posted: 2026-08-03
-- Date added: 2026-09-17
-- Location: UK Based | Remote
-- Link: https://job-boards.greenhouse.io/degreed/jobs/6130184004
-
-### [not scored] logicgate – Professional Services Associate (Bellevue, WA / Chicago, IL) (greenhouse)
-- Posted: 2026-08-28
-- Date added: 2026-09-17
-- Location: Chicago or Bellevue
-- Link: https://job-boards.greenhouse.io/logicgate/jobs/4728797005
-
-### [not scored] logicgate – Professional Services Manager (Bellevue, WA / Chicago,IL) (greenhouse)
-- Posted: 2026-08-11
-- Date added: 2026-09-17
-- Location: Chicago or Bellevue
-- Link: https://job-boards.greenhouse.io/logicgate/jobs/4723421005
-
-### [not scored] opengov – Manager I, Professional Services - IC (ashby)
-- Posted: 2026-08-17
-- Date added: 2026-09-17
-- Location: US | Illinois | Chicago
-- Link: https://jobs.ashbyhq.com/opengov/23a24c11-7756-42a9-9845-03fec5dee2c5
-
-### [not scored] opengov – Director, Professional Services (ashby)
-- Posted: 2026-09-08
-- Date added: 2026-09-17
-- Location: US | Illinois | Chicago
-- Link: https://jobs.ashbyhq.com/opengov/ea1be740-14e6-4dd3-866d-a68de3e60688
-
-### [not scored] outreach – Senior Professional Services Consultant (lever)
-- Posted: 2026-09-16
-- Date added: 2026-09-17
-- Location: Remote - United States
-- Link: https://jobs.lever.co/outreach/657cceb1-3b93-4c89-9b39-d2acc1ded6e3
-
-### [not scored] samsara – Enterprise Select Implementation Consultant (West) (greenhouse)
-- Posted: 2026-08-13
-- Date added: 2026-09-17
-- Location: Remote - US
-- Link: https://www.samsara.com/company/careers/roles/8121327?gh_jid=8121327
-
-### [not scored] smartsheet – Professional Services Business Development Director (Remote Eligible) (greenhouse)
-- Posted: 2026-04-13
-- Date added: 2026-09-17
-- Location: Bellevue, WA, USA
-- Link: https://job-boards.greenhouse.io/smartsheet/jobs/7812779
-
-### [not scored] temporal – Senior Professional Services Engineer - East (ashby)
-- Posted: 2026-08-12
-- Date added: 2026-09-17
-- Location: United States
-- Link: https://jobs.ashbyhq.com/temporal/7a1e439c-c349-4cd4-8490-6e22a62005bf
-
-### [not scored] temporal – Senior Professional Services Engineer - West (ashby)
-- Posted: 2026-08-12
-- Date added: 2026-09-17
-- Location: United States
-- Link: https://jobs.ashbyhq.com/temporal/29fbbb7e-f8d3-4424-a301-cb32b704ae16
 
 ## Previously Viewed (0)
 
