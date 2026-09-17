@@ -28,11 +28,14 @@ import re
 import csv
 import json
 import html
+import time
 import sqlite3
+import threading
 import unicodedata
 import urllib.request
 import urllib.error
 import urllib.parse
+import concurrent.futures
 from datetime import datetime, timezone
 
 import geonamescache
@@ -795,6 +798,57 @@ def _parse_date_to_str(value, is_epoch_ms=False):
 
 
 # ---------------------------------------------------------------------------
+# CONCURRENCY -- fetch_* calls run in a small per-source thread pool (see
+# main()) instead of one at a time, since these are pure I/O waits. Each
+# shared host gets its own RateLimiter enforcing a minimum spacing between
+# actual request dispatches, independent of how many threads are running,
+# so throughput is bounded by a safe per-host rate rather than by thread
+# count -- concurrency just lets response latency overlap across threads.
+# Caps are set from each board's documented/informally-known tolerance:
+#   - Greenhouse: no published limit for reads, but "hammering in tight
+#     loops gets blocked" -- kept moderate (~6-7/sec ceiling).
+#   - Ashby: informal ~100 requests/minute, with 500-600ms spacing
+#     recommended between requests.
+#   - Lever: general Data API allows 10/sec sustained; kept a bit more
+#     conservative since our specific read endpoint isn't documented.
+#   - Workday: no shared limiter needed -- each tenant is its own separate
+#     host (e.g. target.wd5.myworkdayjobs.com vs tmobile.wd1...), so
+#     concurrency across tenants carries no shared-host risk. Pacing is
+#     applied per-tenant instead, directly in fetch_workday_jobs() below.
+# ---------------------------------------------------------------------------
+
+class RateLimiter:
+    """Thread-safe minimum-interval limiter: wait() blocks only as long as
+    needed so no two calls across any thread dispatch less than
+    `min_interval` seconds apart."""
+    def __init__(self, min_interval):
+        self.min_interval = min_interval
+        self._lock = threading.Lock()
+        self._last = 0.0
+
+    def wait(self):
+        with self._lock:
+            now = time.monotonic()
+            elapsed = now - self._last
+            if elapsed < self.min_interval:
+                time.sleep(self.min_interval - elapsed)
+            self._last = time.monotonic()
+
+
+_GREENHOUSE_LIMITER = RateLimiter(0.15)   # ~6-7 req/sec ceiling
+_ASHBY_LIMITER = RateLimiter(0.6)         # ~100/min budget, so stay under ~1.67/sec
+_LEVER_LIMITER = RateLimiter(0.15)        # well under the documented 10/sec Data API limit
+_WORKDAY_REQUEST_DELAY = 1.0              # per-tenant pacing, not shared across tenants
+
+# Thread pool sizes per source, used by main(). Concurrency multiplies
+# throughput up to the point the RateLimiter above starts gating it --
+# e.g. Ashby's limiter alone caps total dispatch rate regardless of pool
+# size, so its pool just needs to be big enough to keep that rate saturated
+# while responses are in flight.
+POOL_SIZES = {"greenhouse": 8, "ashby": 4, "lever": 6, "workday": 8}
+
+
+# ---------------------------------------------------------------------------
 # FETCH -- Greenhouse (uses ?live=true so only active, open roles return)
 # ---------------------------------------------------------------------------
 
@@ -804,6 +858,7 @@ def fetch_greenhouse_jobs(company):
     e.g. a timeout)."""
     url = f"https://boards-api.greenhouse.io/v1/boards/{company}/jobs?live=true"
     try:
+        _GREENHOUSE_LIMITER.wait()
         req = urllib.request.Request(url, headers={"User-Agent": "job-agent/1.0"})
         with urllib.request.urlopen(req, timeout=20) as resp:
             data = json.loads(resp.read().decode())
@@ -841,6 +896,7 @@ def fetch_ashby_jobs(company):
     """Returns (status, jobs) -- see fetch_greenhouse_jobs for status values."""
     url = f"https://api.ashbyhq.com/posting-api/job-board/{company}?includeCompensation=false"
     try:
+        _ASHBY_LIMITER.wait()
         req = urllib.request.Request(url, headers={"User-Agent": "job-agent/1.0"})
         with urllib.request.urlopen(req, timeout=20) as resp:
             data = json.loads(resp.read().decode())
@@ -883,6 +939,7 @@ def fetch_lever_jobs(company):
     """Returns (status, jobs) -- see fetch_greenhouse_jobs for status values."""
     url = f"https://api.lever.co/v0/postings/{company}?mode=json"
     try:
+        _LEVER_LIMITER.wait()
         req = urllib.request.Request(url, headers={"User-Agent": "job-agent/1.0"})
         with urllib.request.urlopen(req, timeout=20) as resp:
             jobs = json.loads(resp.read().decode())
@@ -935,10 +992,18 @@ def fetch_workday_jobs(tenant):
     url = f"{base}/wday/cxs/{tenant}/{site}/jobs"
     normalized = []
     seen_paths = set()
+    first_request = True
     try:
         for keyword in TITLE_KEYWORDS:
             offset = 0
             for _ in range(3):  # cap pagination per keyword -- niche titles, not the full board
+                # Pacing is per-tenant only (this function call, this thread)
+                # -- Workday tenants are separate hosts, so this never blocks
+                # other tenants running concurrently in main()'s thread pool.
+                if first_request:
+                    first_request = False
+                else:
+                    time.sleep(_WORKDAY_REQUEST_DELAY)
                 payload = json.dumps({
                     "appliedFacets": {}, "limit": 20, "offset": offset, "searchText": keyword,
                 }).encode()
@@ -2160,16 +2225,38 @@ def main():
 
     company_status = load_company_status()
 
+    # Fetches run concurrently per source (see the RateLimiter/POOL_SIZES
+    # block above fetch_greenhouse_jobs for why each source gets its own
+    # pool size and per-host pacing). Only the network I/O happens off the
+    # main thread -- record_company_status/mark_seen/score_role all still
+    # run here on the main thread as each future completes, so the sqlite
+    # connection and the Claude API calls are never touched concurrently.
+    companies_by_source = {}
     for source, company in all_sources:
-        print(f"Checking {source}/{company}...")
-        status, jobs = fetchers[source](company)
-        record_company_status(company_status, source, company, status, len(jobs))
-        if status != "ok":
-            # 404 or network/timeout error -- couldn't verify this company.
+        companies_by_source.setdefault(source, []).append(company)
+
+    for source in ("greenhouse", "ashby", "lever", "workday"):
+        companies = companies_by_source.get(source, [])
+        if not companies:
             continue
-        # Track live IDs so previously-found roles that vanished get marked closed.
-        live_ids_by_company[(source, company)] = {job["id"] for job in jobs}
-        process_jobs(jobs, source)
+        pool_size = POOL_SIZES[source]
+        print(f"Checking {len(companies)} {source} companies (up to {pool_size} concurrent)...")
+        with concurrent.futures.ThreadPoolExecutor(max_workers=pool_size) as executor:
+            future_to_company = {executor.submit(fetchers[source], c): c for c in companies}
+            for future in concurrent.futures.as_completed(future_to_company):
+                company = future_to_company[future]
+                try:
+                    status, jobs = future.result()
+                except Exception as e:
+                    print(f"  ! [{source}] {company}: unexpected error - {e}")
+                    status, jobs = "error", []
+                record_company_status(company_status, source, company, status, len(jobs))
+                if status != "ok":
+                    # 404 or network/timeout error -- couldn't verify this company.
+                    continue
+                # Track live IDs so previously-found roles that vanished get marked closed.
+                live_ids_by_company[(source, company)] = {job["id"] for job in jobs}
+                process_jobs(jobs, source)
 
     save_company_status(company_status)
 
