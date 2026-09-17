@@ -16,9 +16,9 @@ present, otherwise the built-in TITLE_KEYWORDS default), rejects roles that
 aren't actually reachable from Chicago/Illinois (see location_matches()),
 scores each new match against your resume using the Claude API in a
 Jobscan-style breakdown (optional -- needs ANTHROPIC_API_KEY + RESUME_TEXT),
-dedupes against previously seen roles, hides anything you've already applied
-to (applied.txt), and writes results to matches.md and a filterable HTML
-dashboard (docs/index.html) in the repo.
+dedupes against previously seen roles, tracks what you've applied to and been
+rejected from (applications.csv), and writes results to matches.md and a
+filterable HTML dashboard (docs/index.html) in the repo.
 
 No email required. Check matches.md (or the dashboard) after each run.
 """
@@ -458,7 +458,7 @@ RESCORE_STORED = os.environ.get("RESCORE_STORED", "").strip().lower()
 DB_PATH = os.environ.get("DB_PATH", "seen_jobs.db")
 MATCHES_FILE = os.environ.get("MATCHES_FILE", "matches.md")
 COMPANY_STATUS_FILE = os.environ.get("COMPANY_STATUS_FILE", "company_status.csv")
-APPLIED_FILE = os.environ.get("APPLIED_FILE", "applied.txt")
+APPLICATIONS_FILE = os.environ.get("APPLICATIONS_FILE", "applications.csv")
 DISMISSED_FILE = os.environ.get("DISMISSED_FILE", "dismissed.txt")
 ARCHIVED_FILE = os.environ.get("ARCHIVED_FILE", "archived.txt")
 DASHBOARD_FILE = os.environ.get("DASHBOARD_FILE", os.path.join("docs", "index.html"))
@@ -538,12 +538,11 @@ def record_company_status(rows, platform, token, status, jobs_found):
 
 
 # ---------------------------------------------------------------------------
-# APPLIED / DISMISSED / ARCHIVED -- three flat text-file lists, all in the
-# same format: one entry per line, a full job URL matches just that role, a
-# bare company name/token matches every role from that company. All three
-# can also be edited by hand on GitHub, same as keywords.txt.
+# DISMISSED / ARCHIVED -- two flat text-file lists in the same format: one
+# entry per line, a full job URL matches just that role, a bare company
+# name/token matches every role from that company. Both can also be edited
+# by hand on GitHub, same as keywords.txt.
 #
-#   applied.txt   -- you applied. Hidden from matches.md/dashboard.
 #   dismissed.txt -- not interested, ever. Hidden AND the row is deleted
 #                    from seen_jobs.db, and process_jobs() refuses to
 #                    re-add it even if the board reposts the same URL.
@@ -552,6 +551,11 @@ def record_company_status(rows, platform, token, status, jobs_found):
 #                    stays in seen_jobs.db with an `archived` flag, and
 #                    matches.md/the dashboard render it in a separate
 #                    section instead of dropping it. (The "Archive" button.)
+#
+# Where you are in the hiring process is tracked separately, in
+# applications.csv -- see load_applications(). It's a CSV rather than a flat
+# list because it carries dates, and because applied and rejected are stages
+# of one pipeline rather than two independent flags.
 # ---------------------------------------------------------------------------
 
 def _load_entry_list(path):
@@ -566,8 +570,50 @@ def _load_entry_list(path):
     return entries
 
 
-def load_applied():
-    return _load_entry_list(APPLIED_FILE)
+def load_applications():
+    """Read applications.csv into {url: (applied_date, rejected_date)}.
+
+    This is the pipeline record the dashboard's Applied/Rejected checkboxes
+    write to. A missing or malformed row is skipped rather than failing the
+    run -- the file is edited by a browser over the API, so a partial write
+    should never be able to take the whole agent down.
+    """
+    applications = {}
+    if not os.path.exists(APPLICATIONS_FILE):
+        return applications
+    try:
+        with open(APPLICATIONS_FILE, newline="", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                url = (row.get("url") or "").strip()
+                if not url:
+                    continue
+                applications[url.lower()] = (
+                    (row.get("applied_date") or "").strip(),
+                    (row.get("rejected_date") or "").strip(),
+                )
+    except (OSError, csv.Error) as e:
+        print(f"  ! couldn't read {APPLICATIONS_FILE}: {e}")
+    return applications
+
+
+def apply_application_status(conn, applications):
+    """Mirror applications.csv onto the applied_date/rejected_date columns,
+    so matches.md and the dashboard can group by pipeline state. Clearing a
+    row in the CSV clears it here too."""
+    rows = conn.execute(
+        "SELECT job_id, url, applied_date, rejected_date FROM seen").fetchall()
+    changed = 0
+    for job_id, url, applied_date, rejected_date in rows:
+        want = applications.get((url or "").lower(), ("", ""))
+        have = (applied_date or "", rejected_date or "")
+        if have != want:
+            conn.execute(
+                "UPDATE seen SET applied_date = ?, rejected_date = ? WHERE job_id = ?",
+                (want[0], want[1], job_id))
+            changed += 1
+    if changed:
+        conn.commit()
+        print(f"Updated application status on {changed} match(es) per {APPLICATIONS_FILE}.")
 
 
 def load_dismissed():
@@ -584,10 +630,6 @@ def _matches_entry_list(match, entries):
     url = (match.get("url") or "").lower()
     company = (match.get("company") or "").lower()
     return url in entries or company in entries
-
-
-def is_applied(match, applied_entries):
-    return _matches_entry_list(match, applied_entries)
 
 
 def is_dismissed(match, dismissed_entries):
@@ -638,6 +680,12 @@ def init_db():
     if "score_detail" not in existing_cols:
         conn.execute("ALTER TABLE seen ADD COLUMN score_detail TEXT DEFAULT ''")
         print("  (migrated seen_jobs.db to add 'score_detail' column)")
+    if "applied_date" not in existing_cols:
+        conn.execute("ALTER TABLE seen ADD COLUMN applied_date TEXT DEFAULT ''")
+        print("  (migrated seen_jobs.db to add 'applied_date' column)")
+    if "rejected_date" not in existing_cols:
+        conn.execute("ALTER TABLE seen ADD COLUMN rejected_date TEXT DEFAULT ''")
+        print("  (migrated seen_jobs.db to add 'rejected_date' column)")
     if "description" not in existing_cols:
         conn.execute("ALTER TABLE seen ADD COLUMN description TEXT DEFAULT ''")
         print("  (migrated seen_jobs.db to add 'description' column)")
@@ -746,12 +794,14 @@ def get_all_matches(conn):
     """Return every role ever logged, most recently found first."""
     rows = conn.execute(
         """SELECT source, company, title, url, location, score, first_seen, status,
-                  closed_date, posted_date, matched_keyword, score_detail, archived
+                  closed_date, posted_date, matched_keyword, score_detail, archived,
+                  applied_date, rejected_date
            FROM seen ORDER BY first_seen DESC, company ASC"""
     ).fetchall()
     results = []
     for (source, company, title, url, location, score, first_seen, status,
-         closed_date, posted_date, matched_keyword, score_detail, archived) in rows:
+         closed_date, posted_date, matched_keyword, score_detail, archived,
+         applied_date, rejected_date) in rows:
         results.append({
             "source": source, "company": company, "title": title, "url": url,
             "location": location, "score": score, "first_seen": first_seen,
@@ -760,6 +810,8 @@ def get_all_matches(conn):
             "matched_keyword": matched_keyword or "",
             "score_detail": score_detail or "",
             "archived": bool(archived),
+            "applied_date": applied_date or "",
+            "rejected_date": rejected_date or "",
         })
     return results
 
@@ -1664,8 +1716,13 @@ def write_matches(all_matches):
         print("No matches at all. matches.md updated.")
         return
 
-    active = [m for m in all_matches if not m.get("archived")]
-    archived = [m for m in all_matches if m.get("archived")]
+    # Pipeline state wins over archived: a role you applied to belongs under
+    # Applied even if it was archived earlier.
+    rejected = [m for m in all_matches if m.get("rejected_date")]
+    applied = [m for m in all_matches if m.get("applied_date") and not m.get("rejected_date")]
+    remaining = [m for m in all_matches if not m.get("applied_date") and not m.get("rejected_date")]
+    active = [m for m in remaining if not m.get("archived")]
+    archived = [m for m in remaining if m.get("archived")]
     new_today = [m for m in active if m["first_seen"] == today]
     previously_viewed = [m for m in active if m["first_seen"] != today]
 
@@ -1706,17 +1763,23 @@ def write_matches(all_matches):
     lines += render_section(f"New ({len(new_today)})", new_today)
     lines += render_section(f"Previously Viewed ({len(previously_viewed)})", previously_viewed)
 
-    if archived:
-        # Collapsed by default via <details> -- archived roles are meant to
-        # be out of the way, not gone (that's what dismissed.txt is for).
-        lines.append(f"<details>\n<summary>Archived ({len(archived)})</summary>\n")
-        lines += render_roles(archived)
-        lines.append("</details>\n")
+    # Collapsed via <details> -- these are out of the way, not gone (that's
+    # what dismissed.txt is for).
+    for heading, roles in (
+        ("Applied", applied),
+        ("Rejected", rejected),
+        ("Archived", archived),
+    ):
+        if roles:
+            lines.append(f"<details>\n<summary>{heading} ({len(roles)})</summary>\n")
+            lines += render_roles(roles)
+            lines.append("</details>\n")
 
     with open(MATCHES_FILE, "w") as f:
         f.write("\n".join(lines))
     print(
         f"Wrote {len(new_today)} new, {len(previously_viewed)} previously-viewed, "
+        f"{len(applied)} applied, {len(rejected)} rejected, "
         f"and {len(archived)} archived match(es) to {MATCHES_FILE}."
     )
 
@@ -1757,6 +1820,8 @@ def write_dashboard(all_matches):
             "first_seen": m.get("first_seen") or "",
             "status": m.get("status") or "open",
             "archived": bool(m.get("archived")),
+            "applied_date": m.get("applied_date") or "",
+            "rejected_date": m.get("rejected_date") or "",
             "priority": is_priority_match(m.get("title", ""), m.get("location")),
             "in_network": is_in_network(m.get("company")),
         })
@@ -2440,6 +2505,7 @@ def main():
         prune_stale_matches(conn)
         remove_dismissed(conn, load_dismissed())
         apply_archived_flags(conn, load_archived())
+        apply_application_status(conn, load_applications())
         _write_outputs(conn)
         conn.close()
         print("Done.")
@@ -2450,6 +2516,7 @@ def main():
         prune_stale_matches(conn)
         remove_dismissed(conn, load_dismissed())
         apply_archived_flags(conn, load_archived())
+        apply_application_status(conn, load_applications())
         _write_outputs(conn)
         conn.close()
         print("Done.")
@@ -2463,6 +2530,7 @@ def main():
         prune_stale_matches(conn)
         remove_dismissed(conn, load_dismissed())
         apply_archived_flags(conn, load_archived())
+        apply_application_status(conn, load_applications())
         _write_outputs(conn)
         conn.close()
         print("Done.")
@@ -2603,6 +2671,7 @@ def main():
     prune_stale_matches(conn)
     remove_dismissed(conn, dismissed_entries)
     apply_archived_flags(conn, load_archived())
+    apply_application_status(conn, load_applications())
 
     _write_outputs(conn)
     conn.close()
@@ -2610,17 +2679,9 @@ def main():
 
 
 def _write_outputs(conn):
-    """Shared tail of a normal run and a RESCORE_ONLY run: apply
-    applied.txt, then regenerate matches.md and the dashboard."""
+    """Shared tail of every run mode: regenerate matches.md and the
+    dashboard from the current database state."""
     all_matches = get_all_matches(conn)
-    applied_entries = load_applied()
-    if applied_entries:
-        before = len(all_matches)
-        all_matches = [m for m in all_matches if not is_applied(m, applied_entries)]
-        hidden = before - len(all_matches)
-        if hidden:
-            print(f"Hid {hidden} match(es) already marked applied in {APPLIED_FILE}.")
-
     write_matches(all_matches)
     write_dashboard(all_matches)
 

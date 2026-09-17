@@ -1,5 +1,0 @@
-# One entry per line: a full job URL (hides just that role) or a company
-# name (hides every role from that company, matched against the "company"
-# field/token, e.g. "fourkites"). Lines starting with # are ignored.
-# Edit this file on GitHub right after you apply to a role -- the next run
-# will drop it from matches.md and the dashboard.
