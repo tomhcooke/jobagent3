@@ -14,6 +14,15 @@ on:
           (e.g. 2) to cheaply confirm live scoring still works end to end.
         required: false
         default: ""
+      rescore_only:
+        description: >-
+          Skip the full company/board scan and just fill in real scores for
+          matches already recorded but never scored (e.g. left over from a
+          max_score_calls-capped run). Much cheaper than a full run since it
+          only re-hits boards that actually have a pending match.
+        required: false
+        type: boolean
+        default: false
 
 # The default GITHUB_TOKEN is read-only unless a workflow explicitly asks
 # for more -- without this, "Commit updated results" below builds a commit
@@ -44,6 +53,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           RESUME_TEXT: ${{ secrets.RESUME_TEXT }}
           MAX_SCORE_CALLS: ${{ github.event.inputs.max_score_calls }}
+          RESCORE_ONLY: ${{ github.event.inputs.rescore_only }}
         run: python job_agent.py
 
       - name: Commit updated results

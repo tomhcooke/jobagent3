@@ -439,6 +439,12 @@ CLAUDE_MODEL = "claude-sonnet-5"
 _max_score_calls_raw = os.environ.get("MAX_SCORE_CALLS", "").strip()
 MAX_SCORE_CALLS = int(_max_score_calls_raw) if _max_score_calls_raw.isdigit() else None
 
+# When set, skip the full company/board scan entirely and only rescore
+# already-recorded matches that never got a real score (e.g. because
+# MAX_SCORE_CALLS capped a prior run, or scoring wasn't configured yet).
+# See rescore_pending().
+RESCORE_ONLY = os.environ.get("RESCORE_ONLY", "").strip().lower() in ("1", "true", "yes")
+
 DB_PATH = os.environ.get("DB_PATH", "seen_jobs.db")
 MATCHES_FILE = os.environ.get("MATCHES_FILE", "matches.md")
 COMPANY_STATUS_FILE = os.environ.get("COMPANY_STATUS_FILE", "company_status.csv")
@@ -1295,6 +1301,93 @@ JOB ({title} at {company}):
         return None, None
 
 
+def rescore_pending(conn, limit=None):
+    """Re-fetch and score every already-recorded match that never got a
+    real score (score_detail == '' -- found before scoring was configured,
+    or during a MAX_SCORE_CALLS-capped run). Doesn't touch genuinely new
+    postings; that's process_jobs()'s job via the normal full run.
+
+    Descriptions aren't stored anywhere (see score_role()'s docs), so this
+    re-fetches them -- but grouped by (source, company) or, for Workable's
+    cross-customer search, by the keyword that originally matched, so a
+    board with several pending rows is only hit once, not once per row.
+    Matches the right posting back by URL. A posting no longer found there
+    (closed/removed since) is left unscored rather than guessed at.
+    """
+    if not (ANTHROPIC_API_KEY and RESUME_TEXT):
+        print("Scoring isn't configured (missing ANTHROPIC_API_KEY/RESUME_TEXT) -- nothing to rescore.")
+        return 0
+
+    rows = conn.execute(
+        "SELECT job_id, source, company, title, url, matched_keyword FROM seen WHERE score_detail = ''"
+    ).fetchall()
+    if not rows:
+        print("No unscored matches to rescore.")
+        return 0
+
+    by_greenhouse, by_ashby, by_lever, by_workable_query = {}, {}, {}, {}
+    workday_rows = []
+    for job_id, source, company, title, url, matched_keyword in rows:
+        if source == "greenhouse":
+            by_greenhouse.setdefault(company, True)
+        elif source == "ashby":
+            by_ashby.setdefault(company, True)
+        elif source == "lever":
+            by_lever.setdefault(company, True)
+        elif source == "workable":
+            by_workable_query.setdefault(matched_keyword, True)
+        elif source == "workday":
+            workday_rows.append((company, url))
+
+    descriptions_by_url = {}
+
+    for company in by_greenhouse:
+        status, jobs = fetch_greenhouse_jobs(company)
+        if status == "ok":
+            descriptions_by_url.update({job["url"]: job["description"] for job in jobs})
+
+    for company in by_ashby:
+        status, jobs = fetch_ashby_jobs(company)
+        if status == "ok":
+            descriptions_by_url.update({job["url"]: job["description"] for job in jobs})
+
+    for company in by_lever:
+        status, jobs = fetch_lever_jobs(company)
+        if status == "ok":
+            descriptions_by_url.update({job["url"]: job["description"] for job in jobs})
+
+    for query in by_workable_query:
+        jobs = fetch_workable_search(query)
+        if jobs:
+            descriptions_by_url.update({job["url"]: job["description"] for job in jobs})
+
+    for company, url in workday_rows:
+        config = WORKDAY_COMPANIES.get(company)
+        if not config:
+            continue
+        prefix = f"https://{company}.{config['wd']}.myworkdayjobs.com/{config['site']}"
+        if url.startswith(prefix):
+            descriptions_by_url[url] = fetch_workday_job_description(company, url[len(prefix):])
+
+    rescored = 0
+    for job_id, source, company, title, url, matched_keyword in rows:
+        if limit is not None and rescored >= limit:
+            print(f"Rescoring capped at {limit} call(s); {len(rows) - rescored} left for next time.")
+            break
+        if url not in descriptions_by_url:
+            print(f"  ! rescore: couldn't find current posting for {title} at {company} ({source}) -- left unscored")
+            continue
+        score, detail = score_role(title, company, descriptions_by_url[url])
+        if score is None:
+            continue
+        conn.execute("UPDATE seen SET score = ?, score_detail = ? WHERE job_id = ?", (score, detail, job_id))
+        conn.commit()
+        rescored += 1
+        print(f"  + rescored [{score}%] {title} ({company}) [{source}]")
+
+    return rescored
+
+
 # ---------------------------------------------------------------------------
 # WRITE RESULTS -- markdown file and a static HTML dashboard, both in the repo
 # ---------------------------------------------------------------------------
@@ -1873,6 +1966,20 @@ render();
 
 def main():
     conn = init_db()
+
+    if RESCORE_ONLY:
+        # Skip the full company/board scan entirely -- just fill in real
+        # scores for matches already sitting in seen_jobs.db unscored.
+        rescored = rescore_pending(conn, limit=MAX_SCORE_CALLS)
+        print(f"Rescored {rescored} previously-unscored match(es).")
+        prune_stale_matches(conn)
+        remove_dismissed(conn, load_dismissed())
+        apply_archived_flags(conn, load_archived())
+        _write_outputs(conn)
+        conn.close()
+        print("Done.")
+        return
+
     total_checked = 0
     score_calls_made = 0
     live_ids_by_company = {}  # (source, company) -> set of job_ids seen this run
@@ -1982,6 +2089,14 @@ def main():
     remove_dismissed(conn, dismissed_entries)
     apply_archived_flags(conn, load_archived())
 
+    _write_outputs(conn)
+    conn.close()
+    print("Done.")
+
+
+def _write_outputs(conn):
+    """Shared tail of a normal run and a RESCORE_ONLY run: apply
+    applied.txt, then regenerate matches.md and the dashboard."""
     all_matches = get_all_matches(conn)
     applied_entries = load_applied()
     if applied_entries:
@@ -1993,8 +2108,6 @@ def main():
 
     write_matches(all_matches)
     write_dashboard(all_matches)
-    conn.close()
-    print("Done.")
 
 
 if __name__ == "__main__":
