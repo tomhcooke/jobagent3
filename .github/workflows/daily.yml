@@ -5,6 +5,15 @@ on:
     # Runs at 13:00 UTC daily = 8:00 AM Chicago (CDT) / 7:00 AM (CST)
     - cron: "0 13 * * *"
   workflow_dispatch:   # lets you trigger a run manually from the Actions tab
+    inputs:
+      max_score_calls:
+        description: >-
+          Cap on real Claude API calls this run. Leave blank for a normal,
+          fully-scored run. Set to 0 to test the rest of the pipeline
+          (fetch/filter/dashboard/commit) for free. Set to a small number
+          (e.g. 2) to cheaply confirm live scoring still works end to end.
+        required: false
+        default: ""
 
 # The default GITHUB_TOKEN is read-only unless a workflow explicitly asks
 # for more -- without this, "Commit updated results" below builds a commit
@@ -34,6 +43,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           RESUME_TEXT: ${{ secrets.RESUME_TEXT }}
+          MAX_SCORE_CALLS: ${{ github.event.inputs.max_score_calls }}
         run: python job_agent.py
 
       - name: Commit updated results

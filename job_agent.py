@@ -429,6 +429,16 @@ RESUME_TEXT = os.environ.get("RESUME_TEXT", "")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 CLAUDE_MODEL = "claude-sonnet-5"
 
+# Caps how many score_role() calls (i.e. real Claude API calls) a single run
+# will make -- unset/blank means unlimited (the normal daily-run behavior).
+# Set to a small number (or 0) when manually testing, e.g. to confirm the
+# rest of the pipeline (fetch/filter/dashboard/commit-and-push) works
+# without paying to score dozens of matches every test run. Jobs beyond the
+# cap still get added to matches.md, just unscored, exactly like running
+# with no ANTHROPIC_API_KEY at all.
+_max_score_calls_raw = os.environ.get("MAX_SCORE_CALLS", "").strip()
+MAX_SCORE_CALLS = int(_max_score_calls_raw) if _max_score_calls_raw.isdigit() else None
+
 DB_PATH = os.environ.get("DB_PATH", "seen_jobs.db")
 MATCHES_FILE = os.environ.get("MATCHES_FILE", "matches.md")
 COMPANY_STATUS_FILE = os.environ.get("COMPANY_STATUS_FILE", "company_status.csv")
@@ -1864,7 +1874,11 @@ render();
 def main():
     conn = init_db()
     total_checked = 0
+    score_calls_made = 0
     live_ids_by_company = {}  # (source, company) -> set of job_ids seen this run
+    scoring_enabled = bool(ANTHROPIC_API_KEY and RESUME_TEXT)
+    if scoring_enabled and MAX_SCORE_CALLS is not None:
+        print(f"Scoring capped at {MAX_SCORE_CALLS} call(s) this run (MAX_SCORE_CALLS set).")
 
     all_sources = (
         [("greenhouse", c) for c in GREENHOUSE_COMPANIES]
@@ -1883,7 +1897,7 @@ def main():
     dismissed_entries = load_dismissed()
 
     def process_jobs(jobs, source):
-        nonlocal total_checked
+        nonlocal total_checked, score_calls_made
         for job in jobs:
             title = job["title"]
             job_id = job["id"]
@@ -1904,16 +1918,24 @@ def main():
                 # reposts the exact same URL under a new job_id.
                 continue
 
-            description = job["description"]
-            if source == "workday" and not description and ANTHROPIC_API_KEY and RESUME_TEXT:
-                # Lazy fetch: only for a posting that's new and already
-                # passed every filter, so scoring has real text to work
-                # with instead of just the title (see
-                # fetch_workday_job_description() for why this isn't done
-                # for every posting the search step scans).
-                description = fetch_workday_job_description(job["company"], job.get("external_path", ""))
+            if scoring_enabled and MAX_SCORE_CALLS is not None and score_calls_made >= MAX_SCORE_CALLS:
+                # Cap reached -- still record the match (same as running with
+                # no ANTHROPIC_API_KEY at all), just skip the API call so a
+                # test run can't blow past the number of calls you asked for.
+                score, detail = None, None
+            else:
+                description = job["description"]
+                if source == "workday" and not description and scoring_enabled:
+                    # Lazy fetch: only for a posting that's new and already
+                    # passed every filter, so scoring has real text to work
+                    # with instead of just the title (see
+                    # fetch_workday_job_description() for why this isn't done
+                    # for every posting the search step scans).
+                    description = fetch_workday_job_description(job["company"], job.get("external_path", ""))
+                score, detail = score_role(title, job["company"], description)
+                if scoring_enabled:
+                    score_calls_made += 1
 
-            score, detail = score_role(title, job["company"], description)
             mark_seen(
                 conn, job_id, source, job["company"], title, url, location,
                 score or 0, job.get("posted_date", ""), matched[0], detail or "",
@@ -1951,6 +1973,9 @@ def main():
           f"{len(ASHBY_COMPANIES)} Ashby, {len(LEVER_COMPANIES)} Lever, "
           f"{len(WORKDAY_COMPANIES)} Workday companies, "
           f"and {len(workable_queries)} Workable searches.")
+    if scoring_enabled:
+        cap_note = f" (capped at {MAX_SCORE_CALLS})" if MAX_SCORE_CALLS is not None else ""
+        print(f"Made {score_calls_made} real scoring API call(s) this run{cap_note}.")
 
     update_closed_status(conn, live_ids_by_company)
     prune_stale_matches(conn)
