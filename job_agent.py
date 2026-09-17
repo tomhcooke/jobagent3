@@ -1587,7 +1587,7 @@ def write_dashboard(all_matches):
   tr.closed { opacity: 0.5; text-decoration: line-through; }
   tr.archived-row { opacity: 0.6; }
   tr.flash-archived td { text-decoration: line-through; background: rgba(88, 166, 255, 0.15); color: #79c0ff; transition: background 0.15s; }
-  tr.flash-deleted td { text-decoration: line-through; background: rgba(248, 81, 73, 0.15); color: #f85149; transition: background 0.15s; }
+  tr.pending-delete td { text-decoration: line-through; background: rgba(248, 81, 73, 0.15); color: #f85149; }
   .badge { display: inline-block; padding: 0.1rem 0.4rem; border-radius: 4px; background: #21262d; color: #c9d1d9; font-size: 0.75rem; }
   .network-badge { background: #1f3a5f; color: #79c0ff; }
   .score-detail { font-size: 0.75rem; color: #9198a1; }
@@ -1863,11 +1863,8 @@ async function deleteJob(job, btn, tr) {
       function (text) { return appendUniqueLine(text, job.url); },
       "Dismiss " + job.company + " - " + job.title + " via dashboard"
     );
-    if (tr) tr.classList.add("flash-deleted");
-    await sleep(600);
-    const idx = JOBS.indexOf(job);
-    if (idx !== -1) JOBS.splice(idx, 1);
-    setStatus("Deleted. Fully removed from seen_jobs.db on the next job_agent.py run.", "ok");
+    job._pending = "delete";
+    setStatus("Marked for deletion \\u2014 stays here struck through until the next job_agent.py run (scheduled or manual) actually removes it.", "ok");
     render();
   } catch (e) {
     setStatus("Couldn't delete: " + e.message, "error");
@@ -1880,6 +1877,7 @@ async function deleteJob(job, btn, tr) {
 function render() {
   const f = currentFilters();
   let rows = JOBS.filter(function (j) {
+    if (j._pending === "delete") return true;
     if (f.hideClosed && j.status === "closed") return false;
     if (f.hideArchived && j.archived) return false;
     if (f.networkOnly && !j.in_network) return false;
@@ -1910,6 +1908,7 @@ function render() {
     if (j.priority) tr.classList.add("priority");
     if (j.status === "closed") tr.classList.add("closed");
     if (j.archived) tr.classList.add("archived-row");
+    if (j._pending === "delete") tr.classList.add("pending-delete");
 
     const tdCompany = document.createElement("td");
     tdCompany.textContent = j.company;
@@ -1982,21 +1981,28 @@ function render() {
     const tdActions = document.createElement("td");
     tdActions.className = "actions-cell";
 
-    const archiveBtn = document.createElement("button");
-    archiveBtn.type = "button";
-    archiveBtn.className = "btn";
-    archiveBtn.textContent = j.archived ? "Unarchive" : "Archive";
-    archiveBtn.addEventListener("click", function () {
-      if (j.archived) unarchiveJob(j, archiveBtn); else archiveJob(j, archiveBtn, tr);
-    });
-    tdActions.appendChild(archiveBtn);
+    if (j._pending === "delete") {
+      const pendingLabel = document.createElement("span");
+      pendingLabel.className = "score-detail";
+      pendingLabel.textContent = "Pending delete (next run)";
+      tdActions.appendChild(pendingLabel);
+    } else {
+      const archiveBtn = document.createElement("button");
+      archiveBtn.type = "button";
+      archiveBtn.className = "btn";
+      archiveBtn.textContent = j.archived ? "Unarchive" : "Archive";
+      archiveBtn.addEventListener("click", function () {
+        if (j.archived) unarchiveJob(j, archiveBtn); else archiveJob(j, archiveBtn, tr);
+      });
+      tdActions.appendChild(archiveBtn);
 
-    const deleteBtn = document.createElement("button");
-    deleteBtn.type = "button";
-    deleteBtn.className = "btn btn-danger";
-    deleteBtn.textContent = "Delete";
-    deleteBtn.addEventListener("click", function () { deleteJob(j, deleteBtn, tr); });
-    tdActions.appendChild(deleteBtn);
+      const deleteBtn = document.createElement("button");
+      deleteBtn.type = "button";
+      deleteBtn.className = "btn btn-danger";
+      deleteBtn.textContent = "Delete";
+      deleteBtn.addEventListener("click", function () { deleteJob(j, deleteBtn, tr); });
+      tdActions.appendChild(deleteBtn);
+    }
 
     tr.appendChild(tdActions);
     tbody.appendChild(tr);
