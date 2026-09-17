@@ -1586,7 +1586,7 @@ def write_dashboard(all_matches):
   tr.priority td:first-child { border-left: 3px solid #2ea043; padding-left: 0.4rem; }
   tr.closed { opacity: 0.5; text-decoration: line-through; }
   tr.archived-row { opacity: 0.6; }
-  tr.flash-archived td { text-decoration: line-through; background: rgba(88, 166, 255, 0.15); color: #79c0ff; transition: background 0.15s; }
+  tr.pending-archive td { text-decoration: line-through; background: rgba(88, 166, 255, 0.15); color: #79c0ff; }
   tr.pending-delete td { text-decoration: line-through; background: rgba(248, 81, 73, 0.15); color: #f85149; }
   .badge { display: inline-block; padding: 0.1rem 0.4rem; border-radius: 4px; background: #21262d; color: #c9d1d9; font-size: 0.75rem; }
   .network-badge { background: #1f3a5f; color: #79c0ff; }
@@ -1808,10 +1808,6 @@ async function updateListFile(path, transform, commitMessage) {
 
 // --- Row actions -------------------------------------------------------
 
-function sleep(ms) {
-  return new Promise(function (resolve) { setTimeout(resolve, ms); });
-}
-
 async function archiveJob(job, btn, tr) {
   if (!getToken()) { setStatus("Add a GitHub token first (\\u2699 GitHub token above).", "error"); return; }
   btn.disabled = true;
@@ -1822,10 +1818,8 @@ async function archiveJob(job, btn, tr) {
       function (text) { return appendUniqueLine(text, job.url); },
       "Archive " + job.company + " - " + job.title + " via dashboard"
     );
-    if (tr) tr.classList.add("flash-archived");
-    await sleep(600);
-    job.archived = true;
-    setStatus("Archived. Fully applied on the next job_agent.py run.", "ok");
+    job._pending = "archive";
+    setStatus("Marked for archiving \\u2014 stays here struck through until the next job_agent.py run (scheduled or manual) actually applies it.", "ok");
     render();
   } catch (e) {
     setStatus("Couldn't archive: " + e.message, "error");
@@ -1844,6 +1838,7 @@ async function unarchiveJob(job, btn) {
       "Unarchive " + job.company + " - " + job.title + " via dashboard"
     );
     job.archived = false;
+    job._pending = null;
     setStatus("Unarchived. Fully applied on the next job_agent.py run.", "ok");
     render();
   } catch (e) {
@@ -1872,12 +1867,31 @@ async function deleteJob(job, btn, tr) {
   }
 }
 
+async function restoreJob(job, btn, tr) {
+  if (!getToken()) { setStatus("Add a GitHub token first (\\u2699 GitHub token above).", "error"); return; }
+  btn.disabled = true;
+  setStatus("Restoring \\u201c" + job.title + "\\u201d...");
+  try {
+    await updateListFile(
+      DISMISSED_PATH,
+      function (text) { return removeMatchingLine(text, job.url); },
+      "Restore " + job.company + " - " + job.title + " via dashboard"
+    );
+    job._pending = null;
+    setStatus("Restored.", "ok");
+    render();
+  } catch (e) {
+    setStatus("Couldn't restore: " + e.message, "error");
+    btn.disabled = false;
+  }
+}
+
 // --- Rendering -----------------------------------------------------------
 
 function render() {
   const f = currentFilters();
   let rows = JOBS.filter(function (j) {
-    if (j._pending === "delete") return true;
+    if (j._pending === "delete" || j._pending === "archive") return true;
     if (f.hideClosed && j.status === "closed") return false;
     if (f.hideArchived && j.archived) return false;
     if (f.networkOnly && !j.in_network) return false;
@@ -1909,6 +1923,7 @@ function render() {
     if (j.status === "closed") tr.classList.add("closed");
     if (j.archived) tr.classList.add("archived-row");
     if (j._pending === "delete") tr.classList.add("pending-delete");
+    if (j._pending === "archive") tr.classList.add("pending-archive");
 
     const tdCompany = document.createElement("td");
     tdCompany.textContent = j.company;
@@ -1982,10 +1997,19 @@ function render() {
     tdActions.className = "actions-cell";
 
     if (j._pending === "delete") {
-      const pendingLabel = document.createElement("span");
-      pendingLabel.className = "score-detail";
-      pendingLabel.textContent = "Pending delete (next run)";
-      tdActions.appendChild(pendingLabel);
+      const restoreBtn = document.createElement("button");
+      restoreBtn.type = "button";
+      restoreBtn.className = "btn";
+      restoreBtn.textContent = "Restore";
+      restoreBtn.addEventListener("click", function () { restoreJob(j, restoreBtn, tr); });
+      tdActions.appendChild(restoreBtn);
+    } else if (j._pending === "archive") {
+      const undoArchiveBtn = document.createElement("button");
+      undoArchiveBtn.type = "button";
+      undoArchiveBtn.className = "btn";
+      undoArchiveBtn.textContent = "Unarchive";
+      undoArchiveBtn.addEventListener("click", function () { unarchiveJob(j, undoArchiveBtn); });
+      tdActions.appendChild(undoArchiveBtn);
     } else {
       const archiveBtn = document.createElement("button");
       archiveBtn.type = "button";
