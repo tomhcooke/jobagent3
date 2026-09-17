@@ -1,0 +1,8 @@
+# One entry per line: a full job URL (hides just that role, permanently --
+# it won't be re-added even if the board reposts the exact same URL) or a
+# company name (hides every role from that company, permanently). Lines
+# starting with # are ignored.
+#
+# You normally won't need to edit this by hand -- the dashboard's "Delete"
+# button appends to this file for you via the GitHub API. It's here for
+# manual edits too, same as applied.txt/keywords.txt.

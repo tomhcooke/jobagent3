@@ -433,7 +433,16 @@ DB_PATH = os.environ.get("DB_PATH", "seen_jobs.db")
 MATCHES_FILE = os.environ.get("MATCHES_FILE", "matches.md")
 COMPANY_STATUS_FILE = os.environ.get("COMPANY_STATUS_FILE", "company_status.csv")
 APPLIED_FILE = os.environ.get("APPLIED_FILE", "applied.txt")
+DISMISSED_FILE = os.environ.get("DISMISSED_FILE", "dismissed.txt")
+ARCHIVED_FILE = os.environ.get("ARCHIVED_FILE", "archived.txt")
 DASHBOARD_FILE = os.environ.get("DASHBOARD_FILE", os.path.join("docs", "index.html"))
+
+# GitHub Actions sets these automatically during a workflow run -- used only
+# to tell the dashboard's "Archive"/"Delete" buttons which repo/branch to
+# write dismissed.txt/archived.txt entries to via the GitHub API. Falls back
+# to this repo's own coordinates when run outside Actions (e.g. locally).
+GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "tomhcooke/jobagent3")
+GITHUB_BRANCH = os.environ.get("GITHUB_REF_NAME", "main")
 
 COMPANY_STATUS_FIELDS = [
     "company", "token", "platform", "in_network", "source",
@@ -503,17 +512,27 @@ def record_company_status(rows, platform, token, status, jobs_found):
 
 
 # ---------------------------------------------------------------------------
-# APPLIED -- suppress roles you've already applied to. A full job URL hides
-# just that role; a bare company name hides every role from that company.
-# Applies to both matches.md and the dashboard, so once you mark something
-# applied it disappears from every view, not just one.
+# APPLIED / DISMISSED / ARCHIVED -- three flat text-file lists, all in the
+# same format: one entry per line, a full job URL matches just that role, a
+# bare company name/token matches every role from that company. All three
+# can also be edited by hand on GitHub, same as keywords.txt.
+#
+#   applied.txt   -- you applied. Hidden from matches.md/dashboard.
+#   dismissed.txt -- not interested, ever. Hidden AND the row is deleted
+#                    from seen_jobs.db, and process_jobs() refuses to
+#                    re-add it even if the board reposts the same URL.
+#                    (This is the "Delete" dashboard button.)
+#   archived.txt  -- out of the main list, but still on record. The row
+#                    stays in seen_jobs.db with an `archived` flag, and
+#                    matches.md/the dashboard render it in a separate
+#                    section instead of dropping it. (The "Archive" button.)
 # ---------------------------------------------------------------------------
 
-def load_applied():
+def _load_entry_list(path):
     entries = set()
-    if not os.path.exists(APPLIED_FILE):
+    if not os.path.exists(path):
         return entries
-    with open(APPLIED_FILE, encoding="utf-8") as f:
+    with open(path, encoding="utf-8") as f:
         for line in f:
             line = line.strip()
             if line and not line.startswith("#"):
@@ -521,12 +540,32 @@ def load_applied():
     return entries
 
 
-def is_applied(match, applied_entries):
-    if not applied_entries:
+def load_applied():
+    return _load_entry_list(APPLIED_FILE)
+
+
+def load_dismissed():
+    return _load_entry_list(DISMISSED_FILE)
+
+
+def load_archived():
+    return _load_entry_list(ARCHIVED_FILE)
+
+
+def _matches_entry_list(match, entries):
+    if not entries:
         return False
     url = (match.get("url") or "").lower()
     company = (match.get("company") or "").lower()
-    return url in applied_entries or company in applied_entries
+    return url in entries or company in entries
+
+
+def is_applied(match, applied_entries):
+    return _matches_entry_list(match, applied_entries)
+
+
+def is_dismissed(match, dismissed_entries):
+    return _matches_entry_list(match, dismissed_entries)
 
 
 # ---------------------------------------------------------------------------
@@ -573,6 +612,9 @@ def init_db():
     if "score_detail" not in existing_cols:
         conn.execute("ALTER TABLE seen ADD COLUMN score_detail TEXT DEFAULT ''")
         print("  (migrated seen_jobs.db to add 'score_detail' column)")
+    if "archived" not in existing_cols:
+        conn.execute("ALTER TABLE seen ADD COLUMN archived INTEGER DEFAULT 0")
+        print("  (migrated seen_jobs.db to add 'archived' column)")
     conn.commit()
     return conn
 
@@ -636,16 +678,50 @@ def prune_stale_matches(conn):
         print(f"Pruned {len(stale_ids)} stale match(es) that no longer pass the current filters.")
 
 
+def remove_dismissed(conn, dismissed_entries):
+    """Delete any row already sitting in seen_jobs.db that matches
+    dismissed.txt -- covers a job dismissed via the dashboard's Delete
+    button after it was already recorded on a prior run. process_jobs()
+    separately refuses to re-insert a dismissed job going forward."""
+    if not dismissed_entries:
+        return
+    rows = conn.execute("SELECT job_id, url, company FROM seen").fetchall()
+    dismissed_ids = [
+        job_id for job_id, url, company in rows
+        if _matches_entry_list({"url": url, "company": company}, dismissed_entries)
+    ]
+    if dismissed_ids:
+        conn.executemany("DELETE FROM seen WHERE job_id = ?", [(jid,) for jid in dismissed_ids])
+        conn.commit()
+        print(f"Removed {len(dismissed_ids)} dismissed match(es) per {DISMISSED_FILE}.")
+
+
+def apply_archived_flags(conn, archived_entries):
+    """Flip the `archived` column on for any row matching archived.txt, and
+    back off for anything that's since been removed from that file (e.g. you
+    changed your mind and deleted the line by hand)."""
+    rows = conn.execute("SELECT job_id, url, company, archived FROM seen").fetchall()
+    changed = 0
+    for job_id, url, company, archived in rows:
+        should_be = 1 if _matches_entry_list({"url": url, "company": company}, archived_entries) else 0
+        if (archived or 0) != should_be:
+            conn.execute("UPDATE seen SET archived = ? WHERE job_id = ?", (should_be, job_id))
+            changed += 1
+    if changed:
+        conn.commit()
+        print(f"Updated archived flag on {changed} match(es) per {ARCHIVED_FILE}.")
+
+
 def get_all_matches(conn):
     """Return every role ever logged, most recently found first."""
     rows = conn.execute(
         """SELECT source, company, title, url, location, score, first_seen, status,
-                  closed_date, posted_date, matched_keyword, score_detail
+                  closed_date, posted_date, matched_keyword, score_detail, archived
            FROM seen ORDER BY first_seen DESC, company ASC"""
     ).fetchall()
     results = []
     for (source, company, title, url, location, score, first_seen, status,
-         closed_date, posted_date, matched_keyword, score_detail) in rows:
+         closed_date, posted_date, matched_keyword, score_detail, archived) in rows:
         results.append({
             "source": source, "company": company, "title": title, "url": url,
             "location": location, "score": score, "first_seen": first_seen,
@@ -653,6 +729,7 @@ def get_all_matches(conn):
             "posted_date": posted_date or "",
             "matched_keyword": matched_keyword or "",
             "score_detail": score_detail or "",
+            "archived": bool(archived),
         })
     return results
 
@@ -1213,14 +1290,15 @@ def write_matches(all_matches):
         print("No matches at all. matches.md updated.")
         return
 
-    new_today = [m for m in all_matches if m["first_seen"] == today]
-    previously_viewed = [m for m in all_matches if m["first_seen"] != today]
+    active = [m for m in all_matches if not m.get("archived")]
+    archived = [m for m in all_matches if m.get("archived")]
+    new_today = [m for m in active if m["first_seen"] == today]
+    previously_viewed = [m for m in active if m["first_seen"] != today]
 
-    def render_section(heading, roles):
-        lines = [f"## {heading}\n"]
+    def render_roles(roles):
         if not roles:
-            lines.append("*Nothing here.*\n")
-            return lines
+            return ["*Nothing here.*\n"]
+        lines = []
         sort_key = lambda x: (
             not is_priority_match(x["title"], x.get("location")),
             -(x["score"] or 0),
@@ -1244,20 +1322,46 @@ def write_matches(all_matches):
             lines.append("")
         return lines
 
+    def render_section(heading, roles):
+        return [f"## {heading}\n"] + render_roles(roles)
+
     lines = [f"# Job Matches\n", f"Last checked: {timestamp}\n"]
     lines += render_section(f"New ({len(new_today)})", new_today)
     lines += render_section(f"Previously Viewed ({len(previously_viewed)})", previously_viewed)
 
+    if archived:
+        # Collapsed by default via <details> -- archived roles are meant to
+        # be out of the way, not gone (that's what dismissed.txt is for).
+        lines.append(f"<details>\n<summary>Archived ({len(archived)})</summary>\n")
+        lines += render_roles(archived)
+        lines.append("</details>\n")
+
     with open(MATCHES_FILE, "w") as f:
         f.write("\n".join(lines))
-    print(f"Wrote {len(new_today)} new and {len(previously_viewed)} previously-viewed match(es) to {MATCHES_FILE}.")
+    print(
+        f"Wrote {len(new_today)} new, {len(previously_viewed)} previously-viewed, "
+        f"and {len(archived)} archived match(es) to {MATCHES_FILE}."
+    )
 
 
 def write_dashboard(all_matches):
     """Self-contained HTML dashboard (no build step) with client-side search,
-    filtering, and sorting. All job data is embedded as JSON and rendered
-    with textContent/attribute setters (never innerHTML on external text) so
-    a job title or company name from a job board can't inject markup."""
+    filtering, sorting, and per-row Archive/Delete buttons. All job data is
+    embedded as JSON and rendered with textContent/attribute setters (never
+    innerHTML on external text) so a job title or company name from a job
+    board can't inject markup.
+
+    Archive/Delete write DIRECTLY to this GitHub repo via the REST API,
+    using a fine-grained personal access token the viewer pastes in once
+    (stored only in that browser's localStorage -- never sent anywhere but
+    api.github.com). Archive appends the job's URL to archived.txt; Delete
+    appends it to dismissed.txt. Either way, the actual seen_jobs.db/
+    matches.md update happens on the next real run of job_agent.py (the
+    daily workflow, or triggered manually) -- the button click just commits
+    the instruction; this page also removes/flags the row immediately in
+    THIS browser tab so it doesn't require waiting for that to feel like it
+    worked.
+    """
     out_dir = os.path.dirname(DASHBOARD_FILE)
     if out_dir:
         os.makedirs(out_dir, exist_ok=True)
@@ -1275,6 +1379,7 @@ def write_dashboard(all_matches):
             "posted_date": m.get("posted_date") or "unknown",
             "first_seen": m.get("first_seen") or "",
             "status": m.get("status") or "open",
+            "archived": bool(m.get("archived")),
             "priority": is_priority_match(m.get("title", ""), m.get("location")),
         })
 
@@ -1283,6 +1388,10 @@ def write_dashboard(all_matches):
     jobs_json = json.dumps(records).replace("</", "<\\/")
     sources = sorted({r["source"] for r in records} | {"greenhouse", "ashby", "lever", "workday", "workable"})
     sources_json = json.dumps(sources)
+    repo_json = json.dumps(GITHUB_REPO)
+    branch_json = json.dumps(GITHUB_BRANCH)
+    dismissed_path_json = json.dumps(DISMISSED_FILE)
+    archived_path_json = json.dumps(ARCHIVED_FILE)
 
     html_doc = """<!doctype html>
 <html lang="en">
@@ -1292,28 +1401,42 @@ def write_dashboard(all_matches):
 <title>Job Matches Dashboard</title>
 <style>
   :root { color-scheme: light dark; }
-  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; padding: 1.5rem; max-width: 1100px; margin-inline: auto; }
+  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; padding: 1.5rem; max-width: 1200px; margin-inline: auto; }
   h1 { font-size: 1.4rem; margin-bottom: 0.25rem; }
   .meta { color: #666; font-size: 0.85rem; margin-bottom: 1rem; }
-  .controls { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+  .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin-bottom: 1rem; }
   .controls input, .controls select { padding: 0.4rem 0.6rem; font-size: 0.9rem; }
   .controls input[type="text"] { flex: 1 1 220px; }
+  button { font: inherit; cursor: pointer; }
+  .btn { padding: 0.3rem 0.6rem; font-size: 0.8rem; border-radius: 4px; border: 1px solid #ccc; background: #f7f7f7; }
+  .btn:hover { background: #eee; }
+  .btn:disabled { opacity: 0.5; cursor: default; }
+  .btn-danger { border-color: #d33; color: #d33; }
+  .btn-danger:hover { background: #fde; }
   table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
   th, td { text-align: left; padding: 0.5rem 0.6rem; border-bottom: 1px solid #ddd; vertical-align: top; }
   th { cursor: pointer; user-select: none; white-space: nowrap; }
   tr.priority td:first-child { border-left: 3px solid #2a7; padding-left: 0.4rem; }
   tr.closed { opacity: 0.5; text-decoration: line-through; }
+  tr.archived-row { opacity: 0.6; }
   .badge { display: inline-block; padding: 0.1rem 0.4rem; border-radius: 4px; background: #eee; font-size: 0.75rem; }
   .score-detail { font-size: 0.75rem; color: #666; }
   a.title-link { color: inherit; }
   #count { color: #666; font-size: 0.85rem; margin-bottom: 0.5rem; }
+  .actions-cell { display: flex; gap: 0.35rem; white-space: nowrap; }
+  #settingsPanel { display: none; border: 1px solid #ccc; border-radius: 6px; padding: 0.75rem; margin-bottom: 1rem; font-size: 0.85rem; max-width: 520px; }
+  #settingsPanel input[type="password"] { width: 100%; padding: 0.4rem; margin: 0.4rem 0; box-sizing: border-box; }
+  #status { font-size: 0.85rem; margin-bottom: 0.75rem; min-height: 1.2em; }
+  #status.error { color: #d33; }
+  #status.ok { color: #2a7; }
 </style>
 </head>
 <body>
 <h1>Job Matches Dashboard</h1>
-<div class="meta">Generated by job_agent.py -- edit keywords.txt / applied.txt on GitHub to change what shows up here.</div>
+<div class="meta">Generated by job_agent.py -- edit keywords.txt / applied.txt on GitHub to change what shows up here. Use Archive/Delete below to manage roles from here directly.</div>
 
 <div class="controls">
+  <button class="btn" id="settingsToggle" type="button">&#9881; GitHub token</button>
   <input type="text" id="search" placeholder="Search title or company...">
   <select id="sourceFilter"><option value="">All sources</option></select>
   <select id="minScore">
@@ -1323,8 +1446,25 @@ def write_dashboard(all_matches):
     <option value="85">85%+</option>
   </select>
   <label><input type="checkbox" id="hideClosed" checked> Hide closed</label>
+  <label><input type="checkbox" id="hideArchived" checked> Hide archived</label>
 </div>
 
+<div id="settingsPanel">
+  <div>
+    Archive/Delete write straight to this repo (<code id="repoName"></code>) via the GitHub API. That needs a
+    <strong>fine-grained personal access token</strong> scoped to <em>only this repo</em>, with
+    <strong>Contents: Read and write</strong> permission and nothing else. Create one at
+    <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">github.com/settings/personal-access-tokens/new</a>.
+    It's stored only in this browser (localStorage) -- never sent anywhere but api.github.com.
+  </div>
+  <input type="password" id="tokenInput" placeholder="github_pat_...">
+  <div class="actions-cell">
+    <button class="btn" id="saveToken" type="button">Save</button>
+    <button class="btn btn-danger" id="clearToken" type="button">Clear saved token</button>
+  </div>
+</div>
+
+<div id="status"></div>
 <div id="count"></div>
 <table>
   <thead>
@@ -1336,6 +1476,7 @@ def write_dashboard(all_matches):
       <th data-key="score">Score</th>
       <th data-key="posted_date">Posted</th>
       <th data-key="first_seen">Added</th>
+      <th>Actions</th>
     </tr>
   </thead>
   <tbody id="rows"></tbody>
@@ -1344,6 +1485,13 @@ def write_dashboard(all_matches):
 <script>
 const JOBS = __JOBS_JSON__;
 const SOURCES = __SOURCES_JSON__;
+const GITHUB_REPO = __REPO_JSON__;
+const GITHUB_BRANCH = __BRANCH_JSON__;
+const DISMISSED_PATH = __DISMISSED_PATH_JSON__;
+const ARCHIVED_PATH = __ARCHIVED_PATH_JSON__;
+const TOKEN_KEY = "jobagent_gh_pat";
+
+document.getElementById("repoName").textContent = GITHUB_REPO;
 
 const sourceFilter = document.getElementById("sourceFilter");
 for (const s of SOURCES) {
@@ -1356,19 +1504,203 @@ for (const s of SOURCES) {
 let sortKey = "score";
 let sortDir = -1;
 
+function getToken() {
+  try { return localStorage.getItem(TOKEN_KEY) || ""; } catch (e) { return ""; }
+}
+function setToken(t) {
+  try { localStorage.setItem(TOKEN_KEY, t); } catch (e) { /* private window etc -- token just won't persist */ }
+}
+function clearToken() {
+  try { localStorage.removeItem(TOKEN_KEY); } catch (e) {}
+}
+
+const settingsToggle = document.getElementById("settingsToggle");
+const settingsPanel = document.getElementById("settingsPanel");
+const tokenInput = document.getElementById("tokenInput");
+settingsToggle.addEventListener("click", function () {
+  settingsPanel.style.display = settingsPanel.style.display === "block" ? "none" : "block";
+  tokenInput.value = getToken();
+});
+document.getElementById("saveToken").addEventListener("click", function () {
+  setToken(tokenInput.value.trim());
+  setStatus("Token saved to this browser.", "ok");
+  settingsPanel.style.display = "none";
+});
+document.getElementById("clearToken").addEventListener("click", function () {
+  clearToken();
+  tokenInput.value = "";
+  setStatus("Token cleared.", "ok");
+});
+
+function setStatus(msg, kind) {
+  const el = document.getElementById("status");
+  el.textContent = msg || "";
+  el.className = kind || "";
+}
+
 function currentFilters() {
   return {
     search: document.getElementById("search").value.trim().toLowerCase(),
     source: sourceFilter.value,
     minScore: parseInt(document.getElementById("minScore").value, 10) || 0,
     hideClosed: document.getElementById("hideClosed").checked,
+    hideArchived: document.getElementById("hideArchived").checked,
   };
 }
+
+// --- GitHub Contents API helpers -------------------------------------------
+
+async function ghGetFile(path) {
+  const token = getToken();
+  const resp = await fetch(
+    "https://api.github.com/repos/" + GITHUB_REPO + "/contents/" + path + "?ref=" + GITHUB_BRANCH,
+    { headers: { Authorization: "Bearer " + token, Accept: "application/vnd.github+json" } }
+  );
+  if (resp.status === 404) return { text: "", sha: null };
+  if (!resp.ok) {
+    const body = await resp.json().catch(function () { return {}; });
+    throw new Error(body.message || ("GitHub GET failed (" + resp.status + ")"));
+  }
+  const data = await resp.json();
+  const bytes = atob((data.content || "").replace(/\\n/g, ""));
+  let text;
+  try {
+    text = decodeURIComponent(escape(bytes));
+  } catch (e) {
+    text = bytes;
+  }
+  return { text: text, sha: data.sha };
+}
+
+async function ghPutFile(path, text, sha, message) {
+  const token = getToken();
+  const encoded = btoa(unescape(encodeURIComponent(text)));
+  const body = { message: message, content: encoded, branch: GITHUB_BRANCH };
+  if (sha) body.sha = sha;
+  const resp = await fetch(
+    "https://api.github.com/repos/" + GITHUB_REPO + "/contents/" + path,
+    {
+      method: "PUT",
+      headers: {
+        Authorization: "Bearer " + token,
+        Accept: "application/vnd.github+json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(body),
+    }
+  );
+  if (!resp.ok) {
+    const errBody = await resp.json().catch(function () { return {}; });
+    const err = new Error(errBody.message || ("GitHub PUT failed (" + resp.status + ")"));
+    err.status = resp.status;
+    throw err;
+  }
+}
+
+function appendUniqueLine(text, line) {
+  const norm = line.trim().toLowerCase();
+  const existing = text.split("\\n").map(function (l) { return l.trim().toLowerCase(); });
+  if (existing.indexOf(norm) !== -1) return text;
+  const sep = text.length === 0 || text.endsWith("\\n") ? "" : "\\n";
+  return text + sep + line.trim() + "\\n";
+}
+
+function removeMatchingLine(text, line) {
+  const norm = line.trim().toLowerCase();
+  const kept = text.split("\\n").filter(function (l) {
+    const t = l.trim();
+    return t === "" || t.startsWith("#") || t.toLowerCase() !== norm;
+  });
+  return kept.join("\\n");
+}
+
+async function updateListFile(path, transform, commitMessage) {
+  let attempt = 0;
+  while (true) {
+    attempt += 1;
+    const current = await ghGetFile(path);
+    const next = transform(current.text);
+    try {
+      await ghPutFile(path, next, current.sha, commitMessage);
+      return;
+    } catch (e) {
+      // 409/422 usually means the file's sha moved between our GET and PUT
+      // (e.g. another tab, or job_agent.py itself, committed in between).
+      // Refetch and retry once; anything else (bad token, etc.) surfaces.
+      if ((e.status === 409 || e.status === 422) && attempt < 2) continue;
+      throw e;
+    }
+  }
+}
+
+// --- Row actions -------------------------------------------------------
+
+async function archiveJob(job, btn) {
+  if (!getToken()) { setStatus("Add a GitHub token first (\\u2699 GitHub token above).", "error"); return; }
+  btn.disabled = true;
+  setStatus("Archiving \\u201c" + job.title + "\\u201d...");
+  try {
+    await updateListFile(
+      ARCHIVED_PATH,
+      function (text) { return appendUniqueLine(text, job.url); },
+      "Archive " + job.company + " - " + job.title + " via dashboard"
+    );
+    job.archived = true;
+    setStatus("Archived. Fully applied on the next job_agent.py run.", "ok");
+    render();
+  } catch (e) {
+    setStatus("Couldn't archive: " + e.message, "error");
+    btn.disabled = false;
+  }
+}
+
+async function unarchiveJob(job, btn) {
+  if (!getToken()) { setStatus("Add a GitHub token first (\\u2699 GitHub token above).", "error"); return; }
+  btn.disabled = true;
+  setStatus("Unarchiving \\u201c" + job.title + "\\u201d...");
+  try {
+    await updateListFile(
+      ARCHIVED_PATH,
+      function (text) { return removeMatchingLine(text, job.url); },
+      "Unarchive " + job.company + " - " + job.title + " via dashboard"
+    );
+    job.archived = false;
+    setStatus("Unarchived. Fully applied on the next job_agent.py run.", "ok");
+    render();
+  } catch (e) {
+    setStatus("Couldn't unarchive: " + e.message, "error");
+    btn.disabled = false;
+  }
+}
+
+async function deleteJob(job, btn) {
+  if (!getToken()) { setStatus("Add a GitHub token first (\\u2699 GitHub token above).", "error"); return; }
+  if (!confirm("Delete \\u201c" + job.title + "\\u201d at " + job.company + "? This hides it for good -- it won't be re-added even if the board reposts it.")) return;
+  btn.disabled = true;
+  setStatus("Deleting \\u201c" + job.title + "\\u201d...");
+  try {
+    await updateListFile(
+      DISMISSED_PATH,
+      function (text) { return appendUniqueLine(text, job.url); },
+      "Dismiss " + job.company + " - " + job.title + " via dashboard"
+    );
+    const idx = JOBS.indexOf(job);
+    if (idx !== -1) JOBS.splice(idx, 1);
+    setStatus("Deleted. Fully removed from seen_jobs.db on the next job_agent.py run.", "ok");
+    render();
+  } catch (e) {
+    setStatus("Couldn't delete: " + e.message, "error");
+    btn.disabled = false;
+  }
+}
+
+// --- Rendering -----------------------------------------------------------
 
 function render() {
   const f = currentFilters();
   let rows = JOBS.filter(function (j) {
     if (f.hideClosed && j.status === "closed") return false;
+    if (f.hideArchived && j.archived) return false;
     if (f.source && j.source !== f.source) return false;
     if (f.minScore && (j.score || 0) < f.minScore) return false;
     if (f.search) {
@@ -1395,6 +1727,7 @@ function render() {
     const tr = document.createElement("tr");
     if (j.priority) tr.classList.add("priority");
     if (j.status === "closed") tr.classList.add("closed");
+    if (j.archived) tr.classList.add("archived-row");
 
     const tdCompany = document.createElement("td");
     tdCompany.textContent = j.company;
@@ -1416,6 +1749,12 @@ function render() {
       tdTitle.appendChild(a);
     } else {
       tdTitle.textContent = j.title;
+    }
+    if (j.archived) {
+      const tag = document.createElement("div");
+      tag.className = "score-detail";
+      tag.textContent = "Archived";
+      tdTitle.appendChild(tag);
     }
     if (j.score_detail) {
       const detail = document.createElement("div");
@@ -1448,6 +1787,26 @@ function render() {
     tdAdded.textContent = j.first_seen;
     tr.appendChild(tdAdded);
 
+    const tdActions = document.createElement("td");
+    tdActions.className = "actions-cell";
+
+    const archiveBtn = document.createElement("button");
+    archiveBtn.type = "button";
+    archiveBtn.className = "btn";
+    archiveBtn.textContent = j.archived ? "Unarchive" : "Archive";
+    archiveBtn.addEventListener("click", function () {
+      if (j.archived) unarchiveJob(j, archiveBtn); else archiveJob(j, archiveBtn);
+    });
+    tdActions.appendChild(archiveBtn);
+
+    const deleteBtn = document.createElement("button");
+    deleteBtn.type = "button";
+    deleteBtn.className = "btn btn-danger";
+    deleteBtn.textContent = "Delete";
+    deleteBtn.addEventListener("click", function () { deleteJob(j, deleteBtn); });
+    tdActions.appendChild(deleteBtn);
+
+    tr.appendChild(tdActions);
     tbody.appendChild(tr);
   }
 }
@@ -1465,7 +1824,7 @@ document.querySelectorAll("th[data-key]").forEach(function (th) {
   });
 });
 
-["search", "sourceFilter", "minScore", "hideClosed"].forEach(function (id) {
+["search", "sourceFilter", "minScore", "hideClosed", "hideArchived"].forEach(function (id) {
   document.getElementById(id).addEventListener("input", render);
 });
 
@@ -1474,7 +1833,14 @@ render();
 </body>
 </html>
 """
-    html_doc = html_doc.replace("__JOBS_JSON__", jobs_json).replace("__SOURCES_JSON__", sources_json)
+    html_doc = (
+        html_doc.replace("__JOBS_JSON__", jobs_json)
+        .replace("__SOURCES_JSON__", sources_json)
+        .replace("__REPO_JSON__", repo_json)
+        .replace("__BRANCH_JSON__", branch_json)
+        .replace("__DISMISSED_PATH_JSON__", dismissed_path_json)
+        .replace("__ARCHIVED_PATH_JSON__", archived_path_json)
+    )
 
     with open(DASHBOARD_FILE, "w", encoding="utf-8") as f:
         f.write(html_doc)
@@ -1504,6 +1870,8 @@ def main():
         "workday": fetch_workday_jobs,
     }
 
+    dismissed_entries = load_dismissed()
+
     def process_jobs(jobs, source):
         nonlocal total_checked
         for job in jobs:
@@ -1519,6 +1887,11 @@ def main():
             if not location_matches(location, title, url):
                 continue
             if already_seen(conn, job_id):
+                continue
+            if is_dismissed({"url": url, "company": job["company"]}, dismissed_entries):
+                # Dismissed via the dashboard's Delete button (or by hand in
+                # dismissed.txt) -- never re-add it, even if the board
+                # reposts the exact same URL under a new job_id.
                 continue
 
             description = job["description"]
@@ -1571,6 +1944,8 @@ def main():
 
     update_closed_status(conn, live_ids_by_company)
     prune_stale_matches(conn)
+    remove_dismissed(conn, dismissed_entries)
+    apply_archived_flags(conn, load_archived())
 
     all_matches = get_all_matches(conn)
     applied_entries = load_applied()

@@ -1,0 +1,11 @@
+# One entry per line: a full job URL (archives just that role) or a
+# company name (archives every role from that company). Lines starting
+# with # are ignored.
+#
+# Archived roles stay in seen_jobs.db and matches.md (in a collapsed
+# "Archived" section) instead of being deleted -- use dismissed.txt
+# instead if you want a role gone for good.
+#
+# You normally won't need to edit this by hand -- the dashboard's
+# "Archive"/"Unarchive" buttons manage this file for you via the GitHub
+# API. It's here for manual edits too, same as applied.txt/keywords.txt.
