@@ -450,6 +450,10 @@ RESCORE_ONLY = os.environ.get("RESCORE_ONLY", "").strip().lower() in ("1", "true
 # Fill in descriptions for rows recorded before they were stored. Costs no
 # API credits -- it re-fetches over plain HTTP and never calls the scorer.
 BACKFILL_DESCRIPTIONS = os.environ.get("BACKFILL_DESCRIPTIONS", "").strip().lower() in ("1", "true", "yes")
+# Re-score already-scored matches against their stored description. Set to a
+# source name ("greenhouse") to limit it, or "all" for every stored row. This
+# one does cost credits: one scoring call per row it covers.
+RESCORE_STORED = os.environ.get("RESCORE_STORED", "").strip().lower()
 
 DB_PATH = os.environ.get("DB_PATH", "seen_jobs.db")
 MATCHES_FILE = os.environ.get("MATCHES_FILE", "matches.md")
@@ -1548,6 +1552,54 @@ def backfill_descriptions(conn):
     return filled
 
 
+def rescore_from_stored(conn, source=None, limit=None):
+    """Re-score matches against the description already stored for them.
+
+    Unlike rescore_pending(), this targets rows that *have* a score but whose
+    score is untrustworthy -- notably everything from Greenhouse, scored on
+    the title alone back when its description was never fetched. Since the
+    text is already in the database, this makes no board requests at all: the
+    only cost is one scoring call per row.
+    """
+    if not (ANTHROPIC_API_KEY and RESUME_TEXT):
+        print("Scoring isn't configured (missing ANTHROPIC_API_KEY/RESUME_TEXT) -- nothing to rescore.")
+        return 0
+
+    sql = """SELECT job_id, source, company, title, score, description FROM seen
+             WHERE description IS NOT NULL AND description != ''"""
+    params = []
+    if source:
+        sql += " AND source = ?"
+        params.append(source)
+    rows = conn.execute(sql, params).fetchall()
+    if not rows:
+        print(f"No stored descriptions to rescore{' for ' + source if source else ''}.")
+        return 0
+
+    scope = source or "all sources"
+    print(f"Re-scoring {len(rows)} match(es) from {scope} against their stored descriptions...")
+
+    rescored = 0
+    for job_id, row_source, company, title, old_score, description in rows:
+        if limit is not None and rescored >= limit:
+            print(f"Rescoring capped at {limit} call(s); {len(rows) - rescored} left for next time.")
+            break
+        score, detail = score_role(title, company, description)
+        if score is None:
+            print(f"  ! rescore: scoring failed for {title} at {company} -- left as-is")
+            continue
+        conn.execute(
+            "UPDATE seen SET score = ?, score_detail = ? WHERE job_id = ?",
+            (score, detail, job_id),
+        )
+        conn.commit()
+        rescored += 1
+        move = score - (old_score or 0)
+        print(f"  ~ {old_score}% -> {score}% ({move:+d}) {title} ({company}) [{row_source}]")
+
+    return rescored
+
+
 def rescore_pending(conn, limit=None):
     """Re-fetch and score every already-recorded match that never got a
     real score (score_detail == '' -- found before scoring was configured,
@@ -2378,6 +2430,20 @@ render();
 
 def main():
     conn = init_db()
+
+    if RESCORE_STORED:
+        rescore_from_stored(
+            conn,
+            source=None if RESCORE_STORED == "all" else RESCORE_STORED,
+            limit=MAX_SCORE_CALLS,
+        )
+        prune_stale_matches(conn)
+        remove_dismissed(conn, load_dismissed())
+        apply_archived_flags(conn, load_archived())
+        _write_outputs(conn)
+        conn.close()
+        print("Done.")
+        return
 
     if BACKFILL_DESCRIPTIONS:
         backfill_descriptions(conn)

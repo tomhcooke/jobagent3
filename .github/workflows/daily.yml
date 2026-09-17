@@ -31,6 +31,14 @@ on:
         required: false
         type: boolean
         default: false
+      rescore_stored:
+        description: >-
+          Re-score already-scored matches against the description stored for
+          them, making no board requests. Give a source name (e.g.
+          "greenhouse") or "all". COSTS CREDITS -- one scoring call per row
+          covered; combine with max_score_calls to try a couple first.
+        required: false
+        default: ""
 
 # The default GITHUB_TOKEN is read-only unless a workflow explicitly asks
 # for more -- without this, "Commit updated results" below builds a commit
@@ -63,6 +71,7 @@ jobs:
           MAX_SCORE_CALLS: ${{ github.event.inputs.max_score_calls }}
           RESCORE_ONLY: ${{ github.event.inputs.rescore_only }}
           BACKFILL_DESCRIPTIONS: ${{ github.event.inputs.backfill_descriptions }}
+          RESCORE_STORED: ${{ github.event.inputs.rescore_stored }}
         run: python job_agent.py
 
       - name: Commit updated results
