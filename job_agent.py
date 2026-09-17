@@ -1947,6 +1947,8 @@ def write_dashboard(all_matches):
 
 <div class="controls">
   <button class="btn" id="settingsToggle" type="button">&#9881; GitHub token</button>
+  <button class="btn" id="refreshBtn" type="button" title="Regenerate matches.md and this page from what's already in the database. No job boards are contacted and no scoring credits are used.">&#8635; Refresh</button>
+  <button class="btn" id="rescanBtn" type="button" title="Search every company again for new postings. Takes about five minutes and spends a scoring call on each new role found.">&#128269; Full re-scan</button>
   <input type="text" id="search" placeholder="Search title or company...">
   <select id="sourceFilter"><option value="">All sources</option></select>
   <select id="minScore">
@@ -2307,6 +2309,104 @@ async function restoreJob(job, btn, tr) {
 
 // --- Rendering -----------------------------------------------------------
 
+// --- Triggering a run -------------------------------------------------
+
+const WORKFLOW_FILE = "daily.yml";
+
+// Dispatching a workflow needs the token's Actions permission, which is
+// separate from the Contents one the Archive/Delete buttons use -- so this
+// can fail with a 403 while every other button on the page works.
+async function dispatchWorkflow(inputs) {
+  const token = getToken();
+  const resp = await fetch(
+    "https://api.github.com/repos/" + GITHUB_REPO + "/actions/workflows/" +
+      WORKFLOW_FILE + "/dispatches",
+    {
+      method: "POST",
+      headers: {
+        Authorization: "Bearer " + token,
+        Accept: "application/vnd.github+json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ ref: GITHUB_BRANCH, inputs: inputs || {} }),
+      cache: "no-store",
+    }
+  );
+  if (resp.status === 403 || resp.status === 404) {
+    throw new Error(
+      "the token can't start workflows -- it needs the Actions permission " +
+      "(Read and write), not just Contents"
+    );
+  }
+  if (!resp.ok) {
+    const body = await resp.json().catch(function () { return {}; });
+    throw new Error(body.message || ("dispatch failed (" + resp.status + ")"));
+  }
+}
+
+async function latestRun() {
+  const token = getToken();
+  const resp = await fetch(
+    "https://api.github.com/repos/" + GITHUB_REPO + "/actions/workflows/" +
+      WORKFLOW_FILE + "/runs?per_page=1",
+    {
+      headers: { Authorization: "Bearer " + token, Accept: "application/vnd.github+json" },
+      cache: "no-store",
+    }
+  );
+  if (!resp.ok) return null;
+  const data = await resp.json().catch(function () { return {}; });
+  return (data.workflow_runs || [])[0] || null;
+}
+
+// A full scan takes ~5 minutes and GitHub Pages needs another minute or two
+// after it. Without visible progress that is indistinguishable from a dead
+// button, so poll until the run finishes and say so.
+async function runAndWatch(label, inputs, btns) {
+  if (!getToken()) {
+    setStatus("Add a GitHub token first (\\u2699 GitHub token above).", "error");
+    return;
+  }
+  btns.forEach(function (b) { b.disabled = true; });
+  const before = await latestRun().catch(function () { return null; });
+  const beforeId = before ? before.id : 0;
+  try {
+    setStatus(label + ": starting...");
+    await dispatchWorkflow(inputs);
+  } catch (e) {
+    setStatus("Couldn't start " + label + ": " + e.message, "error");
+    btns.forEach(function (b) { b.disabled = false; });
+    return;
+  }
+
+  const startedAt = Date.now();
+  let runId = 0;
+  for (let i = 0; i < 120; i++) {
+    await sleep(5000);
+    const secs = Math.round((Date.now() - startedAt) / 1000);
+    let run = null;
+    try { run = await latestRun(); } catch (e) { run = null; }
+    if (!run) { setStatus(label + ": running... (" + secs + "s)"); continue; }
+    // Ignore the run that was already there when we started.
+    if (!runId && run.id !== beforeId) runId = run.id;
+    if (!runId) { setStatus(label + ": queued... (" + secs + "s)"); continue; }
+    if (run.id === runId && run.status === "completed") {
+      if (run.conclusion === "success") {
+        setStatus(
+          label + " finished in " + secs + "s. Give GitHub Pages a minute, " +
+          "then reload to see the new build.", "ok");
+      } else {
+        setStatus(label + " failed (" + run.conclusion + "). Check the Actions tab.", "error");
+      }
+      btns.forEach(function (b) { b.disabled = false; });
+      return;
+    }
+    setStatus(label + ": running... (" + secs + "s)");
+  }
+  setStatus(label + " is taking longer than expected -- check the Actions tab.", "error");
+  btns.forEach(function (b) { b.disabled = false; });
+}
+
 // --- Applied / Rejected -----------------------------------------------
 
 function csvEscape(v) {
@@ -2614,6 +2714,22 @@ document.getElementById("sortSelect").addEventListener("change", function () {
   sortDir = sortKey === "score" ? -1 : 1;
   syncSortControls();
   render();
+});
+
+const refreshBtn = document.getElementById("refreshBtn");
+const rescanBtn = document.getElementById("rescanBtn");
+const runButtons = [refreshBtn, rescanBtn];
+
+refreshBtn.addEventListener("click", function () {
+  runAndWatch("Refresh", { rescore_only: "true" }, runButtons);
+});
+
+rescanBtn.addEventListener("click", function () {
+  if (!confirm(
+      "Search every company for new postings?\\n\\n" +
+      "Takes about five minutes, and each new role found costs one scoring " +
+      "call. Use Refresh instead if you only want the page rebuilt.")) return;
+  runAndWatch("Full re-scan", {}, runButtons);
 });
 
 document.getElementById("sortDirBtn").addEventListener("click", function () {
