@@ -1247,7 +1247,15 @@ JOB ({title} at {company}):
 
     payload = json.dumps({
         "model": CLAUDE_MODEL,
-        "max_tokens": 500,
+        # claude-sonnet-5 runs adaptive thinking by default, and thinking
+        # tokens count against max_tokens -- 500 was only enough for the
+        # final JSON answer with zero room for that, so most calls either
+        # got cut off entirely still inside the thinking block (no text
+        # block at all) or truncated mid-JSON. effort "low" keeps thinking
+        # brief for this simple classification task, and 4096 leaves
+        # headroom so neither the thinking nor the JSON answer gets cut off.
+        "max_tokens": 4096,
+        "output_config": {"effort": "low"},
         "messages": [{"role": "user", "content": prompt}],
     }).encode()
 
