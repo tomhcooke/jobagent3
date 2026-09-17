@@ -1,8 +1,8 @@
 # Job Matches
 
-Last checked: September 17, 2026 at 03:01 PM
+Last checked: September 17, 2026 at 04:26 PM
 
-## New (52)
+## New (53)
 
 ### [78%] frontcareers – Senior Implementation Manager (ashby)
 - Posted: 2026-09-04
@@ -364,6 +364,13 @@ Last checked: September 17, 2026 at 03:01 PM
 - Location: Remote
 - Score detail: title 40% | keywords 25% | experience 45% | domain 20% | education 30% | missing: Sage Intacct, NetSuite, accounting, financial software, ERP, cloud accounting, Finance/Accounting degree, end-user training
 - Link: https://jobs.workable.com/view/u7PQH28GbXRwhQ5weUTwM5/remote-sage-intacct-implementation-specialist-in-united-states-at-partner-one-capital
+
+### [21%] Facet – Senior Planner Training & Onboarding Manager (workable)
+- Posted: unknown
+- Date added: 2026-09-17
+- Location: Remote
+- Score detail: title 20% | keywords 20% | experience 35% | domain 10% | education 15% | missing: financial planning, CFP, onboarding programs, coaching frameworks, career pathways, compliance, training facilitation, planner enablement
+- Link: https://jobs.workable.com/view/xspBZCCUasf9dgU9M9WsQk/remote-senior-planner-training-%26-onboarding-manager-in-united-states-at-facet
 
 ### [20%] temporal – Senior Professional Services Engineer - East (ashby)
 - Posted: 2026-08-12
