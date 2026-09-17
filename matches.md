@@ -1,8 +1,8 @@
 # Job Matches
 
-Last checked: September 17, 2026 at 05:06 AM
+Last checked: September 17, 2026 at 05:25 AM
 
-## New (62)
+## New (58)
 
 ### [78%] frontcareers – Senior Implementation Manager (ashby)
 - Posted: 2026-09-04
@@ -362,13 +362,6 @@ Last checked: September 17, 2026 at 05:06 AM
 - Score detail: title 30% | keywords 35% | experience 55% | domain 45% | education 50% | missing: Business Development, Professional Services Sales, Revenue Growth, Partner Ecosystem, Sales Pipeline, Smartsheet, Consulting Services, Go-to-Market Strategy
 - Link: https://job-boards.greenhouse.io/smartsheet/jobs/7630247
 
-### [40%] Human Intelligence – Technical Project Manager (AI Products) - Remote (Contractor) (workable)
-- Posted: unknown
-- Date added: 2026-09-17
-- Location: Remote - Ukrainka
-- Score detail: title 40% | keywords 35% | experience 55% | domain 30% | education 50% | missing: RAID, RACI, UAT, user stories/acceptance criteria, process mapping, gap analysis, Basecamp/Mattermost, change control
-- Link: https://jobs.workable.com/view/pDXYb6C2UJGGVDCKEY62xj/technical-project-manager-(ai-products)---remote-(contractor)-in-ukrainka-at-human-intelligence
-
 ### [40%] Pinewood.AI – Training and Implementation Consultant (Accounting) (workable)
 - Posted: unknown
 - Date added: 2026-09-17
@@ -397,33 +390,12 @@ Last checked: September 17, 2026 at 05:06 AM
 - Score detail: title 40% | keywords 25% | experience 45% | domain 20% | education 30% | missing: Sage Intacct, NetSuite, accounting, financial software, ERP, cloud accounting, Finance/Accounting degree, end-user training
 - Link: https://jobs.workable.com/view/u7PQH28GbXRwhQ5weUTwM5/remote-sage-intacct-implementation-specialist-in-united-states-at-partner-one-capital
 
-### [30%] gitlab – Senior Professional Services Engineer- PubSec - DC Metro (greenhouse)
-- Posted: 2026-09-02
-- Date added: 2026-09-17
-- Location: Remote, United States
-- Score detail: title 35% | keywords 25% | experience 45% | domain 15% | education 40% | missing: GitLab, CI/CD, DevOps, Public Sector, Security Clearance, Kubernetes, Linux, Git
-- Link: https://job-boards.greenhouse.io/gitlab/jobs/8746461002
-
 ### [20%] temporal – Senior Professional Services Engineer - East (ashby)
 - Posted: 2026-08-12
 - Date added: 2026-09-17
 - Location: United States
 - Score detail: title 25% | keywords 15% | experience 30% | domain 15% | education 20% | missing: Go, Java, Python, distributed systems, workflow orchestration, observability, runbooks, on-call
 - Link: https://jobs.ashbyhq.com/temporal/7a1e439c-c349-4cd4-8490-6e22a62005bf
-
-### [19%] temporal – Senior Professional Services Engineer - West (ashby)
-- Posted: 2026-08-12
-- Date added: 2026-09-17
-- Location: United States
-- Score detail: title 20% | keywords 15% | experience 30% | domain 15% | education 20% | missing: Go, Java, Python, TypeScript, distributed systems, Temporal Server, observability, on-call/runbooks
-- Link: https://jobs.ashbyhq.com/temporal/29fbbb7e-f8d3-4424-a301-cb32b704ae16
-
-### [11%] FutureSight – Co-Founder & CEO - AI Content Intelligence for Professional Services (workable)
-- Posted: unknown
-- Date added: 2026-09-17
-- Location: Remote - Chicago
-- Score detail: title 5% | keywords 10% | experience 15% | domain 10% | education 20% | missing: Co-Founder, venture-backed, fundraising, seed raise, go-to-market strategy, creator economy, AI agents/LLMs, investor narrative
-- Link: https://jobs.workable.com/view/veSGPRTU2EJ3DsStBNKdE6/remote-co-founder-%26-ceo---ai-content-intelligence-for-professional-services-in-chicago-at-futuresight
 
 ### [11%] FutureSight – Co-Founder & CEO - AI Content Intelligence for Professional Services (workable)
 - Posted: unknown
@@ -442,3 +414,15 @@ Last checked: September 17, 2026 at 05:06 AM
 ## Previously Viewed (0)
 
 *Nothing here.*
+
+<details>
+<summary>Archived (1)</summary>
+
+### [19%] temporal – Senior Professional Services Engineer - West (ashby)
+- Posted: 2026-08-12
+- Date added: 2026-09-17
+- Location: United States
+- Score detail: title 20% | keywords 15% | experience 30% | domain 15% | education 20% | missing: Go, Java, Python, TypeScript, distributed systems, Temporal Server, observability, on-call/runbooks
+- Link: https://jobs.ashbyhq.com/temporal/29fbbb7e-f8d3-4424-a301-cb32b704ae16
+
+</details>
