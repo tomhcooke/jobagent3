@@ -1,8 +1,8 @@
 # Job Matches
 
-Last checked: September 17, 2026 at 04:00 AM
+Last checked: September 17, 2026 at 04:45 AM
 
-## New (64)
+## New (63)
 
 ### [78%] frontcareers – Senior Implementation Manager (ashby)
 - Posted: 2026-09-04
@@ -108,13 +108,6 @@ Last checked: September 17, 2026 at 04:00 AM
 - Location: Remote - US
 - Score detail: title 70% | keywords 55% | experience 85% | domain 60% | education 70% | missing: IoT, fleet management, Salesforce, change management, customer success platform, project management certification (PMP), hardware deployment, cross-functional stakeholder management
 - Link: https://www.samsara.com/company/careers/roles/8039126?gh_jid=8039126
-
-### [65%] Gatekeeper – Implementation Consultant | REMOTE (Ontario) (workable)
-- Posted: unknown
-- Date added: 2026-09-17
-- Location: Remote
-- Score detail: title 78% | keywords 58% | experience 75% | domain 55% | education 70% | missing: contract management, third-party risk management, workflow configuration, user permissions, Time to First Value, customer health monitoring, expansion opportunities, business reviews
-- Link: https://jobs.workable.com/view/qYy184nzzsBKkx9HWNnWNp/implementation-consultant-%7C-remote-(ontario)-in-ontario-at-gatekeeper
 
 ### [65%] samsara – Enterprise Implementation Consultant (greenhouse)
 - Posted: 2026-05-14
