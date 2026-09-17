@@ -1247,7 +1247,17 @@ JOB ({title} at {company}):
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:
             data = json.loads(resp.read().decode())
-            text = data["content"][0]["text"].strip()
+            if data.get("type") == "error":
+                raise ValueError(f"API error: {data.get('error', {}).get('message', data)}")
+            # Don't assume content[0] is the text block -- some models put a
+            # "thinking" block (or other non-text block) first, and indexing
+            # blindly raises KeyError: 'text' with no useful context.
+            blocks = data.get("content") or []
+            text_block = next((b for b in blocks if b.get("type") == "text"), None)
+            if text_block is None:
+                block_types = [b.get("type") for b in blocks]
+                raise ValueError(f"no text block in response (got block types: {block_types})")
+            text = text_block["text"].strip()
             text = re.sub(r"^```(?:json)?|```$", "", text, flags=re.MULTILINE).strip()
             parsed = json.loads(text)
 

@@ -6,6 +6,14 @@ on:
     - cron: "0 13 * * *"
   workflow_dispatch:   # lets you trigger a run manually from the Actions tab
 
+# The default GITHUB_TOKEN is read-only unless a workflow explicitly asks
+# for more -- without this, "Commit updated results" below builds a commit
+# on the runner but the final `git push` is rejected with a 403, and that
+# commit is lost when the runner is torn down (silently, since the old
+# `|| echo "Nothing to push"` swallowed the failure).
+permissions:
+  contents: write
+
 jobs:
   search:
     runs-on: ubuntu-latest
@@ -33,5 +41,9 @@ jobs:
           git config user.name "job-agent"
           git config user.email "actions@github.com"
           git add seen_jobs.db matches.md company_status.csv docs/index.html
-          git commit -m "Update job matches $(date -u +%Y-%m-%d)" || echo "No changes"
-          git push || echo "Nothing to push"
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update job matches $(date -u +%Y-%m-%d)"
+            git push
+          fi
