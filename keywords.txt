@@ -10,3 +10,6 @@ onboarding manager
 onboarding specialist
 technical project manager
 professional services
+customer support engineer
+product specialist
+customer technical support
