@@ -1,6 +1,6 @@
 # Job Matches
 
-Last checked: September 17, 2026 at 02:48 AM
+Last checked: September 17, 2026 at 03:40 AM
 
 ## New (64)
 
@@ -347,7 +347,8 @@ Last checked: September 17, 2026 at 02:48 AM
 - Score detail: title 45% | keywords 40% | experience 55% | domain 25% | education 60% | missing: P&L ownership, government/public sector, portfolio management, team leadership of managers, forecast accuracy, utilization/margin, executive sponsor, resource planning
 - Link: https://jobs.ashbyhq.com/opengov/ea1be740-14e6-4dd3-866d-a68de3e60688
 
-### [42%] Nuvei – Sage 100 Product and Implementation Manager (workable)
+### [NETWORK] [42%] Nuvei – Sage 100 Product and Implementation Manager (workable)
+- In network: Yes (you have a LinkedIn contact here)
 - Posted: unknown
 - Date added: 2026-09-17
 - Location: Remote
