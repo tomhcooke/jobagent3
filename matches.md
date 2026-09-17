@@ -1,8 +1,8 @@
 # Job Matches
 
-Last checked: September 17, 2026 at 04:45 AM
+Last checked: September 17, 2026 at 05:06 AM
 
-## New (63)
+## New (62)
 
 ### [78%] frontcareers – Senior Implementation Manager (ashby)
 - Posted: 2026-09-04
@@ -94,13 +94,6 @@ Last checked: September 17, 2026 at 04:45 AM
 - Location: Remote - US
 - Score detail: title 80% | keywords 62% | experience 85% | domain 45% | education 65% | missing: IoT, telematics, fleet management, Salesforce, PMP, hardware deployment, Gainsight, API integrations
 - Link: https://www.samsara.com/company/careers/roles/8209046?gh_jid=8209046
-
-### [66%] degreed – Senior Implementation Consultant | UK (greenhouse)
-- Posted: 2026-08-03
-- Date added: 2026-09-17
-- Location: UK Based | Remote
-- Score detail: title 65% | keywords 60% | experience 80% | domain 70% | education 60% | missing: Degreed platform, LMS, learning experience platform, UK/EMEA, Salesforce, API integrations, stakeholder training, change management
-- Link: https://job-boards.greenhouse.io/degreed/jobs/6130184004
 
 ### [66%] samsara – Strategic Implementation Consultant (greenhouse)
 - Posted: 2026-07-06
