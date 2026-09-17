@@ -1,8 +1,8 @@
 # Job Matches
 
-Last checked: September 17, 2026 at 06:15 AM
+Last checked: September 17, 2026 at 06:43 AM
 
-## New (54)
+## New (52)
 
 ### [78%] frontcareers – Senior Implementation Manager (ashby)
 - Posted: 2026-09-04
@@ -11,7 +11,8 @@ Last checked: September 17, 2026 at 06:15 AM
 - Score detail: title 90% | keywords 70% | experience 90% | domain 80% | education 70% | missing: change management, stakeholder mapping, risk register, webhooks, governance, executive presence, cutover, solution design
 - Link: https://jobs.ashbyhq.com/frontcareers/7c444abc-9e60-4e69-b351-a497b5884595
 
-### [73%] asana – Senior Implementation Manager (greenhouse)
+### [NETWORK] [73%] asana – Senior Implementation Manager (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
 - Posted: 2026-09-01
 - Date added: 2026-09-17
 - Location: Chicago
@@ -228,7 +229,8 @@ Last checked: September 17, 2026 at 06:15 AM
 - Score detail: title 55% | keywords 45% | experience 80% | domain 40% | education 70% | missing: IoT, fleet management, hardware deployment, telematics, Salesforce, project management certification (PMP), change management, enterprise account management
 - Link: https://www.samsara.com/company/careers/roles/8104151?gh_jid=8104151
 
-### [55%] toast – Implementation Consultant III, ENT Drive Thru/Menu Boards (greenhouse)
+### [NETWORK] [55%] toast – Implementation Consultant III, ENT Drive Thru/Menu Boards (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
 - Posted: 2026-08-21
 - Date added: 2026-09-17
 - Location: Remote, US
@@ -284,13 +286,6 @@ Last checked: September 17, 2026 at 06:15 AM
 - Score detail: title 60% | keywords 45% | experience 70% | domain 25% | education 50% | missing: Municipal Utility Billing, ERP, government/public sector, Excel/pivot tables/v-lookup, data architecture, Tax Billing, financial data reporting, administrator training
 - Link: https://jobs.ashbyhq.com/opengov/ff337b03-8ede-4174-82a5-7c1a6ba01cc5
 
-### [50%] smartsheet – Professional Services Business Development Director (Remote Eligible) (greenhouse)
-- Posted: 2026-04-13
-- Date added: 2026-09-17
-- Location: Bellevue, WA, USA
-- Score detail: title 40% | keywords 45% | experience 60% | domain 55% | education 60% | missing: Business Development, Sales Pipeline, Revenue Growth, Professional Services Sales, Partner Ecosystem, Consulting Services, Quota, Contract Negotiation
-- Link: https://job-boards.greenhouse.io/smartsheet/jobs/7812779
-
 ### [49%] AI Acquisition – Client Onboarding Specialist (workable)
 - Posted: unknown
 - Date added: 2026-09-17
@@ -341,7 +336,8 @@ Last checked: September 17, 2026 at 06:15 AM
 - Score detail: title 55% | keywords 35% | experience 60% | domain 20% | education 40% | missing: dealership accounting, GL mappings, AP/AR, bank reconciliations, manufacturer statements, controllers, OEM integrations, month-end processes
 - Link: https://jobs.workable.com/view/jXNwFAMMyj4CamY4kbqyu3/remote-training-and-implementation-consultant-in-united-states-at-pinewood.ai
 
-### [41%] smartsheet – Professional Services Business Development Director (greenhouse)
+### [NETWORK] [41%] smartsheet – Professional Services Business Development Director (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
 - Posted: 2026-02-18
 - Date added: 2026-09-17
 - Location:  -REMOTE, USA-
@@ -375,13 +371,6 @@ Last checked: September 17, 2026 at 06:15 AM
 - Location: United States
 - Score detail: title 25% | keywords 15% | experience 30% | domain 15% | education 20% | missing: Go, Java, Python, distributed systems, workflow orchestration, observability, runbooks, on-call
 - Link: https://jobs.ashbyhq.com/temporal/7a1e439c-c349-4cd4-8490-6e22a62005bf
-
-### [8%] cohere – Strategic Sourcing Specialist - Professional Services (ashby)
-- Posted: 2026-08-27
-- Date added: 2026-09-17
-- Location: Remote - United States
-- Score detail: title 5% | keywords 5% | experience 10% | domain 5% | education 20% | missing: Strategic Sourcing, Procurement, RFP/RFQ, Category Management, Vendor Management, P2P (procure to pay), Contract Lifecycle Management, Supplier Benchmarking
-- Link: https://jobs.ashbyhq.com/cohere/9d8ba367-2e34-4ddd-93e5-265767767ef4
 
 ## Previously Viewed (0)
 
