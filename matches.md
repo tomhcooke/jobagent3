@@ -1,84 +1,17 @@
 # Job Matches
 
-Last checked: September 18, 2026 at 05:03 PM
+Last checked: September 19, 2026 at 04:19 PM
 
-## New (10)
+## New (1)
 
-### [69%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)
-- Posted: 2026-09-17
-- Date added: 2026-09-18
-- Location: Remote - US
-- Score detail: title 78% | keywords 62% | experience 85% | domain 55% | education 70% | missing: IoT, fleet/telematics, launch plans, account health tracking, training sessions, product adoption, consultative skills, executive stakeholder management
-- Link: https://www.samsara.com/company/careers/roles/8211821?gh_jid=8211821
-
-### [63%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)
-- Posted: 2026-09-17
-- Date added: 2026-09-18
-- Location: Remote - US
-- Score detail: title 65% | keywords 55% | experience 85% | domain 55% | education 60% | missing: IoT, fleet/telematics, account health tracking, launch plans/roadmap, training sessions for executives, product adoption metrics, consultative skills, emotional intelligence/priority management
-- Link: https://www.samsara.com/company/careers/roles/8211820?gh_jid=8211820
-
-### [63%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)
-- Posted: 2026-09-17
-- Date added: 2026-09-18
-- Location: Remote - US
-- Score detail: title 65% | keywords 55% | experience 85% | domain 55% | education 60% | missing: IoT, fleet/telematics, account health, launch plans, product adoption tracking, training sessions, Customer Success, consultative skills
-- Link: https://www.samsara.com/company/careers/roles/8211795?gh_jid=8211795
-
-### [NETWORK] [48%] nordstrom – Onboarding Specialist, Marketplace - (Remote) (workday)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: Posted Today
-- Date added: 2026-09-18
-- Location: United States
-- Score detail: title 45% | keywords 40% | experience 65% | domain 30% | education 80% | missing: Marketplace, seller onboarding, brand partners, ecommerce, KPIs compliance, webinars, self-service onboarding, Category Management
-- Link: https://nordstrom.wd501.myworkdayjobs.com/nordstrom_careers/job/United-States/Onboarding-Specialist--Marketplace----Remote-_R-877498-1
-
-### [47%] abnormalsecurity – Professional Services Consultant (Self Service) (greenhouse)
-- Posted: 2026-09-17
-- Date added: 2026-09-18
-- Location: Remote - USA
-- Score detail: title 55% | keywords 40% | experience 65% | domain 25% | education 60% | missing: email security, SPF/DKIM/DMARC, Salesforce/Gainsight, Azure/Google Cloud, cybersecurity SaaS, Microsoft 365/Google Workspace, time-to-value, Abnormal Academy/self-serve model
-- Link: https://abnormal.ai/careers/jobs/7997840003?gh_jid=7997840003
-
-### [46%] Prochant US – Revenue Cycle Implementation Manager- DME/Infusion (workable)
+### [41%] WarrCloud – Platform Implementation Specialist (workable)
 - Posted: unknown
-- Date added: 2026-09-18
+- Date added: 2026-09-19
 - Location: Remote
-- Score detail: title 60% | keywords 40% | experience 65% | domain 15% | education 60% | missing: Revenue Cycle Management, HME, Home Health, Infusion, DME, offshore agents, billing operations, healthcare compliance
-- Link: https://jobs.workable.com/view/8N634nnnrr4ovbfJAZAwtZ/remote-revenue-cycle-implementation-manager--dme%2Finfusion-in-united-states-at-prochant-us
+- Score detail: title 55% | keywords 30% | experience 60% | domain 20% | education 60% | missing: DMS integration, CDK, DealerTrack, Reynolds, VM setup, MFA, Jira documentation, automotive
+- Link: https://jobs.workable.com/view/nQBB7iRpzxhrRWvB2TQFcC/remote-platform-implementation-specialist-in-united-states-at-warrcloud
 
-### [NETWORK] [25%] cengage – Remote Customer Technical Support Representative, Monday - Friday, 11am – 7pm EST (workday)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: Posted 2 Days Ago
-- Date added: 2026-09-18
-- Location: 2 Locations
-- Score detail: title 15% | keywords 25% | experience 30% | domain 20% | education 40% | missing: technical support, call center, ticketing system, Microsoft Office suite, Apple operating systems, browser troubleshooting, customer support, help desk
-- Link: https://cengage.wd5.myworkdayjobs.com/CengageNorthAmericaCareers/job/Kentucky-USA/Customer-Technical-Support-Representative_R2026-289
-
-### [NETWORK] [22%] adyen – Regulatory Product Specialist (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: 2026-07-24
-- Date added: 2026-09-18
-- Location: Chicago
-- Score detail: title 15% | keywords 20% | experience 30% | domain 15% | education 30% | missing: regulatory compliance, risk management, fintech, payments industry, regulatory requirements, compliance frameworks, banking regulations, product risk assessment
-- Link: https://job-boards.greenhouse.io/adyen/jobs/8084480
-
-### [NETWORK] [15%] twilio – Principal Presales Product Specialist (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: 2026-09-08
-- Date added: 2026-09-18
-- Location: Remote - US
-- Score detail: title 10% | keywords 15% | experience 20% | domain 10% | education 20% | missing: presales, solutions engineering, solution architecture, identity verification, authentication, fraud/abuse, compliance, C-level communication
-- Link: https://job-boards.greenhouse.io/twilio/jobs/8180238
-
-### [13%] harvey – Legal Engineer, Product Specialist Manager (ashby)
-- Posted: 2026-06-18
-- Date added: 2026-09-18
-- Location: Remote - Chicago
-- Score detail: title 10% | keywords 15% | experience 20% | domain 5% | education 5% | missing: JD or equivalent legal qualification, practicing law, Vault 50 law firm, General Counsel relationships, legal professionals management, customer adoption/expansion, legal engineer, in-house counsel
-- Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
-
-## Previously Viewed (52)
+## Previously Viewed (62)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -136,12 +69,20 @@ Last checked: September 18, 2026 at 05:03 PM
 - Score detail: title 90% | keywords 62% | experience 90% | domain 45% | education 70% | missing: Statements of Work (SOWs), UAT (User Acceptance Testing), Train-the-Trainer, as-is/to-be process mapping, wireframes/process-flow diagrams, regulatory requirements, business analysis, infrastructure/utilities domain
 - Link: https://jobs.workable.com/view/aXhdw2uDqVbg6xxB35eqQj/remote-implementation-consultant%2C-in-united-states-at-irth-solutions
 
-### [70%] alphasense – Implementation Consultant, Large Deployments (greenhouse)
+~~### [70%] alphasense – Implementation Consultant, Large Deployments (greenhouse)~~
 - Posted: 2026-06-11
 - Date added: 2026-09-17
 - Location: Remote - United States
 - Score detail: title 85% | keywords 60% | experience 90% | domain 55% | education 70% | missing: Salesforce, Rocketlane, Linear, change management, pivot tables, Excel/Google Sheets, deployment metrics, playbooks
 - Link: https://job-boards.greenhouse.io/alphasense/jobs/8584858002
+- Status: Closed as of 2026-09-19
+
+### [69%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)
+- Posted: 2026-09-17
+- Date added: 2026-09-18
+- Location: Remote - US
+- Score detail: title 78% | keywords 62% | experience 85% | domain 55% | education 70% | missing: IoT, fleet/telematics, launch plans, account health tracking, training sessions, product adoption, consultative skills, executive stakeholder management
+- Link: https://www.samsara.com/company/careers/roles/8211821?gh_jid=8211821
 
 ### [69%] samsara – Enterprise Select Implementation Consultant (Central or East) (greenhouse)
 - Posted: 2026-08-13
@@ -234,6 +175,20 @@ Last checked: September 18, 2026 at 05:03 PM
 - Location: Remote - US
 - Score detail: title 65% | keywords 60% | experience 85% | domain 45% | education 70% | missing: IoT, fleet management, account health tracking, training sessions, launch plans, telematics, hardware deployment, product adoption
 - Link: https://www.samsara.com/company/careers/roles/8039126?gh_jid=8039126
+
+### [63%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)
+- Posted: 2026-09-17
+- Date added: 2026-09-18
+- Location: Remote - US
+- Score detail: title 65% | keywords 55% | experience 85% | domain 55% | education 60% | missing: IoT, fleet/telematics, account health tracking, launch plans/roadmap, training sessions for executives, product adoption metrics, consultative skills, emotional intelligence/priority management
+- Link: https://www.samsara.com/company/careers/roles/8211820?gh_jid=8211820
+
+### [63%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)
+- Posted: 2026-09-17
+- Date added: 2026-09-18
+- Location: Remote - US
+- Score detail: title 65% | keywords 55% | experience 85% | domain 55% | education 60% | missing: IoT, fleet/telematics, account health, launch plans, product adoption tracking, training sessions, Customer Success, consultative skills
+- Link: https://www.samsara.com/company/careers/roles/8211795?gh_jid=8211795
 
 ### [63%] shipbobinc – Senior Merchant Implementation Manager (greenhouse)
 - Posted: 2026-09-02
@@ -347,6 +302,14 @@ Last checked: September 18, 2026 at 05:03 PM
 - Score detail: title 55% | keywords 40% | experience 60% | domain 45% | education 60% | missing: renewal, churn signals, kickoff calls, playbooks, sales background, ARR, customer journey, activation
 - Link: https://jobs.workable.com/view/uktwygzSk2dFZRFZWRWY1w/remote-client-onboarding-specialist-in-united-states-at-ai-acquisition
 
+### [NETWORK] [48%] nordstrom – Onboarding Specialist, Marketplace - (Remote) (workday)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: Posted Today
+- Date added: 2026-09-18
+- Location: United States
+- Score detail: title 45% | keywords 40% | experience 65% | domain 30% | education 80% | missing: Marketplace, seller onboarding, brand partners, ecommerce, KPIs compliance, webinars, self-service onboarding, Category Management
+- Link: https://nordstrom.wd501.myworkdayjobs.com/nordstrom_careers/job/United-States/Onboarding-Specialist--Marketplace----Remote-_R-877498-1
+
 ### [48%] opengov – Senior Implementation Consultant, Payroll (ashby)
 - Posted: 2026-07-30
 - Date added: 2026-09-17
@@ -361,6 +324,20 @@ Last checked: September 18, 2026 at 05:03 PM
 - Location: Remote, US
 - Score detail: title 55% | keywords 40% | experience 65% | domain 25% | education 70% | missing: drive-thru technology, menu board, POS, networking, Hotel PMS, digital signage, above-store reporting, multi-unit QSR
 - Link: https://careers.toasttab.com/jobs?gh_jid=8121574
+
+### [47%] abnormalsecurity – Professional Services Consultant (Self Service) (greenhouse)
+- Posted: 2026-09-17
+- Date added: 2026-09-18
+- Location: Remote - USA
+- Score detail: title 55% | keywords 40% | experience 65% | domain 25% | education 60% | missing: email security, SPF/DKIM/DMARC, Salesforce/Gainsight, Azure/Google Cloud, cybersecurity SaaS, Microsoft 365/Google Workspace, time-to-value, Abnormal Academy/self-serve model
+- Link: https://abnormal.ai/careers/jobs/7997840003?gh_jid=7997840003
+
+### [46%] Prochant US – Revenue Cycle Implementation Manager- DME/Infusion (workable)
+- Posted: unknown
+- Date added: 2026-09-18
+- Location: Remote
+- Score detail: title 60% | keywords 40% | experience 65% | domain 15% | education 60% | missing: Revenue Cycle Management, HME, Home Health, Infusion, DME, offshore agents, billing operations, healthcare compliance
+- Link: https://jobs.workable.com/view/8N634nnnrr4ovbfJAZAwtZ/remote-revenue-cycle-implementation-manager--dme%2Finfusion-in-united-states-at-prochant-us
 
 ### [46%] Irth Solutions – Sr. Implementation Consultant (workable)
 - Posted: unknown
@@ -433,6 +410,22 @@ Last checked: September 18, 2026 at 05:03 PM
 - Score detail: title 40% | keywords 25% | experience 45% | domain 20% | education 30% | missing: Sage Intacct, NetSuite, accounting, financial software, ERP, cloud accounting, Finance/Accounting degree, end-user training
 - Link: https://jobs.workable.com/view/u7PQH28GbXRwhQ5weUTwM5/remote-sage-intacct-implementation-specialist-in-united-states-at-partner-one-capital
 
+### [NETWORK] [25%] cengage – Remote Customer Technical Support Representative, Monday - Friday, 11am – 7pm EST (workday)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: Posted 2 Days Ago
+- Date added: 2026-09-18
+- Location: 2 Locations
+- Score detail: title 15% | keywords 25% | experience 30% | domain 20% | education 40% | missing: technical support, call center, ticketing system, Microsoft Office suite, Apple operating systems, browser troubleshooting, customer support, help desk
+- Link: https://cengage.wd5.myworkdayjobs.com/CengageNorthAmericaCareers/job/Kentucky-USA/Customer-Technical-Support-Representative_R2026-289
+
+### [NETWORK] [22%] adyen – Regulatory Product Specialist (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-07-24
+- Date added: 2026-09-18
+- Location: Chicago
+- Score detail: title 15% | keywords 20% | experience 30% | domain 15% | education 30% | missing: regulatory compliance, risk management, fintech, payments industry, regulatory requirements, compliance frameworks, banking regulations, product risk assessment
+- Link: https://job-boards.greenhouse.io/adyen/jobs/8084480
+
 ### [21%] Facet – Senior Planner Training & Onboarding Manager (workable)
 - Posted: unknown
 - Date added: 2026-09-17
@@ -446,6 +439,21 @@ Last checked: September 18, 2026 at 05:03 PM
 - Location: United States
 - Score detail: title 25% | keywords 15% | experience 30% | domain 15% | education 20% | missing: Go, Java, Python, distributed systems, workflow orchestration, observability, runbooks, on-call
 - Link: https://jobs.ashbyhq.com/temporal/7a1e439c-c349-4cd4-8490-6e22a62005bf
+
+### [NETWORK] [15%] twilio – Principal Presales Product Specialist (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-09-08
+- Date added: 2026-09-18
+- Location: Remote - US
+- Score detail: title 10% | keywords 15% | experience 20% | domain 10% | education 20% | missing: presales, solutions engineering, solution architecture, identity verification, authentication, fraud/abuse, compliance, C-level communication
+- Link: https://job-boards.greenhouse.io/twilio/jobs/8180238
+
+### [13%] harvey – Legal Engineer, Product Specialist Manager (ashby)
+- Posted: 2026-06-18
+- Date added: 2026-09-18
+- Location: Remote - Chicago
+- Score detail: title 10% | keywords 15% | experience 20% | domain 5% | education 5% | missing: JD or equivalent legal qualification, practicing law, Vault 50 law firm, General Counsel relationships, legal professionals management, customer adoption/expansion, legal engineer, in-house counsel
+- Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 
 <details>
 <summary>Archived (2)</summary>
