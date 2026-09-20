@@ -1,17 +1,12 @@
 # Job Matches
 
-Last checked: September 19, 2026 at 04:19 PM
+Last checked: September 20, 2026 at 04:46 PM
 
-## New (1)
+## New (0)
 
-### [41%] WarrCloud – Platform Implementation Specialist (workable)
-- Posted: unknown
-- Date added: 2026-09-19
-- Location: Remote
-- Score detail: title 55% | keywords 30% | experience 60% | domain 20% | education 60% | missing: DMS integration, CDK, DealerTrack, Reynolds, VM setup, MFA, Jira documentation, automotive
-- Link: https://jobs.workable.com/view/nQBB7iRpzxhrRWvB2TQFcC/remote-platform-implementation-specialist-in-united-states-at-warrcloud
+*Nothing here.*
 
-## Previously Viewed (62)
+## Previously Viewed (63)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -360,6 +355,13 @@ Last checked: September 19, 2026 at 04:19 PM
 - Location: Remote
 - Score detail: title 55% | keywords 30% | experience 60% | domain 25% | education 60% | missing: Sage 100, ERP, payment gateways, Acumatica, Microsoft Dynamics, NetSuite, AR/Sales Invoice modules, UAT
 - Link: https://jobs.workable.com/view/9C8F6kx5YsMwbrDUuS3fFS/remote-sage-100-product-and-implementation-manager-in-united-states-at-nuvei
+
+### [41%] WarrCloud – Platform Implementation Specialist (workable)
+- Posted: unknown
+- Date added: 2026-09-19
+- Location: Remote
+- Score detail: title 55% | keywords 30% | experience 60% | domain 20% | education 60% | missing: DMS integration, CDK, DealerTrack, Reynolds, VM setup, MFA, Jira documentation, automotive
+- Link: https://jobs.workable.com/view/nQBB7iRpzxhrRWvB2TQFcC/remote-platform-implementation-specialist-in-united-states-at-warrcloud
 
 ### [41%] Pinewood.AI – Training and Implementation Consultant (workable)
 - Posted: unknown
