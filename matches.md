@@ -1,10 +1,23 @@
 # Job Matches
 
-Last checked: September 20, 2026 at 04:46 PM
+Last checked: September 21, 2026 at 06:34 PM
 
-## New (0)
+## New (2)
 
-*Nothing here.*
+### [NETWORK] [50%] stripe – Engagement Manager, Professional Services (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-09-21
+- Date added: 2026-09-21
+- Location: United States
+- Score detail: title 55% | keywords 45% | experience 65% | domain 35% | education 60% | missing: payments industry, program governance, risk assessment/mitigation, change management, stakeholder interlock with Product/Engineering, PMP/PRINCE2, enterprise consulting, technical architecture integration
+- Link: https://stripe.com/jobs/search?gh_jid=8209649
+
+### [35%] Coursedog – Customer Support Engineer (workable)
+- Posted: unknown
+- Date added: 2026-09-21
+- Location: Remote
+- Score detail: title 25% | keywords 30% | experience 55% | domain 20% | education 50% | missing: SLA management, root cause analysis, ticket escalation, higher education, curriculum/scheduling software, self-service documentation, QA feedback, customer support tickets
+- Link: https://jobs.workable.com/view/33vcRRgEWYh7afK4SppahM/remote-customer-support-engineer-in-united-states-at-coursedog
 
 ## Previously Viewed (63)
 
@@ -185,12 +198,13 @@ Last checked: September 20, 2026 at 04:46 PM
 - Score detail: title 65% | keywords 55% | experience 85% | domain 55% | education 60% | missing: IoT, fleet/telematics, account health, launch plans, product adoption tracking, training sessions, Customer Success, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8211795?gh_jid=8211795
 
-### [63%] shipbobinc – Senior Merchant Implementation Manager (greenhouse)
+~~### [63%] shipbobinc – Senior Merchant Implementation Manager (greenhouse)~~
 - Posted: 2026-09-02
 - Date added: 2026-09-17
 - Location: Remote - United States
 - Score detail: title 70% | keywords 55% | experience 85% | domain 45% | education 70% | missing: Shopify, BigCommerce, Magento, WooCommerce, ERP, OMS, Merchant Success, fulfillment
 - Link: https://job-boards.greenhouse.io/shipbobinc/jobs/4720581005
+- Status: Closed as of 2026-09-21
 
 ### [60%] opengov – Manager I, Professional Services - IC (ashby)
 - Posted: 2026-08-17
@@ -213,12 +227,13 @@ Last checked: September 20, 2026 at 04:46 PM
 - Score detail: title 90% | keywords 45% | experience 80% | domain 25% | education 60% | missing: EHR interoperability, Epic FHIR, athenahealth API, HL7 v2, CCD, healthcare/health-tech, credentialing, UAT (user acceptance testing)
 - Link: https://jobs.workable.com/view/eytn1N5BLpZpUi6qNjMhqG/remote-implementation-manager-in-united-states-at-rezilient-health
 
-### [57%] gainsight – Strategic Technical Project Manager (ashby)
+~~### [57%] gainsight – Strategic Technical Project Manager (ashby)~~
 - Posted: 2026-09-10
 - Date added: 2026-09-17
 - Location: Remote - USA - FL - Remote
 - Score detail: title 55% | keywords 45% | experience 70% | domain 65% | education 70% | missing: Technical Project Manager, governance, work breakdown structure, financial management, contract values $500K+, APIs and data models, change management, steering committees
 - Link: https://jobs.ashbyhq.com/gainsight/b93d429b-fb79-4005-bbaf-422e274d401f
+- Status: Closed as of 2026-09-21
 
 ### [57%] opengov – Manager I, Professional Services (ashby)
 - Posted: 2026-07-20
@@ -297,13 +312,14 @@ Last checked: September 20, 2026 at 04:46 PM
 - Score detail: title 55% | keywords 40% | experience 60% | domain 45% | education 60% | missing: renewal, churn signals, kickoff calls, playbooks, sales background, ARR, customer journey, activation
 - Link: https://jobs.workable.com/view/uktwygzSk2dFZRFZWRWY1w/remote-client-onboarding-specialist-in-united-states-at-ai-acquisition
 
-### [NETWORK] [48%] nordstrom – Onboarding Specialist, Marketplace - (Remote) (workday)
+~~### [NETWORK] [48%] nordstrom – Onboarding Specialist, Marketplace - (Remote) (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: Posted Today
 - Date added: 2026-09-18
 - Location: United States
 - Score detail: title 45% | keywords 40% | experience 65% | domain 30% | education 80% | missing: Marketplace, seller onboarding, brand partners, ecommerce, KPIs compliance, webinars, self-service onboarding, Category Management
 - Link: https://nordstrom.wd501.myworkdayjobs.com/nordstrom_careers/job/United-States/Onboarding-Specialist--Marketplace----Remote-_R-877498-1
+- Status: Closed as of 2026-09-21
 
 ### [48%] opengov – Senior Implementation Consultant, Payroll (ashby)
 - Posted: 2026-07-30
