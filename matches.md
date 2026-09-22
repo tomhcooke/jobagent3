@@ -1,25 +1,31 @@
 # Job Matches
 
-Last checked: September 21, 2026 at 06:34 PM
+Last checked: September 22, 2026 at 05:37 PM
 
-## New (2)
+## New (3)
 
-### [NETWORK] [50%] stripe – Engagement Manager, Professional Services (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: 2026-09-21
-- Date added: 2026-09-21
-- Location: United States
-- Score detail: title 55% | keywords 45% | experience 65% | domain 35% | education 60% | missing: payments industry, program governance, risk assessment/mitigation, change management, stakeholder interlock with Product/Engineering, PMP/PRINCE2, enterprise consulting, technical architecture integration
-- Link: https://stripe.com/jobs/search?gh_jid=8209649
+### [58%] opengov – Manager II, Professional Services (ashby)
+- Posted: 2026-09-22
+- Date added: 2026-09-22
+- Location: US | Illinois | Chicago
+- Score detail: title 65% | keywords 55% | experience 75% | domain 25% | education 80% | missing: government/public sector, people management of team, portfolio utilization tracking, ETL tools, Excel/VLOOKUP/pivot tables, budgeting/procurement/permitting, hiring/onboarding analysts, performance management
+- Link: https://jobs.ashbyhq.com/opengov/88b6eaa9-a6fb-4345-a3dd-211d5ab64166
 
-### [35%] Coursedog – Customer Support Engineer (workable)
+### [46%] Remote Recruitment – Customer Onboarding Specialist (workable)
 - Posted: unknown
-- Date added: 2026-09-21
+- Date added: 2026-09-22
 - Location: Remote
-- Score detail: title 25% | keywords 30% | experience 55% | domain 20% | education 50% | missing: SLA management, root cause analysis, ticket escalation, higher education, curriculum/scheduling software, self-service documentation, QA feedback, customer support tickets
-- Link: https://jobs.workable.com/view/33vcRRgEWYh7afK4SppahM/remote-customer-support-engineer-in-united-states-at-coursedog
+- Score detail: title 40% | keywords 45% | experience 60% | domain 35% | education 50% | missing: HubSpot, Intercom, Notion, CRM, welcome calls, UK-based, customer support handoff, video calls
+- Link: https://jobs.workable.com/view/icUKsCEjay1bCBjKpPDkHb/remote-customer-onboarding-specialist-in-gauteng-at-remote-recruitment
 
-## Previously Viewed (63)
+### [40%] Prominence Advisors – Technical Project Manager (workable)
+- Posted: unknown
+- Date added: 2026-09-22
+- Location: Remote
+- Score detail: title 55% | keywords 35% | experience 55% | domain 15% | education 50% | missing: healthcare, Epic, data governance, analytics, clinical workflows, IT staffing, healthcare IT, data ecosystems
+- Link: https://jobs.workable.com/view/gEoPYVw3iEK4XfmCPfTyFp/remote-technical-project-manager-in-united-states-at-prominence-advisors
+
+## Previously Viewed (65)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -49,19 +55,21 @@ Last checked: September 21, 2026 at 06:34 PM
 - Score detail: title 75% | keywords 65% | experience 85% | domain 55% | education 90% | missing: IoT, fleet/telematics, account health tracking, launch plans, training sessions/enablement, travel 25%, consultative selling, customer success/account management
 - Link: https://www.samsara.com/company/careers/roles/8121332?gh_jid=8121332
 
-### [72%] samsara – Enterprise Implementation Consultant (greenhouse)
+~~### [72%] samsara – Enterprise Implementation Consultant (greenhouse)~~
 - Posted: 2026-09-16
 - Date added: 2026-09-17
 - Location: Remote - US
 - Score detail: title 75% | keywords 65% | experience 85% | domain 55% | education 90% | missing: IoT, fleet/telematics, account health tracking, launch plans/roadmap, consultative skills, emotional intelligence, customer advocacy, product adoption metrics
 - Link: https://www.samsara.com/company/careers/roles/8209047?gh_jid=8209047
+- Status: Closed as of 2026-09-22
 
-### [72%] samsara – Enterprise Implementation Consultant (greenhouse)
+~~### [72%] samsara – Enterprise Implementation Consultant (greenhouse)~~
 - Posted: 2026-09-16
 - Date added: 2026-09-17
 - Location: Remote - US
 - Score detail: title 75% | keywords 65% | experience 85% | domain 55% | education 90% | missing: IoT, Fleet management, Account health, Launch plans, Customer advocacy, Renewal, Telematics, Consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8209046?gh_jid=8209046
+- Status: Closed as of 2026-09-22
 
 ### [72%] samsara – Enterprise Implementation Consultant (greenhouse)
 - Posted: 2026-05-14
@@ -291,6 +299,14 @@ Last checked: September 21, 2026 at 06:34 PM
 - Score detail: title 55% | keywords 45% | experience 70% | domain 20% | education 80% | missing: real estate, IDX, EIN, CRM, website launch, Zoom, customer intake, billing setup
 - Link: https://jobs.workable.com/view/dt3LUqWqD1FrZULznryjpP/remote-customer-onboarding-specialist-in-united-states-at-sierra-interactive
 
+### [NETWORK] [50%] stripe – Engagement Manager, Professional Services (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-09-21
+- Date added: 2026-09-21
+- Location: United States
+- Score detail: title 55% | keywords 45% | experience 65% | domain 35% | education 60% | missing: payments industry, program governance, risk assessment/mitigation, change management, stakeholder interlock with Product/Engineering, PMP/PRINCE2, enterprise consulting, technical architecture integration
+- Link: https://stripe.com/jobs/search?gh_jid=8209649
+
 ### [50%] airtable – Program Manager, Professional Services - West (greenhouse)
 - Posted: 2026-06-10
 - Date added: 2026-09-17
@@ -420,6 +436,13 @@ Last checked: September 21, 2026 at 06:34 PM
 - Location: United States (Remote)
 - Score detail: title 35% | keywords 30% | experience 45% | domain 30% | education 50% | missing: SOW, pricing services, services attach, bookings, deal desk, conversational AI, contact-center AI, scoping engagements
 - Link: https://job-boards.greenhouse.io/cresta/jobs/5400255008
+
+### [35%] Coursedog – Customer Support Engineer (workable)
+- Posted: unknown
+- Date added: 2026-09-21
+- Location: Remote
+- Score detail: title 25% | keywords 30% | experience 55% | domain 20% | education 50% | missing: SLA management, root cause analysis, ticket escalation, higher education, curriculum/scheduling software, self-service documentation, QA feedback, customer support tickets
+- Link: https://jobs.workable.com/view/33vcRRgEWYh7afK4SppahM/remote-customer-support-engineer-in-united-states-at-coursedog
 
 ### [31%] Partner One Capital – Sage Intacct Implementation Specialist (workable)
 - Posted: unknown
