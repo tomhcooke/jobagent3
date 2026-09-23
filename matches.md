@@ -1,31 +1,33 @@
 # Job Matches
 
-Last checked: September 22, 2026 at 05:37 PM
+Last checked: September 23, 2026 at 05:48 PM
 
 ## New (3)
 
-### [58%] opengov – Manager II, Professional Services (ashby)
+### [61%] PracticeTek – Onboarding Specialist - Patients (workable)
+- Posted: unknown
+- Date added: 2026-09-23
+- Location: Remote
+- Score detail: title 60% | keywords 55% | experience 85% | domain 40% | education 70% | missing: healthcare, EHR, patients, clinics, practice management, retail-healthcare, training coordination, customer success handoff
+- Link: https://jobs.workable.com/view/sh4Hqgr7JMMyCxsefK65t7/remote-onboarding-specialist---patients-in-united-states-at-practicetek
+
+### [NETWORK] [41%] stripe – Integration Engineer, Professional Services (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-09-23
+- Date added: 2026-09-23
+- Location: United States
+- Score detail: title 45% | keywords 35% | experience 55% | domain 40% | education 30% | missing: Go, Java, C/C++, API security, payments domain, data structures and algorithms, CI/CD, code debugging
+- Link: https://stripe.com/jobs/search?gh_jid=8203973
+
+### [NETWORK] [36%] toast – Implementation Specialist, Thai Bilingual - Remote (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
 - Posted: 2026-09-22
-- Date added: 2026-09-22
-- Location: US | Illinois | Chicago
-- Score detail: title 65% | keywords 55% | experience 75% | domain 25% | education 80% | missing: government/public sector, people management of team, portfolio utilization tracking, ETL tools, Excel/VLOOKUP/pivot tables, budgeting/procurement/permitting, hiring/onboarding analysts, performance management
-- Link: https://jobs.ashbyhq.com/opengov/88b6eaa9-a6fb-4345-a3dd-211d5ab64166
+- Date added: 2026-09-23
+- Location: Remote, US
+- Score detail: title 55% | keywords 30% | experience 40% | domain 15% | education 50% | missing: Thai fluency, Restaurant/Hospitality experience, POS software, Salesforce CRM, site assessments, table turn time, labor and food costs, Go-Live training
+- Link: https://careers.toasttab.com/jobs?gh_jid=8224585
 
-### [46%] Remote Recruitment – Customer Onboarding Specialist (workable)
-- Posted: unknown
-- Date added: 2026-09-22
-- Location: Remote
-- Score detail: title 40% | keywords 45% | experience 60% | domain 35% | education 50% | missing: HubSpot, Intercom, Notion, CRM, welcome calls, UK-based, customer support handoff, video calls
-- Link: https://jobs.workable.com/view/icUKsCEjay1bCBjKpPDkHb/remote-customer-onboarding-specialist-in-gauteng-at-remote-recruitment
-
-### [40%] Prominence Advisors – Technical Project Manager (workable)
-- Posted: unknown
-- Date added: 2026-09-22
-- Location: Remote
-- Score detail: title 55% | keywords 35% | experience 55% | domain 15% | education 50% | missing: healthcare, Epic, data governance, analytics, clinical workflows, IT staffing, healthcare IT, data ecosystems
-- Link: https://jobs.workable.com/view/gEoPYVw3iEK4XfmCPfTyFp/remote-technical-project-manager-in-united-states-at-prominence-advisors
-
-## Previously Viewed (65)
+## Previously Viewed (68)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -93,12 +95,13 @@ Last checked: September 22, 2026 at 05:37 PM
 - Link: https://job-boards.greenhouse.io/alphasense/jobs/8584858002
 - Status: Closed as of 2026-09-19
 
-### [69%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)
+~~### [69%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)~~
 - Posted: 2026-09-17
 - Date added: 2026-09-18
 - Location: Remote - US
 - Score detail: title 78% | keywords 62% | experience 85% | domain 55% | education 70% | missing: IoT, fleet/telematics, launch plans, account health tracking, training sessions, product adoption, consultative skills, executive stakeholder management
 - Link: https://www.samsara.com/company/careers/roles/8211821?gh_jid=8211821
+- Status: Closed as of 2026-09-23
 
 ### [69%] samsara – Enterprise Select Implementation Consultant (Central or East) (greenhouse)
 - Posted: 2026-08-13
@@ -192,19 +195,21 @@ Last checked: September 22, 2026 at 05:37 PM
 - Score detail: title 65% | keywords 60% | experience 85% | domain 45% | education 70% | missing: IoT, fleet management, account health tracking, training sessions, launch plans, telematics, hardware deployment, product adoption
 - Link: https://www.samsara.com/company/careers/roles/8039126?gh_jid=8039126
 
-### [63%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)
+~~### [63%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)~~
 - Posted: 2026-09-17
 - Date added: 2026-09-18
 - Location: Remote - US
 - Score detail: title 65% | keywords 55% | experience 85% | domain 55% | education 60% | missing: IoT, fleet/telematics, account health tracking, launch plans/roadmap, training sessions for executives, product adoption metrics, consultative skills, emotional intelligence/priority management
 - Link: https://www.samsara.com/company/careers/roles/8211820?gh_jid=8211820
+- Status: Closed as of 2026-09-23
 
-### [63%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)
+~~### [63%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)~~
 - Posted: 2026-09-17
 - Date added: 2026-09-18
 - Location: Remote - US
 - Score detail: title 65% | keywords 55% | experience 85% | domain 55% | education 60% | missing: IoT, fleet/telematics, account health, launch plans, product adoption tracking, training sessions, Customer Success, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8211795?gh_jid=8211795
+- Status: Closed as of 2026-09-23
 
 ~~### [63%] shipbobinc – Senior Merchant Implementation Manager (greenhouse)~~
 - Posted: 2026-09-02
@@ -228,6 +233,13 @@ Last checked: September 22, 2026 at 05:37 PM
 - Score detail: title 65% | keywords 55% | experience 80% | domain 35% | education 60% | missing: GRC, Risk Cloud, compliance frameworks, third-party risk, audit, solution architecture, SOW, AuditBoard/OneTrust/Drata
 - Link: https://job-boards.greenhouse.io/logicgate/jobs/4723421005
 
+### [58%] opengov – Manager II, Professional Services (ashby)
+- Posted: 2026-09-22
+- Date added: 2026-09-22
+- Location: US | Illinois | Chicago
+- Score detail: title 65% | keywords 55% | experience 75% | domain 25% | education 80% | missing: government/public sector, people management of team, portfolio utilization tracking, ETL tools, Excel/VLOOKUP/pivot tables, budgeting/procurement/permitting, hiring/onboarding analysts, performance management
+- Link: https://jobs.ashbyhq.com/opengov/88b6eaa9-a6fb-4345-a3dd-211d5ab64166
+
 ### [57%] Rezilient Health – Implementation Manager (workable)
 - Posted: unknown
 - Date added: 2026-09-17
@@ -235,13 +247,12 @@ Last checked: September 22, 2026 at 05:37 PM
 - Score detail: title 90% | keywords 45% | experience 80% | domain 25% | education 60% | missing: EHR interoperability, Epic FHIR, athenahealth API, HL7 v2, CCD, healthcare/health-tech, credentialing, UAT (user acceptance testing)
 - Link: https://jobs.workable.com/view/eytn1N5BLpZpUi6qNjMhqG/remote-implementation-manager-in-united-states-at-rezilient-health
 
-~~### [57%] gainsight – Strategic Technical Project Manager (ashby)~~
+### [57%] gainsight – Strategic Technical Project Manager (ashby)
 - Posted: 2026-09-10
 - Date added: 2026-09-17
 - Location: Remote - USA - FL - Remote
 - Score detail: title 55% | keywords 45% | experience 70% | domain 65% | education 70% | missing: Technical Project Manager, governance, work breakdown structure, financial management, contract values $500K+, APIs and data models, change management, steering committees
 - Link: https://jobs.ashbyhq.com/gainsight/b93d429b-fb79-4005-bbaf-422e274d401f
-- Status: Closed as of 2026-09-21
 
 ### [57%] opengov – Manager I, Professional Services (ashby)
 - Posted: 2026-07-20
@@ -271,12 +282,13 @@ Last checked: September 22, 2026 at 05:37 PM
 - Score detail: title 70% | keywords 40% | experience 65% | domain 35% | education 90% | missing: marketing or partnership management, consumer deposits and loans, banking technology platforms, SalesForce, Tableau, email campaign management, market research, digital banking
 - Link: https://jobs.ashbyhq.com/savvymoney/30a82a48-5bd6-46ce-9a4d-faddee254725
 
-### [52%] airtable – Program Manager, Professional Services - East (greenhouse)
+~~### [52%] airtable – Program Manager, Professional Services - East (greenhouse)~~
 - Posted: 2026-06-10
 - Date added: 2026-09-17
 - Location: New York, NY; Remote - US
 - Score detail: title 55% | keywords 45% | experience 70% | domain 50% | education 40% | missing: PMP, RAID log, change order/SOW, Airtable platform, steering committees, Waterfall methodology, risk register, compliance/security access management
 - Link: https://job-boards.greenhouse.io/airtable/jobs/8586863002
+- Status: Closed as of 2026-09-23
 
 ### [52%] clickup – Senior AI Consultant, Professional Services - West Coast (ashby)
 - Posted: 2026-09-15
@@ -307,12 +319,13 @@ Last checked: September 22, 2026 at 05:37 PM
 - Score detail: title 55% | keywords 45% | experience 65% | domain 35% | education 60% | missing: payments industry, program governance, risk assessment/mitigation, change management, stakeholder interlock with Product/Engineering, PMP/PRINCE2, enterprise consulting, technical architecture integration
 - Link: https://stripe.com/jobs/search?gh_jid=8209649
 
-### [50%] airtable – Program Manager, Professional Services - West (greenhouse)
+~~### [50%] airtable – Program Manager, Professional Services - West (greenhouse)~~
 - Posted: 2026-06-10
 - Date added: 2026-09-17
 - Location: San Francisco, CA; Remote - US
 - Score detail: title 55% | keywords 45% | experience 70% | domain 40% | education 40% | missing: PMP, RAID log, change order process, Waterfall, Airtable platform, steering committees, compliance/security/access management, agentic systems
 - Link: https://job-boards.greenhouse.io/airtable/jobs/8586865002
+- Status: Closed as of 2026-09-23
 
 ### [50%] opengov – Senior Implementation Consultant, Utility Billing (ashby)
 - Posted: 2026-07-30
@@ -358,6 +371,13 @@ Last checked: September 22, 2026 at 05:37 PM
 - Location: Remote - USA
 - Score detail: title 55% | keywords 40% | experience 65% | domain 25% | education 60% | missing: email security, SPF/DKIM/DMARC, Salesforce/Gainsight, Azure/Google Cloud, cybersecurity SaaS, Microsoft 365/Google Workspace, time-to-value, Abnormal Academy/self-serve model
 - Link: https://abnormal.ai/careers/jobs/7997840003?gh_jid=7997840003
+
+### [46%] Remote Recruitment – Customer Onboarding Specialist (workable)
+- Posted: unknown
+- Date added: 2026-09-22
+- Location: Remote
+- Score detail: title 40% | keywords 45% | experience 60% | domain 35% | education 50% | missing: HubSpot, Intercom, Notion, CRM, welcome calls, UK-based, customer support handoff, video calls
+- Link: https://jobs.workable.com/view/icUKsCEjay1bCBjKpPDkHb/remote-customer-onboarding-specialist-in-gauteng-at-remote-recruitment
 
 ### [46%] Prochant US – Revenue Cycle Implementation Manager- DME/Infusion (workable)
 - Posted: unknown
@@ -408,6 +428,13 @@ Last checked: September 22, 2026 at 05:37 PM
 - Location: Chicago, IL
 - Score detail: title 55% | keywords 45% | experience 30% | domain 30% | education 40% | missing: supply chain, logistics, transportation, recent graduate, GPA 3.5, CRM, carrier operations, travel 30%
 - Link: https://job-boards.greenhouse.io/fourkites/jobs/8076930
+
+### [40%] Prominence Advisors – Technical Project Manager (workable)
+- Posted: unknown
+- Date added: 2026-09-22
+- Location: Remote
+- Score detail: title 55% | keywords 35% | experience 55% | domain 15% | education 50% | missing: healthcare, Epic, data governance, analytics, clinical workflows, IT staffing, healthcare IT, data ecosystems
+- Link: https://jobs.workable.com/view/gEoPYVw3iEK4XfmCPfTyFp/remote-technical-project-manager-in-united-states-at-prominence-advisors
 
 ### [40%] Pinewood.AI – Training and Implementation Consultant (Accounting) (workable)
 - Posted: unknown
