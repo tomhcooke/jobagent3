@@ -1886,7 +1886,13 @@ def write_dashboard(all_matches):
   #status { font-size: 0.85rem; margin-bottom: 0.75rem; min-height: 1.2em; }
   #status.error { color: #f85149; }
   #status.ok { color: #2ea043; }
-  #mobileSort { display: none; }
+  /* Clicking a column header sorts too, but a bare header gives no hint it
+     can be clicked and no sign of which way it's sorted -- so every sortable
+     header carries a faint up/down glyph, and the active one a clear arrow. */
+  th[data-key]::after { content: " \\2195"; opacity: 0.3; font-size: 0.85em; }
+  th[data-key]:hover::after { opacity: 0.7; }
+  th[data-key].sorted::after { content: " \\25B2"; opacity: 1; color: #58a6ff; }
+  th[data-key].sorted.sorted-desc::after { content: " \\25BC"; }
   .stage-cell { white-space: nowrap; }
   .stage-toggle { display: inline-flex; align-items: center; gap: 0.25rem; font-size: 0.78rem;
                   color: #9198a1; margin-right: 0.5rem; cursor: pointer; }
@@ -1902,15 +1908,14 @@ def write_dashboard(all_matches):
   /* Phone layout. A nine-column table cannot shrink to ~390px without
      either a horizontal scroll or unreadable columns, so below this width
      each row becomes its own card and the cells label themselves from the
-     data-label the renderer sets. The header row is what normally carries
-     both the labels and the sort control, so hiding it means the sort has
-     to move somewhere visible -- hence #mobileSort. */
+     data-label the renderer sets. The header row carries both the labels and
+     the sort affordance, so hiding it here is exactly why #sortControls
+     exists as a separate, always-visible control. */
   @media (max-width: 760px) {
     body { padding: 0.75rem; }
     h1 { font-size: 1.2rem; }
     .meta .hint { display: none; }
     .controls input[type="text"] { flex: 1 1 100%; }
-    #mobileSort { display: flex; }
     table { font-size: 0.95rem; }
     table, tbody, tr, td { display: block; }
     thead { display: none; }
@@ -1998,7 +2003,7 @@ def write_dashboard(all_matches):
   </div>
 </div>
 
-<div class="controls" id="mobileSort">
+<div class="controls" id="sortControls">
   <label for="sortSelect">Sort by</label>
   <select id="sortSelect">
     <option value="score">Score</option>
@@ -2793,6 +2798,13 @@ function syncSortControls() {
   document.getElementById("sortSelect").value = sortKey;
   const btn = document.getElementById("sortDirBtn");
   btn.innerHTML = sortDir === 1 ? "&#8593; Asc" : "&#8595; Desc";
+  // The header arrows and the dropdown are two views of one state; letting
+  // them drift apart would be worse than having only one of them.
+  document.querySelectorAll("th[data-key]").forEach(function (th) {
+    const active = th.getAttribute("data-key") === sortKey;
+    th.classList.toggle("sorted", active);
+    th.classList.toggle("sorted-desc", active && sortDir === -1);
+  });
 }
 
 document.querySelectorAll("th[data-key]").forEach(function (th) {
