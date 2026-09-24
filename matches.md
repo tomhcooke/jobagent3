@@ -1,33 +1,12 @@
 # Job Matches
 
-Last checked: September 23, 2026 at 05:48 PM
+Last checked: September 24, 2026 at 05:50 PM
 
-## New (3)
+## New (0)
 
-### [61%] PracticeTek – Onboarding Specialist - Patients (workable)
-- Posted: unknown
-- Date added: 2026-09-23
-- Location: Remote
-- Score detail: title 60% | keywords 55% | experience 85% | domain 40% | education 70% | missing: healthcare, EHR, patients, clinics, practice management, retail-healthcare, training coordination, customer success handoff
-- Link: https://jobs.workable.com/view/sh4Hqgr7JMMyCxsefK65t7/remote-onboarding-specialist---patients-in-united-states-at-practicetek
+*Nothing here.*
 
-### [NETWORK] [41%] stripe – Integration Engineer, Professional Services (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: 2026-09-23
-- Date added: 2026-09-23
-- Location: United States
-- Score detail: title 45% | keywords 35% | experience 55% | domain 40% | education 30% | missing: Go, Java, C/C++, API security, payments domain, data structures and algorithms, CI/CD, code debugging
-- Link: https://stripe.com/jobs/search?gh_jid=8203973
-
-### [NETWORK] [36%] toast – Implementation Specialist, Thai Bilingual - Remote (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: 2026-09-22
-- Date added: 2026-09-23
-- Location: Remote, US
-- Score detail: title 55% | keywords 30% | experience 40% | domain 15% | education 50% | missing: Thai fluency, Restaurant/Hospitality experience, POS software, Salesforce CRM, site assessments, table turn time, labor and food costs, Go-Live training
-- Link: https://careers.toasttab.com/jobs?gh_jid=8224585
-
-## Previously Viewed (68)
+## Previously Viewed (71)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -219,6 +198,13 @@ Last checked: September 23, 2026 at 05:48 PM
 - Link: https://job-boards.greenhouse.io/shipbobinc/jobs/4720581005
 - Status: Closed as of 2026-09-21
 
+### [61%] PracticeTek – Onboarding Specialist - Patients (workable)
+- Posted: unknown
+- Date added: 2026-09-23
+- Location: Remote
+- Score detail: title 60% | keywords 55% | experience 85% | domain 40% | education 70% | missing: healthcare, EHR, patients, clinics, practice management, retail-healthcare, training coordination, customer success handoff
+- Link: https://jobs.workable.com/view/sh4Hqgr7JMMyCxsefK65t7/remote-onboarding-specialist---patients-in-united-states-at-practicetek
+
 ### [60%] opengov – Manager I, Professional Services - IC (ashby)
 - Posted: 2026-08-17
 - Date added: 2026-09-17
@@ -357,13 +343,14 @@ Last checked: September 23, 2026 at 05:48 PM
 - Score detail: title 70% | keywords 40% | experience 65% | domain 20% | education 60% | missing: Payroll, HRIS, Workforce Management, ERP, Government, Excel/pivot tables, Data architecture, V-lookup
 - Link: https://jobs.ashbyhq.com/opengov/0d95758f-d785-47ca-97de-82ae6072d802
 
-### [NETWORK] [48%] toast – Implementation Consultant III, ENT Drive Thru/Menu Boards (greenhouse)
+~~### [NETWORK] [48%] toast – Implementation Consultant III, ENT Drive Thru/Menu Boards (greenhouse)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: 2026-08-21
 - Date added: 2026-09-17
 - Location: Remote, US
 - Score detail: title 55% | keywords 40% | experience 65% | domain 25% | education 70% | missing: drive-thru technology, menu board, POS, networking, Hotel PMS, digital signage, above-store reporting, multi-unit QSR
 - Link: https://careers.toasttab.com/jobs?gh_jid=8121574
+- Status: Closed as of 2026-09-24
 
 ### [47%] abnormalsecurity – Professional Services Consultant (Self Service) (greenhouse)
 - Posted: 2026-09-17
@@ -408,6 +395,14 @@ Last checked: September 23, 2026 at 05:48 PM
 - Score detail: title 55% | keywords 30% | experience 60% | domain 25% | education 60% | missing: Sage 100, ERP, payment gateways, Acumatica, Microsoft Dynamics, NetSuite, AR/Sales Invoice modules, UAT
 - Link: https://jobs.workable.com/view/9C8F6kx5YsMwbrDUuS3fFS/remote-sage-100-product-and-implementation-manager-in-united-states-at-nuvei
 
+### [NETWORK] [41%] stripe – Integration Engineer, Professional Services (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-09-23
+- Date added: 2026-09-23
+- Location: United States
+- Score detail: title 45% | keywords 35% | experience 55% | domain 40% | education 30% | missing: Go, Java, C/C++, API security, payments domain, data structures and algorithms, CI/CD, code debugging
+- Link: https://stripe.com/jobs/search?gh_jid=8203973
+
 ### [41%] WarrCloud – Platform Implementation Specialist (workable)
 - Posted: unknown
 - Date added: 2026-09-19
@@ -443,12 +438,13 @@ Last checked: September 23, 2026 at 05:48 PM
 - Score detail: title 55% | keywords 35% | experience 60% | domain 15% | education 30% | missing: dealership accounting, GL mappings, AP/AR, bank reconciliations, OEM integrations, controllers, month-end processes, training delivery
 - Link: https://jobs.workable.com/view/iMXhna2k6ZUecrmbAsnUJy/remote-training-and-implementation-consultant-(accounting)-in-united-states-at-pinewood.ai
 
-### [40%] secureframe – Implementation Specialist, CMMC (ashby)
+~~### [40%] secureframe – Implementation Specialist, CMMC (ashby)~~
 - Posted: 2026-07-20
 - Date added: 2026-09-17
 - Location: United States
 - Score detail: title 60% | keywords 30% | experience 75% | domain 15% | education 20% | missing: CMMC, NIST SP 800-171, CUI, FCI, SSP, POA&M, C3PAO, GCC High
 - Link: https://jobs.ashbyhq.com/secureframe/ad18271a-18b9-41e9-b0d1-a4f02051dfeb
+- Status: Closed as of 2026-09-24
 
 ### [37%] harnessinc – Professional Services Engagement Manager (greenhouse)
 - Posted: 2026-06-25
@@ -456,6 +452,14 @@ Last checked: September 23, 2026 at 05:48 PM
 - Location: U.S. (Remote)
 - Score detail: title 40% | keywords 30% | experience 55% | domain 25% | education 40% | missing: CI/CD, DevOps, Statements of Work, cloud-native, Professional Services proposals, technical sales, platform engineering, bookings and margin targets
 - Link: https://www.harness.io/company/jobs/apply?gh_jid=5174597007&gh_jid=5174597007
+
+### [NETWORK] [36%] toast – Implementation Specialist, Thai Bilingual - Remote (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-09-22
+- Date added: 2026-09-23
+- Location: Remote, US
+- Score detail: title 55% | keywords 30% | experience 40% | domain 15% | education 50% | missing: Thai fluency, Restaurant/Hospitality experience, POS software, Salesforce CRM, site assessments, table turn time, labor and food costs, Go-Live training
+- Link: https://careers.toasttab.com/jobs?gh_jid=8224585
 
 ### [36%] cresta – Engagement Manager (Professional Services Sales) (greenhouse)
 - Posted: 2026-08-24
