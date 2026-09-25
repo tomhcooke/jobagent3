@@ -1,10 +1,30 @@
 # Job Matches
 
-Last checked: September 24, 2026 at 05:55 PM
+Last checked: September 25, 2026 at 05:52 PM
 
-## New (0)
+## New (3)
 
-*Nothing here.*
+### [68%] Leena AI – Project Manager- Professional Services (workable)
+- Posted: unknown
+- Date added: 2026-09-25
+- Location: Remote
+- Score detail: title 75% | keywords 60% | experience 85% | domain 55% | education 70% | missing: AI/LLM implementation, digital transformation, system integrations, risk mitigation, resource allocation, budget management, product demos, backend/admin troubleshooting
+- Link: https://jobs.workable.com/view/kgdtUvoTLNpbpzSdW5xDNX/remote-project-manager--professional-services-in-united-states-at-leena-ai
+
+### [62%] samsara – Senior Enterprise Implementation Consultant (greenhouse)
+- Posted: 2026-09-24
+- Date added: 2026-09-25
+- Location: Remote - US
+- Score detail: title 70% | keywords 55% | experience 85% | domain 45% | education 60% | missing: IoT, fleet management, account health, launch plans, product adoption, training sessions, telematics, consultative skills
+- Link: https://www.samsara.com/company/careers/roles/8121968?gh_jid=8121968
+
+### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: Posted Yesterday
+- Date added: 2026-09-25
+- Location: 5 Locations
+- Score detail: title 20% | keywords 25% | experience 35% | domain 20% | education 30% | missing: UX/UI design, Design Thinking, interaction design, visual design, user research, stakeholder workshops, Salesforce platform, design portfolio
+- Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Remote/Senior-Experience-Architect--Professional-Services-_JR361440-1
 
 ## Previously Viewed (71)
 
@@ -417,12 +437,13 @@ Last checked: September 24, 2026 at 05:55 PM
 - Score detail: title 55% | keywords 35% | experience 60% | domain 20% | education 40% | missing: dealership accounting, GL mappings, AP/AR, bank reconciliations, manufacturer statements, controllers, OEM integrations, month-end processes
 - Link: https://jobs.workable.com/view/jXNwFAMMyj4CamY4kbqyu3/remote-training-and-implementation-consultant-in-united-states-at-pinewood.ai
 
-### [41%] fourkites – Associate Implementation Manager  (greenhouse)
+~~### [41%] fourkites – Associate Implementation Manager  (greenhouse)~~
 - Posted: 2026-07-23
 - Date added: 2026-09-17
 - Location: Chicago, IL
 - Score detail: title 55% | keywords 45% | experience 30% | domain 30% | education 40% | missing: supply chain, logistics, transportation, recent graduate, GPA 3.5, CRM, carrier operations, travel 30%
 - Link: https://job-boards.greenhouse.io/fourkites/jobs/8076930
+- Status: Closed as of 2026-09-25
 
 ### [40%] Prominence Advisors – Technical Project Manager (workable)
 - Posted: unknown
