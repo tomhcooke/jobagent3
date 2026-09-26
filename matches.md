@@ -1,32 +1,12 @@
 # Job Matches
 
-Last checked: September 25, 2026 at 05:52 PM
+Last checked: September 26, 2026 at 04:57 PM
 
-## New (3)
+## New (0)
 
-### [68%] Leena AI – Project Manager- Professional Services (workable)
-- Posted: unknown
-- Date added: 2026-09-25
-- Location: Remote
-- Score detail: title 75% | keywords 60% | experience 85% | domain 55% | education 70% | missing: AI/LLM implementation, digital transformation, system integrations, risk mitigation, resource allocation, budget management, product demos, backend/admin troubleshooting
-- Link: https://jobs.workable.com/view/kgdtUvoTLNpbpzSdW5xDNX/remote-project-manager--professional-services-in-united-states-at-leena-ai
+*Nothing here.*
 
-### [62%] samsara – Senior Enterprise Implementation Consultant (greenhouse)
-- Posted: 2026-09-24
-- Date added: 2026-09-25
-- Location: Remote - US
-- Score detail: title 70% | keywords 55% | experience 85% | domain 45% | education 60% | missing: IoT, fleet management, account health, launch plans, product adoption, training sessions, telematics, consultative skills
-- Link: https://www.samsara.com/company/careers/roles/8121968?gh_jid=8121968
-
-### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: Posted Yesterday
-- Date added: 2026-09-25
-- Location: 5 Locations
-- Score detail: title 20% | keywords 25% | experience 35% | domain 20% | education 30% | missing: UX/UI design, Design Thinking, interaction design, visual design, user research, stakeholder workshops, Salesforce platform, design portfolio
-- Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Remote/Senior-Experience-Architect--Professional-Services-_JR361440-1
-
-## Previously Viewed (71)
+## Previously Viewed (74)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -108,6 +88,13 @@ Last checked: September 25, 2026 at 05:52 PM
 - Location: Remote - US
 - Score detail: title 78% | keywords 62% | experience 85% | domain 55% | education 70% | missing: IoT, fleet management, telematics, account health tracking, launch plans, training sessions/demos, emotional intelligence, renewal/adoption
 - Link: https://www.samsara.com/company/careers/roles/8121329?gh_jid=8121329
+
+### [68%] Leena AI – Project Manager- Professional Services (workable)
+- Posted: unknown
+- Date added: 2026-09-25
+- Location: Remote
+- Score detail: title 75% | keywords 60% | experience 85% | domain 55% | education 70% | missing: AI/LLM implementation, digital transformation, system integrations, risk mitigation, resource allocation, budget management, product demos, backend/admin troubleshooting
+- Link: https://jobs.workable.com/view/kgdtUvoTLNpbpzSdW5xDNX/remote-project-manager--professional-services-in-united-states-at-leena-ai
 
 ### [68%] forma – Customer Implementation Manager (ashby)
 - Posted: 2026-09-16
@@ -217,6 +204,13 @@ Last checked: September 25, 2026 at 05:52 PM
 - Score detail: title 70% | keywords 55% | experience 85% | domain 45% | education 70% | missing: Shopify, BigCommerce, Magento, WooCommerce, ERP, OMS, Merchant Success, fulfillment
 - Link: https://job-boards.greenhouse.io/shipbobinc/jobs/4720581005
 - Status: Closed as of 2026-09-21
+
+### [62%] samsara – Senior Enterprise Implementation Consultant (greenhouse)
+- Posted: 2026-09-24
+- Date added: 2026-09-25
+- Location: Remote - US
+- Score detail: title 70% | keywords 55% | experience 85% | domain 45% | education 60% | missing: IoT, fleet management, account health, launch plans, product adoption, training sessions, telematics, consultative skills
+- Link: https://www.samsara.com/company/careers/roles/8121968?gh_jid=8121968
 
 ### [61%] PracticeTek – Onboarding Specialist - Patients (workable)
 - Posted: unknown
@@ -503,6 +497,14 @@ Last checked: September 25, 2026 at 05:52 PM
 - Score detail: title 40% | keywords 25% | experience 45% | domain 20% | education 30% | missing: Sage Intacct, NetSuite, accounting, financial software, ERP, cloud accounting, Finance/Accounting degree, end-user training
 - Link: https://jobs.workable.com/view/u7PQH28GbXRwhQ5weUTwM5/remote-sage-intacct-implementation-specialist-in-united-states-at-partner-one-capital
 
+### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: Posted Yesterday
+- Date added: 2026-09-25
+- Location: 5 Locations
+- Score detail: title 20% | keywords 25% | experience 35% | domain 20% | education 30% | missing: UX/UI design, Design Thinking, interaction design, visual design, user research, stakeholder workshops, Salesforce platform, design portfolio
+- Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Remote/Senior-Experience-Architect--Professional-Services-_JR361440-1
+
 ### [NETWORK] [25%] cengage – Remote Customer Technical Support Representative, Monday - Friday, 11am – 7pm EST (workday)
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: Posted 2 Days Ago
@@ -551,13 +553,14 @@ Last checked: September 25, 2026 at 05:52 PM
 <details>
 <summary>Archived (2)</summary>
 
-### [NETWORK] [20%] smartsheet – Professional Services Business Development Director (greenhouse)
+~~### [NETWORK] [20%] smartsheet – Professional Services Business Development Director (greenhouse)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: 2026-02-18
 - Date added: 2026-09-17
 - Location:  -REMOTE, USA-
 - Score detail: title 10% | keywords 15% | experience 20% | domain 20% | education 60% | missing: Quota carrying sales, MEDDIC, Challenger, Value-based selling, Salesforce/Clari forecasting, Statement of Work (SOW), Executive stakeholder selling, Territory/account planning
 - Link: https://job-boards.greenhouse.io/smartsheet/jobs/7630247
+- Status: Closed as of 2026-09-26
 
 ### [19%] temporal – Senior Professional Services Engineer - West (ashby)
 - Posted: 2026-08-12
