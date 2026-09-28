@@ -1,10 +1,30 @@
 # Job Matches
 
-Last checked: September 27, 2026 at 05:36 PM
+Last checked: September 28, 2026 at 08:05 PM
 
-## New (0)
+## New (3)
 
-*Nothing here.*
+### [37%] Ottimate – Solution Architect, Professional Services (workable)
+- Posted: unknown
+- Date added: 2026-09-28
+- Location: Remote
+- Score detail: title 35% | keywords 30% | experience 55% | domain 20% | education 60% | missing: ERP integration, Statement of Work (SOW), AP workflow, PO matching, Item Validation, solution scoping, JIRA estimation, pre-sales discovery
+- Link: https://jobs.workable.com/view/f3h1ohc4Pd5vuHKhdSPj1r/remote-solution-architect%2C-professional-services-in-united-states-at-ottimate
+
+### [34%] Legal Intake Pros – Lead Docket Implementation Specialist (workable)
+- Posted: unknown
+- Date added: 2026-09-28
+- Location: Remote
+- Score detail: title 45% | keywords 20% | experience 65% | domain 15% | education 40% | missing: Lead Docket, Filevine, Vinesign, legal intake, e-sign workflows, deadline chains, field mapping, lead routing
+- Link: https://jobs.workable.com/view/nPoLfytRhVpEVyDmSG36Z3/remote-lead-docket-implementation-specialist-in-united-states-at-legal-intake-pros
+
+### [NETWORK] [22%] salesforce – Sr. Account Partner / Account Partner Director, Professional Services — Manufacturing (workday)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: Posted Today
+- Date added: 2026-09-28
+- Location: 6 Locations
+- Score detail: title 15% | keywords 20% | experience 30% | domain 15% | education 40% | missing: quota-carrying bookings, Salesforce platform (Sales Cloud/Service Cloud), Professional Services sales, manufacturing industry, Agentforce/Data Cloud, forecasting, executive relationship management, GSI/services selling
+- Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Remote/Sr-Account-Partner---Account-Partner-Director--Professional-Services---Manufacturing_JR361968
 
 ## Previously Viewed (74)
 
