@@ -1,32 +1,12 @@
 # Job Matches
 
-Last checked: September 28, 2026 at 08:05 PM
+Last checked: September 29, 2026 at 06:33 PM
 
-## New (3)
+## New (0)
 
-### [37%] Ottimate – Solution Architect, Professional Services (workable)
-- Posted: unknown
-- Date added: 2026-09-28
-- Location: Remote
-- Score detail: title 35% | keywords 30% | experience 55% | domain 20% | education 60% | missing: ERP integration, Statement of Work (SOW), AP workflow, PO matching, Item Validation, solution scoping, JIRA estimation, pre-sales discovery
-- Link: https://jobs.workable.com/view/f3h1ohc4Pd5vuHKhdSPj1r/remote-solution-architect%2C-professional-services-in-united-states-at-ottimate
+*Nothing here.*
 
-### [34%] Legal Intake Pros – Lead Docket Implementation Specialist (workable)
-- Posted: unknown
-- Date added: 2026-09-28
-- Location: Remote
-- Score detail: title 45% | keywords 20% | experience 65% | domain 15% | education 40% | missing: Lead Docket, Filevine, Vinesign, legal intake, e-sign workflows, deadline chains, field mapping, lead routing
-- Link: https://jobs.workable.com/view/nPoLfytRhVpEVyDmSG36Z3/remote-lead-docket-implementation-specialist-in-united-states-at-legal-intake-pros
-
-### [NETWORK] [22%] salesforce – Sr. Account Partner / Account Partner Director, Professional Services — Manufacturing (workday)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: Posted Today
-- Date added: 2026-09-28
-- Location: 6 Locations
-- Score detail: title 15% | keywords 20% | experience 30% | domain 15% | education 40% | missing: quota-carrying bookings, Salesforce platform (Sales Cloud/Service Cloud), Professional Services sales, manufacturing industry, Agentforce/Data Cloud, forecasting, executive relationship management, GSI/services selling
-- Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Remote/Sr-Account-Partner---Account-Partner-Director--Professional-Services---Manufacturing_JR361968
-
-## Previously Viewed (74)
+## Previously Viewed (77)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -35,12 +15,13 @@ Last checked: September 28, 2026 at 08:05 PM
 - Score detail: title 95% | keywords 75% | experience 90% | domain 55% | education 80% | missing: supply chain visibility, logistics, carrier operations, C-suite executives, global 1000, transportation, executive reviews, stakeholder training
 - Link: https://job-boards.greenhouse.io/fourkites/jobs/7982637
 
-### [78%] frontcareers – Senior Implementation Manager (ashby)
+~~### [78%] frontcareers – Senior Implementation Manager (ashby)~~
 - Posted: 2026-09-04
 - Date added: 2026-09-17
 - Location: Chicago, IL
 - Score detail: title 90% | keywords 70% | experience 90% | domain 80% | education 70% | missing: change management, stakeholder mapping, risk register, webhooks, governance, executive presence, cutover, solution design
 - Link: https://jobs.ashbyhq.com/frontcareers/7c444abc-9e60-4e69-b351-a497b5884595
+- Status: Closed as of 2026-09-29
 
 ### [73%] linear – Implementation Manager (ashby)
 - Posted: 2026-05-27
@@ -116,12 +97,13 @@ Last checked: September 28, 2026 at 08:05 PM
 - Score detail: title 75% | keywords 60% | experience 85% | domain 55% | education 70% | missing: AI/LLM implementation, digital transformation, system integrations, risk mitigation, resource allocation, budget management, product demos, backend/admin troubleshooting
 - Link: https://jobs.workable.com/view/kgdtUvoTLNpbpzSdW5xDNX/remote-project-manager--professional-services-in-united-states-at-leena-ai
 
-### [68%] forma – Customer Implementation Manager (ashby)
+~~### [68%] forma – Customer Implementation Manager (ashby)~~
 - Posted: 2026-09-16
 - Date added: 2026-09-17
 - Location: Remote - United States
 - Score detail: title 85% | keywords 60% | experience 90% | domain 40% | education 70% | missing: HR Benefits, Payroll, HRIS, needs assessment, upsell/expansion, client-facing training materials, post-sales onboarding, benefits administration
 - Link: https://jobs.ashbyhq.com/forma/df918cdc-e21e-43c1-ac71-121366402bd1
+- Status: Closed as of 2026-09-29
 
 ### [68%] outreach – Senior Professional Services Consultant (lever)
 - Posted: 2026-09-16
@@ -481,6 +463,13 @@ Last checked: September 28, 2026 at 08:05 PM
 - Link: https://jobs.ashbyhq.com/secureframe/ad18271a-18b9-41e9-b0d1-a4f02051dfeb
 - Status: Closed as of 2026-09-24
 
+### [37%] Ottimate – Solution Architect, Professional Services (workable)
+- Posted: unknown
+- Date added: 2026-09-28
+- Location: Remote
+- Score detail: title 35% | keywords 30% | experience 55% | domain 20% | education 60% | missing: ERP integration, Statement of Work (SOW), AP workflow, PO matching, Item Validation, solution scoping, JIRA estimation, pre-sales discovery
+- Link: https://jobs.workable.com/view/f3h1ohc4Pd5vuHKhdSPj1r/remote-solution-architect%2C-professional-services-in-united-states-at-ottimate
+
 ### [37%] harnessinc – Professional Services Engagement Manager (greenhouse)
 - Posted: 2026-06-25
 - Date added: 2026-09-17
@@ -510,6 +499,13 @@ Last checked: September 28, 2026 at 08:05 PM
 - Score detail: title 25% | keywords 30% | experience 55% | domain 20% | education 50% | missing: SLA management, root cause analysis, ticket escalation, higher education, curriculum/scheduling software, self-service documentation, QA feedback, customer support tickets
 - Link: https://jobs.workable.com/view/33vcRRgEWYh7afK4SppahM/remote-customer-support-engineer-in-united-states-at-coursedog
 
+### [34%] Legal Intake Pros – Lead Docket Implementation Specialist (workable)
+- Posted: unknown
+- Date added: 2026-09-28
+- Location: Remote
+- Score detail: title 45% | keywords 20% | experience 65% | domain 15% | education 40% | missing: Lead Docket, Filevine, Vinesign, legal intake, e-sign workflows, deadline chains, field mapping, lead routing
+- Link: https://jobs.workable.com/view/nPoLfytRhVpEVyDmSG36Z3/remote-lead-docket-implementation-specialist-in-united-states-at-legal-intake-pros
+
 ### [31%] Partner One Capital – Sage Intacct Implementation Specialist (workable)
 - Posted: unknown
 - Date added: 2026-09-17
@@ -532,6 +528,14 @@ Last checked: September 28, 2026 at 08:05 PM
 - Location: 2 Locations
 - Score detail: title 15% | keywords 25% | experience 30% | domain 20% | education 40% | missing: technical support, call center, ticketing system, Microsoft Office suite, Apple operating systems, browser troubleshooting, customer support, help desk
 - Link: https://cengage.wd5.myworkdayjobs.com/CengageNorthAmericaCareers/job/Kentucky-USA/Customer-Technical-Support-Representative_R2026-289
+
+### [NETWORK] [22%] salesforce – Sr. Account Partner / Account Partner Director, Professional Services — Manufacturing (workday)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: Posted Today
+- Date added: 2026-09-28
+- Location: 6 Locations
+- Score detail: title 15% | keywords 20% | experience 30% | domain 15% | education 40% | missing: quota-carrying bookings, Salesforce platform (Sales Cloud/Service Cloud), Professional Services sales, manufacturing industry, Agentforce/Data Cloud, forecasting, executive relationship management, GSI/services selling
+- Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Remote/Sr-Account-Partner---Account-Partner-Director--Professional-Services---Manufacturing_JR361968
 
 ### [NETWORK] [22%] adyen – Regulatory Product Specialist (greenhouse)
 - In network: Yes (you have a LinkedIn contact here)
