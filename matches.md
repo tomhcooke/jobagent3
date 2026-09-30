@@ -1,10 +1,15 @@
 # Job Matches
 
-Last checked: September 29, 2026 at 06:33 PM
+Last checked: September 30, 2026 at 06:22 PM
 
-## New (0)
+## New (1)
 
-*Nothing here.*
+### [74%] avoca – Implementation Manager (ashby)
+- Posted: 2026-09-30
+- Date added: 2026-09-30
+- Location: Remote
+- Score detail: title 95% | keywords 65% | experience 90% | domain 55% | education 80% | missing: APIs/webhooks, AI prompt configuration, solutions architecture, technical account management, error handling, auth models, home services industry, workflow logic
+- Link: https://jobs.ashbyhq.com/avoca/efbc7d18-eced-4824-894e-82884aa731a7
 
 ## Previously Viewed (77)
 
@@ -477,13 +482,14 @@ Last checked: September 29, 2026 at 06:33 PM
 - Score detail: title 40% | keywords 30% | experience 55% | domain 25% | education 40% | missing: CI/CD, DevOps, Statements of Work, cloud-native, Professional Services proposals, technical sales, platform engineering, bookings and margin targets
 - Link: https://www.harness.io/company/jobs/apply?gh_jid=5174597007&gh_jid=5174597007
 
-### [NETWORK] [36%] toast – Implementation Specialist, Thai Bilingual - Remote (greenhouse)
+~~### [NETWORK] [36%] toast – Implementation Specialist, Thai Bilingual - Remote (greenhouse)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: 2026-09-22
 - Date added: 2026-09-23
 - Location: Remote, US
 - Score detail: title 55% | keywords 30% | experience 40% | domain 15% | education 50% | missing: Thai fluency, Restaurant/Hospitality experience, POS software, Salesforce CRM, site assessments, table turn time, labor and food costs, Go-Live training
 - Link: https://careers.toasttab.com/jobs?gh_jid=8224585
+- Status: Closed as of 2026-09-30
 
 ### [36%] cresta – Engagement Manager (Professional Services Sales) (greenhouse)
 - Posted: 2026-08-24
