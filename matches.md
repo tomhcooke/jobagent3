@@ -1,17 +1,32 @@
 # Job Matches
 
-Last checked: September 30, 2026 at 06:22 PM
+Last checked: October 01, 2026 at 06:47 PM
 
-## New (1)
+## New (3)
 
-### [74%] avoca – Implementation Manager (ashby)
+### [67%] alphasense – Implementation Manager (greenhouse)
 - Posted: 2026-09-30
-- Date added: 2026-09-30
-- Location: Remote
-- Score detail: title 95% | keywords 65% | experience 90% | domain 55% | education 80% | missing: APIs/webhooks, AI prompt configuration, solutions architecture, technical account management, error handling, auth models, home services industry, workflow logic
-- Link: https://jobs.ashbyhq.com/avoca/efbc7d18-eced-4824-894e-82884aa731a7
+- Date added: 2026-10-01
+- Location: Remote - United States
+- Score detail: title 85% | keywords 55% | experience 80% | domain 60% | education 70% | missing: Linear, Rocketlane, Salesforce, change management, time to first login, pivot tables, Asana, adoption playbooks
+- Link: https://job-boards.greenhouse.io/alphasense/jobs/8816770002
 
-## Previously Viewed (77)
+### [65%] samsara – Implementation Consultant  (greenhouse)
+- Posted: 2026-07-29
+- Date added: 2026-10-01
+- Location: Remote - UK
+- Score detail: title 85% | keywords 55% | experience 75% | domain 60% | education 60% | missing: German fluency, hardware experience, change management, solution workshops, L1 processes, travel 30%, IoT, training sessions
+- Link: https://www.samsara.com/company/careers/roles/8076689?gh_jid=8076689
+
+### [NETWORK] [23%] gitlab – Professional Services Engineer - West  (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-09-30
+- Date added: 2026-10-01
+- Location: Remote
+- Score detail: title 25% | keywords 15% | experience 40% | domain 15% | education 30% | missing: Terraform, Ansible, CI/CD, Kubernetes, Git/GitLab, Cloud architecture, DevSecOps, Congregate
+- Link: https://job-boards.greenhouse.io/gitlab/jobs/8857335002
+
+## Previously Viewed (78)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -27,6 +42,13 @@ Last checked: September 30, 2026 at 06:22 PM
 - Score detail: title 90% | keywords 70% | experience 90% | domain 80% | education 70% | missing: change management, stakeholder mapping, risk register, webhooks, governance, executive presence, cutover, solution design
 - Link: https://jobs.ashbyhq.com/frontcareers/7c444abc-9e60-4e69-b351-a497b5884595
 - Status: Closed as of 2026-09-29
+
+### [74%] avoca – Implementation Manager (ashby)
+- Posted: 2026-09-30
+- Date added: 2026-09-30
+- Location: Remote
+- Score detail: title 95% | keywords 65% | experience 90% | domain 55% | education 80% | missing: APIs/webhooks, AI prompt configuration, solutions architecture, technical account management, error handling, auth models, home services industry, workflow logic
+- Link: https://jobs.ashbyhq.com/avoca/efbc7d18-eced-4824-894e-82884aa731a7
 
 ### [73%] linear – Implementation Manager (ashby)
 - Posted: 2026-05-27
@@ -401,12 +423,13 @@ Last checked: September 30, 2026 at 06:22 PM
 - Score detail: title 55% | keywords 45% | experience 65% | domain 15% | education 40% | missing: Pipeline Integrity, Oil & Gas, Asset Integrity, Regulatory Compliance, Pilot Programs, Data Loading, Model Execution, Engineering (PE/Pipeline)
 - Link: https://jobs.workable.com/view/9PCZNw9aKxAmr97CztfvnQ/remote-sr.-implementation-consultant-in-united-states-at-irth-solutions
 
-### [44%] shipbobinc – Operations Implementation Manager (greenhouse)
+~~### [44%] shipbobinc – Operations Implementation Manager (greenhouse)~~
 - Posted: 2026-08-20
 - Date added: 2026-09-17
 - Location: Remote - United States
 - Score detail: title 55% | keywords 35% | experience 60% | domain 25% | education 60% | missing: Fulfillment Operations, PowerBI, Supply Chain, warehouse/fulfillment network, merchant onboarding, forecasting/capacity planning, travel to sites (Midwest), food safety compliance
 - Link: https://job-boards.greenhouse.io/shipbobinc/jobs/4712932005
+- Status: Closed as of 2026-10-01
 
 ### [NETWORK] [42%] Nuvei – Sage 100 Product and Implementation Manager (workable)
 - In network: Yes (you have a LinkedIn contact here)
@@ -519,13 +542,14 @@ Last checked: September 30, 2026 at 06:22 PM
 - Score detail: title 40% | keywords 25% | experience 45% | domain 20% | education 30% | missing: Sage Intacct, NetSuite, accounting, financial software, ERP, cloud accounting, Finance/Accounting degree, end-user training
 - Link: https://jobs.workable.com/view/u7PQH28GbXRwhQ5weUTwM5/remote-sage-intacct-implementation-specialist-in-united-states-at-partner-one-capital
 
-### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)
+~~### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: Posted Yesterday
 - Date added: 2026-09-25
 - Location: 5 Locations
 - Score detail: title 20% | keywords 25% | experience 35% | domain 20% | education 30% | missing: UX/UI design, Design Thinking, interaction design, visual design, user research, stakeholder workshops, Salesforce platform, design portfolio
 - Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Remote/Senior-Experience-Architect--Professional-Services-_JR361440-1
+- Status: Closed as of 2026-10-01
 
 ### [NETWORK] [25%] cengage – Remote Customer Technical Support Representative, Monday - Friday, 11am – 7pm EST (workday)
 - In network: Yes (you have a LinkedIn contact here)
