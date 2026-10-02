@@ -1,32 +1,31 @@
 # Job Matches
 
-Last checked: October 01, 2026 at 06:47 PM
+Last checked: October 02, 2026 at 06:18 PM
 
 ## New (3)
 
-### [67%] alphasense – Implementation Manager (greenhouse)
-- Posted: 2026-09-30
-- Date added: 2026-10-01
-- Location: Remote - United States
-- Score detail: title 85% | keywords 55% | experience 80% | domain 60% | education 70% | missing: Linear, Rocketlane, Salesforce, change management, time to first login, pivot tables, Asana, adoption playbooks
-- Link: https://job-boards.greenhouse.io/alphasense/jobs/8816770002
+### [67%] savvymoney – Senior Implementation Manager - Fintech (Dublin, CA or USA Remote) (ashby)
+- Posted: 2026-10-02
+- Date added: 2026-10-02
+- Location: Remote - Dublin, CA
+- Score detail: title 85% | keywords 55% | experience 90% | domain 40% | education 80% | missing: lending, deposit products, core banking, loan origination system (LOS), credit bureaus, Smartsheet, Confluence, fintech
+- Link: https://jobs.ashbyhq.com/savvymoney/e0cef48f-aca6-4160-a339-882dc327c294
 
-### [65%] samsara – Implementation Consultant  (greenhouse)
-- Posted: 2026-07-29
-- Date added: 2026-10-01
-- Location: Remote - UK
-- Score detail: title 85% | keywords 55% | experience 75% | domain 60% | education 60% | missing: German fluency, hardware experience, change management, solution workshops, L1 processes, travel 30%, IoT, training sessions
-- Link: https://www.samsara.com/company/careers/roles/8076689?gh_jid=8076689
-
-### [NETWORK] [23%] gitlab – Professional Services Engineer - West  (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: 2026-09-30
-- Date added: 2026-10-01
+### [61%] Dayshape – Senior Software Implementation Consultant (US) (workable)
+- Posted: unknown
+- Date added: 2026-10-02
 - Location: Remote
-- Score detail: title 25% | keywords 15% | experience 40% | domain 15% | education 30% | missing: Terraform, Ansible, CI/CD, Kubernetes, Git/GitLab, Cloud architecture, DevSecOps, Congregate
-- Link: https://job-boards.greenhouse.io/gitlab/jobs/8857335002
+- Score detail: title 65% | keywords 55% | experience 80% | domain 50% | education 60% | missing: resource management, data mapping, UAT, scoping workshops, train the trainer, professional services firms, configuration workflows, cost-benefit analysis
+- Link: https://jobs.workable.com/view/ecQJywuPvZHoPqZHrRdccX/remote-senior-software-implementation-consultant-(us)-in-united-states-at-dayshape
 
-## Previously Viewed (78)
+### [61%] harnessinc – Project Manager, Professional Services (greenhouse)
+- Posted: 2026-08-03
+- Date added: 2026-10-02
+- Location: Chicago, Illinois, United States; Dallas, Texas, United States
+- Score detail: title 65% | keywords 55% | experience 80% | domain 60% | education 45% | missing: CI/CD, DevOps, Harness certification, Salesforce, Gainsight, executive business reviews, customer success plans, Computer Science degree
+- Link: https://www.harness.io/company/jobs/apply?gh_jid=5193999007&gh_jid=5193999007
+
+## Previously Viewed (81)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -160,6 +159,13 @@ Last checked: October 01, 2026 at 06:47 PM
 - Score detail: title 80% | keywords 60% | experience 85% | domain 55% | education 70% | missing: IoT, fleet management, telematics, Mid-Market, account health, product adoption roadmap, training sessions, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8143242?gh_jid=8143242
 
+### [67%] alphasense – Implementation Manager (greenhouse)
+- Posted: 2026-09-30
+- Date added: 2026-10-01
+- Location: Remote - United States
+- Score detail: title 85% | keywords 55% | experience 80% | domain 60% | education 70% | missing: Linear, Rocketlane, Salesforce, change management, time to first login, pivot tables, Asana, adoption playbooks
+- Link: https://job-boards.greenhouse.io/alphasense/jobs/8816770002
+
 ### [67%] Ottimate – Implementation Manager (workable)
 - Posted: unknown
 - Date added: 2026-09-17
@@ -180,6 +186,13 @@ Last checked: October 01, 2026 at 06:47 PM
 - Location: Remote - US
 - Score detail: title 75% | keywords 60% | experience 85% | domain 45% | education 70% | missing: IoT, fleet management, telematics, account health, launch plans, product adoption tracking, training sessions, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8121318?gh_jid=8121318
+
+### [65%] samsara – Implementation Consultant  (greenhouse)
+- Posted: 2026-07-29
+- Date added: 2026-10-01
+- Location: Remote - UK
+- Score detail: title 85% | keywords 55% | experience 75% | domain 60% | education 60% | missing: German fluency, hardware experience, change management, solution workshops, L1 processes, travel 30%, IoT, training sessions
+- Link: https://www.samsara.com/company/careers/roles/8076689?gh_jid=8076689
 
 ### [NETWORK] [65%] asana – Senior Implementation Manager (greenhouse)
 - In network: Yes (you have a LinkedIn contact here)
@@ -551,21 +564,31 @@ Last checked: October 01, 2026 at 06:47 PM
 - Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Remote/Senior-Experience-Architect--Professional-Services-_JR361440-1
 - Status: Closed as of 2026-10-01
 
-### [NETWORK] [25%] cengage – Remote Customer Technical Support Representative, Monday - Friday, 11am – 7pm EST (workday)
+~~### [NETWORK] [25%] cengage – Remote Customer Technical Support Representative, Monday - Friday, 11am – 7pm EST (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: Posted 2 Days Ago
 - Date added: 2026-09-18
 - Location: 2 Locations
 - Score detail: title 15% | keywords 25% | experience 30% | domain 20% | education 40% | missing: technical support, call center, ticketing system, Microsoft Office suite, Apple operating systems, browser troubleshooting, customer support, help desk
 - Link: https://cengage.wd5.myworkdayjobs.com/CengageNorthAmericaCareers/job/Kentucky-USA/Customer-Technical-Support-Representative_R2026-289
+- Status: Closed as of 2026-10-02
 
-### [NETWORK] [22%] salesforce – Sr. Account Partner / Account Partner Director, Professional Services — Manufacturing (workday)
+### [NETWORK] [23%] gitlab – Professional Services Engineer - West  (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-09-30
+- Date added: 2026-10-01
+- Location: Remote
+- Score detail: title 25% | keywords 15% | experience 40% | domain 15% | education 30% | missing: Terraform, Ansible, CI/CD, Kubernetes, Git/GitLab, Cloud architecture, DevSecOps, Congregate
+- Link: https://job-boards.greenhouse.io/gitlab/jobs/8857335002
+
+~~### [NETWORK] [22%] salesforce – Sr. Account Partner / Account Partner Director, Professional Services — Manufacturing (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: Posted Today
 - Date added: 2026-09-28
 - Location: 6 Locations
 - Score detail: title 15% | keywords 20% | experience 30% | domain 15% | education 40% | missing: quota-carrying bookings, Salesforce platform (Sales Cloud/Service Cloud), Professional Services sales, manufacturing industry, Agentforce/Data Cloud, forecasting, executive relationship management, GSI/services selling
 - Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Remote/Sr-Account-Partner---Account-Partner-Director--Professional-Services---Manufacturing_JR361968
+- Status: Closed as of 2026-10-02
 
 ### [NETWORK] [22%] adyen – Regulatory Product Specialist (greenhouse)
 - In network: Yes (you have a LinkedIn contact here)
