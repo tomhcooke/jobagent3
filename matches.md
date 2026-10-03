@@ -1,31 +1,17 @@
 # Job Matches
 
-Last checked: October 02, 2026 at 06:18 PM
+Last checked: October 03, 2026 at 05:04 PM
 
-## New (3)
+## New (1)
 
-### [67%] savvymoney – Senior Implementation Manager - Fintech (Dublin, CA or USA Remote) (ashby)
+### [58%] opengov – Manager II, Professional Services (ashby)
 - Posted: 2026-10-02
-- Date added: 2026-10-02
-- Location: Remote - Dublin, CA
-- Score detail: title 85% | keywords 55% | experience 90% | domain 40% | education 80% | missing: lending, deposit products, core banking, loan origination system (LOS), credit bureaus, Smartsheet, Confluence, fintech
-- Link: https://jobs.ashbyhq.com/savvymoney/e0cef48f-aca6-4160-a339-882dc327c294
+- Date added: 2026-10-03
+- Location: US | Illinois | Chicago
+- Score detail: title 65% | keywords 55% | experience 75% | domain 30% | education 70% | missing: Government/public sector, Portfolio forecasting, Statements of Work, Change Orders, Budget health monitoring, Staffing/resource planning, Government budgeting/procurement, Team recruitment/performance management
+- Link: https://jobs.ashbyhq.com/opengov/50d60bb7-9403-4923-8a74-28539b802ca4
 
-### [61%] Dayshape – Senior Software Implementation Consultant (US) (workable)
-- Posted: unknown
-- Date added: 2026-10-02
-- Location: Remote
-- Score detail: title 65% | keywords 55% | experience 80% | domain 50% | education 60% | missing: resource management, data mapping, UAT, scoping workshops, train the trainer, professional services firms, configuration workflows, cost-benefit analysis
-- Link: https://jobs.workable.com/view/ecQJywuPvZHoPqZHrRdccX/remote-senior-software-implementation-consultant-(us)-in-united-states-at-dayshape
-
-### [61%] harnessinc – Project Manager, Professional Services (greenhouse)
-- Posted: 2026-08-03
-- Date added: 2026-10-02
-- Location: Chicago, Illinois, United States; Dallas, Texas, United States
-- Score detail: title 65% | keywords 55% | experience 80% | domain 60% | education 45% | missing: CI/CD, DevOps, Harness certification, Salesforce, Gainsight, executive business reviews, customer success plans, Computer Science degree
-- Link: https://www.harness.io/company/jobs/apply?gh_jid=5193999007&gh_jid=5193999007
-
-## Previously Viewed (81)
+## Previously Viewed (84)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -159,6 +145,13 @@ Last checked: October 02, 2026 at 06:18 PM
 - Score detail: title 80% | keywords 60% | experience 85% | domain 55% | education 70% | missing: IoT, fleet management, telematics, Mid-Market, account health, product adoption roadmap, training sessions, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8143242?gh_jid=8143242
 
+### [67%] savvymoney – Senior Implementation Manager - Fintech (Dublin, CA or USA Remote) (ashby)
+- Posted: 2026-10-02
+- Date added: 2026-10-02
+- Location: Remote - Dublin, CA
+- Score detail: title 85% | keywords 55% | experience 90% | domain 40% | education 80% | missing: lending, deposit products, core banking, loan origination system (LOS), credit bureaus, Smartsheet, Confluence, fintech
+- Link: https://jobs.ashbyhq.com/savvymoney/e0cef48f-aca6-4160-a339-882dc327c294
+
 ### [67%] alphasense – Implementation Manager (greenhouse)
 - Posted: 2026-09-30
 - Date added: 2026-10-01
@@ -254,6 +247,20 @@ Last checked: October 02, 2026 at 06:18 PM
 - Score detail: title 70% | keywords 55% | experience 85% | domain 45% | education 60% | missing: IoT, fleet management, account health, launch plans, product adoption, training sessions, telematics, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8121968?gh_jid=8121968
 
+### [61%] Dayshape – Senior Software Implementation Consultant (US) (workable)
+- Posted: unknown
+- Date added: 2026-10-02
+- Location: Remote
+- Score detail: title 65% | keywords 55% | experience 80% | domain 50% | education 60% | missing: resource management, data mapping, UAT, scoping workshops, train the trainer, professional services firms, configuration workflows, cost-benefit analysis
+- Link: https://jobs.workable.com/view/ecQJywuPvZHoPqZHrRdccX/remote-senior-software-implementation-consultant-(us)-in-united-states-at-dayshape
+
+### [61%] harnessinc – Project Manager, Professional Services (greenhouse)
+- Posted: 2026-08-03
+- Date added: 2026-10-02
+- Location: Chicago, Illinois, United States; Dallas, Texas, United States
+- Score detail: title 65% | keywords 55% | experience 80% | domain 60% | education 45% | missing: CI/CD, DevOps, Harness certification, Salesforce, Gainsight, executive business reviews, customer success plans, Computer Science degree
+- Link: https://www.harness.io/company/jobs/apply?gh_jid=5193999007&gh_jid=5193999007
+
 ### [61%] PracticeTek – Onboarding Specialist - Patients (workable)
 - Posted: unknown
 - Date added: 2026-09-23
@@ -332,12 +339,13 @@ Last checked: October 02, 2026 at 06:18 PM
 - Link: https://job-boards.greenhouse.io/airtable/jobs/8586863002
 - Status: Closed as of 2026-09-23
 
-### [52%] clickup – Senior AI Consultant, Professional Services - West Coast (ashby)
+~~### [52%] clickup – Senior AI Consultant, Professional Services - West Coast (ashby)~~
 - Posted: 2026-09-15
 - Date added: 2026-09-17
 - Location: Remote - United States
 - Score detail: title 55% | keywords 40% | experience 70% | domain 50% | education 60% | missing: AI agent deployment, Model Context Protocol (MCP), prompt design/guardrail configuration, process mapping (current/future state), UAT plans and test cases, Salesforce/ServiceNow/Workday/NetSuite/SAP, change management, agentic automation/copilots
 - Link: https://jobs.ashbyhq.com/clickup/6cc98098-8ba0-4042-88a7-ffda83668ea4
+- Status: Closed as of 2026-10-03
 
 ### [52%] logicgate – Professional Services Associate (Bellevue, WA / Chicago, IL) (greenhouse)
 - Posted: 2026-08-28
