@@ -1,17 +1,17 @@
 # Job Matches
 
-Last checked: October 03, 2026 at 05:04 PM
+Last checked: October 04, 2026 at 05:23 PM
 
 ## New (1)
 
-### [58%] opengov – Manager II, Professional Services (ashby)
-- Posted: 2026-10-02
-- Date added: 2026-10-03
-- Location: US | Illinois | Chicago
-- Score detail: title 65% | keywords 55% | experience 75% | domain 30% | education 70% | missing: Government/public sector, Portfolio forecasting, Statements of Work, Change Orders, Budget health monitoring, Staffing/resource planning, Government budgeting/procurement, Team recruitment/performance management
-- Link: https://jobs.ashbyhq.com/opengov/50d60bb7-9403-4923-8a74-28539b802ca4
+### [52%] Sierra Select Distributors, Inc. – Technical Project Manager (workable)
+- Posted: unknown
+- Date added: 2026-10-04
+- Location: Remote
+- Score detail: title 55% | keywords 45% | experience 65% | domain 35% | education 70% | missing: technical project management, vendor management, budget tracking, network/systems implementation, change management, risk mitigation strategies, cross-functional coordination (sales/marketing/operations), project documentation/reporting
+- Link: https://jobs.workable.com/view/ciLprrkukxDixQkkSbHuwc/remote-technical-project-manager-in-united-states-at-sierra-select-distributors%2C-inc.
 
-## Previously Viewed (84)
+## Previously Viewed (85)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -283,6 +283,13 @@ Last checked: October 03, 2026 at 05:04 PM
 - Link: https://job-boards.greenhouse.io/logicgate/jobs/4723421005
 
 ### [58%] opengov – Manager II, Professional Services (ashby)
+- Posted: 2026-10-02
+- Date added: 2026-10-03
+- Location: US | Illinois | Chicago
+- Score detail: title 65% | keywords 55% | experience 75% | domain 30% | education 70% | missing: Government/public sector, Portfolio forecasting, Statements of Work, Change Orders, Budget health monitoring, Staffing/resource planning, Government budgeting/procurement, Team recruitment/performance management
+- Link: https://jobs.ashbyhq.com/opengov/50d60bb7-9403-4923-8a74-28539b802ca4
+
+### [58%] opengov – Manager II, Professional Services (ashby)
 - Posted: 2026-09-22
 - Date added: 2026-09-22
 - Location: US | Illinois | Chicago
@@ -347,12 +354,13 @@ Last checked: October 03, 2026 at 05:04 PM
 - Link: https://jobs.ashbyhq.com/clickup/6cc98098-8ba0-4042-88a7-ffda83668ea4
 - Status: Closed as of 2026-10-03
 
-### [52%] logicgate – Professional Services Associate (Bellevue, WA / Chicago, IL) (greenhouse)
+~~### [52%] logicgate – Professional Services Associate (Bellevue, WA / Chicago, IL) (greenhouse)~~
 - Posted: 2026-08-28
 - Date added: 2026-09-17
 - Location: Chicago or Bellevue
 - Score detail: title 45% | keywords 55% | experience 60% | domain 30% | education 70% | missing: GRC, Risk Cloud, governance risk and compliance, ServiceNow, Salesforce, compliance frameworks, internal audit, risk management
 - Link: https://job-boards.greenhouse.io/logicgate/jobs/4728797005
+- Status: Closed as of 2026-10-04
 
 ### [51%] Sierra Interactive – Customer Onboarding Specialist (workable)
 - Posted: unknown
