@@ -1,17 +1,32 @@
 # Job Matches
 
-Last checked: October 04, 2026 at 05:23 PM
+Last checked: October 05, 2026 at 09:04 PM
 
-## New (1)
+## New (3)
 
-### [52%] Sierra Select Distributors, Inc. – Technical Project Manager (workable)
+### [56%] Hire Overseas – Customer Onboarding Specialist (BBS797) (workable)
 - Posted: unknown
-- Date added: 2026-10-04
+- Date added: 2026-10-05
 - Location: Remote
-- Score detail: title 55% | keywords 45% | experience 65% | domain 35% | education 70% | missing: technical project management, vendor management, budget tracking, network/systems implementation, change management, risk mitigation strategies, cross-functional coordination (sales/marketing/operations), project documentation/reporting
-- Link: https://jobs.workable.com/view/ciLprrkukxDixQkkSbHuwc/remote-technical-project-manager-in-united-states-at-sierra-select-distributors%2C-inc.
+- Score detail: title 55% | keywords 50% | experience 60% | domain 55% | education 70% | missing: setup wizard, field service software, CRM tools, video calls with business owners, small/medium business clients, dispatch, structured onboarding calls, customer success tools
+- Link: https://jobs.workable.com/view/tgt7R93bXVPqy3onF6u9AL/remote-customer-onboarding-specialist-(bbs797)-in-central-visayas-at-hire-overseas
 
-## Previously Viewed (85)
+### [33%] alphasense – Account Manager, Consulting & Professional Services (greenhouse)
+- Posted: 2026-10-05
+- Date added: 2026-10-05
+- Location: Remote - United States
+- Score detail: title 30% | keywords 25% | experience 40% | domain 35% | education 50% | missing: Account Management, Renewal, Retention Rate, Churn, Revenue Growth, Book of Business, Forecasting, Client Portfolio
+- Link: https://job-boards.greenhouse.io/alphasense/jobs/8868415002
+
+### [NETWORK] [27%] databricks – Lead Learning Product Specialist (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-09-11
+- Date added: 2026-10-05
+- Location: United States
+- Score detail: title 20% | keywords 25% | experience 40% | domain 20% | education 30% | missing: product management, PRDs, learning science, skills graph, LMS, adaptive learning, LLMs, UX design
+- Link: https://databricks.com/company/careers/open-positions/job?gh_jid=8780470002
+
+## Previously Viewed (86)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -152,12 +167,13 @@ Last checked: October 04, 2026 at 05:23 PM
 - Score detail: title 85% | keywords 55% | experience 90% | domain 40% | education 80% | missing: lending, deposit products, core banking, loan origination system (LOS), credit bureaus, Smartsheet, Confluence, fintech
 - Link: https://jobs.ashbyhq.com/savvymoney/e0cef48f-aca6-4160-a339-882dc327c294
 
-### [67%] alphasense – Implementation Manager (greenhouse)
+~~### [67%] alphasense – Implementation Manager (greenhouse)~~
 - Posted: 2026-09-30
 - Date added: 2026-10-01
 - Location: Remote - United States
 - Score detail: title 85% | keywords 55% | experience 80% | domain 60% | education 70% | missing: Linear, Rocketlane, Salesforce, change management, time to first login, pivot tables, Asana, adoption playbooks
 - Link: https://job-boards.greenhouse.io/alphasense/jobs/8816770002
+- Status: Closed as of 2026-10-05
 
 ### [67%] Ottimate – Implementation Manager (workable)
 - Posted: unknown
@@ -337,6 +353,13 @@ Last checked: October 04, 2026 at 05:23 PM
 - Location: Remote - Dublin, CA
 - Score detail: title 70% | keywords 40% | experience 65% | domain 35% | education 90% | missing: marketing or partnership management, consumer deposits and loans, banking technology platforms, SalesForce, Tableau, email campaign management, market research, digital banking
 - Link: https://jobs.ashbyhq.com/savvymoney/30a82a48-5bd6-46ce-9a4d-faddee254725
+
+### [52%] Sierra Select Distributors, Inc. – Technical Project Manager (workable)
+- Posted: unknown
+- Date added: 2026-10-04
+- Location: Remote
+- Score detail: title 55% | keywords 45% | experience 65% | domain 35% | education 70% | missing: technical project management, vendor management, budget tracking, network/systems implementation, change management, risk mitigation strategies, cross-functional coordination (sales/marketing/operations), project documentation/reporting
+- Link: https://jobs.workable.com/view/ciLprrkukxDixQkkSbHuwc/remote-technical-project-manager-in-united-states-at-sierra-select-distributors%2C-inc.
 
 ~~### [52%] airtable – Program Manager, Professional Services - East (greenhouse)~~
 - Posted: 2026-06-10
@@ -571,14 +594,13 @@ Last checked: October 04, 2026 at 05:23 PM
 - Score detail: title 40% | keywords 25% | experience 45% | domain 20% | education 30% | missing: Sage Intacct, NetSuite, accounting, financial software, ERP, cloud accounting, Finance/Accounting degree, end-user training
 - Link: https://jobs.workable.com/view/u7PQH28GbXRwhQ5weUTwM5/remote-sage-intacct-implementation-specialist-in-united-states-at-partner-one-capital
 
-~~### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)~~
+### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: Posted Yesterday
 - Date added: 2026-09-25
 - Location: 5 Locations
 - Score detail: title 20% | keywords 25% | experience 35% | domain 20% | education 30% | missing: UX/UI design, Design Thinking, interaction design, visual design, user research, stakeholder workshops, Salesforce platform, design portfolio
 - Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Remote/Senior-Experience-Architect--Professional-Services-_JR361440-1
-- Status: Closed as of 2026-10-01
 
 ~~### [NETWORK] [25%] cengage – Remote Customer Technical Support Representative, Monday - Friday, 11am – 7pm EST (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
