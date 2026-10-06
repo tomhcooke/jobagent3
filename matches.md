@@ -1,32 +1,17 @@
 # Job Matches
 
-Last checked: October 05, 2026 at 09:04 PM
+Last checked: October 06, 2026 at 06:52 PM
 
-## New (3)
+## New (1)
 
-### [56%] Hire Overseas – Customer Onboarding Specialist (BBS797) (workable)
+### [66%] Irth Solutions – Sr. Implementation Consultant (workable)
 - Posted: unknown
-- Date added: 2026-10-05
+- Date added: 2026-10-06
 - Location: Remote
-- Score detail: title 55% | keywords 50% | experience 60% | domain 55% | education 70% | missing: setup wizard, field service software, CRM tools, video calls with business owners, small/medium business clients, dispatch, structured onboarding calls, customer success tools
-- Link: https://jobs.workable.com/view/tgt7R93bXVPqy3onF6u9AL/remote-customer-onboarding-specialist-(bbs797)-in-central-visayas-at-hire-overseas
+- Score detail: title 80% | keywords 55% | experience 85% | domain 55% | education 70% | missing: UAT, business requirements documentation, process mapping, wireframes, Train-the-Trainer, statements of work, underwriting, regulatory compliance
+- Link: https://jobs.workable.com/view/1CL2e2zbNLHQDnKZuWNrbt/remote-sr.-implementation-consultant-in-united-states-at-irth-solutions
 
-### [33%] alphasense – Account Manager, Consulting & Professional Services (greenhouse)
-- Posted: 2026-10-05
-- Date added: 2026-10-05
-- Location: Remote - United States
-- Score detail: title 30% | keywords 25% | experience 40% | domain 35% | education 50% | missing: Account Management, Renewal, Retention Rate, Churn, Revenue Growth, Book of Business, Forecasting, Client Portfolio
-- Link: https://job-boards.greenhouse.io/alphasense/jobs/8868415002
-
-### [NETWORK] [27%] databricks – Lead Learning Product Specialist (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: 2026-09-11
-- Date added: 2026-10-05
-- Location: United States
-- Score detail: title 20% | keywords 25% | experience 40% | domain 20% | education 30% | missing: product management, PRDs, learning science, skills graph, LMS, adaptive learning, LLMs, UX design
-- Link: https://databricks.com/company/careers/open-positions/job?gh_jid=8780470002
-
-## Previously Viewed (86)
+## Previously Viewed (89)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -80,12 +65,13 @@ Last checked: October 05, 2026 at 09:04 PM
 - Link: https://www.samsara.com/company/careers/roles/8209046?gh_jid=8209046
 - Status: Closed as of 2026-09-22
 
-### [72%] samsara – Enterprise Implementation Consultant (greenhouse)
+~~### [72%] samsara – Enterprise Implementation Consultant (greenhouse)~~
 - Posted: 2026-05-14
 - Date added: 2026-09-17
 - Location: Remote - US
 - Score detail: title 75% | keywords 65% | experience 85% | domain 55% | education 90% | missing: IoT, fleet/telematics, account health tracking, launch plans/roadmap, travel 25%, account management, strategic consulting, product adoption
 - Link: https://www.samsara.com/company/careers/roles/7852948?gh_jid=7852948
+- Status: Closed as of 2026-10-06
 
 ### [70%] Irth Solutions – Implementation Consultant, (workable)
 - Posted: unknown
@@ -333,6 +319,13 @@ Last checked: October 05, 2026 at 09:04 PM
 - Score detail: title 65% | keywords 55% | experience 70% | domain 30% | education 70% | missing: GIS, government budgeting, ETL, Excel/VBA/pivot tables, team management of Implementation Analysts, public sector, permitting/licensing, utilization/delivery metrics
 - Link: https://jobs.ashbyhq.com/opengov/ca9f04b1-dd1f-4fdf-a432-e2a9be33dd6d
 
+### [56%] Hire Overseas – Customer Onboarding Specialist (BBS797) (workable)
+- Posted: unknown
+- Date added: 2026-10-05
+- Location: Remote
+- Score detail: title 55% | keywords 50% | experience 60% | domain 55% | education 70% | missing: setup wizard, field service software, CRM tools, video calls with business owners, small/medium business clients, dispatch, structured onboarding calls, customer success tools
+- Link: https://jobs.workable.com/view/tgt7R93bXVPqy3onF6u9AL/remote-customer-onboarding-specialist-(bbs797)-in-central-visayas-at-hire-overseas
+
 ### [56%] opengov – Manager II, Professional Services (ashby)
 - Posted: 2026-08-27
 - Date added: 2026-09-17
@@ -347,12 +340,13 @@ Last checked: October 05, 2026 at 09:04 PM
 - Score detail: title 55% | keywords 45% | experience 75% | domain 40% | education 70% | missing: Accounts Payable, training programs, adoption metrics, change management, user personas, finance workflows, invoice-to-payment, usage data analysis
 - Link: https://jobs.workable.com/view/bka2ch1M32zRNJWy76ytBe/remote-onboarding-specialist-in-united-states-at-ottimate
 
-### [54%] savvymoney – Senior Implementation Manager (Dublin, CA or USA Remote) (ashby)
+~~### [54%] savvymoney – Senior Implementation Manager (Dublin, CA or USA Remote) (ashby)~~
 - Posted: 2026-06-03
 - Date added: 2026-09-17
 - Location: Remote - Dublin, CA
 - Score detail: title 70% | keywords 40% | experience 65% | domain 35% | education 90% | missing: marketing or partnership management, consumer deposits and loans, banking technology platforms, SalesForce, Tableau, email campaign management, market research, digital banking
 - Link: https://jobs.ashbyhq.com/savvymoney/30a82a48-5bd6-46ce-9a4d-faddee254725
+- Status: Closed as of 2026-10-06
 
 ### [52%] Sierra Select Distributors, Inc. – Technical Project Manager (workable)
 - Posted: unknown
@@ -587,12 +581,27 @@ Last checked: October 05, 2026 at 09:04 PM
 - Score detail: title 45% | keywords 20% | experience 65% | domain 15% | education 40% | missing: Lead Docket, Filevine, Vinesign, legal intake, e-sign workflows, deadline chains, field mapping, lead routing
 - Link: https://jobs.workable.com/view/nPoLfytRhVpEVyDmSG36Z3/remote-lead-docket-implementation-specialist-in-united-states-at-legal-intake-pros
 
+### [33%] alphasense – Account Manager, Consulting & Professional Services (greenhouse)
+- Posted: 2026-10-05
+- Date added: 2026-10-05
+- Location: Remote - United States
+- Score detail: title 30% | keywords 25% | experience 40% | domain 35% | education 50% | missing: Account Management, Renewal, Retention Rate, Churn, Revenue Growth, Book of Business, Forecasting, Client Portfolio
+- Link: https://job-boards.greenhouse.io/alphasense/jobs/8868415002
+
 ### [31%] Partner One Capital – Sage Intacct Implementation Specialist (workable)
 - Posted: unknown
 - Date added: 2026-09-17
 - Location: Remote
 - Score detail: title 40% | keywords 25% | experience 45% | domain 20% | education 30% | missing: Sage Intacct, NetSuite, accounting, financial software, ERP, cloud accounting, Finance/Accounting degree, end-user training
 - Link: https://jobs.workable.com/view/u7PQH28GbXRwhQ5weUTwM5/remote-sage-intacct-implementation-specialist-in-united-states-at-partner-one-capital
+
+### [NETWORK] [27%] databricks – Lead Learning Product Specialist (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-09-11
+- Date added: 2026-10-05
+- Location: United States
+- Score detail: title 20% | keywords 25% | experience 40% | domain 20% | education 30% | missing: product management, PRDs, learning science, skills graph, LMS, adaptive learning, LLMs, UX design
+- Link: https://databricks.com/company/careers/open-positions/job?gh_jid=8780470002
 
 ### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)
 - In network: Yes (you have a LinkedIn contact here)
