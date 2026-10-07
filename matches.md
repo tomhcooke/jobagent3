@@ -1,17 +1,18 @@
 # Job Matches
 
-Last checked: October 06, 2026 at 06:52 PM
+Last checked: October 07, 2026 at 07:18 PM
 
 ## New (1)
 
-### [66%] Irth Solutions – Sr. Implementation Consultant (workable)
-- Posted: unknown
-- Date added: 2026-10-06
+### [NETWORK] [26%] gitlab – Senior Professional Services Engineer - PubSec - US Only (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-10-07
+- Date added: 2026-10-07
 - Location: Remote
-- Score detail: title 80% | keywords 55% | experience 85% | domain 55% | education 70% | missing: UAT, business requirements documentation, process mapping, wireframes, Train-the-Trainer, statements of work, underwriting, regulatory compliance
-- Link: https://jobs.workable.com/view/1CL2e2zbNLHQDnKZuWNrbt/remote-sr.-implementation-consultant-in-united-states-at-irth-solutions
+- Score detail: title 30% | keywords 20% | experience 40% | domain 15% | education 30% | missing: Terraform, Ansible, Puppet, Chef, TS/SCI clearance, GitLab, Infrastructure as Code, Public Sector
+- Link: https://job-boards.greenhouse.io/gitlab/jobs/8838331002
 
-## Previously Viewed (89)
+## Previously Viewed (90)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -174,6 +175,13 @@ Last checked: October 06, 2026 at 06:52 PM
 - Location: Remote - US
 - Score detail: title 70% | keywords 60% | experience 85% | domain 55% | education 70% | missing: IoT, fleet management, telematics, account health tracking, launch plans, product adoption roadmap, training sessions, physical operations
 - Link: https://www.samsara.com/company/careers/roles/8121312?gh_jid=8121312
+
+### [66%] Irth Solutions – Sr. Implementation Consultant (workable)
+- Posted: unknown
+- Date added: 2026-10-06
+- Location: Remote
+- Score detail: title 80% | keywords 55% | experience 85% | domain 55% | education 70% | missing: UAT, business requirements documentation, process mapping, wireframes, Train-the-Trainer, statements of work, underwriting, regulatory compliance
+- Link: https://jobs.workable.com/view/1CL2e2zbNLHQDnKZuWNrbt/remote-sr.-implementation-consultant-in-united-states-at-irth-solutions
 
 ### [66%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)
 - Posted: 2026-08-14
