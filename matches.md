@@ -1,18 +1,31 @@
 # Job Matches
 
-Last checked: October 07, 2026 at 07:18 PM
+Last checked: October 08, 2026 at 07:14 PM
 
-## New (1)
+## New (3)
 
-### [NETWORK] [26%] gitlab – Senior Professional Services Engineer - PubSec - US Only (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
+### [67%] samsara – Implementation Consultant (greenhouse)
 - Posted: 2026-10-07
-- Date added: 2026-10-07
-- Location: Remote
-- Score detail: title 30% | keywords 20% | experience 40% | domain 15% | education 30% | missing: Terraform, Ansible, Puppet, Chef, TS/SCI clearance, GitLab, Infrastructure as Code, Public Sector
-- Link: https://job-boards.greenhouse.io/gitlab/jobs/8838331002
+- Date added: 2026-10-08
+- Location: Remote - CA
+- Score detail: title 85% | keywords 60% | experience 75% | domain 40% | education 90% | missing: IoT, French fluency, fleet/telematics, account health, training sessions, launch plans, Mid-Market SaaS, consultative skills
+- Link: https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004
 
-## Previously Viewed (90)
+### [37%] snyk – Professional Services Engineer (ashby)
+- Posted: 2026-10-08
+- Date added: 2026-10-08
+- Location: Remote - United States - MA Remote
+- Score detail: title 40% | keywords 30% | experience 55% | domain 15% | education 60% | missing: Application Security, CI/CD, Jenkins, GitHub Actions, Python, Linux command line, SDLC, DevSecOps
+- Link: https://jobs.ashbyhq.com/snyk/e361242d-3452-4530-a0d8-07a7e6bf1a99
+
+### [20%] Boostability – Independent Contractor - Website Implementation Specialist (workable)
+- Posted: unknown
+- Date added: 2026-10-08
+- Location: Remote - Trohwe
+- Score detail: title 20% | keywords 15% | experience 30% | domain 10% | education 40% | missing: Wix/Wix Studio, SEO, Meta Descriptions, Alt Image Tags, Google Analytics, sitemap.xml, robots.txt, Website builders
+- Link: https://jobs.workable.com/view/sd8J37vEmLNzmeajjpSBEy/remote-independent-contractor---website-implementation-specialist-in-trohwe-at-boostability
+
+## Previously Viewed (91)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -197,13 +210,14 @@ Last checked: October 07, 2026 at 07:18 PM
 - Score detail: title 85% | keywords 55% | experience 75% | domain 60% | education 60% | missing: German fluency, hardware experience, change management, solution workshops, L1 processes, travel 30%, IoT, training sessions
 - Link: https://www.samsara.com/company/careers/roles/8076689?gh_jid=8076689
 
-### [NETWORK] [65%] asana – Senior Implementation Manager (greenhouse)
+~~### [NETWORK] [65%] asana – Senior Implementation Manager (greenhouse)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: 2026-09-01
 - Date added: 2026-09-17
 - Location: Chicago
 - Score detail: title 75% | keywords 55% | experience 80% | domain 65% | education 60% | missing: AI workflow design, agent orchestration, generative AI, data governance, change management, user acceptance testing, process mapping, workflow configuration
 - Link: https://www.asana.com/jobs/apply/8163422?gh_jid=8163422
+- Status: Closed as of 2026-10-08
 
 ### [64%] opengov – Implementation Consultant (ashby)
 - Posted: 2026-09-11
@@ -610,6 +624,14 @@ Last checked: October 07, 2026 at 07:18 PM
 - Location: United States
 - Score detail: title 20% | keywords 25% | experience 40% | domain 20% | education 30% | missing: product management, PRDs, learning science, skills graph, LMS, adaptive learning, LLMs, UX design
 - Link: https://databricks.com/company/careers/open-positions/job?gh_jid=8780470002
+
+### [NETWORK] [26%] gitlab – Senior Professional Services Engineer - PubSec - US Only (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-10-07
+- Date added: 2026-10-07
+- Location: Remote
+- Score detail: title 30% | keywords 20% | experience 40% | domain 15% | education 30% | missing: Terraform, Ansible, Puppet, Chef, TS/SCI clearance, GitLab, Infrastructure as Code, Public Sector
+- Link: https://job-boards.greenhouse.io/gitlab/jobs/8838331002
 
 ### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)
 - In network: Yes (you have a LinkedIn contact here)
