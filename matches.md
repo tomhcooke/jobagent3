@@ -1,31 +1,12 @@
 # Job Matches
 
-Last checked: October 08, 2026 at 07:14 PM
+Last checked: October 09, 2026 at 06:44 PM
 
-## New (3)
+## New (0)
 
-### [67%] samsara – Implementation Consultant (greenhouse)
-- Posted: 2026-10-07
-- Date added: 2026-10-08
-- Location: Remote - CA
-- Score detail: title 85% | keywords 60% | experience 75% | domain 40% | education 90% | missing: IoT, French fluency, fleet/telematics, account health, training sessions, launch plans, Mid-Market SaaS, consultative skills
-- Link: https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004
+*Nothing here.*
 
-### [37%] snyk – Professional Services Engineer (ashby)
-- Posted: 2026-10-08
-- Date added: 2026-10-08
-- Location: Remote - United States - MA Remote
-- Score detail: title 40% | keywords 30% | experience 55% | domain 15% | education 60% | missing: Application Security, CI/CD, Jenkins, GitHub Actions, Python, Linux command line, SDLC, DevSecOps
-- Link: https://jobs.ashbyhq.com/snyk/e361242d-3452-4530-a0d8-07a7e6bf1a99
-
-### [20%] Boostability – Independent Contractor - Website Implementation Specialist (workable)
-- Posted: unknown
-- Date added: 2026-10-08
-- Location: Remote - Trohwe
-- Score detail: title 20% | keywords 15% | experience 30% | domain 10% | education 40% | missing: Wix/Wix Studio, SEO, Meta Descriptions, Alt Image Tags, Google Analytics, sitemap.xml, robots.txt, Website builders
-- Link: https://jobs.workable.com/view/sd8J37vEmLNzmeajjpSBEy/remote-independent-contractor---website-implementation-specialist-in-trohwe-at-boostability
-
-## Previously Viewed (91)
+## Previously Viewed (94)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -160,6 +141,13 @@ Last checked: October 08, 2026 at 07:14 PM
 - Score detail: title 80% | keywords 60% | experience 85% | domain 55% | education 70% | missing: IoT, fleet management, telematics, Mid-Market, account health, product adoption roadmap, training sessions, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8143242?gh_jid=8143242
 
+### [67%] samsara – Implementation Consultant (greenhouse)
+- Posted: 2026-10-07
+- Date added: 2026-10-08
+- Location: Remote - CA
+- Score detail: title 85% | keywords 60% | experience 75% | domain 40% | education 90% | missing: IoT, French fluency, fleet/telematics, account health, training sessions, launch plans, Mid-Market SaaS, consultative skills
+- Link: https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004
+
 ### [67%] savvymoney – Senior Implementation Manager - Fintech (Dublin, CA or USA Remote) (ashby)
 - Posted: 2026-10-02
 - Date added: 2026-10-02
@@ -182,12 +170,13 @@ Last checked: October 08, 2026 at 07:14 PM
 - Score detail: title 95% | keywords 55% | experience 90% | domain 40% | education 70% | missing: ERP, accounts payable, invoice-to-payment, fraud detection, policy compliance, stakeholder governance, renewal rates, engineering escalation
 - Link: https://jobs.workable.com/view/nqVc3cpCX7i7VXeJKWofvH/remote-implementation-manager-in-united-states-at-ottimate
 
-### [67%] samsara – Enterprise Core Implementation Consultant - West (greenhouse)
+~~### [67%] samsara – Enterprise Core Implementation Consultant - West (greenhouse)~~
 - Posted: 2026-08-14
 - Date added: 2026-09-17
 - Location: Remote - US
 - Score detail: title 70% | keywords 60% | experience 85% | domain 55% | education 70% | missing: IoT, fleet management, telematics, account health tracking, launch plans, product adoption roadmap, training sessions, physical operations
 - Link: https://www.samsara.com/company/careers/roles/8121312?gh_jid=8121312
+- Status: Closed as of 2026-10-09
 
 ### [66%] Irth Solutions – Sr. Implementation Consultant (workable)
 - Posted: unknown
@@ -559,6 +548,13 @@ Last checked: October 08, 2026 at 07:14 PM
 - Link: https://jobs.ashbyhq.com/secureframe/ad18271a-18b9-41e9-b0d1-a4f02051dfeb
 - Status: Closed as of 2026-09-24
 
+### [37%] snyk – Professional Services Engineer (ashby)
+- Posted: 2026-10-08
+- Date added: 2026-10-08
+- Location: Remote - United States - MA Remote
+- Score detail: title 40% | keywords 30% | experience 55% | domain 15% | education 60% | missing: Application Security, CI/CD, Jenkins, GitHub Actions, Python, Linux command line, SDLC, DevSecOps
+- Link: https://jobs.ashbyhq.com/snyk/e361242d-3452-4530-a0d8-07a7e6bf1a99
+
 ### [37%] Ottimate – Solution Architect, Professional Services (workable)
 - Posted: unknown
 - Date added: 2026-09-28
@@ -681,6 +677,13 @@ Last checked: October 08, 2026 at 07:14 PM
 - Location: Remote
 - Score detail: title 20% | keywords 20% | experience 35% | domain 10% | education 15% | missing: financial planning, CFP, onboarding programs, coaching frameworks, career pathways, compliance, training facilitation, planner enablement
 - Link: https://jobs.workable.com/view/xspBZCCUasf9dgU9M9WsQk/remote-senior-planner-training-%26-onboarding-manager-in-united-states-at-facet
+
+### [20%] Boostability – Independent Contractor - Website Implementation Specialist (workable)
+- Posted: unknown
+- Date added: 2026-10-08
+- Location: Remote - Trohwe
+- Score detail: title 20% | keywords 15% | experience 30% | domain 10% | education 40% | missing: Wix/Wix Studio, SEO, Meta Descriptions, Alt Image Tags, Google Analytics, sitemap.xml, robots.txt, Website builders
+- Link: https://jobs.workable.com/view/sd8J37vEmLNzmeajjpSBEy/remote-independent-contractor---website-implementation-specialist-in-trohwe-at-boostability
 
 ### [20%] temporal – Senior Professional Services Engineer - East (ashby)
 - Posted: 2026-08-12
