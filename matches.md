@@ -1,10 +1,15 @@
 # Job Matches
 
-Last checked: October 11, 2026 at 05:59 PM
+Last checked: October 12, 2026 at 09:39 PM
 
-## New (0)
+## New (1)
 
-*Nothing here.*
+### [58%] logicgate – Professional Services Manager (Chicago, IL or Bellevue, Wa) (greenhouse)
+- Posted: 2026-10-12
+- Date added: 2026-10-12
+- Location: Bellevue, Washington, United States, Chicago, Illinois, United States
+- Score detail: title 65% | keywords 55% | experience 80% | domain 30% | education 60% | missing: GRC, Risk Cloud, compliance frameworks, third-party risk, audit, solution architecture, AuditBoard, OneTrust
+- Link: https://www.logicgate.ai/company/careers/?gh_jid=4742986005
 
 ## Previously Viewed (94)
 
@@ -288,12 +293,13 @@ Last checked: October 11, 2026 at 05:59 PM
 - Score detail: title 65% | keywords 55% | experience 80% | domain 35% | education 70% | missing: GIS software, government/public sector, ETL tools, Excel/VLOOKUP/pivot tables, team management of Implementation Analysts, budgeting/procurement/permitting, utilization/delivery metrics, Visual Basic/macros
 - Link: https://jobs.ashbyhq.com/opengov/23a24c11-7756-42a9-9845-03fec5dee2c5
 
-### [59%] logicgate – Professional Services Manager (Bellevue, WA / Chicago,IL) (greenhouse)
+~~### [59%] logicgate – Professional Services Manager (Bellevue, WA / Chicago,IL) (greenhouse)~~
 - Posted: 2026-08-11
 - Date added: 2026-09-17
 - Location: Chicago or Bellevue
 - Score detail: title 65% | keywords 55% | experience 80% | domain 35% | education 60% | missing: GRC, Risk Cloud, compliance frameworks, third-party risk, audit, solution architecture, SOW, AuditBoard/OneTrust/Drata
 - Link: https://job-boards.greenhouse.io/logicgate/jobs/4723421005
+- Status: Closed as of 2026-10-12
 
 ### [58%] opengov – Manager II, Professional Services (ashby)
 - Posted: 2026-10-02
@@ -452,12 +458,13 @@ Last checked: October 11, 2026 at 05:59 PM
 - Link: https://careers.toasttab.com/jobs?gh_jid=8121574
 - Status: Closed as of 2026-09-24
 
-### [47%] abnormalsecurity – Professional Services Consultant (Self Service) (greenhouse)
+~~### [47%] abnormalsecurity – Professional Services Consultant (Self Service) (greenhouse)~~
 - Posted: 2026-09-17
 - Date added: 2026-09-18
 - Location: Remote - USA
 - Score detail: title 55% | keywords 40% | experience 65% | domain 25% | education 60% | missing: email security, SPF/DKIM/DMARC, Salesforce/Gainsight, Azure/Google Cloud, cybersecurity SaaS, Microsoft 365/Google Workspace, time-to-value, Abnormal Academy/self-serve model
 - Link: https://abnormal.ai/careers/jobs/7997840003?gh_jid=7997840003
+- Status: Closed as of 2026-10-12
 
 ### [46%] Remote Recruitment – Customer Onboarding Specialist (workable)
 - Posted: unknown
@@ -629,13 +636,14 @@ Last checked: October 11, 2026 at 05:59 PM
 - Score detail: title 30% | keywords 20% | experience 40% | domain 15% | education 30% | missing: Terraform, Ansible, Puppet, Chef, TS/SCI clearance, GitLab, Infrastructure as Code, Public Sector
 - Link: https://job-boards.greenhouse.io/gitlab/jobs/8838331002
 
-### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)
+~~### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: Posted Yesterday
 - Date added: 2026-09-25
 - Location: 5 Locations
 - Score detail: title 20% | keywords 25% | experience 35% | domain 20% | education 30% | missing: UX/UI design, Design Thinking, interaction design, visual design, user research, stakeholder workshops, Salesforce platform, design portfolio
 - Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Remote/Senior-Experience-Architect--Professional-Services-_JR361440-1
+- Status: Closed as of 2026-10-12
 
 ~~### [NETWORK] [25%] cengage – Remote Customer Technical Support Representative, Monday - Friday, 11am – 7pm EST (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
