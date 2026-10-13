@@ -1,17 +1,24 @@
 # Job Matches
 
-Last checked: October 12, 2026 at 09:39 PM
+Last checked: October 13, 2026 at 07:50 PM
 
-## New (1)
+## New (2)
 
-### [58%] logicgate – Professional Services Manager (Chicago, IL or Bellevue, Wa) (greenhouse)
-- Posted: 2026-10-12
-- Date added: 2026-10-12
-- Location: Bellevue, Washington, United States, Chicago, Illinois, United States
-- Score detail: title 65% | keywords 55% | experience 80% | domain 30% | education 60% | missing: GRC, Risk Cloud, compliance frameworks, third-party risk, audit, solution architecture, AuditBoard, OneTrust
-- Link: https://www.logicgate.ai/company/careers/?gh_jid=4742986005
+### [59%] billcom – Scaled Onboarding Specialist (greenhouse)
+- Posted: 2026-10-13
+- Date added: 2026-10-13
+- Location: United States
+- Score detail: title 45% | keywords 55% | experience 70% | domain 55% | education 80% | missing: AP/AR, Spend & Expense, accounting software integrations, activation, speed-to-value, scaled onboarding, customer success, fintech
+- Link: https://www.bill.com/job?6220355004&gh_jid=6220355004
 
-## Previously Viewed (94)
+### [54%] Human Intelligence – Technical Project Manager | Business Analysis & AI Delivery (workable)
+- Posted: unknown
+- Date added: 2026-10-13
+- Location: Remote - Ukrainka
+- Score detail: title 55% | keywords 45% | experience 70% | domain 50% | education 60% | missing: Business Analysis, Functional specifications, Stakeholder workshops, Workflow mapping, Risk analysis, User story creation, Process improvement, Automation specialists
+- Link: https://jobs.workable.com/view/7LbPLLD2V58UDU6pdPpV7c/remote-technical-project-manager-%7C-business-analysis-%26-ai-delivery-in-ukrainka-at-human-intelligence
+
+## Previously Viewed (95)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -300,6 +307,13 @@ Last checked: October 12, 2026 at 09:39 PM
 - Score detail: title 65% | keywords 55% | experience 80% | domain 35% | education 60% | missing: GRC, Risk Cloud, compliance frameworks, third-party risk, audit, solution architecture, SOW, AuditBoard/OneTrust/Drata
 - Link: https://job-boards.greenhouse.io/logicgate/jobs/4723421005
 - Status: Closed as of 2026-10-12
+
+### [58%] logicgate – Professional Services Manager (Chicago, IL or Bellevue, Wa) (greenhouse)
+- Posted: 2026-10-12
+- Date added: 2026-10-12
+- Location: Bellevue, Washington, United States, Chicago, Illinois, United States
+- Score detail: title 65% | keywords 55% | experience 80% | domain 30% | education 60% | missing: GRC, Risk Cloud, compliance frameworks, third-party risk, audit, solution architecture, AuditBoard, OneTrust
+- Link: https://www.logicgate.ai/company/careers/?gh_jid=4742986005
 
 ### [58%] opengov – Manager II, Professional Services (ashby)
 - Posted: 2026-10-02
@@ -671,13 +685,14 @@ Last checked: October 12, 2026 at 09:39 PM
 - Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Remote/Sr-Account-Partner---Account-Partner-Director--Professional-Services---Manufacturing_JR361968
 - Status: Closed as of 2026-10-02
 
-### [NETWORK] [22%] adyen – Regulatory Product Specialist (greenhouse)
+~~### [NETWORK] [22%] adyen – Regulatory Product Specialist (greenhouse)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: 2026-07-24
 - Date added: 2026-09-18
 - Location: Chicago
 - Score detail: title 15% | keywords 20% | experience 30% | domain 15% | education 30% | missing: regulatory compliance, risk management, fintech, payments industry, regulatory requirements, compliance frameworks, banking regulations, product risk assessment
 - Link: https://job-boards.greenhouse.io/adyen/jobs/8084480
+- Status: Closed as of 2026-10-13
 
 ### [21%] Facet – Senior Planner Training & Onboarding Manager (workable)
 - Posted: unknown
