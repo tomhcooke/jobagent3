@@ -1,24 +1,12 @@
 # Job Matches
 
-Last checked: October 13, 2026 at 07:50 PM
+Last checked: October 14, 2026 at 05:52 PM
 
-## New (2)
+## New (0)
 
-### [59%] billcom – Scaled Onboarding Specialist (greenhouse)
-- Posted: 2026-10-13
-- Date added: 2026-10-13
-- Location: United States
-- Score detail: title 45% | keywords 55% | experience 70% | domain 55% | education 80% | missing: AP/AR, Spend & Expense, accounting software integrations, activation, speed-to-value, scaled onboarding, customer success, fintech
-- Link: https://www.bill.com/job?6220355004&gh_jid=6220355004
+*Nothing here.*
 
-### [54%] Human Intelligence – Technical Project Manager | Business Analysis & AI Delivery (workable)
-- Posted: unknown
-- Date added: 2026-10-13
-- Location: Remote - Ukrainka
-- Score detail: title 55% | keywords 45% | experience 70% | domain 50% | education 60% | missing: Business Analysis, Functional specifications, Stakeholder workshops, Workflow mapping, Risk analysis, User story creation, Process improvement, Automation specialists
-- Link: https://jobs.workable.com/view/7LbPLLD2V58UDU6pdPpV7c/remote-technical-project-manager-%7C-business-analysis-%26-ai-delivery-in-ukrainka-at-human-intelligence
-
-## Previously Viewed (95)
+## Previously Viewed (97)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -300,6 +288,13 @@ Last checked: October 13, 2026 at 07:50 PM
 - Score detail: title 65% | keywords 55% | experience 80% | domain 35% | education 70% | missing: GIS software, government/public sector, ETL tools, Excel/VLOOKUP/pivot tables, team management of Implementation Analysts, budgeting/procurement/permitting, utilization/delivery metrics, Visual Basic/macros
 - Link: https://jobs.ashbyhq.com/opengov/23a24c11-7756-42a9-9845-03fec5dee2c5
 
+### [59%] billcom – Scaled Onboarding Specialist (greenhouse)
+- Posted: 2026-10-13
+- Date added: 2026-10-13
+- Location: United States
+- Score detail: title 45% | keywords 55% | experience 70% | domain 55% | education 80% | missing: AP/AR, Spend & Expense, accounting software integrations, activation, speed-to-value, scaled onboarding, customer success, fintech
+- Link: https://www.bill.com/job?6220355004&gh_jid=6220355004
+
 ~~### [59%] logicgate – Professional Services Manager (Bellevue, WA / Chicago,IL) (greenhouse)~~
 - Posted: 2026-08-11
 - Date added: 2026-09-17
@@ -363,6 +358,13 @@ Last checked: October 13, 2026 at 07:50 PM
 - Location: US | Illinois | Chicago
 - Score detail: title 65% | keywords 55% | experience 70% | domain 25% | education 70% | missing: people management, portfolio management, government/public sector, GIS, ETL, workflow automation, Excel/VLOOKUP/pivot tables, hiring and onboarding
 - Link: https://jobs.ashbyhq.com/opengov/f1f376e1-2039-430a-abf6-22aeecc67ff6
+
+### [54%] Human Intelligence – Technical Project Manager | Business Analysis & AI Delivery (workable)
+- Posted: unknown
+- Date added: 2026-10-13
+- Location: Remote - Ukrainka
+- Score detail: title 55% | keywords 45% | experience 70% | domain 50% | education 60% | missing: Business Analysis, Functional specifications, Stakeholder workshops, Workflow mapping, Risk analysis, User story creation, Process improvement, Automation specialists
+- Link: https://jobs.workable.com/view/7LbPLLD2V58UDU6pdPpV7c/remote-technical-project-manager-%7C-business-analysis-%26-ai-delivery-in-ukrainka-at-human-intelligence
 
 ### [54%] Ottimate – Onboarding Specialist (workable)
 - Posted: unknown
