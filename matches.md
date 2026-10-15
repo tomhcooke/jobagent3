@@ -1,6 +1,6 @@
 # Job Matches
 
-Last checked: October 14, 2026 at 05:52 PM
+Last checked: October 15, 2026 at 05:42 PM
 
 ## New (0)
 
@@ -192,12 +192,13 @@ Last checked: October 14, 2026 at 05:52 PM
 - Score detail: title 75% | keywords 60% | experience 85% | domain 45% | education 70% | missing: IoT, fleet management, telematics, account health, launch plans, product adoption tracking, training sessions, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8121318?gh_jid=8121318
 
-### [65%] samsara – Implementation Consultant  (greenhouse)
+~~### [65%] samsara – Implementation Consultant  (greenhouse)~~
 - Posted: 2026-07-29
 - Date added: 2026-10-01
 - Location: Remote - UK
 - Score detail: title 85% | keywords 55% | experience 75% | domain 60% | education 60% | missing: German fluency, hardware experience, change management, solution workshops, L1 processes, travel 30%, IoT, training sessions
 - Link: https://www.samsara.com/company/careers/roles/8076689?gh_jid=8076689
+- Status: Closed as of 2026-10-15
 
 ~~### [NETWORK] [65%] asana – Senior Implementation Manager (greenhouse)~~
 - In network: Yes (you have a LinkedIn contact here)
