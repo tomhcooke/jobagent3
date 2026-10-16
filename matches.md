@@ -1,6 +1,6 @@
 # Job Matches
 
-Last checked: October 15, 2026 at 05:42 PM
+Last checked: October 16, 2026 at 05:16 PM
 
 ## New (0)
 
@@ -192,13 +192,12 @@ Last checked: October 15, 2026 at 05:42 PM
 - Score detail: title 75% | keywords 60% | experience 85% | domain 45% | education 70% | missing: IoT, fleet management, telematics, account health, launch plans, product adoption tracking, training sessions, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8121318?gh_jid=8121318
 
-~~### [65%] samsara – Implementation Consultant  (greenhouse)~~
+### [65%] samsara – Implementation Consultant  (greenhouse)
 - Posted: 2026-07-29
 - Date added: 2026-10-01
 - Location: Remote - UK
 - Score detail: title 85% | keywords 55% | experience 75% | domain 60% | education 60% | missing: German fluency, hardware experience, change management, solution workshops, L1 processes, travel 30%, IoT, training sessions
 - Link: https://www.samsara.com/company/careers/roles/8076689?gh_jid=8076689
-- Status: Closed as of 2026-10-15
 
 ~~### [NETWORK] [65%] asana – Senior Implementation Manager (greenhouse)~~
 - In network: Yes (you have a LinkedIn contact here)
@@ -653,14 +652,13 @@ Last checked: October 15, 2026 at 05:42 PM
 - Score detail: title 30% | keywords 20% | experience 40% | domain 15% | education 30% | missing: Terraform, Ansible, Puppet, Chef, TS/SCI clearance, GitLab, Infrastructure as Code, Public Sector
 - Link: https://job-boards.greenhouse.io/gitlab/jobs/8838331002
 
-~~### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)~~
+### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: Posted Yesterday
 - Date added: 2026-09-25
 - Location: 5 Locations
 - Score detail: title 20% | keywords 25% | experience 35% | domain 20% | education 30% | missing: UX/UI design, Design Thinking, interaction design, visual design, user research, stakeholder workshops, Salesforce platform, design portfolio
 - Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Remote/Senior-Experience-Architect--Professional-Services-_JR361440-1
-- Status: Closed as of 2026-10-12
 
 ~~### [NETWORK] [25%] cengage – Remote Customer Technical Support Representative, Monday - Friday, 11am – 7pm EST (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
@@ -726,12 +724,13 @@ Last checked: October 15, 2026 at 05:42 PM
 - Score detail: title 10% | keywords 15% | experience 20% | domain 10% | education 20% | missing: presales, solutions engineering, solution architecture, identity verification, authentication, fraud/abuse, compliance, C-level communication
 - Link: https://job-boards.greenhouse.io/twilio/jobs/8180238
 
-### [13%] harvey – Legal Engineer, Product Specialist Manager (ashby)
+~~### [13%] harvey – Legal Engineer, Product Specialist Manager (ashby)~~
 - Posted: 2026-06-18
 - Date added: 2026-09-18
 - Location: Remote - Chicago
 - Score detail: title 10% | keywords 15% | experience 20% | domain 5% | education 5% | missing: JD or equivalent legal qualification, practicing law, Vault 50 law firm, General Counsel relationships, legal professionals management, customer adoption/expansion, legal engineer, in-house counsel
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
+- Status: Closed as of 2026-10-16
 
 <details>
 <summary>Archived (2)</summary>
