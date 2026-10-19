@@ -1,6 +1,6 @@
 # Job Matches
 
-Last checked: October 18, 2026 at 04:26 PM
+Last checked: October 19, 2026 at 07:07 PM
 
 ## New (0)
 
@@ -281,12 +281,13 @@ Last checked: October 18, 2026 at 04:26 PM
 - Score detail: title 60% | keywords 55% | experience 85% | domain 40% | education 70% | missing: healthcare, EHR, patients, clinics, practice management, retail-healthcare, training coordination, customer success handoff
 - Link: https://jobs.workable.com/view/sh4Hqgr7JMMyCxsefK65t7/remote-onboarding-specialist---patients-in-united-states-at-practicetek
 
-### [60%] opengov – Manager I, Professional Services - IC (ashby)
+~~### [60%] opengov – Manager I, Professional Services - IC (ashby)~~
 - Posted: 2026-08-17
 - Date added: 2026-09-17
 - Location: US | Illinois | Chicago
 - Score detail: title 65% | keywords 55% | experience 80% | domain 35% | education 70% | missing: GIS software, government/public sector, ETL tools, Excel/VLOOKUP/pivot tables, team management of Implementation Analysts, budgeting/procurement/permitting, utilization/delivery metrics, Visual Basic/macros
 - Link: https://jobs.ashbyhq.com/opengov/23a24c11-7756-42a9-9845-03fec5dee2c5
+- Status: Closed as of 2026-10-19
 
 ### [59%] billcom – Scaled Onboarding Specialist (greenhouse)
 - Posted: 2026-10-13
@@ -352,12 +353,13 @@ Last checked: October 18, 2026 at 04:26 PM
 - Score detail: title 55% | keywords 50% | experience 60% | domain 55% | education 70% | missing: setup wizard, field service software, CRM tools, video calls with business owners, small/medium business clients, dispatch, structured onboarding calls, customer success tools
 - Link: https://jobs.workable.com/view/tgt7R93bXVPqy3onF6u9AL/remote-customer-onboarding-specialist-(bbs797)-in-central-visayas-at-hire-overseas
 
-### [56%] opengov – Manager II, Professional Services (ashby)
+~~### [56%] opengov – Manager II, Professional Services (ashby)~~
 - Posted: 2026-08-27
 - Date added: 2026-09-17
 - Location: US | Illinois | Chicago
 - Score detail: title 65% | keywords 55% | experience 70% | domain 25% | education 70% | missing: people management, portfolio management, government/public sector, GIS, ETL, workflow automation, Excel/VLOOKUP/pivot tables, hiring and onboarding
 - Link: https://jobs.ashbyhq.com/opengov/f1f376e1-2039-430a-abf6-22aeecc67ff6
+- Status: Closed as of 2026-10-19
 
 ### [54%] Human Intelligence – Technical Project Manager | Business Analysis & AI Delivery (workable)
 - Posted: unknown
@@ -435,12 +437,13 @@ Last checked: October 18, 2026 at 04:26 PM
 - Link: https://job-boards.greenhouse.io/airtable/jobs/8586865002
 - Status: Closed as of 2026-09-23
 
-### [50%] opengov – Senior Implementation Consultant, Utility Billing (ashby)
+~~### [50%] opengov – Senior Implementation Consultant, Utility Billing (ashby)~~
 - Posted: 2026-07-30
 - Date added: 2026-09-17
 - Location: US | Illinois | Chicago
 - Score detail: title 60% | keywords 45% | experience 70% | domain 25% | education 50% | missing: Municipal Utility Billing, ERP, government/public sector, Excel/pivot tables/v-lookup, data architecture, Tax Billing, financial data reporting, administrator training
 - Link: https://jobs.ashbyhq.com/opengov/ff337b03-8ede-4174-82a5-7c1a6ba01cc5
+- Status: Closed as of 2026-10-19
 
 ### [49%] AI Acquisition – Client Onboarding Specialist (workable)
 - Posted: unknown
@@ -458,12 +461,13 @@ Last checked: October 18, 2026 at 04:26 PM
 - Link: https://nordstrom.wd501.myworkdayjobs.com/nordstrom_careers/job/United-States/Onboarding-Specialist--Marketplace----Remote-_R-877498-1
 - Status: Closed as of 2026-09-21
 
-### [48%] opengov – Senior Implementation Consultant, Payroll (ashby)
+~~### [48%] opengov – Senior Implementation Consultant, Payroll (ashby)~~
 - Posted: 2026-07-30
 - Date added: 2026-09-17
 - Location: US | Illinois | Chicago
 - Score detail: title 70% | keywords 40% | experience 65% | domain 20% | education 60% | missing: Payroll, HRIS, Workforce Management, ERP, Government, Excel/pivot tables, Data architecture, V-lookup
 - Link: https://jobs.ashbyhq.com/opengov/0d95758f-d785-47ca-97de-82ae6072d802
+- Status: Closed as of 2026-10-19
 
 ~~### [NETWORK] [48%] toast – Implementation Consultant III, ENT Drive Thru/Menu Boards (greenhouse)~~
 - In network: Yes (you have a LinkedIn contact here)
