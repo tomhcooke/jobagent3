@@ -1,6 +1,6 @@
 # Job Matches
 
-Last checked: October 19, 2026 at 07:07 PM
+Last checked: October 20, 2026 at 05:53 PM
 
 ## New (0)
 
@@ -120,12 +120,13 @@ Last checked: October 19, 2026 at 07:07 PM
 - Score detail: title 70% | keywords 60% | experience 85% | domain 65% | education 70% | missing: Sales Engagement, Conversational Intelligence, Forecasting, GTM strategy, Change management, Revenue operations, CRM (Salesforce), Adoption risk analytics
 - Link: https://jobs.lever.co/outreach/657cceb1-3b93-4c89-9b39-d2acc1ded6e3
 
-### [68%] samsara – Enterprise Implementation Consultant (greenhouse)
+~~### [68%] samsara – Enterprise Implementation Consultant (greenhouse)~~
 - Posted: 2026-08-24
 - Date added: 2026-09-17
 - Location: Remote - US
 - Score detail: title 75% | keywords 60% | experience 80% | domain 55% | education 90% | missing: IoT, fleet/telematics, account health tracking, launch plans/roadmap, consultative skills, emotional intelligence, physical operations, customer advocacy/renewal
 - Link: https://www.samsara.com/company/careers/roles/8131784?gh_jid=8131784
+- Status: Closed as of 2026-10-20
 
 ### [68%] samsara – Enterprise Select Implementation Consultant (West) (greenhouse)
 - Posted: 2026-08-13
@@ -208,12 +209,13 @@ Last checked: October 19, 2026 at 07:07 PM
 - Link: https://www.asana.com/jobs/apply/8163422?gh_jid=8163422
 - Status: Closed as of 2026-10-08
 
-### [64%] opengov – Implementation Consultant (ashby)
+~~### [64%] opengov – Implementation Consultant (ashby)~~
 - Posted: 2026-09-11
 - Date added: 2026-09-17
 - Location: US | Illinois | Chicago
 - Score detail: title 85% | keywords 55% | experience 90% | domain 30% | education 70% | missing: government/public sector experience, Excel (v-lookup, pivot tables), financial data analysis, budgeting/procurement processes, phone support, governmental concepts, administrator training, data requirements gathering
 - Link: https://jobs.ashbyhq.com/opengov/add3f88b-3ee1-4c82-978b-3d4a6f06c13f
+- Status: Closed as of 2026-10-20
 
 ### [64%] samsara – Senior Strategic Implementation Consultant (greenhouse)
 - Posted: 2026-08-18
