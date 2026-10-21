@@ -1,10 +1,20 @@
 # Job Matches
 
-Last checked: October 20, 2026 at 05:53 PM
+Last checked: October 21, 2026 at 05:59 PM
 
-## New (0)
+## New (2)
 
-*Nothing here.*
+### [not scored] SchooLinks – Implementation Manager (workable)
+- Posted: unknown
+- Date added: 2026-10-21
+- Location: Remote
+- Link: https://jobs.workable.com/view/ohnxK1mrT4jg2aEoTLbi8u/remote-implementation-manager-in-united-states-at-schoolinks
+
+### [not scored] bswift – Discovery Implementation Manager (greenhouse)
+- Posted: 2026-10-21
+- Date added: 2026-10-21
+- Location: Remote- US
+- Link: https://job-boards.greenhouse.io/bswift/jobs/4722602006
 
 ## Previously Viewed (97)
 
