@@ -1,22 +1,34 @@
 # Job Matches
 
-Last checked: October 21, 2026 at 05:59 PM
+Last checked: October 22, 2026 at 05:56 PM
 
-## New (2)
+## New (4)
 
-### [not scored] SchooLinks – Implementation Manager (workable)
+### [not scored] Fidus Systems – Technical Project Manager (workable)
 - Posted: unknown
-- Date added: 2026-10-21
+- Date added: 2026-10-22
 - Location: Remote
-- Link: https://jobs.workable.com/view/ohnxK1mrT4jg2aEoTLbi8u/remote-implementation-manager-in-united-states-at-schoolinks
+- Link: https://jobs.workable.com/view/gyoQEbpvwitFKRPLh72yRp/remote-technical-project-manager-in-united-states-at-fidus-systems
 
-### [not scored] bswift – Discovery Implementation Manager (greenhouse)
+### [not scored] boxinc – Team Manager, Professional Services (greenhouse)
 - Posted: 2026-10-21
-- Date added: 2026-10-21
-- Location: Remote- US
-- Link: https://job-boards.greenhouse.io/bswift/jobs/4722602006
+- Date added: 2026-10-22
+- Location: Chicago, Illinois, United States
+- Link: https://job-boards.greenhouse.io/boxinc/jobs/8248145
 
-## Previously Viewed (97)
+### [not scored] snyk – Senior Implementation Consultant (ashby)
+- Posted: 2026-10-21
+- Date added: 2026-10-22
+- Location: Remote - United States - San Francisco Office
+- Link: https://jobs.ashbyhq.com/snyk/a8b9e9fc-473b-4daf-9b32-96ea103e81a1
+
+### [not scored] starburst – Customer Support Engineer (greenhouse)
+- Posted: 2026-10-21
+- Date added: 2026-10-22
+- Location: US, West
+- Link: https://job-boards.greenhouse.io/starburst/jobs/5455394008
+
+## Previously Viewed (99)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -145,19 +157,21 @@ Last checked: October 21, 2026 at 05:59 PM
 - Score detail: title 75% | keywords 60% | experience 85% | domain 55% | education 70% | missing: IoT, fleet/telematics, account health tracking, launch plans/roadmap, training sessions, renewal, consultative selling, physical operations
 - Link: https://www.samsara.com/company/careers/roles/8121327?gh_jid=8121327
 
-### [68%] samsara – Implementation Consultant (greenhouse)
+~~### [68%] samsara – Implementation Consultant (greenhouse)~~
 - Posted: 2026-09-01
 - Date added: 2026-09-17
 - Location: Remote - US
 - Score detail: title 80% | keywords 60% | experience 85% | domain 55% | education 70% | missing: IoT, fleet management, telematics, Mid-Market, account health, product adoption roadmap, training sessions, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8143242?gh_jid=8143242
+- Status: Closed as of 2026-10-22
 
-### [67%] samsara – Implementation Consultant (greenhouse)
+~~### [67%] samsara – Implementation Consultant (greenhouse)~~
 - Posted: 2026-10-07
 - Date added: 2026-10-08
 - Location: Remote - CA
 - Score detail: title 85% | keywords 60% | experience 75% | domain 40% | education 90% | missing: IoT, French fluency, fleet/telematics, account health, training sessions, launch plans, Mid-Market SaaS, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004
+- Status: Closed as of 2026-10-22
 
 ### [67%] savvymoney – Senior Implementation Manager - Fintech (Dublin, CA or USA Remote) (ashby)
 - Posted: 2026-10-02
@@ -351,12 +365,13 @@ Last checked: October 21, 2026 at 05:59 PM
 - Score detail: title 55% | keywords 45% | experience 70% | domain 65% | education 70% | missing: Technical Project Manager, governance, work breakdown structure, financial management, contract values $500K+, APIs and data models, change management, steering committees
 - Link: https://jobs.ashbyhq.com/gainsight/b93d429b-fb79-4005-bbaf-422e274d401f
 
-### [57%] opengov – Manager I, Professional Services (ashby)
+~~### [57%] opengov – Manager I, Professional Services (ashby)~~
 - Posted: 2026-07-20
 - Date added: 2026-09-17
 - Location: US | Illinois | Chicago
 - Score detail: title 65% | keywords 55% | experience 70% | domain 30% | education 70% | missing: GIS, government budgeting, ETL, Excel/VBA/pivot tables, team management of Implementation Analysts, public sector, permitting/licensing, utilization/delivery metrics
 - Link: https://jobs.ashbyhq.com/opengov/ca9f04b1-dd1f-4fdf-a432-e2a9be33dd6d
+- Status: Closed as of 2026-10-22
 
 ### [56%] Hire Overseas – Customer Onboarding Specialist (BBS797) (workable)
 - Posted: unknown
@@ -747,6 +762,18 @@ Last checked: October 21, 2026 at 05:59 PM
 - Score detail: title 10% | keywords 15% | experience 20% | domain 5% | education 5% | missing: JD or equivalent legal qualification, practicing law, Vault 50 law firm, General Counsel relationships, legal professionals management, customer adoption/expansion, legal engineer, in-house counsel
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
+
+### [not scored] SchooLinks – Implementation Manager (workable)
+- Posted: unknown
+- Date added: 2026-10-21
+- Location: Remote
+- Link: https://jobs.workable.com/view/ohnxK1mrT4jg2aEoTLbi8u/remote-implementation-manager-in-united-states-at-schoolinks
+
+### [not scored] bswift – Discovery Implementation Manager (greenhouse)
+- Posted: 2026-10-21
+- Date added: 2026-10-21
+- Location: Remote- US
+- Link: https://job-boards.greenhouse.io/bswift/jobs/4722602006
 
 <details>
 <summary>Archived (2)</summary>
