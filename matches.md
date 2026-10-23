@@ -1,34 +1,12 @@
 # Job Matches
 
-Last checked: October 22, 2026 at 05:56 PM
+Last checked: October 23, 2026 at 05:48 PM
 
-## New (4)
+## New (0)
 
-### [not scored] Fidus Systems – Technical Project Manager (workable)
-- Posted: unknown
-- Date added: 2026-10-22
-- Location: Remote
-- Link: https://jobs.workable.com/view/gyoQEbpvwitFKRPLh72yRp/remote-technical-project-manager-in-united-states-at-fidus-systems
+*Nothing here.*
 
-### [not scored] boxinc – Team Manager, Professional Services (greenhouse)
-- Posted: 2026-10-21
-- Date added: 2026-10-22
-- Location: Chicago, Illinois, United States
-- Link: https://job-boards.greenhouse.io/boxinc/jobs/8248145
-
-### [not scored] snyk – Senior Implementation Consultant (ashby)
-- Posted: 2026-10-21
-- Date added: 2026-10-22
-- Location: Remote - United States - San Francisco Office
-- Link: https://jobs.ashbyhq.com/snyk/a8b9e9fc-473b-4daf-9b32-96ea103e81a1
-
-### [not scored] starburst – Customer Support Engineer (greenhouse)
-- Posted: 2026-10-21
-- Date added: 2026-10-22
-- Location: US, West
-- Link: https://job-boards.greenhouse.io/starburst/jobs/5455394008
-
-## Previously Viewed (99)
+## Previously Viewed (103)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -165,13 +143,12 @@ Last checked: October 22, 2026 at 05:56 PM
 - Link: https://www.samsara.com/company/careers/roles/8143242?gh_jid=8143242
 - Status: Closed as of 2026-10-22
 
-~~### [67%] samsara – Implementation Consultant (greenhouse)~~
+### [67%] samsara – Implementation Consultant (greenhouse)
 - Posted: 2026-10-07
 - Date added: 2026-10-08
 - Location: Remote - CA
 - Score detail: title 85% | keywords 60% | experience 75% | domain 40% | education 90% | missing: IoT, French fluency, fleet/telematics, account health, training sessions, launch plans, Mid-Market SaaS, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004
-- Status: Closed as of 2026-10-22
 
 ### [67%] savvymoney – Senior Implementation Manager - Fintech (Dublin, CA or USA Remote) (ashby)
 - Posted: 2026-10-02
@@ -762,6 +739,30 @@ Last checked: October 22, 2026 at 05:56 PM
 - Score detail: title 10% | keywords 15% | experience 20% | domain 5% | education 5% | missing: JD or equivalent legal qualification, practicing law, Vault 50 law firm, General Counsel relationships, legal professionals management, customer adoption/expansion, legal engineer, in-house counsel
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
+
+### [not scored] Fidus Systems – Technical Project Manager (workable)
+- Posted: unknown
+- Date added: 2026-10-22
+- Location: Remote
+- Link: https://jobs.workable.com/view/gyoQEbpvwitFKRPLh72yRp/remote-technical-project-manager-in-united-states-at-fidus-systems
+
+### [not scored] boxinc – Team Manager, Professional Services (greenhouse)
+- Posted: 2026-10-21
+- Date added: 2026-10-22
+- Location: Chicago, Illinois, United States
+- Link: https://job-boards.greenhouse.io/boxinc/jobs/8248145
+
+### [not scored] snyk – Senior Implementation Consultant (ashby)
+- Posted: 2026-10-21
+- Date added: 2026-10-22
+- Location: Remote - United States - San Francisco Office
+- Link: https://jobs.ashbyhq.com/snyk/a8b9e9fc-473b-4daf-9b32-96ea103e81a1
+
+### [not scored] starburst – Customer Support Engineer (greenhouse)
+- Posted: 2026-10-21
+- Date added: 2026-10-22
+- Location: US, West
+- Link: https://job-boards.greenhouse.io/starburst/jobs/5455394008
 
 ### [not scored] SchooLinks – Implementation Manager (workable)
 - Posted: unknown
