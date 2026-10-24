@@ -1,6 +1,6 @@
 # Job Matches
 
-Last checked: October 23, 2026 at 05:48 PM
+Last checked: October 24, 2026 at 04:32 PM
 
 ## New (0)
 
@@ -270,12 +270,13 @@ Last checked: October 23, 2026 at 05:48 PM
 - Score detail: title 65% | keywords 55% | experience 80% | domain 50% | education 60% | missing: resource management, data mapping, UAT, scoping workshops, train the trainer, professional services firms, configuration workflows, cost-benefit analysis
 - Link: https://jobs.workable.com/view/ecQJywuPvZHoPqZHrRdccX/remote-senior-software-implementation-consultant-(us)-in-united-states-at-dayshape
 
-### [61%] harnessinc – Project Manager, Professional Services (greenhouse)
+~~### [61%] harnessinc – Project Manager, Professional Services (greenhouse)~~
 - Posted: 2026-08-03
 - Date added: 2026-10-02
 - Location: Chicago, Illinois, United States; Dallas, Texas, United States
 - Score detail: title 65% | keywords 55% | experience 80% | domain 60% | education 45% | missing: CI/CD, DevOps, Harness certification, Salesforce, Gainsight, executive business reviews, customer success plans, Computer Science degree
 - Link: https://www.harness.io/company/jobs/apply?gh_jid=5193999007&gh_jid=5193999007
+- Status: Closed as of 2026-10-24
 
 ### [61%] PracticeTek – Onboarding Specialist - Patients (workable)
 - Posted: unknown
