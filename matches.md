@@ -1,6 +1,6 @@
 # Job Matches
 
-Last checked: October 25, 2026 at 05:03 PM
+Last checked: October 26, 2026 at 07:07 PM
 
 ## New (0)
 
@@ -661,13 +661,14 @@ Last checked: October 25, 2026 at 05:03 PM
 - Score detail: title 30% | keywords 20% | experience 40% | domain 15% | education 30% | missing: Terraform, Ansible, Puppet, Chef, TS/SCI clearance, GitLab, Infrastructure as Code, Public Sector
 - Link: https://job-boards.greenhouse.io/gitlab/jobs/8838331002
 
-### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)
+~~### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: Posted Yesterday
 - Date added: 2026-09-25
 - Location: 5 Locations
 - Score detail: title 20% | keywords 25% | experience 35% | domain 20% | education 30% | missing: UX/UI design, Design Thinking, interaction design, visual design, user research, stakeholder workshops, Salesforce platform, design portfolio
 - Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Remote/Senior-Experience-Architect--Professional-Services-_JR361440-1
+- Status: Closed as of 2026-10-26
 
 ~~### [NETWORK] [25%] cengage – Remote Customer Technical Support Representative, Monday - Friday, 11am – 7pm EST (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
