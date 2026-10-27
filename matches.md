@@ -1,10 +1,41 @@
 # Job Matches
 
-Last checked: October 26, 2026 at 07:07 PM
+Last checked: October 27, 2026 at 06:40 PM
 
-## New (0)
+## New (5)
 
-*Nothing here.*
+### [not scored] AssistIQ – Implementation Manager (workable)
+- Posted: unknown
+- Date added: 2026-10-27
+- Location: Remote - Chicago
+- Link: https://jobs.workable.com/view/4CrgviZ5Gz7AUQ7vcidM7H/remote-implementation-manager-in-chicago-at-assistiq
+
+### [NETWORK] [not scored] asana – Implementation Manager (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-10-26
+- Date added: 2026-10-27
+- Location: Chicago
+- Link: https://www.asana.com/jobs/apply/8304591?gh_jid=8304591
+
+### [NETWORK] [not scored] asana – Implementation Manager (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-10-26
+- Date added: 2026-10-27
+- Location: US CA - Remote
+- Link: https://www.asana.com/jobs/apply/8311197?gh_jid=8311197
+
+### [NETWORK] [not scored] gitlab – Senior Professional Services Engineer - PubSec (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-10-27
+- Date added: 2026-10-27
+- Location: Remote, United States
+- Link: https://job-boards.greenhouse.io/gitlab/jobs/8838394002
+
+### [not scored] samsara – Enterprise Implementation Consultant - Public Sector (greenhouse)
+- Posted: 2026-10-26
+- Date added: 2026-10-27
+- Location: Remote - GA
+- Link: https://www.samsara.com/company/careers/roles/8304710?gh_jid=8304710
 
 ## Previously Viewed (103)
 
