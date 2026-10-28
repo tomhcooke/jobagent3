@@ -1,43 +1,16 @@
 # Job Matches
 
-Last checked: October 27, 2026 at 06:40 PM
+Last checked: October 28, 2026 at 06:45 PM
 
-## New (5)
+## New (1)
 
-### [not scored] AssistIQ – Implementation Manager (workable)
-- Posted: unknown
-- Date added: 2026-10-27
-- Location: Remote - Chicago
-- Link: https://jobs.workable.com/view/4CrgviZ5Gz7AUQ7vcidM7H/remote-implementation-manager-in-chicago-at-assistiq
+### [not scored] alphasense – Implementation Manager, Financial Services (greenhouse)
+- Posted: 2026-10-28
+- Date added: 2026-10-28
+- Location: Remote - United States
+- Link: https://job-boards.greenhouse.io/alphasense/jobs/8921940002
 
-### [NETWORK] [not scored] asana – Implementation Manager (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: 2026-10-26
-- Date added: 2026-10-27
-- Location: Chicago
-- Link: https://www.asana.com/jobs/apply/8304591?gh_jid=8304591
-
-### [NETWORK] [not scored] asana – Implementation Manager (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: 2026-10-26
-- Date added: 2026-10-27
-- Location: US CA - Remote
-- Link: https://www.asana.com/jobs/apply/8311197?gh_jid=8311197
-
-### [NETWORK] [not scored] gitlab – Senior Professional Services Engineer - PubSec (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: 2026-10-27
-- Date added: 2026-10-27
-- Location: Remote, United States
-- Link: https://job-boards.greenhouse.io/gitlab/jobs/8838394002
-
-### [not scored] samsara – Enterprise Implementation Consultant - Public Sector (greenhouse)
-- Posted: 2026-10-26
-- Date added: 2026-10-27
-- Location: Remote - GA
-- Link: https://www.samsara.com/company/careers/roles/8304710?gh_jid=8304710
-
-## Previously Viewed (103)
+## Previously Viewed (108)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -772,6 +745,39 @@ Last checked: October 27, 2026 at 06:40 PM
 - Score detail: title 10% | keywords 15% | experience 20% | domain 5% | education 5% | missing: JD or equivalent legal qualification, practicing law, Vault 50 law firm, General Counsel relationships, legal professionals management, customer adoption/expansion, legal engineer, in-house counsel
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
+
+### [not scored] AssistIQ – Implementation Manager (workable)
+- Posted: unknown
+- Date added: 2026-10-27
+- Location: Remote - Chicago
+- Link: https://jobs.workable.com/view/4CrgviZ5Gz7AUQ7vcidM7H/remote-implementation-manager-in-chicago-at-assistiq
+
+### [NETWORK] [not scored] asana – Implementation Manager (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-10-26
+- Date added: 2026-10-27
+- Location: Chicago
+- Link: https://www.asana.com/jobs/apply/8304591?gh_jid=8304591
+
+### [NETWORK] [not scored] asana – Implementation Manager (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-10-26
+- Date added: 2026-10-27
+- Location: US CA - Remote
+- Link: https://www.asana.com/jobs/apply/8311197?gh_jid=8311197
+
+### [NETWORK] [not scored] gitlab – Senior Professional Services Engineer - PubSec (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-10-27
+- Date added: 2026-10-27
+- Location: Remote, United States
+- Link: https://job-boards.greenhouse.io/gitlab/jobs/8838394002
+
+### [not scored] samsara – Enterprise Implementation Consultant - Public Sector (greenhouse)
+- Posted: 2026-10-26
+- Date added: 2026-10-27
+- Location: Remote - GA
+- Link: https://www.samsara.com/company/careers/roles/8304710?gh_jid=8304710
 
 ### [not scored] Fidus Systems – Technical Project Manager (workable)
 - Posted: unknown
