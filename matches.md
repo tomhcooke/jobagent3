@@ -1,16 +1,12 @@
 # Job Matches
 
-Last checked: October 28, 2026 at 06:45 PM
+Last checked: October 29, 2026 at 06:54 PM
 
-## New (1)
+## New (0)
 
-### [not scored] alphasense – Implementation Manager, Financial Services (greenhouse)
-- Posted: 2026-10-28
-- Date added: 2026-10-28
-- Location: Remote - United States
-- Link: https://job-boards.greenhouse.io/alphasense/jobs/8921940002
+*Nothing here.*
 
-## Previously Viewed (108)
+## Previously Viewed (109)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -229,12 +225,13 @@ Last checked: October 28, 2026 at 06:45 PM
 - Score detail: title 65% | keywords 60% | experience 85% | domain 45% | education 70% | missing: IoT, Fleet/Telematics, Launch plans, Product adoption tracking, Account health, Training sessions, Executive stakeholder management, Customer Success
 - Link: https://www.samsara.com/company/careers/roles/8104151?gh_jid=8104151
 
-### [64%] samsara – Strategic Implementation Consultant (greenhouse)
+~~### [64%] samsara – Strategic Implementation Consultant (greenhouse)~~
 - Posted: 2026-07-06
 - Date added: 2026-09-17
 - Location: Remote - US
 - Score detail: title 65% | keywords 60% | experience 85% | domain 45% | education 70% | missing: IoT, fleet management, account health tracking, training sessions, launch plans, telematics, hardware deployment, product adoption
 - Link: https://www.samsara.com/company/careers/roles/8039126?gh_jid=8039126
+- Status: Closed as of 2026-10-29
 
 ~~### [63%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)~~
 - Posted: 2026-09-17
@@ -340,12 +337,13 @@ Last checked: October 28, 2026 at 06:45 PM
 - Score detail: title 90% | keywords 45% | experience 80% | domain 25% | education 60% | missing: EHR interoperability, Epic FHIR, athenahealth API, HL7 v2, CCD, healthcare/health-tech, credentialing, UAT (user acceptance testing)
 - Link: https://jobs.workable.com/view/eytn1N5BLpZpUi6qNjMhqG/remote-implementation-manager-in-united-states-at-rezilient-health
 
-### [57%] gainsight – Strategic Technical Project Manager (ashby)
+~~### [57%] gainsight – Strategic Technical Project Manager (ashby)~~
 - Posted: 2026-09-10
 - Date added: 2026-09-17
 - Location: Remote - USA - FL - Remote
 - Score detail: title 55% | keywords 45% | experience 70% | domain 65% | education 70% | missing: Technical Project Manager, governance, work breakdown structure, financial management, contract values $500K+, APIs and data models, change management, steering committees
 - Link: https://jobs.ashbyhq.com/gainsight/b93d429b-fb79-4005-bbaf-422e274d401f
+- Status: Closed as of 2026-10-29
 
 ~~### [57%] opengov – Manager I, Professional Services (ashby)~~
 - Posted: 2026-07-20
@@ -745,6 +743,12 @@ Last checked: October 28, 2026 at 06:45 PM
 - Score detail: title 10% | keywords 15% | experience 20% | domain 5% | education 5% | missing: JD or equivalent legal qualification, practicing law, Vault 50 law firm, General Counsel relationships, legal professionals management, customer adoption/expansion, legal engineer, in-house counsel
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
+
+### [not scored] alphasense – Implementation Manager, Financial Services (greenhouse)
+- Posted: 2026-10-28
+- Date added: 2026-10-28
+- Location: Remote - United States
+- Link: https://job-boards.greenhouse.io/alphasense/jobs/8921940002
 
 ### [not scored] AssistIQ – Implementation Manager (workable)
 - Posted: unknown
