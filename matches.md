@@ -1,17 +1,16 @@
 # Job Matches
 
-Last checked: October 30, 2026 at 06:30 PM
+Last checked: October 31, 2026 at 05:36 PM
 
 ## New (1)
 
-### [NETWORK] [not scored] salesforce – SVP, General Manager OU Lead - TMT/CBS (Professional Services) (workday)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: Posted Today
-- Date added: 2026-10-30
-- Location: 9 Locations
-- Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Chicago/SVP--General-Manager-OU-Lead---TMT--Professional-Services-_JR357948
+### [not scored] samsara – Strategic Implementation Consultant (greenhouse)
+- Posted: 2026-10-30
+- Date added: 2026-10-31
+- Location: Remote - US
+- Link: https://www.samsara.com/company/careers/roles/8337779?gh_jid=8337779
 
-## Previously Viewed (109)
+## Previously Viewed (110)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -35,12 +34,13 @@ Last checked: October 30, 2026 at 06:30 PM
 - Score detail: title 95% | keywords 65% | experience 90% | domain 55% | education 80% | missing: APIs/webhooks, AI prompt configuration, solutions architecture, technical account management, error handling, auth models, home services industry, workflow logic
 - Link: https://jobs.ashbyhq.com/avoca/efbc7d18-eced-4824-894e-82884aa731a7
 
-### [73%] linear – Implementation Manager (ashby)
+~~### [73%] linear – Implementation Manager (ashby)~~
 - Posted: 2026-05-27
 - Date added: 2026-09-17
 - Location: Remote - North America
 - Score detail: title 90% | keywords 60% | experience 90% | domain 75% | education 60% | missing: SSO/SCIM, Jira sync, steering committee, services scope, wave-by-wave rollout, 1,000+ user deployments, persona-based training, GitHub
 - Link: https://jobs.ashbyhq.com/linear/cec84487-60f2-4216-a514-dcf190c86c1e
+- Status: Closed as of 2026-10-31
 
 ### [72%] samsara – Enterprise Implementation Consultant (greenhouse)
 - Posted: 2026-08-13
@@ -199,13 +199,12 @@ Last checked: October 30, 2026 at 06:30 PM
 - Score detail: title 75% | keywords 60% | experience 85% | domain 45% | education 70% | missing: IoT, fleet management, telematics, account health, launch plans, product adoption tracking, training sessions, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8121318?gh_jid=8121318
 
-~~### [65%] samsara – Implementation Consultant  (greenhouse)~~
+### [65%] samsara – Implementation Consultant  (greenhouse)
 - Posted: 2026-07-29
 - Date added: 2026-10-01
 - Location: Remote - UK
 - Score detail: title 85% | keywords 55% | experience 75% | domain 60% | education 60% | missing: German fluency, hardware experience, change management, solution workshops, L1 processes, travel 30%, IoT, training sessions
 - Link: https://www.samsara.com/company/careers/roles/8076689?gh_jid=8076689
-- Status: Closed as of 2026-10-30
 
 ~~### [NETWORK] [65%] asana – Senior Implementation Manager (greenhouse)~~
 - In network: Yes (you have a LinkedIn contact here)
@@ -263,12 +262,13 @@ Last checked: October 30, 2026 at 06:30 PM
 - Link: https://job-boards.greenhouse.io/shipbobinc/jobs/4720581005
 - Status: Closed as of 2026-09-21
 
-### [62%] samsara – Senior Enterprise Implementation Consultant (greenhouse)
+~~### [62%] samsara – Senior Enterprise Implementation Consultant (greenhouse)~~
 - Posted: 2026-09-24
 - Date added: 2026-09-25
 - Location: Remote - US
 - Score detail: title 70% | keywords 55% | experience 85% | domain 45% | education 60% | missing: IoT, fleet management, account health, launch plans, product adoption, training sessions, telematics, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8121968?gh_jid=8121968
+- Status: Closed as of 2026-10-31
 
 ### [61%] Dayshape – Senior Software Implementation Consultant (US) (workable)
 - Posted: unknown
@@ -749,6 +749,13 @@ Last checked: October 30, 2026 at 06:30 PM
 - Score detail: title 10% | keywords 15% | experience 20% | domain 5% | education 5% | missing: JD or equivalent legal qualification, practicing law, Vault 50 law firm, General Counsel relationships, legal professionals management, customer adoption/expansion, legal engineer, in-house counsel
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
+
+### [NETWORK] [not scored] salesforce – SVP, General Manager OU Lead - TMT/CBS (Professional Services) (workday)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: Posted Today
+- Date added: 2026-10-30
+- Location: 9 Locations
+- Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Chicago/SVP--General-Manager-OU-Lead---TMT--Professional-Services-_JR357948
 
 ### [not scored] alphasense – Implementation Manager, Financial Services (greenhouse)
 - Posted: 2026-10-28
