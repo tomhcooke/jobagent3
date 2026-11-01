@@ -1,16 +1,12 @@
 # Job Matches
 
-Last checked: October 31, 2026 at 05:36 PM
+Last checked: November 01, 2026 at 06:21 PM
 
-## New (1)
+## New (0)
 
-### [not scored] samsara – Strategic Implementation Consultant (greenhouse)
-- Posted: 2026-10-30
-- Date added: 2026-10-31
-- Location: Remote - US
-- Link: https://www.samsara.com/company/careers/roles/8337779?gh_jid=8337779
+*Nothing here.*
 
-## Previously Viewed (110)
+## Previously Viewed (111)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -262,13 +258,12 @@ Last checked: October 31, 2026 at 05:36 PM
 - Link: https://job-boards.greenhouse.io/shipbobinc/jobs/4720581005
 - Status: Closed as of 2026-09-21
 
-~~### [62%] samsara – Senior Enterprise Implementation Consultant (greenhouse)~~
+### [62%] samsara – Senior Enterprise Implementation Consultant (greenhouse)
 - Posted: 2026-09-24
 - Date added: 2026-09-25
 - Location: Remote - US
 - Score detail: title 70% | keywords 55% | experience 85% | domain 45% | education 60% | missing: IoT, fleet management, account health, launch plans, product adoption, training sessions, telematics, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8121968?gh_jid=8121968
-- Status: Closed as of 2026-10-31
 
 ### [61%] Dayshape – Senior Software Implementation Consultant (US) (workable)
 - Posted: unknown
@@ -749,6 +744,12 @@ Last checked: October 31, 2026 at 05:36 PM
 - Score detail: title 10% | keywords 15% | experience 20% | domain 5% | education 5% | missing: JD or equivalent legal qualification, practicing law, Vault 50 law firm, General Counsel relationships, legal professionals management, customer adoption/expansion, legal engineer, in-house counsel
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
+
+### [not scored] samsara – Strategic Implementation Consultant (greenhouse)
+- Posted: 2026-10-30
+- Date added: 2026-10-31
+- Location: Remote - US
+- Link: https://www.samsara.com/company/careers/roles/8337779?gh_jid=8337779
 
 ### [NETWORK] [not scored] salesforce – SVP, General Manager OU Lead - TMT/CBS (Professional Services) (workday)
 - In network: Yes (you have a LinkedIn contact here)
