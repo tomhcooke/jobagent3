@@ -1,6 +1,6 @@
 # Job Matches
 
-Last checked: November 01, 2026 at 06:21 PM
+Last checked: November 02, 2026 at 10:15 PM
 
 ## New (0)
 
@@ -188,12 +188,13 @@ Last checked: November 01, 2026 at 06:21 PM
 - Score detail: title 80% | keywords 55% | experience 85% | domain 55% | education 70% | missing: UAT, business requirements documentation, process mapping, wireframes, Train-the-Trainer, statements of work, underwriting, regulatory compliance
 - Link: https://jobs.workable.com/view/1CL2e2zbNLHQDnKZuWNrbt/remote-sr.-implementation-consultant-in-united-states-at-irth-solutions
 
-### [66%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)
+~~### [66%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)~~
 - Posted: 2026-08-14
 - Date added: 2026-09-17
 - Location: Remote - US
 - Score detail: title 75% | keywords 60% | experience 85% | domain 45% | education 70% | missing: IoT, fleet management, telematics, account health, launch plans, product adoption tracking, training sessions, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8121318?gh_jid=8121318
+- Status: Closed as of 2026-11-02
 
 ### [65%] samsara – Implementation Consultant  (greenhouse)
 - Posted: 2026-07-29
@@ -295,12 +296,13 @@ Last checked: November 01, 2026 at 06:21 PM
 - Link: https://jobs.ashbyhq.com/opengov/23a24c11-7756-42a9-9845-03fec5dee2c5
 - Status: Closed as of 2026-10-19
 
-### [59%] billcom – Scaled Onboarding Specialist (greenhouse)
+~~### [59%] billcom – Scaled Onboarding Specialist (greenhouse)~~
 - Posted: 2026-10-13
 - Date added: 2026-10-13
 - Location: United States
 - Score detail: title 45% | keywords 55% | experience 70% | domain 55% | education 80% | missing: AP/AR, Spend & Expense, accounting software integrations, activation, speed-to-value, scaled onboarding, customer success, fintech
 - Link: https://www.bill.com/job?6220355004&gh_jid=6220355004
+- Status: Closed as of 2026-11-02
 
 ~~### [59%] logicgate – Professional Services Manager (Bellevue, WA / Chicago,IL) (greenhouse)~~
 - Posted: 2026-08-11
