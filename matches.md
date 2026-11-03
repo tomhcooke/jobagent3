@@ -1,6 +1,6 @@
 # Job Matches
 
-Last checked: November 02, 2026 at 10:15 PM
+Last checked: November 03, 2026 at 08:03 PM
 
 ## New (0)
 
@@ -731,13 +731,14 @@ Last checked: November 02, 2026 at 10:15 PM
 - Score detail: title 25% | keywords 15% | experience 30% | domain 15% | education 20% | missing: Go, Java, Python, distributed systems, workflow orchestration, observability, runbooks, on-call
 - Link: https://jobs.ashbyhq.com/temporal/7a1e439c-c349-4cd4-8490-6e22a62005bf
 
-### [NETWORK] [15%] twilio – Principal Presales Product Specialist (greenhouse)
+~~### [NETWORK] [15%] twilio – Principal Presales Product Specialist (greenhouse)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: 2026-09-08
 - Date added: 2026-09-18
 - Location: Remote - US
 - Score detail: title 10% | keywords 15% | experience 20% | domain 10% | education 20% | missing: presales, solutions engineering, solution architecture, identity verification, authentication, fraud/abuse, compliance, C-level communication
 - Link: https://job-boards.greenhouse.io/twilio/jobs/8180238
+- Status: Closed as of 2026-11-03
 
 ~~### [13%] harvey – Legal Engineer, Product Specialist Manager (ashby)~~
 - Posted: 2026-06-18
