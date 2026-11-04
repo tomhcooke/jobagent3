@@ -1,10 +1,14 @@
 # Job Matches
 
-Last checked: November 03, 2026 at 08:03 PM
+Last checked: November 04, 2026 at 08:22 PM
 
-## New (0)
+## New (1)
 
-*Nothing here.*
+### [not scored] Katmai – Program Manager, Professional Services (workable)
+- Posted: unknown
+- Date added: 2026-11-04
+- Location: Remote
+- Link: https://jobs.workable.com/view/1NK4M2f9HP2eTniroiJtxu/remote-program-manager%2C-professional-services-in-united-states-at-katmai
 
 ## Previously Viewed (111)
 
@@ -319,12 +323,13 @@ Last checked: November 03, 2026 at 08:03 PM
 - Score detail: title 65% | keywords 55% | experience 80% | domain 30% | education 60% | missing: GRC, Risk Cloud, compliance frameworks, third-party risk, audit, solution architecture, AuditBoard, OneTrust
 - Link: https://www.logicgate.ai/company/careers/?gh_jid=4742986005
 
-### [58%] opengov – Manager II, Professional Services (ashby)
+~~### [58%] opengov – Manager II, Professional Services (ashby)~~
 - Posted: 2026-10-02
 - Date added: 2026-10-03
 - Location: US | Illinois | Chicago
 - Score detail: title 65% | keywords 55% | experience 75% | domain 30% | education 70% | missing: Government/public sector, Portfolio forecasting, Statements of Work, Change Orders, Budget health monitoring, Staffing/resource planning, Government budgeting/procurement, Team recruitment/performance management
 - Link: https://jobs.ashbyhq.com/opengov/50d60bb7-9403-4923-8a74-28539b802ca4
+- Status: Closed as of 2026-11-04
 
 ### [58%] opengov – Manager II, Professional Services (ashby)
 - Posted: 2026-09-22
@@ -585,12 +590,13 @@ Last checked: November 03, 2026 at 08:03 PM
 - Link: https://jobs.ashbyhq.com/secureframe/ad18271a-18b9-41e9-b0d1-a4f02051dfeb
 - Status: Closed as of 2026-09-24
 
-### [37%] snyk – Professional Services Engineer (ashby)
+~~### [37%] snyk – Professional Services Engineer (ashby)~~
 - Posted: 2026-10-08
 - Date added: 2026-10-08
 - Location: Remote - United States - MA Remote
 - Score detail: title 40% | keywords 30% | experience 55% | domain 15% | education 60% | missing: Application Security, CI/CD, Jenkins, GitHub Actions, Python, Linux command line, SDLC, DevSecOps
 - Link: https://jobs.ashbyhq.com/snyk/e361242d-3452-4530-a0d8-07a7e6bf1a99
+- Status: Closed as of 2026-11-04
 
 ### [37%] Ottimate – Solution Architect, Professional Services (workable)
 - Posted: unknown
@@ -666,14 +672,13 @@ Last checked: November 03, 2026 at 08:03 PM
 - Score detail: title 30% | keywords 20% | experience 40% | domain 15% | education 30% | missing: Terraform, Ansible, Puppet, Chef, TS/SCI clearance, GitLab, Infrastructure as Code, Public Sector
 - Link: https://job-boards.greenhouse.io/gitlab/jobs/8838331002
 
-~~### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)~~
+### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: Posted Yesterday
 - Date added: 2026-09-25
 - Location: 5 Locations
 - Score detail: title 20% | keywords 25% | experience 35% | domain 20% | education 30% | missing: UX/UI design, Design Thinking, interaction design, visual design, user research, stakeholder workshops, Salesforce platform, design portfolio
 - Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Remote/Senior-Experience-Architect--Professional-Services-_JR361440-1
-- Status: Closed as of 2026-10-26
 
 ~~### [NETWORK] [25%] cengage – Remote Customer Technical Support Representative, Monday - Friday, 11am – 7pm EST (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
