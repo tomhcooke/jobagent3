@@ -1,16 +1,12 @@
 # Job Matches
 
-Last checked: November 04, 2026 at 08:22 PM
+Last checked: November 05, 2026 at 08:34 PM
 
-## New (1)
+## New (0)
 
-### [not scored] Katmai – Program Manager, Professional Services (workable)
-- Posted: unknown
-- Date added: 2026-11-04
-- Location: Remote
-- Link: https://jobs.workable.com/view/1NK4M2f9HP2eTniroiJtxu/remote-program-manager%2C-professional-services-in-united-states-at-katmai
+*Nothing here.*
 
-## Previously Viewed (111)
+## Previously Viewed (112)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -192,13 +188,12 @@ Last checked: November 04, 2026 at 08:22 PM
 - Score detail: title 80% | keywords 55% | experience 85% | domain 55% | education 70% | missing: UAT, business requirements documentation, process mapping, wireframes, Train-the-Trainer, statements of work, underwriting, regulatory compliance
 - Link: https://jobs.workable.com/view/1CL2e2zbNLHQDnKZuWNrbt/remote-sr.-implementation-consultant-in-united-states-at-irth-solutions
 
-~~### [66%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)~~
+### [66%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)
 - Posted: 2026-08-14
 - Date added: 2026-09-17
 - Location: Remote - US
 - Score detail: title 75% | keywords 60% | experience 85% | domain 45% | education 70% | missing: IoT, fleet management, telematics, account health, launch plans, product adoption tracking, training sessions, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8121318?gh_jid=8121318
-- Status: Closed as of 2026-11-02
 
 ### [65%] samsara – Implementation Consultant  (greenhouse)
 - Posted: 2026-07-29
@@ -323,20 +318,20 @@ Last checked: November 04, 2026 at 08:22 PM
 - Score detail: title 65% | keywords 55% | experience 80% | domain 30% | education 60% | missing: GRC, Risk Cloud, compliance frameworks, third-party risk, audit, solution architecture, AuditBoard, OneTrust
 - Link: https://www.logicgate.ai/company/careers/?gh_jid=4742986005
 
-~~### [58%] opengov – Manager II, Professional Services (ashby)~~
+### [58%] opengov – Manager II, Professional Services (ashby)
 - Posted: 2026-10-02
 - Date added: 2026-10-03
 - Location: US | Illinois | Chicago
 - Score detail: title 65% | keywords 55% | experience 75% | domain 30% | education 70% | missing: Government/public sector, Portfolio forecasting, Statements of Work, Change Orders, Budget health monitoring, Staffing/resource planning, Government budgeting/procurement, Team recruitment/performance management
 - Link: https://jobs.ashbyhq.com/opengov/50d60bb7-9403-4923-8a74-28539b802ca4
-- Status: Closed as of 2026-11-04
 
-### [58%] opengov – Manager II, Professional Services (ashby)
+~~### [58%] opengov – Manager II, Professional Services (ashby)~~
 - Posted: 2026-09-22
 - Date added: 2026-09-22
 - Location: US | Illinois | Chicago
 - Score detail: title 65% | keywords 55% | experience 75% | domain 25% | education 80% | missing: government/public sector, people management of team, portfolio utilization tracking, ETL tools, Excel/VLOOKUP/pivot tables, budgeting/procurement/permitting, hiring/onboarding analysts, performance management
 - Link: https://jobs.ashbyhq.com/opengov/88b6eaa9-a6fb-4345-a3dd-211d5ab64166
+- Status: Closed as of 2026-11-05
 
 ### [57%] Rezilient Health – Implementation Manager (workable)
 - Posted: unknown
@@ -753,6 +748,12 @@ Last checked: November 04, 2026 at 08:22 PM
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
 
+### [not scored] Katmai – Program Manager, Professional Services (workable)
+- Posted: unknown
+- Date added: 2026-11-04
+- Location: Remote
+- Link: https://jobs.workable.com/view/1NK4M2f9HP2eTniroiJtxu/remote-program-manager%2C-professional-services-in-united-states-at-katmai
+
 ### [not scored] samsara – Strategic Implementation Consultant (greenhouse)
 - Posted: 2026-10-30
 - Date added: 2026-10-31
@@ -811,11 +812,12 @@ Last checked: November 04, 2026 at 08:22 PM
 - Location: Remote
 - Link: https://jobs.workable.com/view/gyoQEbpvwitFKRPLh72yRp/remote-technical-project-manager-in-united-states-at-fidus-systems
 
-### [not scored] boxinc – Team Manager, Professional Services (greenhouse)
+~~### [not scored] boxinc – Team Manager, Professional Services (greenhouse)~~
 - Posted: 2026-10-21
 - Date added: 2026-10-22
 - Location: Chicago, Illinois, United States
 - Link: https://job-boards.greenhouse.io/boxinc/jobs/8248145
+- Status: Closed as of 2026-11-05
 
 ### [not scored] snyk – Senior Implementation Consultant (ashby)
 - Posted: 2026-10-21
