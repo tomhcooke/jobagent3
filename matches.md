@@ -1,10 +1,68 @@
 # Job Matches
 
-Last checked: November 05, 2026 at 08:34 PM
+Last checked: November 06, 2026 at 07:56 PM
 
-## New (0)
+## New (10)
 
-*Nothing here.*
+### [not scored] robinhood – Registration and Onboarding Specialist (greenhouse)
+- Posted: 2026-11-05
+- Date added: 2026-11-06
+- Location: Chicago, IL; Denver, CO; Lake Mary, FL; New York, NY
+- Link: https://boards.greenhouse.io/robinhood/jobs/8356970?t=gh_src=&gh_jid=8356970
+
+### [not scored] samsara – Enterprise Implementation Consultant (East/Central) (greenhouse)
+- Posted: 2026-11-06
+- Date added: 2026-11-06
+- Location: Remote - US
+- Link: https://www.samsara.com/company/careers/roles/8359847?gh_jid=8359847
+
+### [not scored] samsara – Enterprise Implementation Consultant - Public Sector (greenhouse)
+- Posted: 2026-11-06
+- Date added: 2026-11-06
+- Location: Remote - GA
+- Link: https://www.samsara.com/company/careers/roles/8360093?gh_jid=8360093
+
+### [not scored] samsara – Enterprise Select Implementation Consultant (Central or East) (greenhouse)
+- Posted: 2026-11-06
+- Date added: 2026-11-06
+- Location: Remote - US
+- Link: https://www.samsara.com/company/careers/roles/8359800?gh_jid=8359800
+
+### [not scored] samsara – Enterprise Select Implementation Consultant (West) (greenhouse)
+- Posted: 2026-11-06
+- Date added: 2026-11-06
+- Location: Remote - US
+- Link: https://www.samsara.com/company/careers/roles/8359531?gh_jid=8359531
+
+### [not scored] samsara – Implementation Consultant  (greenhouse)
+- Posted: 2026-11-06
+- Date added: 2026-11-06
+- Location: Remote - UK
+- Link: https://www.samsara.com/company/careers/roles/8359108?gh_jid=8359108
+
+### [not scored] samsara – Senior Enterprise Implementation Consultant (greenhouse)
+- Posted: 2026-11-06
+- Date added: 2026-11-06
+- Location: Remote - US
+- Link: https://www.samsara.com/company/careers/roles/8359855?gh_jid=8359855
+
+### [not scored] samsara – Senior Strategic Implementation Consultant (greenhouse)
+- Posted: 2026-11-06
+- Date added: 2026-11-06
+- Location: Remote - US
+- Link: https://www.samsara.com/company/careers/roles/8359386?gh_jid=8359386
+
+### [not scored] samsara – Strategic Implementation Consultant (greenhouse)
+- Posted: 2026-11-06
+- Date added: 2026-11-06
+- Location: Remote - US
+- Link: https://www.samsara.com/company/careers/roles/8359860?gh_jid=8359860
+
+### [not scored] snyk – Senior Implementation Consultant (ashby)
+- Posted: 2026-10-21
+- Date added: 2026-11-06
+- Location: Remote - United States - San Francisco Office
+- Link: https://jobs.ashbyhq.com/Snyk/a8b9e9fc-473b-4daf-9b32-96ea103e81a1
 
 ## Previously Viewed (112)
 
@@ -23,12 +81,13 @@ Last checked: November 05, 2026 at 08:34 PM
 - Link: https://jobs.ashbyhq.com/frontcareers/7c444abc-9e60-4e69-b351-a497b5884595
 - Status: Closed as of 2026-09-29
 
-### [74%] avoca – Implementation Manager (ashby)
+~~### [74%] avoca – Implementation Manager (ashby)~~
 - Posted: 2026-09-30
 - Date added: 2026-09-30
 - Location: Remote
 - Score detail: title 95% | keywords 65% | experience 90% | domain 55% | education 80% | missing: APIs/webhooks, AI prompt configuration, solutions architecture, technical account management, error handling, auth models, home services industry, workflow logic
 - Link: https://jobs.ashbyhq.com/avoca/efbc7d18-eced-4824-894e-82884aa731a7
+- Status: Closed as of 2026-11-06
 
 ~~### [73%] linear – Implementation Manager (ashby)~~
 - Posted: 2026-05-27
@@ -38,12 +97,13 @@ Last checked: November 05, 2026 at 08:34 PM
 - Link: https://jobs.ashbyhq.com/linear/cec84487-60f2-4216-a514-dcf190c86c1e
 - Status: Closed as of 2026-10-31
 
-### [72%] samsara – Enterprise Implementation Consultant (greenhouse)
+~~### [72%] samsara – Enterprise Implementation Consultant (greenhouse)~~
 - Posted: 2026-08-13
 - Date added: 2026-09-17
 - Location: Remote - US
 - Score detail: title 75% | keywords 65% | experience 85% | domain 55% | education 90% | missing: IoT, fleet/telematics, account health tracking, launch plans, training sessions/enablement, travel 25%, consultative selling, customer success/account management
 - Link: https://www.samsara.com/company/careers/roles/8121332?gh_jid=8121332
+- Status: Closed as of 2026-11-06
 
 ~~### [72%] samsara – Enterprise Implementation Consultant (greenhouse)~~
 - Posted: 2026-09-16
@@ -92,12 +152,13 @@ Last checked: November 05, 2026 at 08:34 PM
 - Link: https://www.samsara.com/company/careers/roles/8211821?gh_jid=8211821
 - Status: Closed as of 2026-09-23
 
-### [69%] samsara – Enterprise Select Implementation Consultant (Central or East) (greenhouse)
+~~### [69%] samsara – Enterprise Select Implementation Consultant (Central or East) (greenhouse)~~
 - Posted: 2026-08-13
 - Date added: 2026-09-17
 - Location: Remote - US
 - Score detail: title 78% | keywords 62% | experience 85% | domain 55% | education 70% | missing: IoT, fleet management, telematics, account health tracking, launch plans, training sessions/demos, emotional intelligence, renewal/adoption
 - Link: https://www.samsara.com/company/careers/roles/8121329?gh_jid=8121329
+- Status: Closed as of 2026-11-06
 
 ### [68%] Leena AI – Project Manager- Professional Services (workable)
 - Posted: unknown
@@ -129,12 +190,13 @@ Last checked: November 05, 2026 at 08:34 PM
 - Link: https://www.samsara.com/company/careers/roles/8131784?gh_jid=8131784
 - Status: Closed as of 2026-10-20
 
-### [68%] samsara – Enterprise Select Implementation Consultant (West) (greenhouse)
+~~### [68%] samsara – Enterprise Select Implementation Consultant (West) (greenhouse)~~
 - Posted: 2026-08-13
 - Date added: 2026-09-17
 - Location: Remote - US
 - Score detail: title 75% | keywords 60% | experience 85% | domain 55% | education 70% | missing: IoT, fleet/telematics, account health tracking, launch plans/roadmap, training sessions, renewal, consultative selling, physical operations
 - Link: https://www.samsara.com/company/careers/roles/8121327?gh_jid=8121327
+- Status: Closed as of 2026-11-06
 
 ~~### [68%] samsara – Implementation Consultant (greenhouse)~~
 - Posted: 2026-09-01
@@ -144,12 +206,13 @@ Last checked: November 05, 2026 at 08:34 PM
 - Link: https://www.samsara.com/company/careers/roles/8143242?gh_jid=8143242
 - Status: Closed as of 2026-10-22
 
-### [67%] samsara – Implementation Consultant (greenhouse)
+~~### [67%] samsara – Implementation Consultant (greenhouse)~~
 - Posted: 2026-10-07
 - Date added: 2026-10-08
 - Location: Remote - CA
 - Score detail: title 85% | keywords 60% | experience 75% | domain 40% | education 90% | missing: IoT, French fluency, fleet/telematics, account health, training sessions, launch plans, Mid-Market SaaS, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004
+- Status: Closed as of 2026-11-06
 
 ### [67%] savvymoney – Senior Implementation Manager - Fintech (Dublin, CA or USA Remote) (ashby)
 - Posted: 2026-10-02
@@ -188,19 +251,21 @@ Last checked: November 05, 2026 at 08:34 PM
 - Score detail: title 80% | keywords 55% | experience 85% | domain 55% | education 70% | missing: UAT, business requirements documentation, process mapping, wireframes, Train-the-Trainer, statements of work, underwriting, regulatory compliance
 - Link: https://jobs.workable.com/view/1CL2e2zbNLHQDnKZuWNrbt/remote-sr.-implementation-consultant-in-united-states-at-irth-solutions
 
-### [66%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)
+~~### [66%] samsara – Enterprise Core Implementation Consultant - East/Central (greenhouse)~~
 - Posted: 2026-08-14
 - Date added: 2026-09-17
 - Location: Remote - US
 - Score detail: title 75% | keywords 60% | experience 85% | domain 45% | education 70% | missing: IoT, fleet management, telematics, account health, launch plans, product adoption tracking, training sessions, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8121318?gh_jid=8121318
+- Status: Closed as of 2026-11-06
 
-### [65%] samsara – Implementation Consultant  (greenhouse)
+~~### [65%] samsara – Implementation Consultant  (greenhouse)~~
 - Posted: 2026-07-29
 - Date added: 2026-10-01
 - Location: Remote - UK
 - Score detail: title 85% | keywords 55% | experience 75% | domain 60% | education 60% | missing: German fluency, hardware experience, change management, solution workshops, L1 processes, travel 30%, IoT, training sessions
 - Link: https://www.samsara.com/company/careers/roles/8076689?gh_jid=8076689
+- Status: Closed as of 2026-11-06
 
 ~~### [NETWORK] [65%] asana – Senior Implementation Manager (greenhouse)~~
 - In network: Yes (you have a LinkedIn contact here)
@@ -219,12 +284,13 @@ Last checked: November 05, 2026 at 08:34 PM
 - Link: https://jobs.ashbyhq.com/opengov/add3f88b-3ee1-4c82-978b-3d4a6f06c13f
 - Status: Closed as of 2026-10-20
 
-### [64%] samsara – Senior Strategic Implementation Consultant (greenhouse)
+~~### [64%] samsara – Senior Strategic Implementation Consultant (greenhouse)~~
 - Posted: 2026-08-18
 - Date added: 2026-09-17
 - Location: Remote - US
 - Score detail: title 65% | keywords 60% | experience 85% | domain 45% | education 70% | missing: IoT, Fleet/Telematics, Launch plans, Product adoption tracking, Account health, Training sessions, Executive stakeholder management, Customer Success
 - Link: https://www.samsara.com/company/careers/roles/8104151?gh_jid=8104151
+- Status: Closed as of 2026-11-06
 
 ~~### [64%] samsara – Strategic Implementation Consultant (greenhouse)~~
 - Posted: 2026-07-06
@@ -258,12 +324,13 @@ Last checked: November 05, 2026 at 08:34 PM
 - Link: https://job-boards.greenhouse.io/shipbobinc/jobs/4720581005
 - Status: Closed as of 2026-09-21
 
-### [62%] samsara – Senior Enterprise Implementation Consultant (greenhouse)
+~~### [62%] samsara – Senior Enterprise Implementation Consultant (greenhouse)~~
 - Posted: 2026-09-24
 - Date added: 2026-09-25
 - Location: Remote - US
 - Score detail: title 70% | keywords 55% | experience 85% | domain 45% | education 60% | missing: IoT, fleet management, account health, launch plans, product adoption, training sessions, telematics, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8121968?gh_jid=8121968
+- Status: Closed as of 2026-11-06
 
 ### [61%] Dayshape – Senior Software Implementation Consultant (US) (workable)
 - Posted: unknown
@@ -754,18 +821,20 @@ Last checked: November 05, 2026 at 08:34 PM
 - Location: Remote
 - Link: https://jobs.workable.com/view/1NK4M2f9HP2eTniroiJtxu/remote-program-manager%2C-professional-services-in-united-states-at-katmai
 
-### [not scored] samsara – Strategic Implementation Consultant (greenhouse)
+~~### [not scored] samsara – Strategic Implementation Consultant (greenhouse)~~
 - Posted: 2026-10-30
 - Date added: 2026-10-31
 - Location: Remote - US
 - Link: https://www.samsara.com/company/careers/roles/8337779?gh_jid=8337779
+- Status: Closed as of 2026-11-06
 
-### [NETWORK] [not scored] salesforce – SVP, General Manager OU Lead - TMT/CBS (Professional Services) (workday)
+~~### [NETWORK] [not scored] salesforce – SVP, General Manager OU Lead - TMT/CBS (Professional Services) (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: Posted Today
 - Date added: 2026-10-30
 - Location: 9 Locations
 - Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Chicago/SVP--General-Manager-OU-Lead---TMT--Professional-Services-_JR357948
+- Status: Closed as of 2026-11-06
 
 ### [not scored] alphasense – Implementation Manager, Financial Services (greenhouse)
 - Posted: 2026-10-28
@@ -800,11 +869,12 @@ Last checked: November 05, 2026 at 08:34 PM
 - Location: Remote, United States
 - Link: https://job-boards.greenhouse.io/gitlab/jobs/8838394002
 
-### [not scored] samsara – Enterprise Implementation Consultant - Public Sector (greenhouse)
+~~### [not scored] samsara – Enterprise Implementation Consultant - Public Sector (greenhouse)~~
 - Posted: 2026-10-26
 - Date added: 2026-10-27
 - Location: Remote - GA
 - Link: https://www.samsara.com/company/careers/roles/8304710?gh_jid=8304710
+- Status: Closed as of 2026-11-06
 
 ### [not scored] Fidus Systems – Technical Project Manager (workable)
 - Posted: unknown
@@ -819,11 +889,12 @@ Last checked: November 05, 2026 at 08:34 PM
 - Link: https://job-boards.greenhouse.io/boxinc/jobs/8248145
 - Status: Closed as of 2026-11-05
 
-### [not scored] snyk – Senior Implementation Consultant (ashby)
+~~### [not scored] snyk – Senior Implementation Consultant (ashby)~~
 - Posted: 2026-10-21
 - Date added: 2026-10-22
 - Location: Remote - United States - San Francisco Office
 - Link: https://jobs.ashbyhq.com/snyk/a8b9e9fc-473b-4daf-9b32-96ea103e81a1
+- Status: Closed as of 2026-11-06
 
 ### [not scored] starburst – Customer Support Engineer (greenhouse)
 - Posted: 2026-10-21
