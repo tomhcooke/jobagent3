@@ -1,70 +1,17 @@
 # Job Matches
 
-Last checked: November 06, 2026 at 07:56 PM
+Last checked: November 07, 2026 at 06:01 PM
 
-## New (10)
+## New (1)
 
-### [not scored] robinhood – Registration and Onboarding Specialist (greenhouse)
-- Posted: 2026-11-05
-- Date added: 2026-11-06
-- Location: Chicago, IL; Denver, CO; Lake Mary, FL; New York, NY
-- Link: https://boards.greenhouse.io/robinhood/jobs/8356970?t=gh_src=&gh_jid=8356970
-
-### [not scored] samsara – Enterprise Implementation Consultant (East/Central) (greenhouse)
+### [NETWORK] [not scored] gitlab – Senior Professional Services Engineer - North Carolina (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
 - Posted: 2026-11-06
-- Date added: 2026-11-06
-- Location: Remote - US
-- Link: https://www.samsara.com/company/careers/roles/8359847?gh_jid=8359847
+- Date added: 2026-11-07
+- Location: Remote, United States
+- Link: https://job-boards.greenhouse.io/gitlab/jobs/8920764002
 
-### [not scored] samsara – Enterprise Implementation Consultant - Public Sector (greenhouse)
-- Posted: 2026-11-06
-- Date added: 2026-11-06
-- Location: Remote - GA
-- Link: https://www.samsara.com/company/careers/roles/8360093?gh_jid=8360093
-
-### [not scored] samsara – Enterprise Select Implementation Consultant (Central or East) (greenhouse)
-- Posted: 2026-11-06
-- Date added: 2026-11-06
-- Location: Remote - US
-- Link: https://www.samsara.com/company/careers/roles/8359800?gh_jid=8359800
-
-### [not scored] samsara – Enterprise Select Implementation Consultant (West) (greenhouse)
-- Posted: 2026-11-06
-- Date added: 2026-11-06
-- Location: Remote - US
-- Link: https://www.samsara.com/company/careers/roles/8359531?gh_jid=8359531
-
-### [not scored] samsara – Implementation Consultant  (greenhouse)
-- Posted: 2026-11-06
-- Date added: 2026-11-06
-- Location: Remote - UK
-- Link: https://www.samsara.com/company/careers/roles/8359108?gh_jid=8359108
-
-### [not scored] samsara – Senior Enterprise Implementation Consultant (greenhouse)
-- Posted: 2026-11-06
-- Date added: 2026-11-06
-- Location: Remote - US
-- Link: https://www.samsara.com/company/careers/roles/8359855?gh_jid=8359855
-
-### [not scored] samsara – Senior Strategic Implementation Consultant (greenhouse)
-- Posted: 2026-11-06
-- Date added: 2026-11-06
-- Location: Remote - US
-- Link: https://www.samsara.com/company/careers/roles/8359386?gh_jid=8359386
-
-### [not scored] samsara – Strategic Implementation Consultant (greenhouse)
-- Posted: 2026-11-06
-- Date added: 2026-11-06
-- Location: Remote - US
-- Link: https://www.samsara.com/company/careers/roles/8359860?gh_jid=8359860
-
-### [not scored] snyk – Senior Implementation Consultant (ashby)
-- Posted: 2026-10-21
-- Date added: 2026-11-06
-- Location: Remote - United States - San Francisco Office
-- Link: https://jobs.ashbyhq.com/Snyk/a8b9e9fc-473b-4daf-9b32-96ea103e81a1
-
-## Previously Viewed (112)
+## Previously Viewed (122)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -206,13 +153,12 @@ Last checked: November 06, 2026 at 07:56 PM
 - Link: https://www.samsara.com/company/careers/roles/8143242?gh_jid=8143242
 - Status: Closed as of 2026-10-22
 
-~~### [67%] samsara – Implementation Consultant (greenhouse)~~
+### [67%] samsara – Implementation Consultant (greenhouse)
 - Posted: 2026-10-07
 - Date added: 2026-10-08
 - Location: Remote - CA
 - Score detail: title 85% | keywords 60% | experience 75% | domain 40% | education 90% | missing: IoT, French fluency, fleet/telematics, account health, training sessions, launch plans, Mid-Market SaaS, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004
-- Status: Closed as of 2026-11-06
 
 ### [67%] savvymoney – Senior Implementation Manager - Fintech (Dublin, CA or USA Remote) (ashby)
 - Posted: 2026-10-02
@@ -814,6 +760,66 @@ Last checked: November 06, 2026 at 07:56 PM
 - Score detail: title 10% | keywords 15% | experience 20% | domain 5% | education 5% | missing: JD or equivalent legal qualification, practicing law, Vault 50 law firm, General Counsel relationships, legal professionals management, customer adoption/expansion, legal engineer, in-house counsel
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
+
+### [not scored] robinhood – Registration and Onboarding Specialist (greenhouse)
+- Posted: 2026-11-05
+- Date added: 2026-11-06
+- Location: Chicago, IL; Denver, CO; Lake Mary, FL; New York, NY
+- Link: https://boards.greenhouse.io/robinhood/jobs/8356970?t=gh_src=&gh_jid=8356970
+
+### [not scored] samsara – Enterprise Implementation Consultant (East/Central) (greenhouse)
+- Posted: 2026-11-06
+- Date added: 2026-11-06
+- Location: Remote - US
+- Link: https://www.samsara.com/company/careers/roles/8359847?gh_jid=8359847
+
+### [not scored] samsara – Enterprise Implementation Consultant - Public Sector (greenhouse)
+- Posted: 2026-11-06
+- Date added: 2026-11-06
+- Location: Remote - GA
+- Link: https://www.samsara.com/company/careers/roles/8360093?gh_jid=8360093
+
+### [not scored] samsara – Enterprise Select Implementation Consultant (Central or East) (greenhouse)
+- Posted: 2026-11-06
+- Date added: 2026-11-06
+- Location: Remote - US
+- Link: https://www.samsara.com/company/careers/roles/8359800?gh_jid=8359800
+
+### [not scored] samsara – Enterprise Select Implementation Consultant (West) (greenhouse)
+- Posted: 2026-11-06
+- Date added: 2026-11-06
+- Location: Remote - US
+- Link: https://www.samsara.com/company/careers/roles/8359531?gh_jid=8359531
+
+### [not scored] samsara – Implementation Consultant  (greenhouse)
+- Posted: 2026-11-06
+- Date added: 2026-11-06
+- Location: Remote - UK
+- Link: https://www.samsara.com/company/careers/roles/8359108?gh_jid=8359108
+
+### [not scored] samsara – Senior Enterprise Implementation Consultant (greenhouse)
+- Posted: 2026-11-06
+- Date added: 2026-11-06
+- Location: Remote - US
+- Link: https://www.samsara.com/company/careers/roles/8359855?gh_jid=8359855
+
+### [not scored] samsara – Senior Strategic Implementation Consultant (greenhouse)
+- Posted: 2026-11-06
+- Date added: 2026-11-06
+- Location: Remote - US
+- Link: https://www.samsara.com/company/careers/roles/8359386?gh_jid=8359386
+
+### [not scored] samsara – Strategic Implementation Consultant (greenhouse)
+- Posted: 2026-11-06
+- Date added: 2026-11-06
+- Location: Remote - US
+- Link: https://www.samsara.com/company/careers/roles/8359860?gh_jid=8359860
+
+### [not scored] snyk – Senior Implementation Consultant (ashby)
+- Posted: 2026-10-21
+- Date added: 2026-11-06
+- Location: Remote - United States - San Francisco Office
+- Link: https://jobs.ashbyhq.com/Snyk/a8b9e9fc-473b-4daf-9b32-96ea103e81a1
 
 ### [not scored] Katmai – Program Manager, Professional Services (workable)
 - Posted: unknown
