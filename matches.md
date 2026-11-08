@@ -1,17 +1,22 @@
 # Job Matches
 
-Last checked: November 07, 2026 at 06:01 PM
+Last checked: November 08, 2026 at 06:18 PM
 
-## New (1)
+## New (2)
 
-### [NETWORK] [not scored] gitlab – Senior Professional Services Engineer - North Carolina (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: 2026-11-06
-- Date added: 2026-11-07
-- Location: Remote, United States
-- Link: https://job-boards.greenhouse.io/gitlab/jobs/8920764002
+### [not scored] Carazo Enterprise SL – Technical Project Manager - E-commerce, SEO & Security Infrastructure (workable)
+- Posted: unknown
+- Date added: 2026-11-08
+- Location: Remote - Latviai
+- Link: https://jobs.workable.com/view/22GyHdhKWmwHvphhuUcK79/remote-technical-project-manager---e-commerce%2C-seo-%26-security-infrastructure-in-latviai-at-carazo-enterprise-sl
 
-## Previously Viewed (122)
+### [not scored] Carazo Enterprise SL – Technical Project Manager - E-commerce, SEO & Security Infrastructure (workable)
+- Posted: unknown
+- Date added: 2026-11-08
+- Location: Remote - Polańczyk
+- Link: https://jobs.workable.com/view/n4kCyArviaxgxrvD416WnU/remote-technical-project-manager---e-commerce%2C-seo-%26-security-infrastructure-in-pola%C5%84czyk-at-carazo-enterprise-sl
+
+## Previously Viewed (123)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -760,6 +765,13 @@ Last checked: November 07, 2026 at 06:01 PM
 - Score detail: title 10% | keywords 15% | experience 20% | domain 5% | education 5% | missing: JD or equivalent legal qualification, practicing law, Vault 50 law firm, General Counsel relationships, legal professionals management, customer adoption/expansion, legal engineer, in-house counsel
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
+
+### [NETWORK] [not scored] gitlab – Senior Professional Services Engineer - North Carolina (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-11-06
+- Date added: 2026-11-07
+- Location: Remote, United States
+- Link: https://job-boards.greenhouse.io/gitlab/jobs/8920764002
 
 ### [not scored] robinhood – Registration and Onboarding Specialist (greenhouse)
 - Posted: 2026-11-05
