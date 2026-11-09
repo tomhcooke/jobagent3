@@ -1,22 +1,51 @@
 # Job Matches
 
-Last checked: November 08, 2026 at 06:18 PM
+Last checked: November 09, 2026 at 10:57 PM
 
-## New (2)
+## New (6)
 
-### [not scored] Carazo Enterprise SL – Technical Project Manager - E-commerce, SEO & Security Infrastructure (workable)
+### [not scored] SmartLogic – Senior Technical Project Manager (Contract) (workable)
 - Posted: unknown
-- Date added: 2026-11-08
-- Location: Remote - Latviai
-- Link: https://jobs.workable.com/view/22GyHdhKWmwHvphhuUcK79/remote-technical-project-manager---e-commerce%2C-seo-%26-security-infrastructure-in-latviai-at-carazo-enterprise-sl
+- Date added: 2026-11-09
+- Location: Remote
+- Link: https://jobs.workable.com/view/wzsAF2R9wDRjjhdYvAiEak/remote-senior-technical-project-manager-(contract)-in-united-states-at-smartlogic
 
-### [not scored] Carazo Enterprise SL – Technical Project Manager - E-commerce, SEO & Security Infrastructure (workable)
-- Posted: unknown
-- Date added: 2026-11-08
-- Location: Remote - Polańczyk
-- Link: https://jobs.workable.com/view/n4kCyArviaxgxrvD416WnU/remote-technical-project-manager---e-commerce%2C-seo-%26-security-infrastructure-in-pola%C5%84czyk-at-carazo-enterprise-sl
+### [NETWORK] [not scored] cdk – Sr. Professional Services Consultant, Business Performance Assessment (BPA) (workday)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: Posted Today
+- Date added: 2026-11-09
+- Location: 5 Locations
+- Link: https://cdk.wd1.myworkdayjobs.com/CDK/job/Hoffman-Estates-IL-USA/Sr-Professional-Services-Consultant--Business-Performance-Assessment--BPA-_JR9465-1
 
-## Previously Viewed (123)
+### [NETWORK] [not scored] cdk – Lead Professional Services Consultant, Business Performance Assessment (BPA) (workday)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: Posted Today
+- Date added: 2026-11-09
+- Location: 4 Locations
+- Link: https://cdk.wd1.myworkdayjobs.com/CDK/job/Hoffman-Estates-IL-USA/Lead-Professional-Services-Consultant--Business-Performance-Assessment--BPA-_JR9466-1
+
+### [NETWORK] [not scored] gitlab – Professional Services Engineer - KSA (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-11-09
+- Date added: 2026-11-09
+- Location: Remote, KSA
+- Link: https://job-boards.greenhouse.io/gitlab/jobs/8928253002
+
+### [NETWORK] [not scored] globalhr – Senior Technical Project Manager (workday)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: Posted Today
+- Date added: 2026-11-09
+- Location: US-CT-FARMINGTON-0001 ~ 1 Farm Springs Rd ~ 1 FARM SPRINGS
+- Link: https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-FARMINGTON-0001--1-Farm-Springs-Rd--1-FARM-SPRINGS/Senior-Technical-Project-Manager_01887730
+
+### [NETWORK] [not scored] globalhr – Senior Technical Project Manager/Ontologist (workday)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: Posted Today
+- Date added: 2026-11-09
+- Location: US-NY-REMOTE
+- Link: https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-NY-REMOTE/Senior-Technical-Project-Manager-Ontologist_01887718
+
+## Previously Viewed (125)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -765,6 +794,18 @@ Last checked: November 08, 2026 at 06:18 PM
 - Score detail: title 10% | keywords 15% | experience 20% | domain 5% | education 5% | missing: JD or equivalent legal qualification, practicing law, Vault 50 law firm, General Counsel relationships, legal professionals management, customer adoption/expansion, legal engineer, in-house counsel
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
+
+### [not scored] Carazo Enterprise SL – Technical Project Manager - E-commerce, SEO & Security Infrastructure (workable)
+- Posted: unknown
+- Date added: 2026-11-08
+- Location: Remote - Latviai
+- Link: https://jobs.workable.com/view/22GyHdhKWmwHvphhuUcK79/remote-technical-project-manager---e-commerce%2C-seo-%26-security-infrastructure-in-latviai-at-carazo-enterprise-sl
+
+### [not scored] Carazo Enterprise SL – Technical Project Manager - E-commerce, SEO & Security Infrastructure (workable)
+- Posted: unknown
+- Date added: 2026-11-08
+- Location: Remote - Polańczyk
+- Link: https://jobs.workable.com/view/n4kCyArviaxgxrvD416WnU/remote-technical-project-manager---e-commerce%2C-seo-%26-security-infrastructure-in-pola%C5%84czyk-at-carazo-enterprise-sl
 
 ### [NETWORK] [not scored] gitlab – Senior Professional Services Engineer - North Carolina (greenhouse)
 - In network: Yes (you have a LinkedIn contact here)
