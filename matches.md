@@ -1,51 +1,12 @@
 # Job Matches
 
-Last checked: November 09, 2026 at 10:57 PM
+Last checked: November 10, 2026 at 08:19 PM
 
-## New (6)
+## New (0)
 
-### [not scored] SmartLogic – Senior Technical Project Manager (Contract) (workable)
-- Posted: unknown
-- Date added: 2026-11-09
-- Location: Remote
-- Link: https://jobs.workable.com/view/wzsAF2R9wDRjjhdYvAiEak/remote-senior-technical-project-manager-(contract)-in-united-states-at-smartlogic
+*Nothing here.*
 
-### [NETWORK] [not scored] cdk – Sr. Professional Services Consultant, Business Performance Assessment (BPA) (workday)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: Posted Today
-- Date added: 2026-11-09
-- Location: 5 Locations
-- Link: https://cdk.wd1.myworkdayjobs.com/CDK/job/Hoffman-Estates-IL-USA/Sr-Professional-Services-Consultant--Business-Performance-Assessment--BPA-_JR9465-1
-
-### [NETWORK] [not scored] cdk – Lead Professional Services Consultant, Business Performance Assessment (BPA) (workday)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: Posted Today
-- Date added: 2026-11-09
-- Location: 4 Locations
-- Link: https://cdk.wd1.myworkdayjobs.com/CDK/job/Hoffman-Estates-IL-USA/Lead-Professional-Services-Consultant--Business-Performance-Assessment--BPA-_JR9466-1
-
-### [NETWORK] [not scored] gitlab – Professional Services Engineer - KSA (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: 2026-11-09
-- Date added: 2026-11-09
-- Location: Remote, KSA
-- Link: https://job-boards.greenhouse.io/gitlab/jobs/8928253002
-
-### [NETWORK] [not scored] globalhr – Senior Technical Project Manager (workday)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: Posted Today
-- Date added: 2026-11-09
-- Location: US-CT-FARMINGTON-0001 ~ 1 Farm Springs Rd ~ 1 FARM SPRINGS
-- Link: https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-FARMINGTON-0001--1-Farm-Springs-Rd--1-FARM-SPRINGS/Senior-Technical-Project-Manager_01887730
-
-### [NETWORK] [not scored] globalhr – Senior Technical Project Manager/Ontologist (workday)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: Posted Today
-- Date added: 2026-11-09
-- Location: US-NY-REMOTE
-- Link: https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-NY-REMOTE/Senior-Technical-Project-Manager-Ontologist_01887718
-
-## Previously Viewed (125)
+## Previously Viewed (131)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -714,13 +675,14 @@ Last checked: November 09, 2026 at 10:57 PM
 - Score detail: title 30% | keywords 20% | experience 40% | domain 15% | education 30% | missing: Terraform, Ansible, Puppet, Chef, TS/SCI clearance, GitLab, Infrastructure as Code, Public Sector
 - Link: https://job-boards.greenhouse.io/gitlab/jobs/8838331002
 
-### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)
+~~### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: Posted Yesterday
 - Date added: 2026-09-25
 - Location: 5 Locations
 - Score detail: title 20% | keywords 25% | experience 35% | domain 20% | education 30% | missing: UX/UI design, Design Thinking, interaction design, visual design, user research, stakeholder workshops, Salesforce platform, design portfolio
 - Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Remote/Senior-Experience-Architect--Professional-Services-_JR361440-1
+- Status: Closed as of 2026-11-10
 
 ~~### [NETWORK] [25%] cengage – Remote Customer Technical Support Representative, Monday - Friday, 11am – 7pm EST (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
@@ -795,6 +757,47 @@ Last checked: November 09, 2026 at 10:57 PM
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
 
+### [not scored] SmartLogic – Senior Technical Project Manager (Contract) (workable)
+- Posted: unknown
+- Date added: 2026-11-09
+- Location: Remote
+- Link: https://jobs.workable.com/view/wzsAF2R9wDRjjhdYvAiEak/remote-senior-technical-project-manager-(contract)-in-united-states-at-smartlogic
+
+### [NETWORK] [not scored] cdk – Sr. Professional Services Consultant, Business Performance Assessment (BPA) (workday)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: Posted Today
+- Date added: 2026-11-09
+- Location: 5 Locations
+- Link: https://cdk.wd1.myworkdayjobs.com/CDK/job/Hoffman-Estates-IL-USA/Sr-Professional-Services-Consultant--Business-Performance-Assessment--BPA-_JR9465-1
+
+### [NETWORK] [not scored] cdk – Lead Professional Services Consultant, Business Performance Assessment (BPA) (workday)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: Posted Today
+- Date added: 2026-11-09
+- Location: 4 Locations
+- Link: https://cdk.wd1.myworkdayjobs.com/CDK/job/Hoffman-Estates-IL-USA/Lead-Professional-Services-Consultant--Business-Performance-Assessment--BPA-_JR9466-1
+
+### [NETWORK] [not scored] gitlab – Professional Services Engineer - KSA (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-11-09
+- Date added: 2026-11-09
+- Location: Remote, KSA
+- Link: https://job-boards.greenhouse.io/gitlab/jobs/8928253002
+
+### [NETWORK] [not scored] globalhr – Senior Technical Project Manager (workday)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: Posted Today
+- Date added: 2026-11-09
+- Location: US-CT-FARMINGTON-0001 ~ 1 Farm Springs Rd ~ 1 FARM SPRINGS
+- Link: https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-FARMINGTON-0001--1-Farm-Springs-Rd--1-FARM-SPRINGS/Senior-Technical-Project-Manager_01887730
+
+### [NETWORK] [not scored] globalhr – Senior Technical Project Manager/Ontologist (workday)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: Posted Today
+- Date added: 2026-11-09
+- Location: US-NY-REMOTE
+- Link: https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-NY-REMOTE/Senior-Technical-Project-Manager-Ontologist_01887718
+
 ### [not scored] Carazo Enterprise SL – Technical Project Manager - E-commerce, SEO & Security Infrastructure (workable)
 - Posted: unknown
 - Date added: 2026-11-08
@@ -832,11 +835,12 @@ Last checked: November 09, 2026 at 10:57 PM
 - Location: Remote - GA
 - Link: https://www.samsara.com/company/careers/roles/8360093?gh_jid=8360093
 
-### [not scored] samsara – Enterprise Select Implementation Consultant (Central or East) (greenhouse)
+~~### [not scored] samsara – Enterprise Select Implementation Consultant (Central or East) (greenhouse)~~
 - Posted: 2026-11-06
 - Date added: 2026-11-06
 - Location: Remote - US
 - Link: https://www.samsara.com/company/careers/roles/8359800?gh_jid=8359800
+- Status: Closed as of 2026-11-10
 
 ### [not scored] samsara – Enterprise Select Implementation Consultant (West) (greenhouse)
 - Posted: 2026-11-06
@@ -928,12 +932,11 @@ Last checked: November 09, 2026 at 10:57 PM
 - Location: Remote, United States
 - Link: https://job-boards.greenhouse.io/gitlab/jobs/8838394002
 
-~~### [not scored] samsara – Enterprise Implementation Consultant - Public Sector (greenhouse)~~
+### [not scored] samsara – Enterprise Implementation Consultant - Public Sector (greenhouse)
 - Posted: 2026-10-26
 - Date added: 2026-10-27
 - Location: Remote - GA
 - Link: https://www.samsara.com/company/careers/roles/8304710?gh_jid=8304710
-- Status: Closed as of 2026-11-06
 
 ### [not scored] Fidus Systems – Technical Project Manager (workable)
 - Posted: unknown
