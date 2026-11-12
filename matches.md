@@ -1,6 +1,6 @@
 # Job Matches
 
-Last checked: November 11, 2026 at 08:07 PM
+Last checked: November 12, 2026 at 08:44 PM
 
 ## New (0)
 
@@ -117,12 +117,13 @@ Last checked: November 11, 2026 at 08:07 PM
 - Link: https://jobs.ashbyhq.com/forma/df918cdc-e21e-43c1-ac71-121366402bd1
 - Status: Closed as of 2026-09-29
 
-### [68%] outreach – Senior Professional Services Consultant (lever)
+~~### [68%] outreach – Senior Professional Services Consultant (lever)~~
 - Posted: 2026-09-16
 - Date added: 2026-09-17
 - Location: Remote - United States
 - Score detail: title 70% | keywords 60% | experience 85% | domain 65% | education 70% | missing: Sales Engagement, Conversational Intelligence, Forecasting, GTM strategy, Change management, Revenue operations, CRM (Salesforce), Adoption risk analytics
 - Link: https://jobs.lever.co/outreach/657cceb1-3b93-4c89-9b39-d2acc1ded6e3
+- Status: Closed as of 2026-11-12
 
 ~~### [68%] samsara – Enterprise Implementation Consultant (greenhouse)~~
 - Posted: 2026-08-24
@@ -667,13 +668,14 @@ Last checked: November 11, 2026 at 08:07 PM
 - Score detail: title 20% | keywords 25% | experience 40% | domain 20% | education 30% | missing: product management, PRDs, learning science, skills graph, LMS, adaptive learning, LLMs, UX design
 - Link: https://databricks.com/company/careers/open-positions/job?gh_jid=8780470002
 
-### [NETWORK] [26%] gitlab – Senior Professional Services Engineer - PubSec - US Only (greenhouse)
+~~### [NETWORK] [26%] gitlab – Senior Professional Services Engineer - PubSec - US Only (greenhouse)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: 2026-10-07
 - Date added: 2026-10-07
 - Location: Remote
 - Score detail: title 30% | keywords 20% | experience 40% | domain 15% | education 30% | missing: Terraform, Ansible, Puppet, Chef, TS/SCI clearance, GitLab, Infrastructure as Code, Public Sector
 - Link: https://job-boards.greenhouse.io/gitlab/jobs/8838331002
+- Status: Closed as of 2026-11-12
 
 ~~### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
@@ -784,19 +786,21 @@ Last checked: November 11, 2026 at 08:07 PM
 - Location: Remote, KSA
 - Link: https://job-boards.greenhouse.io/gitlab/jobs/8928253002
 
-### [NETWORK] [not scored] globalhr – Senior Technical Project Manager (workday)
+~~### [NETWORK] [not scored] globalhr – Senior Technical Project Manager (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: Posted Today
 - Date added: 2026-11-09
 - Location: US-CT-FARMINGTON-0001 ~ 1 Farm Springs Rd ~ 1 FARM SPRINGS
 - Link: https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-FARMINGTON-0001--1-Farm-Springs-Rd--1-FARM-SPRINGS/Senior-Technical-Project-Manager_01887730
+- Status: Closed as of 2026-11-12
 
-### [NETWORK] [not scored] globalhr – Senior Technical Project Manager/Ontologist (workday)
+~~### [NETWORK] [not scored] globalhr – Senior Technical Project Manager/Ontologist (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: Posted Today
 - Date added: 2026-11-09
 - Location: US-NY-REMOTE
 - Link: https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-NY-REMOTE/Senior-Technical-Project-Manager-Ontologist_01887718
+- Status: Closed as of 2026-11-12
 
 ### [not scored] Carazo Enterprise SL – Technical Project Manager - E-commerce, SEO & Security Infrastructure (workable)
 - Posted: unknown
@@ -848,11 +852,12 @@ Last checked: November 11, 2026 at 08:07 PM
 - Location: Remote - US
 - Link: https://www.samsara.com/company/careers/roles/8359531?gh_jid=8359531
 
-### [not scored] samsara – Implementation Consultant  (greenhouse)
+~~### [not scored] samsara – Implementation Consultant  (greenhouse)~~
 - Posted: 2026-11-06
 - Date added: 2026-11-06
 - Location: Remote - UK
 - Link: https://www.samsara.com/company/careers/roles/8359108?gh_jid=8359108
+- Status: Closed as of 2026-11-12
 
 ### [not scored] samsara – Senior Enterprise Implementation Consultant (greenhouse)
 - Posted: 2026-11-06
