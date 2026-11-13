@@ -1,10 +1,20 @@
 # Job Matches
 
-Last checked: November 12, 2026 at 08:44 PM
+Last checked: November 13, 2026 at 08:26 PM
 
-## New (0)
+## New (2)
 
-*Nothing here.*
+### [not scored] AIRS Medical Inc – US - Professional Services Coordinator (workable)
+- Posted: unknown
+- Date added: 2026-11-13
+- Location: Remote
+- Link: https://jobs.workable.com/view/gg5V2Wxn3WxdyoaGTGxUYU/remote-us---professional-services-coordinator-in-united-states-at-airs-medical-inc
+
+### [not scored] opengov – Implementation Consultant (ashby)
+- Posted: 2026-11-13
+- Date added: 2026-11-13
+- Location: US | Illinois | Chicago
+- Link: https://jobs.ashbyhq.com/opengov/bae701be-f5d6-4f14-bc73-38eff1616e80
 
 ## Previously Viewed (131)
 
@@ -993,11 +1003,12 @@ Last checked: November 12, 2026 at 08:44 PM
 - Link: https://job-boards.greenhouse.io/smartsheet/jobs/7630247
 - Status: Closed as of 2026-09-26
 
-### [19%] temporal – Senior Professional Services Engineer - West (ashby)
+~~### [19%] temporal – Senior Professional Services Engineer - West (ashby)~~
 - Posted: 2026-08-12
 - Date added: 2026-09-17
 - Location: United States
 - Score detail: title 20% | keywords 15% | experience 30% | domain 15% | education 20% | missing: Go, Java, Python, TypeScript, distributed systems, Temporal Server, observability, on-call/runbooks
 - Link: https://jobs.ashbyhq.com/temporal/29fbbb7e-f8d3-4424-a301-cb32b704ae16
+- Status: Closed as of 2026-11-13
 
 </details>
