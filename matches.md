@@ -1,22 +1,30 @@
 # Job Matches
 
-Last checked: November 13, 2026 at 08:26 PM
+Last checked: November 14, 2026 at 06:44 PM
 
-## New (2)
+## New (3)
 
-### [not scored] AIRS Medical Inc – US - Professional Services Coordinator (workable)
-- Posted: unknown
-- Date added: 2026-11-13
-- Location: Remote
-- Link: https://jobs.workable.com/view/gg5V2Wxn3WxdyoaGTGxUYU/remote-us---professional-services-coordinator-in-united-states-at-airs-medical-inc
-
-### [not scored] opengov – Implementation Consultant (ashby)
+### [not scored] harvey – Legal Engineering Manager, Product Specialist (ashby)
 - Posted: 2026-11-13
-- Date added: 2026-11-13
-- Location: US | Illinois | Chicago
-- Link: https://jobs.ashbyhq.com/opengov/bae701be-f5d6-4f14-bc73-38eff1616e80
+- Date added: 2026-11-14
+- Location: Remote - Chicago
+- Link: https://jobs.ashbyhq.com/harvey/8818f7ee-d58d-48b4-bf81-d9e0ba372130
 
-## Previously Viewed (131)
+### [NETWORK] [not scored] toast – Implementation Consultant III, Enterprise Hotels and Sports + Entertainment (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-11-13
+- Date added: 2026-11-14
+- Location: Remote, US
+- Link: https://careers.toasttab.com/jobs?gh_jid=8374880
+
+### [NETWORK] [not scored] toast – Implementation Consultant III, Enterprise Restaurants (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-11-13
+- Date added: 2026-11-14
+- Location: Remote, US
+- Link: https://careers.toasttab.com/jobs?gh_jid=8374878
+
+## Previously Viewed (133)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -768,6 +776,18 @@ Last checked: November 13, 2026 at 08:26 PM
 - Score detail: title 10% | keywords 15% | experience 20% | domain 5% | education 5% | missing: JD or equivalent legal qualification, practicing law, Vault 50 law firm, General Counsel relationships, legal professionals management, customer adoption/expansion, legal engineer, in-house counsel
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
+
+### [not scored] AIRS Medical Inc – US - Professional Services Coordinator (workable)
+- Posted: unknown
+- Date added: 2026-11-13
+- Location: Remote
+- Link: https://jobs.workable.com/view/gg5V2Wxn3WxdyoaGTGxUYU/remote-us---professional-services-coordinator-in-united-states-at-airs-medical-inc
+
+### [not scored] opengov – Implementation Consultant (ashby)
+- Posted: 2026-11-13
+- Date added: 2026-11-13
+- Location: US | Illinois | Chicago
+- Link: https://jobs.ashbyhq.com/opengov/bae701be-f5d6-4f14-bc73-38eff1616e80
 
 ### [not scored] SmartLogic – Senior Technical Project Manager (Contract) (workable)
 - Posted: unknown
