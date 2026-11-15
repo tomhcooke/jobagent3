@@ -1,30 +1,12 @@
 # Job Matches
 
-Last checked: November 14, 2026 at 06:44 PM
+Last checked: November 15, 2026 at 07:20 PM
 
-## New (3)
+## New (0)
 
-### [not scored] harvey – Legal Engineering Manager, Product Specialist (ashby)
-- Posted: 2026-11-13
-- Date added: 2026-11-14
-- Location: Remote - Chicago
-- Link: https://jobs.ashbyhq.com/harvey/8818f7ee-d58d-48b4-bf81-d9e0ba372130
+*Nothing here.*
 
-### [NETWORK] [not scored] toast – Implementation Consultant III, Enterprise Hotels and Sports + Entertainment (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: 2026-11-13
-- Date added: 2026-11-14
-- Location: Remote, US
-- Link: https://careers.toasttab.com/jobs?gh_jid=8374880
-
-### [NETWORK] [not scored] toast – Implementation Consultant III, Enterprise Restaurants (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: 2026-11-13
-- Date added: 2026-11-14
-- Location: Remote, US
-- Link: https://careers.toasttab.com/jobs?gh_jid=8374878
-
-## Previously Viewed (133)
+## Previously Viewed (136)
 
 ### [78%] fourkites –  Implementation Manager  (greenhouse)
 - Posted: 2026-06-25
@@ -776,6 +758,26 @@ Last checked: November 14, 2026 at 06:44 PM
 - Score detail: title 10% | keywords 15% | experience 20% | domain 5% | education 5% | missing: JD or equivalent legal qualification, practicing law, Vault 50 law firm, General Counsel relationships, legal professionals management, customer adoption/expansion, legal engineer, in-house counsel
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
+
+### [not scored] harvey – Legal Engineering Manager, Product Specialist (ashby)
+- Posted: 2026-11-13
+- Date added: 2026-11-14
+- Location: Remote - Chicago
+- Link: https://jobs.ashbyhq.com/harvey/8818f7ee-d58d-48b4-bf81-d9e0ba372130
+
+### [NETWORK] [not scored] toast – Implementation Consultant III, Enterprise Hotels and Sports + Entertainment (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-11-13
+- Date added: 2026-11-14
+- Location: Remote, US
+- Link: https://careers.toasttab.com/jobs?gh_jid=8374880
+
+### [NETWORK] [not scored] toast – Implementation Consultant III, Enterprise Restaurants (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-11-13
+- Date added: 2026-11-14
+- Location: Remote, US
+- Link: https://careers.toasttab.com/jobs?gh_jid=8374878
 
 ### [not scored] AIRS Medical Inc – US - Professional Services Coordinator (workable)
 - Posted: unknown
