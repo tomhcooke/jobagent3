@@ -1,10 +1,15 @@
 # Job Matches
 
-Last checked: November 15, 2026 at 07:20 PM
+Last checked: November 16, 2026 at 10:49 PM
 
-## New (0)
+## New (1)
 
-*Nothing here.*
+### [NETWORK] [not scored] toast – Senior Onboarding Manager, Hotels (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-11-16
+- Date added: 2026-11-16
+- Location: Remote, US
+- Link: https://careers.toasttab.com/jobs?gh_jid=8385953
 
 ## Previously Viewed (136)
 
