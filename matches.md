@@ -1,24 +1,31 @@
 # Job Matches
 
-Last checked: November 16, 2026 at 10:49 PM
+Last checked: November 17, 2026 at 09:35 PM
 
-## New (1)
+## New (2)
 
-### [NETWORK] [not scored] toast – Senior Onboarding Manager, Hotels (greenhouse)
+### [not scored] Pavago – Implementation Consultant (workable)
+- Posted: unknown
+- Date added: 2026-11-17
+- Location: Remote
+- Link: https://jobs.workable.com/view/bEoNYDG7gSQumgKvUMrkDs/remote-implementation-consultant-in-united-states-at-pavago
+
+### [NETWORK] [not scored] gitlab – Director, Professional Services Technical Architects (greenhouse)
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: 2026-11-16
-- Date added: 2026-11-16
-- Location: Remote, US
-- Link: https://careers.toasttab.com/jobs?gh_jid=8385953
+- Date added: 2026-11-17
+- Location: Remote, United States
+- Link: https://job-boards.greenhouse.io/gitlab/jobs/8940610002
 
-## Previously Viewed (136)
+## Previously Viewed (137)
 
-### [78%] fourkites –  Implementation Manager  (greenhouse)
+~~### [78%] fourkites –  Implementation Manager  (greenhouse)~~
 - Posted: 2026-06-25
 - Date added: 2026-09-17
 - Location: Chicago, IL or Remote, USA
 - Score detail: title 95% | keywords 75% | experience 90% | domain 55% | education 80% | missing: supply chain visibility, logistics, carrier operations, C-suite executives, global 1000, transportation, executive reviews, stakeholder training
 - Link: https://job-boards.greenhouse.io/fourkites/jobs/7982637
+- Status: Closed as of 2026-11-17
 
 ~~### [78%] frontcareers – Senior Implementation Manager (ashby)~~
 - Posted: 2026-09-04
@@ -763,6 +770,13 @@ Last checked: November 16, 2026 at 10:49 PM
 - Score detail: title 10% | keywords 15% | experience 20% | domain 5% | education 5% | missing: JD or equivalent legal qualification, practicing law, Vault 50 law firm, General Counsel relationships, legal professionals management, customer adoption/expansion, legal engineer, in-house counsel
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
+
+### [NETWORK] [not scored] toast – Senior Onboarding Manager, Hotels (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-11-16
+- Date added: 2026-11-16
+- Location: Remote, US
+- Link: https://careers.toasttab.com/jobs?gh_jid=8385953
 
 ### [not scored] harvey – Legal Engineering Manager, Product Specialist (ashby)
 - Posted: 2026-11-13
