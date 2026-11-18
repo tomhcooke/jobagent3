@@ -1,23 +1,22 @@
 # Job Matches
 
-Last checked: November 17, 2026 at 09:35 PM
+Last checked: November 18, 2026 at 09:11 PM
 
 ## New (2)
 
-### [not scored] Pavago – Implementation Consultant (workable)
+### [not scored] Carazo Enterprise SL – Technical Project Manager - E-commerce, SEO (workable)
 - Posted: unknown
-- Date added: 2026-11-17
-- Location: Remote
-- Link: https://jobs.workable.com/view/bEoNYDG7gSQumgKvUMrkDs/remote-implementation-consultant-in-united-states-at-pavago
+- Date added: 2026-11-18
+- Location: Remote - Ukrainka
+- Link: https://jobs.workable.com/view/hLMeqbeEa8wogZM8ybc2eX/remote-technical-project-manager---e-commerce%2C-seo-in-ukrainka-at-carazo-enterprise-sl
 
-### [NETWORK] [not scored] gitlab – Director, Professional Services Technical Architects (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: 2026-11-16
-- Date added: 2026-11-17
-- Location: Remote, United States
-- Link: https://job-boards.greenhouse.io/gitlab/jobs/8940610002
+### [not scored] outreach – Forward Deployed Engineer, Onboarding Services (Professional Services Consultant) (lever)
+- Posted: 2026-11-12
+- Date added: 2026-11-18
+- Location: Remote - United States
+- Link: https://jobs.lever.co/outreach/752b3b1a-dcee-4c74-844d-c17705f46f37
 
-## Previously Viewed (137)
+## Previously Viewed (139)
 
 ~~### [78%] fourkites –  Implementation Manager  (greenhouse)~~
 - Posted: 2026-06-25
@@ -771,12 +770,26 @@ Last checked: November 17, 2026 at 09:35 PM
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
 
-### [NETWORK] [not scored] toast – Senior Onboarding Manager, Hotels (greenhouse)
+### [not scored] Pavago – Implementation Consultant (workable)
+- Posted: unknown
+- Date added: 2026-11-17
+- Location: Remote
+- Link: https://jobs.workable.com/view/bEoNYDG7gSQumgKvUMrkDs/remote-implementation-consultant-in-united-states-at-pavago
+
+### [NETWORK] [not scored] gitlab – Director, Professional Services Technical Architects (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-11-16
+- Date added: 2026-11-17
+- Location: Remote, United States
+- Link: https://job-boards.greenhouse.io/gitlab/jobs/8940610002
+
+~~### [NETWORK] [not scored] toast – Senior Onboarding Manager, Hotels (greenhouse)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: 2026-11-16
 - Date added: 2026-11-16
 - Location: Remote, US
 - Link: https://careers.toasttab.com/jobs?gh_jid=8385953
+- Status: Closed as of 2026-11-18
 
 ### [not scored] harvey – Legal Engineering Manager, Product Specialist (ashby)
 - Posted: 2026-11-13
@@ -916,11 +929,12 @@ Last checked: November 17, 2026 at 09:35 PM
 - Location: Remote - US
 - Link: https://www.samsara.com/company/careers/roles/8359855?gh_jid=8359855
 
-### [not scored] samsara – Senior Strategic Implementation Consultant (greenhouse)
+~~### [not scored] samsara – Senior Strategic Implementation Consultant (greenhouse)~~
 - Posted: 2026-11-06
 - Date added: 2026-11-06
 - Location: Remote - US
 - Link: https://www.samsara.com/company/careers/roles/8359386?gh_jid=8359386
+- Status: Closed as of 2026-11-18
 
 ### [not scored] samsara – Strategic Implementation Consultant (greenhouse)
 - Posted: 2026-11-06
