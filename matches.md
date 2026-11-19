@@ -1,22 +1,22 @@
 # Job Matches
 
-Last checked: November 18, 2026 at 09:11 PM
+Last checked: November 19, 2026 at 09:16 PM
 
 ## New (2)
 
-### [not scored] Carazo Enterprise SL – Technical Project Manager - E-commerce, SEO (workable)
+### [not scored] PracticeTek – Customer Onboarding Manager (workable)
 - Posted: unknown
-- Date added: 2026-11-18
-- Location: Remote - Ukrainka
-- Link: https://jobs.workable.com/view/hLMeqbeEa8wogZM8ybc2eX/remote-technical-project-manager---e-commerce%2C-seo-in-ukrainka-at-carazo-enterprise-sl
+- Date added: 2026-11-19
+- Location: Remote
+- Link: https://jobs.workable.com/view/kjDb4qtp1N3thrCnhsxqM7/remote-customer-onboarding-manager-in-united-states-at-practicetek
 
-### [not scored] outreach – Forward Deployed Engineer, Onboarding Services (Professional Services Consultant) (lever)
-- Posted: 2026-11-12
-- Date added: 2026-11-18
-- Location: Remote - United States
-- Link: https://jobs.lever.co/outreach/752b3b1a-dcee-4c74-844d-c17705f46f37
+### [not scored] samsara – Implementation Consultant (greenhouse)
+- Posted: 2026-11-18
+- Date added: 2026-11-19
+- Location: Remote - CA; Remote - Chicago; Remote - Seattle; Remote - TX
+- Link: https://www.samsara.com/company/careers/roles/8367418?gh_jid=8367418
 
-## Previously Viewed (139)
+## Previously Viewed (141)
 
 ~~### [78%] fourkites –  Implementation Manager  (greenhouse)~~
 - Posted: 2026-06-25
@@ -688,14 +688,13 @@ Last checked: November 18, 2026 at 09:11 PM
 - Link: https://job-boards.greenhouse.io/gitlab/jobs/8838331002
 - Status: Closed as of 2026-11-12
 
-~~### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)~~
+### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: Posted Yesterday
 - Date added: 2026-09-25
 - Location: 5 Locations
 - Score detail: title 20% | keywords 25% | experience 35% | domain 20% | education 30% | missing: UX/UI design, Design Thinking, interaction design, visual design, user research, stakeholder workshops, Salesforce platform, design portfolio
 - Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Remote/Senior-Experience-Architect--Professional-Services-_JR361440-1
-- Status: Closed as of 2026-11-10
 
 ~~### [NETWORK] [25%] cengage – Remote Customer Technical Support Representative, Monday - Friday, 11am – 7pm EST (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
@@ -770,6 +769,18 @@ Last checked: November 18, 2026 at 09:11 PM
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
 
+### [not scored] Carazo Enterprise SL – Technical Project Manager - E-commerce, SEO (workable)
+- Posted: unknown
+- Date added: 2026-11-18
+- Location: Remote - Ukrainka
+- Link: https://jobs.workable.com/view/hLMeqbeEa8wogZM8ybc2eX/remote-technical-project-manager---e-commerce%2C-seo-in-ukrainka-at-carazo-enterprise-sl
+
+### [not scored] outreach – Forward Deployed Engineer, Onboarding Services (Professional Services Consultant) (lever)
+- Posted: 2026-11-12
+- Date added: 2026-11-18
+- Location: Remote - United States
+- Link: https://jobs.lever.co/outreach/752b3b1a-dcee-4c74-844d-c17705f46f37
+
 ### [not scored] Pavago – Implementation Consultant (workable)
 - Posted: unknown
 - Date added: 2026-11-17
@@ -797,19 +808,21 @@ Last checked: November 18, 2026 at 09:11 PM
 - Location: Remote - Chicago
 - Link: https://jobs.ashbyhq.com/harvey/8818f7ee-d58d-48b4-bf81-d9e0ba372130
 
-### [NETWORK] [not scored] toast – Implementation Consultant III, Enterprise Hotels and Sports + Entertainment (greenhouse)
+~~### [NETWORK] [not scored] toast – Implementation Consultant III, Enterprise Hotels and Sports + Entertainment (greenhouse)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: 2026-11-13
 - Date added: 2026-11-14
 - Location: Remote, US
 - Link: https://careers.toasttab.com/jobs?gh_jid=8374880
+- Status: Closed as of 2026-11-19
 
-### [NETWORK] [not scored] toast – Implementation Consultant III, Enterprise Restaurants (greenhouse)
+~~### [NETWORK] [not scored] toast – Implementation Consultant III, Enterprise Restaurants (greenhouse)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: 2026-11-13
 - Date added: 2026-11-14
 - Location: Remote, US
 - Link: https://careers.toasttab.com/jobs?gh_jid=8374878
+- Status: Closed as of 2026-11-19
 
 ### [not scored] AIRS Medical Inc – US - Professional Services Coordinator (workable)
 - Posted: unknown
@@ -836,12 +849,13 @@ Last checked: November 18, 2026 at 09:11 PM
 - Location: 5 Locations
 - Link: https://cdk.wd1.myworkdayjobs.com/CDK/job/Hoffman-Estates-IL-USA/Sr-Professional-Services-Consultant--Business-Performance-Assessment--BPA-_JR9465-1
 
-### [NETWORK] [not scored] cdk – Lead Professional Services Consultant, Business Performance Assessment (BPA) (workday)
+~~### [NETWORK] [not scored] cdk – Lead Professional Services Consultant, Business Performance Assessment (BPA) (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: Posted Today
 - Date added: 2026-11-09
 - Location: 4 Locations
 - Link: https://cdk.wd1.myworkdayjobs.com/CDK/job/Hoffman-Estates-IL-USA/Lead-Professional-Services-Consultant--Business-Performance-Assessment--BPA-_JR9466-1
+- Status: Closed as of 2026-11-19
 
 ### [NETWORK] [not scored] gitlab – Professional Services Engineer - KSA (greenhouse)
 - In network: Yes (you have a LinkedIn contact here)
