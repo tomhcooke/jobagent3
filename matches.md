@@ -1,22 +1,67 @@
 # Job Matches
 
-Last checked: November 19, 2026 at 09:16 PM
+Last checked: November 20, 2026 at 09:01 PM
 
-## New (2)
+## New (9)
 
-### [not scored] PracticeTek – Customer Onboarding Manager (workable)
+### [not scored] ISTA Personnel Solutions – Interview & Onboarding Specialist (Remote - EST Hours) (workable)
 - Posted: unknown
-- Date added: 2026-11-19
+- Date added: 2026-11-20
 - Location: Remote
-- Link: https://jobs.workable.com/view/kjDb4qtp1N3thrCnhsxqM7/remote-customer-onboarding-manager-in-united-states-at-practicetek
+- Link: https://jobs.workable.com/view/2cbn7aUdYwvdQ9iM1KmZjg/interview-%26-onboarding-specialist-(remote---est-hours)-in-northern-cape-at-ista-personnel-solutions
 
-### [not scored] samsara – Implementation Consultant (greenhouse)
-- Posted: 2026-11-18
-- Date added: 2026-11-19
-- Location: Remote - CA; Remote - Chicago; Remote - Seattle; Remote - TX
-- Link: https://www.samsara.com/company/careers/roles/8367418?gh_jid=8367418
+### [not scored] ISTA Personnel Solutions – Interview & Onboarding Specialist (Remote - EST Hours) (workable)
+- Posted: unknown
+- Date added: 2026-11-20
+- Location: Remote
+- Link: https://jobs.workable.com/view/wBQmsiE1ijp9LvqmiV3HTh/interview-%26-onboarding-specialist-(remote---est-hours)-in-free-state-at-ista-personnel-solutions
 
-## Previously Viewed (141)
+### [not scored] ISTA Personnel Solutions – Interview & Onboarding Specialist (Remote - EST Hours) (workable)
+- Posted: unknown
+- Date added: 2026-11-20
+- Location: Remote
+- Link: https://jobs.workable.com/view/wHSzfJAQaR66GyMNkbCBzb/interview-%26-onboarding-specialist-(remote---est-hours)-in-kwazulu-natal-at-ista-personnel-solutions
+
+### [not scored] ISTA Personnel Solutions – Interview & Onboarding Specialist (Remote - EST Hours) (workable)
+- Posted: unknown
+- Date added: 2026-11-20
+- Location: Remote
+- Link: https://jobs.workable.com/view/n8scG6x1iMNghXBTnKX6iK/interview-%26-onboarding-specialist-(remote---est-hours)-in-western-cape-at-ista-personnel-solutions
+
+### [not scored] ISTA Personnel Solutions – Interview & Onboarding Specialist (Remote - EST Hours) (workable)
+- Posted: unknown
+- Date added: 2026-11-20
+- Location: Remote
+- Link: https://jobs.workable.com/view/j9iJHyftnaWtUPTFyq7tB5/interview-%26-onboarding-specialist-(remote---est-hours)-in-gauteng-at-ista-personnel-solutions
+
+### [NETWORK] [not scored] cdk – Associate Implementation Specialist (workday)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: Posted Today
+- Date added: 2026-11-20
+- Location: 3 Locations
+- Link: https://cdk.wd1.myworkdayjobs.com/CDK/job/Hoffman-Estates-IL-USA/Associate-Implementation-Specialist_JR9441-1
+
+### [NETWORK] [not scored] gitlab – Professional Services, Program Manager (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-11-06
+- Date added: 2026-11-20
+- Location: Remote, United States
+- Link: https://job-boards.greenhouse.io/gitlab/jobs/8929468002
+
+### [NETWORK] [not scored] launchdarkly – Release Strategist, Professional Services (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-11-20
+- Date added: 2026-11-20
+- Location: Remote - US
+- Link: https://job-boards.greenhouse.io/launchdarkly/jobs/8210880003
+
+### [not scored] opengov – Manager II, Professional Services (Project Management) (ashby)
+- Posted: 2026-11-20
+- Date added: 2026-11-20
+- Location: US | Illinois | Chicago
+- Link: https://jobs.ashbyhq.com/opengov/f40be444-7152-4d9c-88e3-b82f05b3ff76
+
+## Previously Viewed (143)
 
 ~~### [78%] fourkites –  Implementation Manager  (greenhouse)~~
 - Posted: 2026-06-25
@@ -338,12 +383,13 @@ Last checked: November 19, 2026 at 09:16 PM
 - Score detail: title 65% | keywords 55% | experience 80% | domain 30% | education 60% | missing: GRC, Risk Cloud, compliance frameworks, third-party risk, audit, solution architecture, AuditBoard, OneTrust
 - Link: https://www.logicgate.ai/company/careers/?gh_jid=4742986005
 
-### [58%] opengov – Manager II, Professional Services (ashby)
+~~### [58%] opengov – Manager II, Professional Services (ashby)~~
 - Posted: 2026-10-02
 - Date added: 2026-10-03
 - Location: US | Illinois | Chicago
 - Score detail: title 65% | keywords 55% | experience 75% | domain 30% | education 70% | missing: Government/public sector, Portfolio forecasting, Statements of Work, Change Orders, Budget health monitoring, Staffing/resource planning, Government budgeting/procurement, Team recruitment/performance management
 - Link: https://jobs.ashbyhq.com/opengov/50d60bb7-9403-4923-8a74-28539b802ca4
+- Status: Closed as of 2026-11-20
 
 ~~### [58%] opengov – Manager II, Professional Services (ashby)~~
 - Posted: 2026-09-22
@@ -769,6 +815,18 @@ Last checked: November 19, 2026 at 09:16 PM
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
 
+### [not scored] PracticeTek – Customer Onboarding Manager (workable)
+- Posted: unknown
+- Date added: 2026-11-19
+- Location: Remote
+- Link: https://jobs.workable.com/view/kjDb4qtp1N3thrCnhsxqM7/remote-customer-onboarding-manager-in-united-states-at-practicetek
+
+### [not scored] samsara – Implementation Consultant (greenhouse)
+- Posted: 2026-11-18
+- Date added: 2026-11-19
+- Location: Remote - CA; Remote - Chicago; Remote - Seattle; Remote - TX
+- Link: https://www.samsara.com/company/careers/roles/8367418?gh_jid=8367418
+
 ### [not scored] Carazo Enterprise SL – Technical Project Manager - E-commerce, SEO (workable)
 - Posted: unknown
 - Date added: 2026-11-18
@@ -911,11 +969,12 @@ Last checked: November 19, 2026 at 09:16 PM
 - Location: Remote - US
 - Link: https://www.samsara.com/company/careers/roles/8359847?gh_jid=8359847
 
-### [not scored] samsara – Enterprise Implementation Consultant - Public Sector (greenhouse)
+~~### [not scored] samsara – Enterprise Implementation Consultant - Public Sector (greenhouse)~~
 - Posted: 2026-11-06
 - Date added: 2026-11-06
 - Location: Remote - GA
 - Link: https://www.samsara.com/company/careers/roles/8360093?gh_jid=8360093
+- Status: Closed as of 2026-11-20
 
 ~~### [not scored] samsara – Enterprise Select Implementation Consultant (Central or East) (greenhouse)~~
 - Posted: 2026-11-06
@@ -1016,11 +1075,12 @@ Last checked: November 19, 2026 at 09:16 PM
 - Location: Remote, United States
 - Link: https://job-boards.greenhouse.io/gitlab/jobs/8838394002
 
-### [not scored] samsara – Enterprise Implementation Consultant - Public Sector (greenhouse)
+~~### [not scored] samsara – Enterprise Implementation Consultant - Public Sector (greenhouse)~~
 - Posted: 2026-10-26
 - Date added: 2026-10-27
 - Location: Remote - GA
 - Link: https://www.samsara.com/company/careers/roles/8304710?gh_jid=8304710
+- Status: Closed as of 2026-11-20
 
 ### [not scored] Fidus Systems – Technical Project Manager (workable)
 - Posted: unknown
