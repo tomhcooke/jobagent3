@@ -1,67 +1,12 @@
 # Job Matches
 
-Last checked: November 20, 2026 at 09:01 PM
+Last checked: November 21, 2026 at 08:01 PM
 
-## New (9)
+## New (0)
 
-### [not scored] ISTA Personnel Solutions – Interview & Onboarding Specialist (Remote - EST Hours) (workable)
-- Posted: unknown
-- Date added: 2026-11-20
-- Location: Remote
-- Link: https://jobs.workable.com/view/2cbn7aUdYwvdQ9iM1KmZjg/interview-%26-onboarding-specialist-(remote---est-hours)-in-northern-cape-at-ista-personnel-solutions
+*Nothing here.*
 
-### [not scored] ISTA Personnel Solutions – Interview & Onboarding Specialist (Remote - EST Hours) (workable)
-- Posted: unknown
-- Date added: 2026-11-20
-- Location: Remote
-- Link: https://jobs.workable.com/view/wBQmsiE1ijp9LvqmiV3HTh/interview-%26-onboarding-specialist-(remote---est-hours)-in-free-state-at-ista-personnel-solutions
-
-### [not scored] ISTA Personnel Solutions – Interview & Onboarding Specialist (Remote - EST Hours) (workable)
-- Posted: unknown
-- Date added: 2026-11-20
-- Location: Remote
-- Link: https://jobs.workable.com/view/wHSzfJAQaR66GyMNkbCBzb/interview-%26-onboarding-specialist-(remote---est-hours)-in-kwazulu-natal-at-ista-personnel-solutions
-
-### [not scored] ISTA Personnel Solutions – Interview & Onboarding Specialist (Remote - EST Hours) (workable)
-- Posted: unknown
-- Date added: 2026-11-20
-- Location: Remote
-- Link: https://jobs.workable.com/view/n8scG6x1iMNghXBTnKX6iK/interview-%26-onboarding-specialist-(remote---est-hours)-in-western-cape-at-ista-personnel-solutions
-
-### [not scored] ISTA Personnel Solutions – Interview & Onboarding Specialist (Remote - EST Hours) (workable)
-- Posted: unknown
-- Date added: 2026-11-20
-- Location: Remote
-- Link: https://jobs.workable.com/view/j9iJHyftnaWtUPTFyq7tB5/interview-%26-onboarding-specialist-(remote---est-hours)-in-gauteng-at-ista-personnel-solutions
-
-### [NETWORK] [not scored] cdk – Associate Implementation Specialist (workday)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: Posted Today
-- Date added: 2026-11-20
-- Location: 3 Locations
-- Link: https://cdk.wd1.myworkdayjobs.com/CDK/job/Hoffman-Estates-IL-USA/Associate-Implementation-Specialist_JR9441-1
-
-### [NETWORK] [not scored] gitlab – Professional Services, Program Manager (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: 2026-11-06
-- Date added: 2026-11-20
-- Location: Remote, United States
-- Link: https://job-boards.greenhouse.io/gitlab/jobs/8929468002
-
-### [NETWORK] [not scored] launchdarkly – Release Strategist, Professional Services (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: 2026-11-20
-- Date added: 2026-11-20
-- Location: Remote - US
-- Link: https://job-boards.greenhouse.io/launchdarkly/jobs/8210880003
-
-### [not scored] opengov – Manager II, Professional Services (Project Management) (ashby)
-- Posted: 2026-11-20
-- Date added: 2026-11-20
-- Location: US | Illinois | Chicago
-- Link: https://jobs.ashbyhq.com/opengov/f40be444-7152-4d9c-88e3-b82f05b3ff76
-
-## Previously Viewed (143)
+## Previously Viewed (152)
 
 ~~### [78%] fourkites –  Implementation Manager  (greenhouse)~~
 - Posted: 2026-06-25
@@ -205,12 +150,13 @@ Last checked: November 20, 2026 at 09:01 PM
 - Link: https://www.samsara.com/company/careers/roles/8143242?gh_jid=8143242
 - Status: Closed as of 2026-10-22
 
-### [67%] samsara – Implementation Consultant (greenhouse)
+~~### [67%] samsara – Implementation Consultant (greenhouse)~~
 - Posted: 2026-10-07
 - Date added: 2026-10-08
 - Location: Remote - CA
 - Score detail: title 85% | keywords 60% | experience 75% | domain 40% | education 90% | missing: IoT, French fluency, fleet/telematics, account health, training sessions, launch plans, Mid-Market SaaS, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004
+- Status: Closed as of 2026-11-21
 
 ### [67%] savvymoney – Senior Implementation Manager - Fintech (Dublin, CA or USA Remote) (ashby)
 - Posted: 2026-10-02
@@ -814,6 +760,63 @@ Last checked: November 20, 2026 at 09:01 PM
 - Score detail: title 10% | keywords 15% | experience 20% | domain 5% | education 5% | missing: JD or equivalent legal qualification, practicing law, Vault 50 law firm, General Counsel relationships, legal professionals management, customer adoption/expansion, legal engineer, in-house counsel
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
+
+### [not scored] ISTA Personnel Solutions – Interview & Onboarding Specialist (Remote - EST Hours) (workable)
+- Posted: unknown
+- Date added: 2026-11-20
+- Location: Remote
+- Link: https://jobs.workable.com/view/2cbn7aUdYwvdQ9iM1KmZjg/interview-%26-onboarding-specialist-(remote---est-hours)-in-northern-cape-at-ista-personnel-solutions
+
+### [not scored] ISTA Personnel Solutions – Interview & Onboarding Specialist (Remote - EST Hours) (workable)
+- Posted: unknown
+- Date added: 2026-11-20
+- Location: Remote
+- Link: https://jobs.workable.com/view/wBQmsiE1ijp9LvqmiV3HTh/interview-%26-onboarding-specialist-(remote---est-hours)-in-free-state-at-ista-personnel-solutions
+
+### [not scored] ISTA Personnel Solutions – Interview & Onboarding Specialist (Remote - EST Hours) (workable)
+- Posted: unknown
+- Date added: 2026-11-20
+- Location: Remote
+- Link: https://jobs.workable.com/view/wHSzfJAQaR66GyMNkbCBzb/interview-%26-onboarding-specialist-(remote---est-hours)-in-kwazulu-natal-at-ista-personnel-solutions
+
+### [not scored] ISTA Personnel Solutions – Interview & Onboarding Specialist (Remote - EST Hours) (workable)
+- Posted: unknown
+- Date added: 2026-11-20
+- Location: Remote
+- Link: https://jobs.workable.com/view/n8scG6x1iMNghXBTnKX6iK/interview-%26-onboarding-specialist-(remote---est-hours)-in-western-cape-at-ista-personnel-solutions
+
+### [not scored] ISTA Personnel Solutions – Interview & Onboarding Specialist (Remote - EST Hours) (workable)
+- Posted: unknown
+- Date added: 2026-11-20
+- Location: Remote
+- Link: https://jobs.workable.com/view/j9iJHyftnaWtUPTFyq7tB5/interview-%26-onboarding-specialist-(remote---est-hours)-in-gauteng-at-ista-personnel-solutions
+
+### [NETWORK] [not scored] cdk – Associate Implementation Specialist (workday)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: Posted Today
+- Date added: 2026-11-20
+- Location: 3 Locations
+- Link: https://cdk.wd1.myworkdayjobs.com/CDK/job/Hoffman-Estates-IL-USA/Associate-Implementation-Specialist_JR9441-1
+
+### [NETWORK] [not scored] gitlab – Professional Services, Program Manager (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-11-06
+- Date added: 2026-11-20
+- Location: Remote, United States
+- Link: https://job-boards.greenhouse.io/gitlab/jobs/8929468002
+
+### [NETWORK] [not scored] launchdarkly – Release Strategist, Professional Services (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-11-20
+- Date added: 2026-11-20
+- Location: Remote - US
+- Link: https://job-boards.greenhouse.io/launchdarkly/jobs/8210880003
+
+### [not scored] opengov – Manager II, Professional Services (Project Management) (ashby)
+- Posted: 2026-11-20
+- Date added: 2026-11-20
+- Location: US | Illinois | Chicago
+- Link: https://jobs.ashbyhq.com/opengov/f40be444-7152-4d9c-88e3-b82f05b3ff76
 
 ### [not scored] PracticeTek – Customer Onboarding Manager (workable)
 - Posted: unknown
