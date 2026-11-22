@@ -1,6 +1,6 @@
 # Job Matches
 
-Last checked: November 21, 2026 at 08:01 PM
+Last checked: November 22, 2026 at 08:14 PM
 
 ## New (0)
 
@@ -150,13 +150,12 @@ Last checked: November 21, 2026 at 08:01 PM
 - Link: https://www.samsara.com/company/careers/roles/8143242?gh_jid=8143242
 - Status: Closed as of 2026-10-22
 
-~~### [67%] samsara – Implementation Consultant (greenhouse)~~
+### [67%] samsara – Implementation Consultant (greenhouse)
 - Posted: 2026-10-07
 - Date added: 2026-10-08
 - Location: Remote - CA
 - Score detail: title 85% | keywords 60% | experience 75% | domain 40% | education 90% | missing: IoT, French fluency, fleet/telematics, account health, training sessions, launch plans, Mid-Market SaaS, consultative skills
 - Link: https://www.samsara.com/company/careers/roles/8236004?gh_jid=8236004
-- Status: Closed as of 2026-11-21
 
 ### [67%] savvymoney – Senior Implementation Manager - Fintech (Dublin, CA or USA Remote) (ashby)
 - Posted: 2026-10-02
