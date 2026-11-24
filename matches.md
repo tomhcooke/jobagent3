@@ -1,10 +1,21 @@
 # Job Matches
 
-Last checked: November 22, 2026 at 08:14 PM
+Last checked: November 24, 2026 at 12:41 AM
 
-## New (0)
+## New (2)
 
-*Nothing here.*
+### [NETWORK] [not scored] globalhr – F100 Customer Support Engineer (Onsite) (workday)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: Posted Today
+- Date added: 2026-11-24
+- Location: 2 Locations
+- Link: https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/F100-Customer-Support-Engineer--Onsite-_01889349
+
+### [not scored] harvey – Legal Engineer, Product Specialist (Asset Management)  (ashby)
+- Posted: 2026-11-24
+- Date added: 2026-11-24
+- Location: Remote - Chicago
+- Link: https://jobs.ashbyhq.com/harvey/871d564f-9577-4859-91a2-1aceef50ddf6
 
 ## Previously Viewed (152)
 
@@ -985,11 +996,12 @@ Last checked: November 22, 2026 at 08:14 PM
 - Link: https://www.samsara.com/company/careers/roles/8359800?gh_jid=8359800
 - Status: Closed as of 2026-11-10
 
-### [not scored] samsara – Enterprise Select Implementation Consultant (West) (greenhouse)
+~~### [not scored] samsara – Enterprise Select Implementation Consultant (West) (greenhouse)~~
 - Posted: 2026-11-06
 - Date added: 2026-11-06
 - Location: Remote - US
 - Link: https://www.samsara.com/company/careers/roles/8359531?gh_jid=8359531
+- Status: Closed as of 2026-11-24
 
 ~~### [not scored] samsara – Implementation Consultant  (greenhouse)~~
 - Posted: 2026-11-06
