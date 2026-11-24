@@ -1,8 +1,21 @@
 # Job Matches
 
-Last checked: November 24, 2026 at 12:41 AM
+Last checked: November 24, 2026 at 11:00 PM
 
-## New (2)
+## New (4)
+
+### [not scored] Zirous – Senior Zendesk Implementation Consultant (workable)
+- Posted: unknown
+- Date added: 2026-11-24
+- Location: Remote - WDM
+- Link: https://jobs.workable.com/view/sG1UFR8rfFXrNT3ShptZZr/remote-senior-zendesk-implementation-consultant-in-wdm-at-zirous
+
+### [NETWORK] [not scored] gitlab – Senior Professional Services Engineer - PubSec - Chantilly, VA  (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-11-24
+- Date added: 2026-11-24
+- Location: Remote, United States
+- Link: https://job-boards.greenhouse.io/gitlab/jobs/8955422002
 
 ### [NETWORK] [not scored] globalhr – F100 Customer Support Engineer (Onsite) (workday)
 - In network: Yes (you have a LinkedIn contact here)
@@ -453,13 +466,14 @@ Last checked: November 24, 2026 at 12:41 AM
 - Score detail: title 55% | keywords 45% | experience 70% | domain 20% | education 80% | missing: real estate, IDX, EIN, CRM, website launch, Zoom, customer intake, billing setup
 - Link: https://jobs.workable.com/view/dt3LUqWqD1FrZULznryjpP/remote-customer-onboarding-specialist-in-united-states-at-sierra-interactive
 
-### [NETWORK] [50%] stripe – Engagement Manager, Professional Services (greenhouse)
+~~### [NETWORK] [50%] stripe – Engagement Manager, Professional Services (greenhouse)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: 2026-09-21
 - Date added: 2026-09-21
 - Location: United States
 - Score detail: title 55% | keywords 45% | experience 65% | domain 35% | education 60% | missing: payments industry, program governance, risk assessment/mitigation, change management, stakeholder interlock with Product/Engineering, PMP/PRINCE2, enterprise consulting, technical architecture integration
 - Link: https://stripe.com/jobs/search?gh_jid=8209649
+- Status: Closed as of 2026-11-24
 
 ~~### [50%] airtable – Program Manager, Professional Services - West (greenhouse)~~
 - Posted: 2026-06-10
