@@ -1,36 +1,22 @@
 # Job Matches
 
-Last checked: November 24, 2026 at 11:00 PM
+Last checked: November 25, 2026 at 10:14 PM
 
-## New (4)
+## New (2)
 
-### [not scored] Zirous – Senior Zendesk Implementation Consultant (workable)
-- Posted: unknown
-- Date added: 2026-11-24
-- Location: Remote - WDM
-- Link: https://jobs.workable.com/view/sG1UFR8rfFXrNT3ShptZZr/remote-senior-zendesk-implementation-consultant-in-wdm-at-zirous
+### [not scored] abnormalsecurity – Director, Professional Services (greenhouse)
+- Posted: 2026-11-25
+- Date added: 2026-11-25
+- Location: Remote - USA
+- Link: https://abnormal.ai/careers/jobs/8214209003?gh_jid=8214209003
 
-### [NETWORK] [not scored] gitlab – Senior Professional Services Engineer - PubSec - Chantilly, VA  (greenhouse)
-- In network: Yes (you have a LinkedIn contact here)
+### [not scored] opengov – Sr. Manager, Professional Services (ashby)
 - Posted: 2026-11-24
-- Date added: 2026-11-24
-- Location: Remote, United States
-- Link: https://job-boards.greenhouse.io/gitlab/jobs/8955422002
+- Date added: 2026-11-25
+- Location: US | Illinois | Chicago
+- Link: https://jobs.ashbyhq.com/opengov/b60b1c52-22cb-4a52-8eb8-b3cff6b9a275
 
-### [NETWORK] [not scored] globalhr – F100 Customer Support Engineer (Onsite) (workday)
-- In network: Yes (you have a LinkedIn contact here)
-- Posted: Posted Today
-- Date added: 2026-11-24
-- Location: 2 Locations
-- Link: https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/F100-Customer-Support-Engineer--Onsite-_01889349
-
-### [not scored] harvey – Legal Engineer, Product Specialist (Asset Management)  (ashby)
-- Posted: 2026-11-24
-- Date added: 2026-11-24
-- Location: Remote - Chicago
-- Link: https://jobs.ashbyhq.com/harvey/871d564f-9577-4859-91a2-1aceef50ddf6
-
-## Previously Viewed (152)
+## Previously Viewed (156)
 
 ~~### [78%] fourkites –  Implementation Manager  (greenhouse)~~
 - Posted: 2026-06-25
@@ -687,13 +673,14 @@ Last checked: November 24, 2026 at 11:00 PM
 - Score detail: title 40% | keywords 25% | experience 45% | domain 20% | education 30% | missing: Sage Intacct, NetSuite, accounting, financial software, ERP, cloud accounting, Finance/Accounting degree, end-user training
 - Link: https://jobs.workable.com/view/u7PQH28GbXRwhQ5weUTwM5/remote-sage-intacct-implementation-specialist-in-united-states-at-partner-one-capital
 
-### [NETWORK] [27%] databricks – Lead Learning Product Specialist (greenhouse)
+~~### [NETWORK] [27%] databricks – Lead Learning Product Specialist (greenhouse)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: 2026-09-11
 - Date added: 2026-10-05
 - Location: United States
 - Score detail: title 20% | keywords 25% | experience 40% | domain 20% | education 30% | missing: product management, PRDs, learning science, skills graph, LMS, adaptive learning, LLMs, UX design
 - Link: https://databricks.com/company/careers/open-positions/job?gh_jid=8780470002
+- Status: Closed as of 2026-11-25
 
 ~~### [NETWORK] [26%] gitlab – Senior Professional Services Engineer - PubSec - US Only (greenhouse)~~
 - In network: Yes (you have a LinkedIn contact here)
@@ -784,6 +771,32 @@ Last checked: November 24, 2026 at 11:00 PM
 - Score detail: title 10% | keywords 15% | experience 20% | domain 5% | education 5% | missing: JD or equivalent legal qualification, practicing law, Vault 50 law firm, General Counsel relationships, legal professionals management, customer adoption/expansion, legal engineer, in-house counsel
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
+
+### [not scored] Zirous – Senior Zendesk Implementation Consultant (workable)
+- Posted: unknown
+- Date added: 2026-11-24
+- Location: Remote - WDM
+- Link: https://jobs.workable.com/view/sG1UFR8rfFXrNT3ShptZZr/remote-senior-zendesk-implementation-consultant-in-wdm-at-zirous
+
+### [NETWORK] [not scored] gitlab – Senior Professional Services Engineer - PubSec - Chantilly, VA  (greenhouse)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: 2026-11-24
+- Date added: 2026-11-24
+- Location: Remote, United States
+- Link: https://job-boards.greenhouse.io/gitlab/jobs/8955422002
+
+### [NETWORK] [not scored] globalhr – F100 Customer Support Engineer (Onsite) (workday)
+- In network: Yes (you have a LinkedIn contact here)
+- Posted: Posted Today
+- Date added: 2026-11-24
+- Location: 2 Locations
+- Link: https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-EAST-HARTFORD-ETC--400-Main-St--BLDG-ETC/F100-Customer-Support-Engineer--Onsite-_01889349
+
+### [not scored] harvey – Legal Engineer, Product Specialist (Asset Management)  (ashby)
+- Posted: 2026-11-24
+- Date added: 2026-11-24
+- Location: Remote - Chicago
+- Link: https://jobs.ashbyhq.com/harvey/871d564f-9577-4859-91a2-1aceef50ddf6
 
 ### [not scored] ISTA Personnel Solutions – Interview & Onboarding Specialist (Remote - EST Hours) (workable)
 - Posted: unknown
@@ -942,12 +955,13 @@ Last checked: November 24, 2026 at 11:00 PM
 - Link: https://cdk.wd1.myworkdayjobs.com/CDK/job/Hoffman-Estates-IL-USA/Lead-Professional-Services-Consultant--Business-Performance-Assessment--BPA-_JR9466-1
 - Status: Closed as of 2026-11-19
 
-### [NETWORK] [not scored] gitlab – Professional Services Engineer - KSA (greenhouse)
+~~### [NETWORK] [not scored] gitlab – Professional Services Engineer - KSA (greenhouse)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: 2026-11-09
 - Date added: 2026-11-09
 - Location: Remote, KSA
 - Link: https://job-boards.greenhouse.io/gitlab/jobs/8928253002
+- Status: Closed as of 2026-11-25
 
 ~~### [NETWORK] [not scored] globalhr – Senior Technical Project Manager (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
