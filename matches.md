@@ -1,22 +1,12 @@
 # Job Matches
 
-Last checked: November 25, 2026 at 10:14 PM
+Last checked: November 26, 2026 at 10:13 PM
 
-## New (2)
+## New (0)
 
-### [not scored] abnormalsecurity – Director, Professional Services (greenhouse)
-- Posted: 2026-11-25
-- Date added: 2026-11-25
-- Location: Remote - USA
-- Link: https://abnormal.ai/careers/jobs/8214209003?gh_jid=8214209003
+*Nothing here.*
 
-### [not scored] opengov – Sr. Manager, Professional Services (ashby)
-- Posted: 2026-11-24
-- Date added: 2026-11-25
-- Location: US | Illinois | Chicago
-- Link: https://jobs.ashbyhq.com/opengov/b60b1c52-22cb-4a52-8eb8-b3cff6b9a275
-
-## Previously Viewed (156)
+## Previously Viewed (158)
 
 ~~### [78%] fourkites –  Implementation Manager  (greenhouse)~~
 - Posted: 2026-06-25
@@ -691,13 +681,14 @@ Last checked: November 25, 2026 at 10:14 PM
 - Link: https://job-boards.greenhouse.io/gitlab/jobs/8838331002
 - Status: Closed as of 2026-11-12
 
-### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)
+~~### [NETWORK] [26%] salesforce – Senior Experience Architect (Professional Services) (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
 - Posted: Posted Yesterday
 - Date added: 2026-09-25
 - Location: 5 Locations
 - Score detail: title 20% | keywords 25% | experience 35% | domain 20% | education 30% | missing: UX/UI design, Design Thinking, interaction design, visual design, user research, stakeholder workshops, Salesforce platform, design portfolio
 - Link: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Illinois---Remote/Senior-Experience-Architect--Professional-Services-_JR361440-1
+- Status: Closed as of 2026-11-26
 
 ~~### [NETWORK] [25%] cengage – Remote Customer Technical Support Representative, Monday - Friday, 11am – 7pm EST (workday)~~
 - In network: Yes (you have a LinkedIn contact here)
@@ -771,6 +762,18 @@ Last checked: November 25, 2026 at 10:14 PM
 - Score detail: title 10% | keywords 15% | experience 20% | domain 5% | education 5% | missing: JD or equivalent legal qualification, practicing law, Vault 50 law firm, General Counsel relationships, legal professionals management, customer adoption/expansion, legal engineer, in-house counsel
 - Link: https://jobs.ashbyhq.com/harvey/07d354ff-5d99-4432-bbad-68818ee2b25e
 - Status: Closed as of 2026-10-16
+
+### [not scored] abnormalsecurity – Director, Professional Services (greenhouse)
+- Posted: 2026-11-25
+- Date added: 2026-11-25
+- Location: Remote - USA
+- Link: https://abnormal.ai/careers/jobs/8214209003?gh_jid=8214209003
+
+### [not scored] opengov – Sr. Manager, Professional Services (ashby)
+- Posted: 2026-11-24
+- Date added: 2026-11-25
+- Location: US | Illinois | Chicago
+- Link: https://jobs.ashbyhq.com/opengov/b60b1c52-22cb-4a52-8eb8-b3cff6b9a275
 
 ### [not scored] Zirous – Senior Zendesk Implementation Consultant (workable)
 - Posted: unknown
